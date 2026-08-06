@@ -26,7 +26,7 @@ services:
       Jwt__Key: ${JWT_KEY:-development-only-key-change-in-production-2026!}
       FrontendUrl: http://localhost:3002
     ports:
-      - "5000:5000"
+      - "5001:5000"
 
 volumes:
   postgres_data:

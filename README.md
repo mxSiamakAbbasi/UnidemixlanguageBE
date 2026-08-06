@@ -8,9 +8,9 @@ Standalone ASP.NET Core 8 Web API for the Unidemix language-learning frontend.
 docker compose up --build
 ```
 
-- API: http://localhost:5000
-- Swagger: http://localhost:5000/swagger
-- Health: http://localhost:5000/health
+- API: http://localhost:5001
+- Swagger: http://localhost:5001/swagger
+- Health: http://localhost:5001/health
 - Allowed frontend origin: http://localhost:3002
 
 Database migrations and demo seed data are applied automatically at startup.
@@ -38,7 +38,7 @@ Use the access token returned by login as `Authorization: Bearer <token>`.
 ```bash
 dotnet restore
 dotnet test
-dotnet run --project src/Unidemix.Api --urls http://localhost:5000
+dotnet run --project src/Unidemix.Api --urls http://localhost:5001
 ```
 
 For local execution outside Docker, start PostgreSQL with `docker compose up postgres -d` first. Production deployments must override `Jwt__Key`, database credentials, and `FrontendUrl`.
