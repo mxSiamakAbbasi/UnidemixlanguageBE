@@ -26,6 +26,8 @@ services:
       ConnectionStrings__DefaultConnection: Host=unidemix;Port=5432;Database=unidemixdb;Username=unidemix;Password=${POSTGRES_PASSWORD}
       Jwt__Key: ${JWT_KEY:-development-only-key-change-in-production-2026!}
       FrontendUrl: http://localhost:3002
+      Cors__AllowedOrigins__0: http://localhost:3002
+      Cors__AllowedOrigins__1: http://localhost:3003
     ports:
       - "5001:5000"
 

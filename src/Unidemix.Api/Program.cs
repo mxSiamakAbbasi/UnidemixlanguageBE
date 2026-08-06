@@ -35,9 +35,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 builder.Services.AddAuthorization();
+var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
+    ?? [builder.Configuration["FrontendUrl"] ?? "http://localhost:3002"];
 builder.Services.AddCors(options => options.AddPolicy("Frontend", policy => policy
-    .WithOrigins(builder.Configuration["FrontendUrl"] ?? "http://localhost:3002")
-    .AllowAnyHeader().AllowAnyMethod()));
+    .WithOrigins(allowedOrigins).AllowAnyHeader().AllowAnyMethod()));
 builder.Services.AddHealthChecks();
 builder.Services.AddSwaggerGen(options =>
 {
