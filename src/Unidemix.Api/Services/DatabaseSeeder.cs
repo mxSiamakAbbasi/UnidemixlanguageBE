@@ -26,9 +26,9 @@ public sealed class DatabaseSeeder(AppDbContext db)
             db.Languages.AddRange(new[] { ("en","English","English","🇬🇧"),("de","German","Deutsch","🇩🇪"),("fr","French","Français","🇫🇷"),("es","Spanish","Español","🇪🇸"),("it","Italian","Italiano","🇮🇹"),("tr","Turkish","Türkçe","🇹🇷"),("nl","Dutch","Nederlands","🇳🇱"),("pt","Portuguese","Português","🇵🇹"),("ar","Arabic","العربية","🇸🇦"),("zh","Chinese","中文","🇨🇳") }.Select((x,i)=>new Language { Code=x.Item1,Name=x.Item2,NativeName=x.Item3,FlagEmoji=x.Item4,SortOrder=i+1 }));
         if (!await db.SubscriptionPlans.AnyAsync())
             db.SubscriptionPlans.AddRange(
-                new SubscriptionPlan { Code="free",Name="رایگان",Description="تمام آموزش‌های آفلاین A1 تا C1 برای یک زبان",MonthlyPrice=0,YearlyPrice=0,LanguageLimit=1,MonthlyAiCredits=5 },
-                new SubscriptionPlan { Code="premium",Name="Premium",Description="AI، چند زبان و آزمون‌های رسمی",MonthlyPrice=12.9m,YearlyPrice=129m,LanguageLimit=10,MonthlyAiCredits=500,HasMockExams=true },
-                new SubscriptionPlan { Code="premium-plus",Name="Premium Plus",Description="ظرفیت بالاتر AI و تحلیل پیشرفته",MonthlyPrice=24.9m,YearlyPrice=249m,LanguageLimit=10,MonthlyAiCredits=2000,HasMockExams=true });
+                new SubscriptionPlan { Code="free",Name="رایگان",Description="تمام آموزش‌های آفلاین A1 تا C1 برای یک زبان",MonthlyPrice=0,YearlyPrice=0,Currency="TOMAN",LanguageLimit=1,MonthlyAiCredits=5 },
+                new SubscriptionPlan { Code="premium",Name="Premium",Description="AI، چند زبان و آزمون‌های رسمی",MonthlyPrice=249000m,YearlyPrice=2490000m,Currency="TOMAN",LanguageLimit=10,MonthlyAiCredits=500,HasMockExams=true },
+                new SubscriptionPlan { Code="premium-plus",Name="Premium Plus",Description="ظرفیت بالاتر AI و تحلیل پیشرفته",MonthlyPrice=499000m,YearlyPrice=4990000m,Currency="TOMAN",LanguageLimit=10,MonthlyAiCredits=2000,HasMockExams=true });
         if (!await db.AdPlacements.AnyAsync())
             db.AdPlacements.AddRange(
                 new AdPlacement { Code="dashboard-banner",Name="بنر داشبورد",Page="dashboard",Position="between-sections",DailyPrice=20,Width=1200,Height=180 },
