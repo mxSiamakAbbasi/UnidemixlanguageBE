@@ -8,6 +8,12 @@ Standalone ASP.NET Core 8 Web API for the Unidemix language-learning frontend.
 docker compose up --build
 ```
 
+Create a local `.env` first (it is ignored by Git):
+
+```env
+POSTGRES_PASSWORD=your-strong-password
+```
+
 - API: http://localhost:5001
 - Swagger: http://localhost:5001/swagger
 - Health: http://localhost:5001/health

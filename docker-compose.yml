@@ -1,14 +1,15 @@
 services:
   postgres:
     image: postgres:16-alpine
+    container_name: unidemix
     environment:
-      POSTGRES_DB: unidemix
+      POSTGRES_DB: unidemixdb
       POSTGRES_USER: unidemix
-      POSTGRES_PASSWORD: unidemix_dev
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U unidemix -d unidemix"]
+      test: ["CMD-SHELL", "pg_isready -U unidemix -d unidemixdb"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -22,7 +23,7 @@ services:
         condition: service_healthy
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=unidemix;Username=unidemix;Password=unidemix_dev
+      ConnectionStrings__DefaultConnection: Host=unidemix;Port=5432;Database=unidemixdb;Username=unidemix;Password=${POSTGRES_PASSWORD}
       Jwt__Key: ${JWT_KEY:-development-only-key-change-in-production-2026!}
       FrontendUrl: http://localhost:3002
     ports:
