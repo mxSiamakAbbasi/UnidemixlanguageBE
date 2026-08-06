@@ -17,7 +17,9 @@ public sealed class AuthController(AppDbContext db, TokenService tokens) : Contr
         var email = request.Email.Trim().ToLowerInvariant();
         if (await db.Users.AnyAsync(x => x.Email == email))
             return Conflict(new ProblemDetails { Title = "Email already exists", Status = StatusCodes.Status409Conflict });
-        var user = new User { Email = email, DisplayName = request.DisplayName.Trim(), PasswordHash = "" };
+        if (!await db.Languages.AnyAsync(x => x.Code == request.LearningLanguage && x.IsActive))
+            return BadRequest(new ProblemDetails { Title = "Selected language is not available" });
+        var user = new User { Email = email, DisplayName = request.DisplayName.Trim(), PasswordHash = "", LearningLanguage = request.LearningLanguage };
         user.PasswordHash = new PasswordHasher<User>().HashPassword(user, request.Password);
         db.Users.Add(user);
         await db.SaveChangesAsync();

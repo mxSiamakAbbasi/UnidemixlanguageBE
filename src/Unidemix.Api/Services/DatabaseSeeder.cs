@@ -12,10 +12,33 @@ public sealed class DatabaseSeeder(AppDbContext db)
 
     public async Task SeedAsync()
     {
+        await SeedBusinessAsync();
         await SeedUsersAsync();
         await SeedCatalogAsync();
         await db.SaveChangesAsync();
         await SeedProgressAsync();
+        await db.SaveChangesAsync();
+    }
+
+    private async Task SeedBusinessAsync()
+    {
+        if (!await db.Languages.AnyAsync())
+            db.Languages.AddRange(new[] { ("en","English","English","🇬🇧"),("de","German","Deutsch","🇩🇪"),("fr","French","Français","🇫🇷"),("es","Spanish","Español","🇪🇸"),("it","Italian","Italiano","🇮🇹"),("tr","Turkish","Türkçe","🇹🇷"),("nl","Dutch","Nederlands","🇳🇱"),("pt","Portuguese","Português","🇵🇹"),("ar","Arabic","العربية","🇸🇦"),("zh","Chinese","中文","🇨🇳") }.Select((x,i)=>new Language { Code=x.Item1,Name=x.Item2,NativeName=x.Item3,FlagEmoji=x.Item4,SortOrder=i+1 }));
+        if (!await db.SubscriptionPlans.AnyAsync())
+            db.SubscriptionPlans.AddRange(
+                new SubscriptionPlan { Code="free",Name="رایگان",Description="تمام آموزش‌های آفلاین A1 تا C1 برای یک زبان",MonthlyPrice=0,YearlyPrice=0,LanguageLimit=1,MonthlyAiCredits=5 },
+                new SubscriptionPlan { Code="premium",Name="Premium",Description="AI، چند زبان و آزمون‌های رسمی",MonthlyPrice=12.9m,YearlyPrice=129m,LanguageLimit=10,MonthlyAiCredits=500,HasMockExams=true },
+                new SubscriptionPlan { Code="premium-plus",Name="Premium Plus",Description="ظرفیت بالاتر AI و تحلیل پیشرفته",MonthlyPrice=24.9m,YearlyPrice=249m,LanguageLimit=10,MonthlyAiCredits=2000,HasMockExams=true });
+        if (!await db.AdPlacements.AnyAsync())
+            db.AdPlacements.AddRange(
+                new AdPlacement { Code="dashboard-banner",Name="بنر داشبورد",Page="dashboard",Position="between-sections",DailyPrice=20,Width=1200,Height=180 },
+                new AdPlacement { Code="courses-card",Name="کارت میان دوره‌ها",Page="courses",Position="in-feed",DailyPrice=12,Width=600,Height=400 },
+                new AdPlacement { Code="floating-bottom",Name="تبلیغ شناور پایین",Page="global",Position="floating-bottom",DailyPrice=30,Width=320,Height=250 });
+        if (!await db.ContentItems.AnyAsync())
+        {
+            for (var i=1;i<=8;i++) db.ContentItems.Add(new ContentItem { ExternalId=$"news-{i}",Type="news",Slug=$"daily-germany-{i}",Title=$"خبر روز آلمان شماره {i}",Summary="خلاصه‌ای کوتاه از مهم‌ترین رویدادهای روز برای زبان‌آموزان و مهاجران.",Body="این متن نمونه از همان قرارداد JSON است که n8n می‌تواند هر روز به‌روزرسانی کند.",Category=i%2==0?"جامعه":"آلمان",Source="n8n Demo",PublishedAt=DateTimeOffset.UtcNow.AddHours(-i) });
+            for (var i=1;i<=6;i++) db.ContentItems.Add(new ContentItem { ExternalId=$"blog-{i}",Type="blog",Slug=$"language-learning-{i}",Title=$"راهنمای یادگیری زبان شماره {i}",Summary="روش‌های عملی برای یادگیری پایدار و سریع‌تر زبان.",Body="مقاله نمونه وبلاگ. محتوای کامل از JSON خروجی n8n در این فیلد قرار می‌گیرد.",Category="یادگیری",Source="Unidemix Blog",PublishedAt=DateTimeOffset.UtcNow.AddDays(-i) });
+        }
         await db.SaveChangesAsync();
     }
 

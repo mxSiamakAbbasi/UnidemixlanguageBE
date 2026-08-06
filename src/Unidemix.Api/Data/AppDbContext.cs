@@ -10,6 +10,12 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<Lesson> Lessons => Set<Lesson>();
     public DbSet<Exercise> Exercises => Set<Exercise>();
     public DbSet<LessonProgress> LessonProgress => Set<LessonProgress>();
+    public DbSet<Language> Languages => Set<Language>();
+    public DbSet<SubscriptionPlan> SubscriptionPlans => Set<SubscriptionPlan>();
+    public DbSet<UserSubscription> UserSubscriptions => Set<UserSubscription>();
+    public DbSet<AdPlacement> AdPlacements => Set<AdPlacement>();
+    public DbSet<AdBooking> AdBookings => Set<AdBooking>();
+    public DbSet<ContentItem> ContentItems => Set<ContentItem>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -22,5 +28,13 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
             .HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<LessonProgress>().HasOne(x => x.Lesson).WithMany(x => x.Progress)
             .HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<Language>().HasIndex(x => x.Code).IsUnique();
+        modelBuilder.Entity<SubscriptionPlan>().HasIndex(x => x.Code).IsUnique();
+        modelBuilder.Entity<AdPlacement>().HasIndex(x => x.Code).IsUnique();
+        modelBuilder.Entity<ContentItem>().HasIndex(x => new { x.Type, x.ExternalId }).IsUnique();
+        modelBuilder.Entity<AdPlacement>().Property(x => x.DailyPrice).HasPrecision(12, 2);
+        modelBuilder.Entity<AdBooking>().Property(x => x.AgreedPrice).HasPrecision(12, 2);
+        modelBuilder.Entity<SubscriptionPlan>().Property(x => x.MonthlyPrice).HasPrecision(12, 2);
+        modelBuilder.Entity<SubscriptionPlan>().Property(x => x.YearlyPrice).HasPrecision(12, 2);
     }
 }
