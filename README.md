@@ -26,6 +26,11 @@ Database migrations and demo seed data are applied automatically at startup.
 - Email: `demo@unidemix.local`
 - Password: `Demo123!`
 
+Development seeding also creates 15 additional test accounts (for example
+`ali@unidemix.local`, `mina@unidemix.local`, and `admin@unidemix.local`) with
+the same test password. The idempotent catalog contains 6 courses, 48 lessons,
+181 exercises, and varied progress history for realistic UI development.
+
 ## Main endpoints
 
 - `POST /api/auth/register`
