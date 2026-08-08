@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.FileProviders;
 using Unidemix.Api.Data;
 using Unidemix.Api.Services;
 
@@ -19,6 +20,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<DatabaseSeeder>();
+builder.Services.AddScoped<ProductFeatureService>();
+builder.Services.AddSingleton<ISocialImageStorage, LocalSocialImageStorage>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -59,6 +62,9 @@ app.UseExceptionHandler();
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseCors("Frontend");
+var socialUploadRoot = builder.Configuration["SocialStorage:RootPath"] ?? Path.Combine(builder.Environment.ContentRootPath, "uploads", "social");
+Directory.CreateDirectory(socialUploadRoot);
+app.UseStaticFiles(new StaticFileOptions { FileProvider = new PhysicalFileProvider(socialUploadRoot), RequestPath = "/uploads/social" });
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

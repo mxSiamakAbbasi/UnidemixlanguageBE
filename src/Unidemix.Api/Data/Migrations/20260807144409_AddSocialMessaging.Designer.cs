@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Unidemix.Api.Data;
@@ -11,9 +12,11 @@ using Unidemix.Api.Data;
 namespace Unidemix.Api.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260807144409_AddSocialMessaging")]
+    partial class AddSocialMessaging
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -182,46 +185,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("ChatMessages");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.City", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("CanonicalName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("CountryCode")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("EnglishName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("GermanName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("LocalName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("PersianName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SearchAliases")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CountryCode", "CanonicalName")
-                        .IsUnique();
-
-                    b.ToTable("Cities");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.ContentItem", b =>
                 {
                     b.Property<Guid>("Id")
@@ -278,39 +241,6 @@ namespace Unidemix.Api.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("ContentItems");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.ContentMention", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("CommentId")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("MentionedUserId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("PostId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MentionedUserId");
-
-                    b.HasIndex("CommentId", "MentionedUserId")
-                        .IsUnique()
-                        .HasFilter("\"CommentId\" IS NOT NULL");
-
-                    b.HasIndex("PostId", "MentionedUserId")
-                        .IsUnique()
-                        .HasFilter("\"PostId\" IS NOT NULL");
-
-                    b.ToTable("ContentMentions");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Conversation", b =>
@@ -638,82 +568,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("Notifications");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.PostComment", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("PostId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTimeOffset>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("PostId", "Status", "CreatedAt");
-
-                    b.ToTable("PostComments");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.PostLike", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("PostId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("PostId");
-
-                    b.HasIndex("UserId", "PostId")
-                        .IsUnique();
-
-                    b.ToTable("PostLikes");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.ProductFeatureFlag", b =>
-                {
-                    b.Property<string>("Key")
-                        .HasColumnType("text");
-
-                    b.Property<bool>("IsEnabled")
-                        .HasColumnType("boolean");
-
-                    b.Property<DateTimeOffset>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Key");
-
-                    b.ToTable("ProductFeatureFlags");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.Report", b =>
                 {
                     b.Property<Guid>("Id")
@@ -730,7 +584,7 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("ReportedUserId")
+                    b.Property<Guid>("ReportedUserId")
                         .HasColumnType("uuid");
 
                     b.Property<Guid>("ReporterId")
@@ -740,63 +594,14 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("TargetId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("TargetType")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.HasKey("Id");
 
                     b.HasIndex("ReportedUserId");
 
-                    b.HasIndex("ReporterId", "TargetType", "TargetId", "Reason", "Status")
+                    b.HasIndex("ReporterId", "ReportedUserId", "Reason", "Status")
                         .IsUnique();
 
                     b.ToTable("Reports");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.SocialPost", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Caption")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Context")
-                        .HasColumnType("text");
-
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("ImageStorageKey")
-                        .HasColumnType("text");
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTimeOffset>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("Status", "CreatedAt");
-
-                    b.ToTable("SocialPosts");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.SocialProfile", b =>
@@ -815,17 +620,11 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<string>("City")
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("CityId")
-                        .HasColumnType("uuid");
-
                     b.Property<bool>("LookingForPartner")
                         .HasColumnType("boolean");
 
                     b.Property<string>("PracticeGoal")
                         .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("ProfilePhotoStorageKey")
                         .HasColumnType("text");
 
                     b.Property<string>("ProfilePhotoUrl")
@@ -835,8 +634,6 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("UserId");
-
-                    b.HasIndex("CityId");
 
                     b.ToTable("SocialProfiles");
                 });
@@ -1054,31 +851,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Sender");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.ContentMention", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.PostComment", "Comment")
-                        .WithMany()
-                        .HasForeignKey("CommentId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("Unidemix.Api.Models.User", "MentionedUser")
-                        .WithMany()
-                        .HasForeignKey("MentionedUserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Unidemix.Api.Models.SocialPost", "Post")
-                        .WithMany()
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.Navigation("Comment");
-
-                    b.Navigation("MentionedUser");
-
-                    b.Navigation("Post");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.Conversation", b =>
                 {
                     b.HasOne("Unidemix.Api.Models.User", "UserOne")
@@ -1195,50 +967,13 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.PostComment", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.SocialPost", "Post")
-                        .WithMany("Comments")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Unidemix.Api.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Post");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.PostLike", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.SocialPost", "Post")
-                        .WithMany("Likes")
-                        .HasForeignKey("PostId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Unidemix.Api.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Post");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.Report", b =>
                 {
                     b.HasOne("Unidemix.Api.Models.User", "ReportedUser")
                         .WithMany()
                         .HasForeignKey("ReportedUserId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("Unidemix.Api.Models.User", "Reporter")
                         .WithMany()
@@ -1251,31 +986,13 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Reporter");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.SocialPost", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.SocialProfile", b =>
                 {
-                    b.HasOne("Unidemix.Api.Models.City", "CityReference")
-                        .WithMany()
-                        .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.HasOne("Unidemix.Api.Models.User", "User")
-                        .WithOne("SocialProfile")
+                        .WithOne()
                         .HasForeignKey("Unidemix.Api.Models.SocialProfile", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("CityReference");
 
                     b.Navigation("User");
                 });
@@ -1354,18 +1071,9 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Progress");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.SocialPost", b =>
-                {
-                    b.Navigation("Comments");
-
-                    b.Navigation("Likes");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.User", b =>
                 {
                     b.Navigation("Progress");
-
-                    b.Navigation("SocialProfile");
                 });
 #pragma warning restore 612, 618
         }

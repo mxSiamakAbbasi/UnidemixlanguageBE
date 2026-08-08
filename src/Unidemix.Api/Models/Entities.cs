@@ -14,6 +14,7 @@ public sealed class User
     public string Role { get; set; } = "User";
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
     public ICollection<LessonProgress> Progress { get; set; } = [];
+    public SocialProfile? SocialProfile { get; set; }
 }
 
 public sealed class Course

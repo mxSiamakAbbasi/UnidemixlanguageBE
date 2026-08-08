@@ -16,12 +16,46 @@ public sealed class DatabaseSeeder(AppDbContext db)
         await SeedUsersAsync();
         await SeedCatalogAsync();
         await db.SaveChangesAsync();
+        await SeedCitiesAsync();
+        await db.SaveChangesAsync();
+        await SeedSocialAsync();
+        await db.SaveChangesAsync();
+        await SeedCommunityAsync();
+        await db.SaveChangesAsync();
+        await SeedMessagingAsync();
+        await db.SaveChangesAsync();
         await SeedProgressAsync();
         await db.SaveChangesAsync();
     }
 
+    private async Task SeedCitiesAsync()
+    {
+        var cities = new[]
+        {
+            ("DE","berlin","برلین","Berlin","Berlin","berlin|berleen"), ("DE","hamburg","هامبورگ","Hamburg","Hamburg","hamburg|hamborg"),
+            ("DE","munich","مونیخ","Munich","München","munich|munchen|muenchen|monikh"), ("DE","cologne","کلن","Cologne","Köln","cologne|koln|koeln|keln"),
+            ("DE","frankfurt","فرانکفورت","Frankfurt","Frankfurt","frankfurt|frankfort"), ("DE","dresden","درسدن","Dresden","Dresden","dresden"),
+            ("AT","vienna","وین","Vienna","Wien","vienna|wien|vin"), ("AT","graz","گراتس","Graz","Graz","graz|grats"), ("AT","salzburg","سالزبورگ","Salzburg","Salzburg","salzburg"),
+            ("CH","zurich","زوریخ","Zurich","Zürich","zurich|zurich|zuerich"), ("CH","geneva","ژنو","Geneva","Genf","geneva|geneve|genf"), ("CH","basel","بازل","Basel","Basel","basel"),
+            ("IR","tehran","تهران","Tehran",null,"tehran|teheran"), ("IR","mashhad","مشهد","Mashhad",null,"mashhad|mashad"), ("IR","isfahan","اصفهان","Isfahan",null,"isfahan|esfahan"), ("IR","shiraz","شیراز","Shiraz",null,"shiraz"), ("IR","tabriz","تبریز","Tabriz",null,"tabriz"),
+            ("TR","istanbul","استانبول","Istanbul",null,"istanbul|estambul"), ("TR","ankara","آنکارا","Ankara",null,"ankara"), ("TR","izmir","ازمیر","Izmir",null,"izmir"),
+            ("GB","london","لندن","London",null,"london"), ("GB","manchester","منچستر","Manchester",null,"manchester"),
+            ("FR","paris","پاریس","Paris",null,"paris"), ("FR","lyon","لیون","Lyon",null,"lyon"),
+            ("NL","amsterdam","آمستردام","Amsterdam",null,"amsterdam"), ("NL","rotterdam","روتردام","Rotterdam",null,"rotterdam"),
+            ("US","new-york","نیویورک","New York",null,"new york|newyork|nyc"), ("US","los-angeles","لس‌آنجلس","Los Angeles",null,"los angeles|la"),
+            ("CA","toronto","تورنتو","Toronto",null,"toronto"), ("CA","vancouver","ونکوور","Vancouver",null,"vancouver"),
+            ("AU","sydney","سیدنی","Sydney",null,"sydney"), ("AU","melbourne","ملبورن","Melbourne",null,"melbourne")
+        };
+        var existing = (await db.Cities.Select(x => new { x.CountryCode, x.CanonicalName }).ToListAsync()).Select(x => (x.CountryCode, x.CanonicalName)).ToHashSet();
+        foreach (var city in cities.Where(x => !existing.Contains((x.Item1, x.Item2))))
+            db.Cities.Add(new City { CountryCode = city.Item1, CanonicalName = city.Item2, PersianName = city.Item3, EnglishName = city.Item4, GermanName = city.Item5, SearchAliases = city.Item6 });
+    }
+
     private async Task SeedBusinessAsync()
     {
+        var existingFeatureKeys = await db.ProductFeatureFlags.Select(x => x.Key).ToListAsync();
+        foreach (var key in ProductFeatureKeys.All.Except(existingFeatureKeys))
+            db.ProductFeatureFlags.Add(new ProductFeatureFlag { Key = key, IsEnabled = false });
         if (!await db.Languages.AnyAsync())
             db.Languages.AddRange(new[] { ("en","English","English","🇬🇧"),("de","German","Deutsch","🇩🇪"),("fr","French","Français","🇫🇷"),("es","Spanish","Español","🇪🇸"),("it","Italian","Italiano","🇮🇹"),("tr","Turkish","Türkçe","🇹🇷"),("nl","Dutch","Nederlands","🇳🇱"),("pt","Portuguese","Português","🇵🇹"),("ar","Arabic","العربية","🇸🇦"),("zh","Chinese","中文","🇨🇳") }.Select((x,i)=>new Language { Code=x.Item1,Name=x.Item2,NativeName=x.Item3,FlagEmoji=x.Item4,SortOrder=i+1 }));
         if (!await db.SubscriptionPlans.AnyAsync())
@@ -143,6 +177,117 @@ public sealed class DatabaseSeeder(AppDbContext db)
                 });
             }
         }
+    }
+
+    private async Task SeedSocialAsync()
+    {
+        var socialPeople = new[]
+        {
+            ("demo@unidemix.local", "fa", "de", "A2", "daily-life", "تمرین مکالمه روزمره", "عصرها", "برلین", true, "برای زندگی در آلمان، مکالمه روزمره تمرین می‌کنم."),
+            ("ali@unidemix.local", "de", "fa", "A2", "daily-life", "مکالمه فارسی و آلمانی", "عصرها و آخر هفته", "هامبورگ", true, "آلمانی‌زبانم و دوست دارم فارسی را در گفت‌وگوی واقعی تمرین کنم."),
+            ("mina@unidemix.local", "de", "fa", "B1", "work", "گفت‌وگوی کاری", "آخر هفته", "مونیخ", true, "به زبان و فرهنگ فارسی علاقه دارم و برای محیط کار تمرین می‌کنم."),
+            ("reza@unidemix.local", "fa", "de", "A2", "study", "مکالمه و تلفظ", "عصرهای دوشنبه و چهارشنبه", "کلن", true, "دانشجوی زبان آلمانی هستم و روی تلفظ تمرکز دارم."),
+            ("nazanin@unidemix.local", "de", "fa", "B2", "work", "اصطلاحات روزمره", "صبح آخر هفته", "فرانکفورت", true, "برای ارتباط با دوستان فارسی‌زبانم فارسی یاد می‌گیرم."),
+            ("amir@unidemix.local", "fa", "de", "A1", "daily-life", "شروع مکالمه", "هر شب", "درسدن", true, "تازه آلمانی را شروع کرده‌ام و دنبال تمرین منظم هستم."),
+            ("leila@unidemix.local", "de", "fa", "B1", "travel", "مکالمه سفر", "جمعه‌ها", "لایپزیگ", true, "برای سفر و آشنایی با فرهنگ ایران فارسی تمرین می‌کنم."),
+            ("parsa@unidemix.local", "fa", "de", "B1", "exam", "آمادگی آزمون و مکالمه", "عصر و آخر هفته", "بن", true, "برای آزمون B1 آماده می‌شوم و پارتنر جدی می‌خواهم."),
+            ("niloofar@unidemix.local", "de", "fa", "A2", "family", "گفت‌وگوی خانوادگی", "یکشنبه‌ها", "هانوفر", true, "می‌خواهم با خانواده فارسی‌زبانم روان‌تر صحبت کنم."),
+            ("arash@unidemix.local", "fa", "de", "B2", "university", "بحث دانشگاهی", "بعدازظهرها", "برلین", false, "فعلاً برای تمرکز روی دانشگاه در discovery نمایش داده نمی‌شوم.")
+        };
+
+        var emails = socialPeople.Select(x => x.Item1).ToArray();
+        var users = await db.Users.Where(x => emails.Contains(x.Email)).ToDictionaryAsync(x => x.Email);
+        var existingIds = (await db.SocialProfiles.Select(x => x.UserId).ToListAsync()).ToHashSet();
+        foreach (var person in socialPeople)
+        {
+            var user = users[person.Item1];
+            user.NativeLanguage = person.Item2;
+            user.LearningLanguage = person.Item3;
+            user.Level = person.Item4;
+            user.Goal = person.Item5;
+            if (existingIds.Contains(user.Id)) continue;
+            db.SocialProfiles.Add(new SocialProfile
+            {
+                UserId = user.Id,
+                Bio = person.Item10,
+                PracticeGoal = person.Item6,
+                Availability = person.Item7,
+                City = person.Item8,
+                LookingForPartner = person.Item9
+            });
+        }
+        await db.SaveChangesAsync();
+        var cityByName = await db.Cities.ToDictionaryAsync(x => x.PersianName);
+        var profiles = await db.SocialProfiles.Where(x => x.CityId == null && x.City != null).ToListAsync();
+        foreach (var profile in profiles)
+            if (profile.City is not null && cityByName.TryGetValue(profile.City, out var city)) profile.CityId = city.Id;
+    }
+
+    private async Task SeedMessagingAsync()
+    {
+        var users = await db.Users.Where(x => x.Email == "demo@unidemix.local" || x.Email == "ali@unidemix.local" || x.Email == "mina@unidemix.local")
+            .ToDictionaryAsync(x => x.Email);
+        var demo = users["demo@unidemix.local"];
+        var ali = users["ali@unidemix.local"];
+        var mina = users["mina@unidemix.local"];
+
+        if (!await db.MessageRequests.AnyAsync(x => x.SenderId == ali.Id && x.RecipientId == demo.Id && x.Status == "Pending"))
+        {
+            db.MessageRequests.Add(new MessageRequest
+            {
+                SenderId = ali.Id,
+                RecipientId = demo.Id,
+                Introduction = "سلام، من فارسی A2 می‌خونم. خوشحال می‌شم باهم آلمانی و فارسی تمرین کنیم."
+            });
+            db.Notifications.Add(new Notification
+            {
+                UserId = demo.Id, ActorId = ali.Id, Type = "MessageRequest",
+                Text = $"{ali.DisplayName} درخواست گفتگو فرستاد.", Destination = "/social/messages?tab=requests"
+            });
+        }
+
+        var one = demo.Id.CompareTo(mina.Id) < 0 ? demo.Id : mina.Id;
+        var two = demo.Id.CompareTo(mina.Id) < 0 ? mina.Id : demo.Id;
+        var conversation = await db.Conversations.Include(x => x.Messages).SingleOrDefaultAsync(x => x.UserOneId == one && x.UserTwoId == two);
+        if (conversation is null)
+        {
+            conversation = new Conversation { UserOneId = one, UserTwoId = two };
+            conversation.Messages.Add(new ChatMessage
+            {
+                SenderId = mina.Id,
+                Text = "Hallo! دوست داری این هفته یک مکالمه کوتاه آلمانی تمرین کنیم؟"
+            });
+            db.Conversations.Add(conversation);
+            db.Notifications.Add(new Notification
+            {
+                UserId = demo.Id, ActorId = mina.Id, Type = "NewMessage",
+                Text = $"پیام جدید از {mina.DisplayName}", Destination = $"/social/messages/{conversation.Id}"
+            });
+        }
+    }
+
+    private async Task SeedCommunityAsync()
+    {
+        const string seedPrefix = "https://placehold.co/900x900/e8f5e9/166534?text=Unidemix+";
+        if (await db.SocialPosts.AnyAsync(x => x.ImageUrl.StartsWith(seedPrefix))) return;
+
+        var emails = new[] { "demo@unidemix.local", "ali@unidemix.local", "mina@unidemix.local", "reza@unidemix.local", "leila@unidemix.local" };
+        var users = await db.Users.Where(x => emails.Contains(x.Email)).ToDictionaryAsync(x => x.Email);
+        var demo = users[emails[0]]; var ali = users[emails[1]]; var mina = users[emails[2]]; var reza = users[emails[3]]; var leila = users[emails[4]];
+        var posts = new[]
+        {
+            new SocialPost { UserId = demo.Id, ImageUrl = seedPrefix + "Study+Desk", Caption = "امروز واژگان درس A2 را مرور کردم. @ali تو برای مرور لغت چه روشی داری؟", Context = "StudyToday", CreatedAt = DateTimeOffset.UtcNow.AddDays(-1) },
+            new SocialPost { UserId = mina.Id, ImageUrl = seedPrefix + "Coffee+German", Caption = "Eine kleine Kaffeepause mit meinem Persisch-Heft.", Context = "LearningMoment", CreatedAt = DateTimeOffset.UtcNow.AddHours(-16) },
+            new SocialPost { UserId = reza.Id, ImageUrl = seedPrefix + "Notebook", Caption = "تمرین تلفظ امروز تمام شد؛ قدم‌های کوچک اما پیوسته.", Context = "Achievement", CreatedAt = DateTimeOffset.UtcNow.AddHours(-8) },
+            new SocialPost { UserId = leila.Id, ImageUrl = seedPrefix + "Language+Class", Caption = "Heute haben wir Reisevokabeln geübt.", Context = "StudyToday", CreatedAt = DateTimeOffset.UtcNow.AddHours(-3) }
+        };
+        db.SocialPosts.AddRange(posts); await db.SaveChangesAsync();
+        db.PostLikes.AddRange(new PostLike { UserId = ali.Id, PostId = posts[0].Id }, new PostLike { UserId = demo.Id, PostId = posts[1].Id }, new PostLike { UserId = leila.Id, PostId = posts[2].Id });
+        var comment = new PostComment { UserId = ali.Id, PostId = posts[0].Id, Text = "من با فلش‌کارت تمرین می‌کنم @demo" };
+        db.PostComments.AddRange(comment, new PostComment { UserId = demo.Id, PostId = posts[1].Id, Text = "ترکیب قهوه و تمرین زبان عالی است!" });
+        db.ContentMentions.AddRange(
+            new ContentMention { MentionedUserId = ali.Id, PostId = posts[0].Id },
+            new ContentMention { MentionedUserId = demo.Id, Comment = comment });
     }
 
     private static Lesson MakeLesson(string title, string category, int order, int duration, int xp, string icon)

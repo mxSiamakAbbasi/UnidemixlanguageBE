@@ -78,6 +78,13 @@ public sealed class AdBooking
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
 }
 
+public sealed class ProductFeatureFlag
+{
+    public required string Key { get; set; }
+    public bool IsEnabled { get; set; }
+    public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+}
+
 public sealed class ContentItem
 {
     public Guid Id { get; set; } = Guid.NewGuid();

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Unidemix.Api.Data;
@@ -11,9 +12,11 @@ using Unidemix.Api.Data;
 namespace Unidemix.Api.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260807172349_AddSocialCommunityContent")]
+    partial class AddSocialCommunityContent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -180,46 +183,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.HasIndex("ConversationId", "CreatedAt");
 
                     b.ToTable("ChatMessages");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.City", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("CanonicalName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("CountryCode")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("EnglishName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("GermanName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("LocalName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("PersianName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SearchAliases")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CountryCode", "CanonicalName")
-                        .IsUnique();
-
-                    b.ToTable("Cities");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.ContentItem", b =>
@@ -698,22 +661,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("PostLikes");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.ProductFeatureFlag", b =>
-                {
-                    b.Property<string>("Key")
-                        .HasColumnType("text");
-
-                    b.Property<bool>("IsEnabled")
-                        .HasColumnType("boolean");
-
-                    b.Property<DateTimeOffset>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Key");
-
-                    b.ToTable("ProductFeatureFlags");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.Report", b =>
                 {
                     b.Property<Guid>("Id")
@@ -773,9 +720,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("ImageStorageKey")
-                        .HasColumnType("text");
-
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("text");
@@ -815,17 +759,11 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<string>("City")
                         .HasColumnType("text");
 
-                    b.Property<Guid?>("CityId")
-                        .HasColumnType("uuid");
-
                     b.Property<bool>("LookingForPartner")
                         .HasColumnType("boolean");
 
                     b.Property<string>("PracticeGoal")
                         .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("ProfilePhotoStorageKey")
                         .HasColumnType("text");
 
                     b.Property<string>("ProfilePhotoUrl")
@@ -835,8 +773,6 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("UserId");
-
-                    b.HasIndex("CityId");
 
                     b.ToTable("SocialProfiles");
                 });
@@ -1264,18 +1200,11 @@ namespace Unidemix.Api.Data.Migrations
 
             modelBuilder.Entity("Unidemix.Api.Models.SocialProfile", b =>
                 {
-                    b.HasOne("Unidemix.Api.Models.City", "CityReference")
-                        .WithMany()
-                        .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.HasOne("Unidemix.Api.Models.User", "User")
                         .WithOne("SocialProfile")
                         .HasForeignKey("Unidemix.Api.Models.SocialProfile", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("CityReference");
 
                     b.Navigation("User");
                 });
