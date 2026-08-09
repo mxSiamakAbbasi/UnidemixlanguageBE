@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Unidemix.Api.Data;
@@ -11,9 +12,11 @@ using Unidemix.Api.Data;
 namespace Unidemix.Api.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260808153057_FinalizeLearnArchitecture")]
+    partial class FinalizeLearnArchitecture
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -541,13 +544,10 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("CorrectAnswer")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Explanation")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Kind")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("LessonId")
@@ -560,10 +560,6 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Prompt")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SectionCode")
                         .IsRequired()
                         .HasColumnType("text");
 

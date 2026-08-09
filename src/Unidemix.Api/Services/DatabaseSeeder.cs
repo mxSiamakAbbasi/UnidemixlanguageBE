@@ -16,6 +16,8 @@ public sealed class DatabaseSeeder(AppDbContext db)
         await SeedUsersAsync();
         await SeedCatalogAsync();
         await db.SaveChangesAsync();
+        await SeedLearningExtensionsAsync();
+        await db.SaveChangesAsync();
         await SeedCitiesAsync();
         await db.SaveChangesAsync();
         await SeedSocialAsync();
@@ -138,6 +140,9 @@ public sealed class DatabaseSeeder(AppDbContext db)
                 course = new Course { Slug = catalog.Slug, Title = catalog.Title, Description = catalog.Description, LanguageCode = "de", Level = catalog.Level };
                 db.Courses.Add(course);
             }
+            var track = TrackMetadata(catalog.Slug);
+            course.Kind = track.Kind;
+            course.PathCode = track.PathCode;
 
             var usedOrders = course.Lessons.Select(x => x.Order).ToHashSet();
             for (var index = 0; index < catalog.Lessons.Length; index++)
@@ -148,6 +153,11 @@ public sealed class DatabaseSeeder(AppDbContext db)
                     12 + (order * 2), 15 + (order * 5), catalog.Icon);
                 lesson.Course = course;
                 db.Lessons.Add(lesson);
+            }
+            foreach (var lesson in course.Lessons.Concat(db.Lessons.Local.Where(x => x.Course == course)))
+            {
+                lesson.SectionTitle = SectionTitle(catalog.Slug, lesson.Order);
+                lesson.SectionOrderJson ??= JsonSerializer.Serialize(new[] { "vocabulary", "listening", "speaking", "reading", "writing", "grammar", "final-practice" });
             }
         }
     }
@@ -177,6 +187,71 @@ public sealed class DatabaseSeeder(AppDbContext db)
                 });
             }
         }
+    }
+
+    private async Task SeedLearningExtensionsAsync()
+    {
+        var vocabulary = new[]
+        {
+            ("sich vorstellen", "/zɪç ˈfoːɐ̯ˌʃtɛlən/", "خود را معرفی کردن", "Ich möchte mich kurz vorstellen.", "می‌خواهم کوتاه خودم را معرفی کنم.", "فعل انعکاسی است: sich vorstellen"),
+            ("Bescheid geben", "/bəˈʃaɪ̯t ˌɡeːbn̩/", "اطلاع دادن", "Bitte gib mir morgen Bescheid.", "لطفاً فردا به من اطلاع بده.", "یک ترکیب پرکاربرد با geben است."),
+            ("sich verlaufen", "/zɪç fɛɐ̯ˈlaʊ̯fn̩/", "راه را گم کردن", "Ich habe mich in der Stadt verlaufen.", "من در شهر راه را گم کردم.", "فعل انعکاسی است: sich verlaufen"),
+            ("Ich hätte gern ...", "/ɪç ˈhɛtə ɡɛʁn/", "مایلم ... / لطفاً ...", "Ich hätte gern einen Kaffee.", "لطفاً یک قهوه می‌خواهم.", "برای درخواست مؤدبانه استفاده می‌شود."),
+            ("Es kommt darauf an.", "/ɛs kɔmt daˈʁaʊ̯f an/", "بستگی دارد.", "Es kommt auf die Situation an.", "به موقعیت بستگی دارد.", "فعل جداشدنی: auf etwas ankommen"),
+            ("sich krankmelden", "/zɪç ˈkʁaŋkˌmɛldn̩/", "مرخصی استعلاجی را اطلاع دادن", "Ich muss mich heute krankmelden.", "امروز باید بیماری‌ام را به محل کار اطلاع بدهم.", "در موقعیت‌های کاری بسیار رایج است.")
+        };
+
+        var lessons = await db.Lessons.Include(x => x.Exercises).OrderBy(x => x.CourseId).ThenBy(x => x.Order).ToListAsync();
+        var seededLessonIds = (await db.VocabularyItems.Select(x => x.LessonId).Distinct().ToListAsync()).ToHashSet();
+        foreach (var lesson in lessons.Where(x => !seededLessonIds.Contains(x.Id)))
+        {
+            for (var offset = 0; offset < 3; offset++)
+            {
+                var item = vocabulary[(lesson.Order + offset - 1) % vocabulary.Length];
+                db.VocabularyItems.Add(new VocabularyItem
+                {
+                    LessonId = lesson.Id, Term = item.Item1, ContentType = VocabularyType(item.Item1), Pronunciation = item.Item2, Meaning = item.Item3,
+                    Example = item.Item4, ExampleTranslation = item.Item5, Note = item.Item6, Order = offset + 1
+                });
+            }
+        }
+
+        await EnsureExamProvider("de", "goethe", "Goethe-Institut", ["A1", "A2", "B1", "B2", "C1"]);
+        await EnsureExamProvider("de", "telc", "telc", ["A1", "A2", "B1", "B2", "C1"]);
+        await EnsureExamProvider("en", "ielts", "IELTS", ["B1", "B2", "C1"]);
+        await EnsureExamProvider("en", "toefl", "TOEFL", ["B1", "B2", "C1"]);
+    }
+
+    private async Task EnsureExamProvider(string languageCode, string code, string name, string[] levels)
+    {
+        var provider = await db.ExamProviders.Include(x => x.Programs).ThenInclude(x => x.Sections)
+            .Include(x => x.Programs).ThenInclude(x => x.LevelMappings)
+            .SingleOrDefaultAsync(x => x.LanguageCode == languageCode && x.Code == code);
+        if (provider is null)
+        {
+            provider = new ExamProvider { LanguageCode = languageCode, Code = code, Name = name };
+            db.ExamProviders.Add(provider);
+        }
+        foreach (var level in levels)
+        {
+            var program = provider.Programs.SingleOrDefault(x => x.Level == level);
+            if (program is null)
+            {
+                program = new ExamProgram { Level = level, Name = $"{name} {level}" };
+                provider.Programs.Add(program);
+            }
+            program.Code = $"{code}-{level.ToLowerInvariant()}";
+            if (!program.LevelMappings.Any(x => x.CefrLevel == level)) program.LevelMappings.Add(new ExamLevelMapping { CefrLevel = level });
+            AddExamSection(program, "listening", languageCode == "de" ? "Hören / Listening" : "Listening", 1);
+            AddExamSection(program, "reading", languageCode == "de" ? "Lesen / Reading" : "Reading", 2);
+            AddExamSection(program, "writing", languageCode == "de" ? "Schreiben / Writing" : "Writing", 3);
+            AddExamSection(program, "speaking", languageCode == "de" ? "Sprechen / Speaking" : "Speaking", 4);
+        }
+    }
+
+    private static void AddExamSection(ExamProgram program, string code, string name, int order)
+    {
+        if (!program.Sections.Any(x => x.Code == code)) program.Sections.Add(new ExamSection { Code = code, Name = name, Order = order });
     }
 
     private async Task SeedSocialAsync()
@@ -310,10 +385,44 @@ public sealed class DatabaseSeeder(AppDbContext db)
     }
 
     private static Exercise Exercise(string type, string prompt, string answer, int order, string[]? options = null, string? explanation = null) =>
-        new() { Type = type, Prompt = prompt, CorrectAnswer = answer, Order = order, OptionsJson = options is null ? null : JsonSerializer.Serialize(options), Explanation = explanation };
+        new() { Type = type, SectionCode = ExerciseSection(type), Prompt = prompt, CorrectAnswer = answer, Order = order, OptionsJson = options is null ? null : JsonSerializer.Serialize(options), Explanation = explanation };
+
+    private static string ExerciseSection(string type) => type switch
+    {
+        "listening" => "listening",
+        "translation" => "writing",
+        _ => "grammar"
+    };
 
     private static CourseCatalog Catalog(string slug, string title, string description, string level, string category, string icon, params string[] lessons) =>
         new(slug, title, description, level, category, icon, lessons);
 
     private sealed record CourseCatalog(string Slug, string Title, string Description, string Level, string Category, string Icon, string[] Lessons);
+
+    private static string? SectionTitle(string slug, int order) => slug switch
+    {
+        "german-at-work" when order <= 2 => "شروع کار",
+        "german-at-work" when order <= 4 => "ارتباط کاری",
+        "german-at-work" when order <= 6 => "جلسات",
+        "german-at-work" => "مسیر شغلی",
+        "german-for-travel" when order <= 2 => "رفت‌وآمد",
+        "german-for-travel" when order <= 5 => "اقامت و تجربه سفر",
+        "german-for-travel" => "حل مسئله در سفر",
+        _ => null
+    };
+
+    private static (string Kind, string? PathCode) TrackMetadata(string slug) => slug switch
+    {
+        "german-starter" => ("Core", null),
+        "german-for-real-life" => ("Core", null),
+        "german-at-work" => ("Specialized", "work"),
+        "german-for-travel" => ("Specialized", "travel"),
+        "german-exam-b1" => ("Specialized", "exam"),
+        "german-grammar" => ("Specialized", "grammar"),
+        _ => ("Core", null)
+    };
+
+    private static string VocabularyType(string term) => term.Contains(' ') || term.Contains("...")
+        ? (term.EndsWith('.') ? "Expression" : "Chunk")
+        : "Word";
 }

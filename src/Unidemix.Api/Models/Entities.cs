@@ -25,6 +25,8 @@ public sealed class Course
     public required string Description { get; set; }
     public required string LanguageCode { get; set; }
     public required string Level { get; set; }
+    public string Kind { get; set; } = "Core";
+    public string? PathCode { get; set; }
     public ICollection<Lesson> Lessons { get; set; } = [];
 }
 
@@ -36,6 +38,8 @@ public sealed class Lesson
     public required string Title { get; set; }
     public required string Description { get; set; }
     public required string Category { get; set; }
+    public string? SectionTitle { get; set; }
+    public string? SectionOrderJson { get; set; }
     public int Order { get; set; }
     public int DurationMinutes { get; set; }
     public int XpReward { get; set; }
@@ -44,14 +48,29 @@ public sealed class Lesson
     public ICollection<LessonProgress> Progress { get; set; } = [];
 }
 
+public sealed class LessonSectionProgress
+{
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid UserId { get; set; }
+    public User User { get; set; } = null!;
+    public Guid LessonId { get; set; }
+    public Lesson Lesson { get; set; } = null!;
+    public required string SectionCode { get; set; }
+    public int Percent { get; set; }
+    public bool IsCompleted { get; set; }
+    public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+}
+
 public sealed class Exercise
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public Guid LessonId { get; set; }
     public Lesson Lesson { get; set; } = null!;
     public required string Type { get; set; }
+    public string Kind { get; set; } = "Exercise";
+    public string SectionCode { get; set; } = "grammar";
     public required string Prompt { get; set; }
-    public required string CorrectAnswer { get; set; }
+    public string? CorrectAnswer { get; set; }
     public string? OptionsJson { get; set; }
     public string? Explanation { get; set; }
     public int Order { get; set; }

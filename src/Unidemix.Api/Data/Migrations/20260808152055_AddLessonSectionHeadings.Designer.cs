@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Unidemix.Api.Data;
@@ -11,9 +12,11 @@ using Unidemix.Api.Data;
 namespace Unidemix.Api.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260808152055_AddLessonSectionHeadings")]
+    partial class AddLessonSectionHeadings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -387,19 +390,12 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Kind")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("LanguageCode")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Level")
                         .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("PathCode")
                         .HasColumnType("text");
 
                     b.Property<string>("Slug")
@@ -418,39 +414,11 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("Courses");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.ExamLevelMapping", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("CefrLevel")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<Guid>("ExamProgramId")
-                        .HasColumnType("uuid");
-
-                    b.Property<bool>("IsApproximate")
-                        .HasColumnType("boolean");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ExamProgramId", "CefrLevel")
-                        .IsUnique();
-
-                    b.ToTable("ExamLevelMappings");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
-
-                    b.Property<string>("Code")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<Guid>("ExamProviderId")
                         .HasColumnType("uuid");
@@ -467,9 +435,6 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ExamProviderId", "Code")
-                        .IsUnique();
 
                     b.HasIndex("ExamProviderId", "Level")
                         .IsUnique();
@@ -541,13 +506,10 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<string>("CorrectAnswer")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Explanation")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Kind")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("LessonId")
@@ -560,10 +522,6 @@ namespace Unidemix.Api.Data.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Prompt")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("SectionCode")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -642,9 +600,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<int>("Order")
                         .HasColumnType("integer");
 
-                    b.Property<string>("SectionOrderJson")
-                        .HasColumnType("text");
-
                     b.Property<string>("SectionTitle")
                         .HasColumnType("text");
 
@@ -695,41 +650,6 @@ namespace Unidemix.Api.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("LessonProgress");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.LessonSectionProgress", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("boolean");
-
-                    b.Property<Guid>("LessonId")
-                        .HasColumnType("uuid");
-
-                    b.Property<int>("Percent")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("SectionCode")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTimeOffset>("UpdatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LessonId");
-
-                    b.HasIndex("UserId", "LessonId", "SectionCode")
-                        .IsUnique();
-
-                    b.ToTable("LessonSectionProgress");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.MessageRequest", b =>
@@ -1201,10 +1121,6 @@ namespace Unidemix.Api.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("ContentType")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("Example")
                         .IsRequired()
                         .HasColumnType("text");
@@ -1246,9 +1162,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
-
-                    b.Property<int>("FailedReviews")
-                        .HasColumnType("integer");
 
                     b.Property<int>("IntervalDays")
                         .HasColumnType("integer");
@@ -1371,17 +1284,6 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Reporter");
                 });
 
-            modelBuilder.Entity("Unidemix.Api.Models.ExamLevelMapping", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.ExamProgram", "Program")
-                        .WithMany("LevelMappings")
-                        .HasForeignKey("ExamProgramId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Program");
-                });
-
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
                 {
                     b.HasOne("Unidemix.Api.Models.ExamProvider", "Provider")
@@ -1436,25 +1338,6 @@ namespace Unidemix.Api.Data.Migrations
 
                     b.HasOne("Unidemix.Api.Models.User", "User")
                         .WithMany("Progress")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Lesson");
-
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("Unidemix.Api.Models.LessonSectionProgress", b =>
-                {
-                    b.HasOne("Unidemix.Api.Models.Lesson", "Lesson")
-                        .WithMany()
-                        .HasForeignKey("LessonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Unidemix.Api.Models.User", "User")
-                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -1685,8 +1568,6 @@ namespace Unidemix.Api.Data.Migrations
 
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
                 {
-                    b.Navigation("LevelMappings");
-
                     b.Navigation("Sections");
                 });
 

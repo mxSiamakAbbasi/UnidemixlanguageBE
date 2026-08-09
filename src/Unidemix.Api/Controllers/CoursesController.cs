@@ -16,9 +16,15 @@ public sealed class CoursesController(AppDbContext db) : ControllerBase
         var userId = CurrentUserId();
         var courses = await db.Courses.AsNoTracking().OrderBy(x => x.Level).Select(x => new
         {
-            x.Id, x.Slug, x.Title, x.Description, x.LanguageCode, x.Level,
+            x.Id, x.Slug, x.Title, x.Description, x.LanguageCode, x.Level, x.Kind, x.PathCode,
             LessonCount = x.Lessons.Count,
-            CompletedLessons = x.Lessons.Count(l => l.Progress.Any(p => p.UserId == userId && p.IsCompleted))
+            CompletedLessons = x.Lessons.Count(l => l.Progress.Any(p => p.UserId == userId && p.IsCompleted)),
+            Lessons = x.Lessons.OrderBy(l => l.Order).Select(l => new
+            {
+                l.Id, l.Title, l.Description, l.Category, l.SectionTitle, l.Order, l.DurationMinutes, l.XpReward, l.Icon,
+                Progress = l.Progress.Where(p => p.UserId == userId).Select(p => p.Percent).FirstOrDefault(),
+                IsCompleted = l.Progress.Any(p => p.UserId == userId && p.IsCompleted)
+            })
         }).ToListAsync();
         return Ok(courses);
     }
@@ -30,7 +36,7 @@ public sealed class CoursesController(AppDbContext db) : ControllerBase
         var lessons = await db.Lessons.AsNoTracking().Where(x => x.CourseId == courseId).OrderBy(x => x.Order)
             .Select(x => new
             {
-                x.Id, x.Title, x.Description, x.Category, x.Order, x.DurationMinutes, x.XpReward, x.Icon,
+                x.Id, x.Title, x.Description, x.Category, x.SectionTitle, x.Order, x.DurationMinutes, x.XpReward, x.Icon,
                 Progress = x.Progress.Where(p => p.UserId == userId).Select(p => p.Percent).FirstOrDefault(),
                 IsCompleted = x.Progress.Any(p => p.UserId == userId && p.IsCompleted)
             }).ToListAsync();
@@ -40,14 +46,26 @@ public sealed class CoursesController(AppDbContext db) : ControllerBase
     [HttpGet("lessons/{lessonId:guid}")]
     public async Task<IActionResult> GetLesson(Guid lessonId)
     {
+        var userId = CurrentUserId();
         var lesson = await db.Lessons.AsNoTracking().Include(x => x.Exercises).SingleOrDefaultAsync(x => x.Id == lessonId);
         if (lesson is null) return NotFound();
+        var order = lesson.SectionOrderJson is null
+            ? new[] { "vocabulary", "listening", "speaking", "reading", "writing", "grammar", "final-practice" }
+            : JsonSerializer.Deserialize<string[]>(lesson.SectionOrderJson) ?? [];
+        var sectionProgress = await db.LessonSectionProgress.AsNoTracking().Where(x => x.UserId == userId && x.LessonId == lessonId)
+            .ToDictionaryAsync(x => x.SectionCode);
         return Ok(new
         {
-            lesson.Id, lesson.CourseId, lesson.Title, lesson.Description, lesson.Category, lesson.DurationMinutes, lesson.XpReward, lesson.Icon,
+            lesson.Id, lesson.CourseId, lesson.Title, lesson.Description, lesson.Category, lesson.SectionTitle, lesson.DurationMinutes, lesson.XpReward, lesson.Icon,
+            Sections = order.Select((code, index) => new
+            {
+                Code = code, Order = index + 1,
+                Percent = sectionProgress.TryGetValue(code, out var progress) ? progress.Percent : 0,
+                IsCompleted = sectionProgress.TryGetValue(code, out var completed) && completed.IsCompleted
+            }),
             Exercises = lesson.Exercises.OrderBy(e => e.Order).Select(e => new
             {
-                e.Id, e.Type, e.Prompt,
+                e.Id, e.Type, e.Kind, e.SectionCode, e.Prompt, e.CorrectAnswer,
                 Options = e.OptionsJson == null ? null : JsonSerializer.Deserialize<string[]>(e.OptionsJson),
                 e.Explanation, e.Order
             })

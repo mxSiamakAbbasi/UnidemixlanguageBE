@@ -1,6 +1,7 @@
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Unidemix.Api.Contracts;
@@ -269,6 +270,56 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
 
         var placementsAfter = await admin.Client.GetFromJsonAsync<List<Unidemix.Api.Models.AdPlacement>>("/api/admin/ad-placements");
         Assert.Equal(placementsBefore.Count, placementsAfter?.Count);
+    }
+
+    [Fact]
+    public async Task Vocabulary_review_schedules_cards_and_exam_catalog_is_data_driven()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        var summaryBefore = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/vocabulary/review/summary"));
+        var dueBefore = summaryBefore.RootElement.GetProperty("dueCount").GetInt32();
+        Assert.True(dueBefore > 0);
+
+        var cards = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/vocabulary/review/today?limit=5"));
+        var first = cards.RootElement[0];
+        var itemId = first.GetProperty("id").GetGuid();
+        Assert.False(string.IsNullOrWhiteSpace(first.GetProperty("term").GetString()));
+        (await demo.Client.PostAsJsonAsync($"/api/vocabulary/{itemId}/review", new { known = true })).EnsureSuccessStatusCode();
+
+        await using (var scope = factory.Services.CreateAsyncScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            var review = await db.VocabularyReviews.SingleAsync(x => x.UserId == demo.Auth.User.Id && x.VocabularyItemId == itemId);
+            Assert.Equal(2, review.IntervalDays);
+            Assert.True(review.NextReviewAt > DateTimeOffset.UtcNow.AddDays(1));
+        }
+
+        var exams = await demo.Client.GetStringAsync("/api/exams?languageCode=de&level=A1");
+        Assert.Contains("goethe", exams, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("telc", exams, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("cefrMappings", exams, StringComparison.OrdinalIgnoreCase);
+
+        var courses = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/courses"));
+        var a1Core = courses.RootElement.EnumerateArray().First(x => x.GetProperty("level").GetString() == "A1" && x.GetProperty("kind").GetString() == "Core");
+        var lessonId = a1Core.GetProperty("lessons")[0].GetProperty("id").GetGuid();
+        var lesson = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}"));
+        Assert.Equal(7, lesson.RootElement.GetProperty("sections").GetArrayLength());
+        var activities = lesson.RootElement.GetProperty("exercises").EnumerateArray().ToArray();
+        Assert.True(activities.Length > 1);
+        Assert.All(activities, activity => Assert.False(string.IsNullOrWhiteSpace(activity.GetProperty("sectionCode").GetString())));
+        Assert.All(activities, activity => Assert.Equal("Exercise", activity.GetProperty("kind").GetString()));
+        Assert.True(activities.Select(activity => activity.GetProperty("sectionCode").GetString()).Distinct().Count() > 1);
+        (await demo.Client.PutAsJsonAsync($"/api/progress/lessons/{lessonId}/sections/grammar", new { percent = 100 })).EnsureSuccessStatusCode();
+        var resumed = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}"));
+        Assert.Contains(resumed.RootElement.GetProperty("sections").EnumerateArray(), x => x.GetProperty("code").GetString() == "grammar" && x.GetProperty("isCompleted").GetBoolean());
+
+        await using (var scope = factory.Services.CreateAsyncScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            var before = await db.VocabularyItems.CountAsync();
+            await scope.ServiceProvider.GetRequiredService<DatabaseSeeder>().SeedAsync();
+            Assert.Equal(before, await db.VocabularyItems.CountAsync());
+        }
     }
 
     private async Task<(HttpClient Client, AuthResponse Auth)> AuthenticatedClient(string email)

@@ -25,9 +25,8 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ConnectionStrings__DefaultConnection: Host=unidemix;Port=5432;Database=unidemixdb;Username=unidemix;Password=${POSTGRES_PASSWORD}
       Jwt__Key: ${JWT_KEY:-development-only-key-change-in-production-2026!}
-      FrontendUrl: http://localhost:3002
-      Cors__AllowedOrigins__0: http://localhost:3002
-      Cors__AllowedOrigins__1: http://localhost:3003
+      FrontendUrl: http://localhost:3003
+      Cors__AllowedOrigins__0: http://localhost:3003
       SocialStorage__RootPath: /app/uploads/social
     volumes:
       - social_uploads:/app/uploads/social
@@ -46,15 +45,14 @@ services:
       NODE_ENV: development
       NEXT_PUBLIC_API_URL: http://localhost:5001
       WATCHPACK_POLLING: "true"
-      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - ../build-a-complete-frontend-ux-ui:/app
       - frontend_node_modules:/app/node_modules
       - frontend_next:/app/.next
     ports:
-      - "3002:3002"
+      - "3003:3000"
     healthcheck:
-      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:3002 || exit 1"]
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1:3000 || exit 1"]
       interval: 5s
       timeout: 5s
       retries: 20

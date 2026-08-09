@@ -10,6 +10,7 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<Lesson> Lessons => Set<Lesson>();
     public DbSet<Exercise> Exercises => Set<Exercise>();
     public DbSet<LessonProgress> LessonProgress => Set<LessonProgress>();
+    public DbSet<LessonSectionProgress> LessonSectionProgress => Set<LessonSectionProgress>();
     public DbSet<Language> Languages => Set<Language>();
     public DbSet<SubscriptionPlan> SubscriptionPlans => Set<SubscriptionPlan>();
     public DbSet<UserSubscription> UserSubscriptions => Set<UserSubscription>();
@@ -31,6 +32,12 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<PostLike> PostLikes => Set<PostLike>();
     public DbSet<PostComment> PostComments => Set<PostComment>();
     public DbSet<ContentMention> ContentMentions => Set<ContentMention>();
+    public DbSet<VocabularyItem> VocabularyItems => Set<VocabularyItem>();
+    public DbSet<VocabularyReview> VocabularyReviews => Set<VocabularyReview>();
+    public DbSet<ExamProvider> ExamProviders => Set<ExamProvider>();
+    public DbSet<ExamProgram> ExamPrograms => Set<ExamProgram>();
+    public DbSet<ExamSection> ExamSections => Set<ExamSection>();
+    public DbSet<ExamLevelMapping> ExamLevelMappings => Set<ExamLevelMapping>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -43,6 +50,9 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
             .HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<LessonProgress>().HasOne(x => x.Lesson).WithMany(x => x.Progress)
             .HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<LessonSectionProgress>().HasIndex(x => new { x.UserId, x.LessonId, x.SectionCode }).IsUnique();
+        modelBuilder.Entity<LessonSectionProgress>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<LessonSectionProgress>().HasOne(x => x.Lesson).WithMany().HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<Language>().HasIndex(x => x.Code).IsUnique();
         modelBuilder.Entity<SubscriptionPlan>().HasIndex(x => x.Code).IsUnique();
         modelBuilder.Entity<AdPlacement>().HasIndex(x => x.Code).IsUnique();
@@ -93,5 +103,18 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
         modelBuilder.Entity<ContentMention>().HasOne(x => x.MentionedUser).WithMany().HasForeignKey(x => x.MentionedUserId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<ContentMention>().HasOne(x => x.Post).WithMany().HasForeignKey(x => x.PostId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<ContentMention>().HasOne(x => x.Comment).WithMany().HasForeignKey(x => x.CommentId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<VocabularyItem>().HasIndex(x => new { x.LessonId, x.Order }).IsUnique();
+        modelBuilder.Entity<VocabularyItem>().HasOne(x => x.Lesson).WithMany().HasForeignKey(x => x.LessonId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<VocabularyReview>().HasIndex(x => new { x.UserId, x.VocabularyItemId }).IsUnique();
+        modelBuilder.Entity<VocabularyReview>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<VocabularyReview>().HasOne(x => x.VocabularyItem).WithMany(x => x.Reviews).HasForeignKey(x => x.VocabularyItemId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamProvider>().HasIndex(x => new { x.LanguageCode, x.Code }).IsUnique();
+        modelBuilder.Entity<ExamProgram>().HasIndex(x => new { x.ExamProviderId, x.Level }).IsUnique();
+        modelBuilder.Entity<ExamProgram>().HasIndex(x => new { x.ExamProviderId, x.Code }).IsUnique();
+        modelBuilder.Entity<ExamProgram>().HasOne(x => x.Provider).WithMany(x => x.Programs).HasForeignKey(x => x.ExamProviderId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamSection>().HasIndex(x => new { x.ExamProgramId, x.Code }).IsUnique();
+        modelBuilder.Entity<ExamSection>().HasOne(x => x.Program).WithMany(x => x.Sections).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamLevelMapping>().HasIndex(x => new { x.ExamProgramId, x.CefrLevel }).IsUnique();
+        modelBuilder.Entity<ExamLevelMapping>().HasOne(x => x.Program).WithMany(x => x.LevelMappings).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
     }
 }
