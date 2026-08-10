@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-02",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 2,
+  "courseSlug": "german-starter",
+  "title": "People Around Me",
+  "localizedTitle": "آدم‌های اطراف من",
+  "description": "در این درس اعضای خانواده و آدم‌های نزدیکت را معرفی می‌کنی، رابطه‌ها و شغل‌ها را می‌گویی و یک توضیح کوتاه دربارهٔ آن‌ها می‌نویسی.",
+  "estimatedDurationMinutes": 105,
+  "status": "production",
+  "mainSituation": "Sharing a family photo or contact profile",
+  "canDoObjectives": [
+    "Identify family members and describe simple relationships.",
+    "Ask and answer who a person is and what they do."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «آدم‌های اطراف من» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Sharing a family photo or contact profile. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mina: Wer ist das auf dem Foto?\nJonas: Das ist meine Schwester Lara.\nMina: Was macht sie?\nJonas: Sie ist Ärztin und arbeitet in Köln.\nMina: Und wer ist der Mann neben ihr?\nJonas: Das ist mein Vater. Er ist Lehrer.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Das ist mein Bruder. = این برادر من است.\nDas ist meine Schwester. = این خواهر من است.\nWer ist das? = این چه کسی است؟\nEr arbeitet als Lehrer. = او به‌عنوان معلم کار می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای معرفی خواهر کدام جمله درست است؟",
+      "correctAnswer": "Das ist meine Schwester.",
+      "options": [
+        "Das ist mein Schwester.",
+        "Das ist meine Schwester.",
+        "Das sind meine Schwester."
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Sara: Auf dem Foto ist meine Familie.\nLinks ist mein Bruder Amir. Er ist Student.\nNeben Amir ist meine Mutter. Sie arbeitet als Köchin.\nRechts ist mein Vater. Er ist Fahrer.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "سارا دربارهٔ چه چیزی صحبت می‌کند؟",
+      "correctAnswer": "دربارهٔ خانواده‌اش",
+      "options": [
+        "دربارهٔ محل کارش",
+        "دربارهٔ خانواده‌اش",
+        "دربارهٔ خرید"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "شغل مادر سارا چیست؟",
+      "correctAnswer": "Köchin",
+      "options": [
+        "Ärztin",
+        "Köchin",
+        "Lehrerin"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "Unser Team\nNora ist meine Kollegin. Sie ist Programmiererin. Ben ist unser Chef. Er spricht Deutsch und Englisch. Mia und Leo sind Praktikanten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "نورا چه کار می‌کند؟",
+      "correctAnswer": "Sie ist Programmiererin.",
+      "options": [
+        "Sie ist Programmiererin.",
+        "Sie ist Praktikantin.",
+        "Sie ist Lehrerin."
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "mein برای اسم‌های مذکر و خنثی و meine برای اسم‌های مؤنث و جمع می‌آید:\nmein Bruder · mein Kind · meine Schwester · meine Eltern\nبرای معرفی از der/die/das و ein/eine نیز استفاده می‌کنیم. در این درس هنوز صرف صفت را یاد نمی‌گیریم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "گزینهٔ درست را انتخاب کن: Das ist ___ Mutter.",
+      "correctAnswer": "meine",
+      "options": [
+        "mein",
+        "meine",
+        "dein"
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جمع درست کدام است؟",
+      "correctAnswer": "die Eltern",
+      "options": [
+        "der Eltern",
+        "die Eltern",
+        "das Eltern"
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nDas ist mein Freund Reza. Er ist Ingenieur. Er wohnt in Hamburg. Er spricht Persisch und Deutsch.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "این اطلاعات را با صدای بلند معرفی کن: Name: Laleh · Beziehung: Freundin · Beruf: Designerin · Wohnort: Berlin. از Das ist meine ... استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو یا سه نفر از خانواده یا دوستانت را با جمله‌های ساده معرفی کن. نام، رابطه و در صورت تمایل شغل آن‌ها را بگو.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nDas ist meine Freundin Aylin. Sie ist Studentin und wohnt in Bonn. Sie spricht Türkisch und Deutsch.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "برای یک عکس خانوادگی یا گروهی یک کپشن ۳ تا ۵ جمله‌ای بنویس. دست‌کم دو نفر و رابطه یا شغل آن‌ها را معرفی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک پروفایل «آدم‌های اطراف من» بساز: دو یا سه نفر را معرفی کن، رابطه و شغلشان را بگو و به پرسش Wer ist das? پاسخ بده.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Das ist ___ Vater.",
+      "correctAnswer": "mein",
+      "options": [
+        "mein",
+        "meine",
+        "meinen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Wer ist das? چیست؟",
+      "correctAnswer": "این چه کسی است؟",
+      "options": [
+        "این چه کسی است؟",
+        "او کجا زندگی می‌کند؟",
+        "شغل تو چیست؟"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Text: Lea ist meine Schwester. چه نسبتی دارد؟",
+      "correctAnswer": "Schwester",
+      "options": [
+        "Mutter",
+        "Schwester",
+        "Freund"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمع درست است؟",
+      "correctAnswer": "die Eltern",
+      "options": [
+        "das Eltern",
+        "die Eltern",
+        "der Eltern"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای گفتن «او معلم است» کدام درست است؟",
+      "correctAnswer": "Sie ist Lehrerin.",
+      "options": [
+        "Sie ist Lehrerin.",
+        "Sie hat Lehrerin.",
+        "Sie arbeitet Lehrer."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Tom arbeitet als Koch. شغل تام چیست؟",
+      "correctAnswer": "Koch",
+      "options": [
+        "Fahrer",
+        "Koch",
+        "Arzt"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Das ist ___ Freundin.",
+      "correctAnswer": "meine",
+      "options": [
+        "mein",
+        "meine",
+        "einen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت رابطهٔ کاری را نشان می‌دهد؟",
+      "correctAnswer": "meine Kollegin",
+      "options": [
+        "meine Kollegin",
+        "meine Mutter",
+        "meine Schwester"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Dative possession",
+    "Productive adjective endings",
+    "Extended plural rules"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Familie",
+      "type": "Word",
+      "meaning": "خانواده",
+      "pronunciation": null,
+      "example": "Meine Familie wohnt in Berlin.",
+      "exampleTranslation": "خانوادهٔ من در برلین زندگی می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Bruder",
+      "type": "Word",
+      "meaning": "برادر",
+      "pronunciation": null,
+      "example": "Mein Bruder heißt Ali.",
+      "exampleTranslation": "برادر من علی نام دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Schwester",
+      "type": "Word",
+      "meaning": "خواهر",
+      "pronunciation": null,
+      "example": "Meine Schwester ist Ärztin.",
+      "exampleTranslation": "خواهر من پزشک است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Eltern",
+      "type": "Word",
+      "meaning": "والدین",
+      "pronunciation": null,
+      "example": "Meine Eltern sprechen Persisch.",
+      "exampleTranslation": "والدین من فارسی صحبت می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "der Freund / die Freundin",
+      "type": "Chunk",
+      "meaning": "دوست",
+      "pronunciation": null,
+      "example": "Das ist meine Freundin.",
+      "exampleTranslation": "این دوست من است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Wer ist das?",
+      "type": "Chunk",
+      "meaning": "این چه کسی است؟",
+      "pronunciation": null,
+      "example": "Wer ist das auf dem Foto?",
+      "exampleTranslation": "این فرد در عکس کیست؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Das ist mein ...",
+      "type": "Chunk",
+      "meaning": "این ... من است.",
+      "pronunciation": null,
+      "example": "Das ist mein Vater.",
+      "exampleTranslation": "این پدر من است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "arbeiten als",
+      "type": "Chunk",
+      "meaning": "به‌عنوان ... کار کردن",
+      "pronunciation": null,
+      "example": "Er arbeitet als Lehrer.",
+      "exampleTranslation": "او به‌عنوان معلم کار می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "der Lehrer / die Lehrerin",
+      "type": "Chunk",
+      "meaning": "معلم",
+      "pronunciation": null,
+      "example": "Sie ist Lehrerin.",
+      "exampleTranslation": "او معلم است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "der Kollege / die Kollegin",
+      "type": "Chunk",
+      "meaning": "همکار",
+      "pronunciation": null,
+      "example": "Nora ist meine Kollegin.",
+      "exampleTranslation": "نورا همکار من است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

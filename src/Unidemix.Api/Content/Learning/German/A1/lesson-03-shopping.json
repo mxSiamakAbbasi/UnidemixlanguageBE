@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-03",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 3,
+  "courseSlug": "german-starter",
+  "title": "Everyday Things and Shopping",
+  "localizedTitle": "وسایل روزمره و خرید",
+  "description": "در این درس دربارهٔ وسایل روزمره، رنگ، تعداد و قیمت سؤال می‌کنی و یک خرید ساده را تا پایان انجام می‌دهی.",
+  "estimatedDurationMinutes": 115,
+  "status": "production",
+  "mainSituation": "Shopping for household or everyday items",
+  "canDoObjectives": [
+    "Ask about an object, price, quantity, and basic product information.",
+    "Express a simple preference and complete a purchase."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «وسایل روزمره و خرید» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Shopping for household or everyday items. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Verkäuferin: Guten Tag. Kann ich Ihnen helfen?\nOmid: Ja, ich hätte gern eine Lampe.\nVerkäuferin: Welche Farbe?\nOmid: Blau, bitte. Was kostet die Lampe?\nVerkäuferin: Sie kostet 24 Euro.\nOmid: Gut, ich nehme sie.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Was kostet das? = قیمت آن چقدر است؟\nIch hätte gern ... = ... می‌خواهم.\nIch nehme das. = آن را برمی‌دارم.\nDas gefällt mir nicht. = آن را دوست ندارم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای پرسیدن قیمت کدام جمله درست است؟",
+      "correctAnswer": "Was kostet die Lampe?",
+      "options": [
+        "Wo ist die Lampe?",
+        "Was kostet die Lampe?",
+        "Wer hat die Lampe?"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Verkäufer: Zwei Tassen kosten zwölf Euro.\nKundin: Haben Sie auch rote Tassen?\nVerkäufer: Nein, nur blau oder weiß.\nKundin: Dann nehme ich zwei blaue Tassen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "مشتری چه چیزی می‌خرد؟",
+      "correctAnswer": "دو فنجان آبی",
+      "options": [
+        "یک چراغ سفید",
+        "دو فنجان آبی",
+        "دو صندلی قرمز"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "دو فنجان چند یورو قیمت دارند؟",
+      "correctAnswer": "12 Euro",
+      "options": [
+        "10 Euro",
+        "12 Euro",
+        "20 Euro"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KLEINANZEIGE\nSchreibtisch, weiß, sehr gut. 60 Euro. Zwei Stühle zusammen 30 Euro. Abholung in Bonn.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "قیمت دو صندلی با هم چقدر است؟",
+      "correctAnswer": "30 Euro",
+      "options": [
+        "20 Euro",
+        "30 Euro",
+        "60 Euro"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در Akkusativ برای اسم مذکر der به den و ein به einen تبدیل می‌شود:\nIch kaufe den Tisch. · Ich brauche einen Stuhl.\nبرای مؤنث و خنثی در این الگوی ساده شکل مقاله تغییر نمی‌کند. kein اسم را نفی می‌کند و nicht جمله یا ویژگی را.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "گزینهٔ درست: Ich brauche ___ Stuhl.",
+      "correctAnswer": "einen",
+      "options": [
+        "ein",
+        "eine",
+        "einen"
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "پاسخ طبیعی به «Das ist nicht teuer.» چیست؟",
+      "correctAnswer": "Doch, das ist teuer.",
+      "options": [
+        "Nein, kein teuer.",
+        "Doch, das ist teuer.",
+        "Nicht doch Tisch."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nIch hätte gern einen Stuhl. Was kostet der Stuhl? Er kostet 35 Euro. Gut, ich nehme ihn.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "نقش مشتری را بازی کن: یک میز کوچک، رنگ سفید، قیمت 45 یورو. دربارهٔ رنگ و قیمت سؤال کن و خرید را نهایی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک وسیلهٔ موردنیازت را انتخاب کن و با ۴ جمله دربارهٔ نام، رنگ، تعداد و قیمت دلخواهت صحبت کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nSuche einen kleinen Tisch. Farbe: weiß oder grau. Budget: 50 Euro. Bitte Nachricht an Mina.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک آگهی کوتاه خرید یا فروش بنویس. نام وسیله، رنگ، وضعیت و قیمت را در ۳ تا ۵ جمله بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "با بودجهٔ ۷۰ یورو دو وسیله انتخاب کن. دربارهٔ قیمت و رنگ سؤال کن، یک گزینه را رد کن و خرید مناسب را انجام بده.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich kaufe ___ Tisch.",
+      "correctAnswer": "den",
+      "options": [
+        "der",
+        "den",
+        "die"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Was kostet das? چیست؟",
+      "correctAnswer": "قیمت آن چقدر است؟",
+      "options": [
+        "آن کجاست؟",
+        "قیمت آن چقدر است؟",
+        "آن چه رنگی است؟"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Anzeige: Lampe, 20 Euro. قیمت چیست؟",
+      "correctAnswer": "20 Euro",
+      "options": [
+        "12 Euro",
+        "20 Euro",
+        "40 Euro"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich brauche ___ Lampe.",
+      "correctAnswer": "eine",
+      "options": [
+        "ein",
+        "eine",
+        "einen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای نهایی‌کردن انتخاب چه می‌گوییم؟",
+      "correctAnswer": "Ich nehme das.",
+      "options": [
+        "Ich nehme das.",
+        "Ich komme aus.",
+        "Ich spreche das."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Zwei Stühle: 50 Euro. چه چیزی فروخته می‌شود؟",
+      "correctAnswer": "دو صندلی",
+      "options": [
+        "دو صندلی",
+        "یک میز",
+        "یک چراغ"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "نفی اسم در «من صندلی ندارم» کدام است؟",
+      "correctAnswer": "Ich habe keinen Stuhl.",
+      "options": [
+        "Ich habe nicht Stuhl.",
+        "Ich habe keinen Stuhl.",
+        "Ich kein habe Stuhl."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "متضاد teuer چیست؟",
+      "correctAnswer": "günstig",
+      "options": [
+        "groß",
+        "günstig",
+        "blau"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Productive adjective declension",
+    "Dative objects",
+    "Full pronoun system"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "der Tisch",
+      "type": "Word",
+      "meaning": "میز",
+      "pronunciation": null,
+      "example": "Ich kaufe einen Tisch.",
+      "exampleTranslation": "من یک میز می‌خرم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Stuhl",
+      "type": "Word",
+      "meaning": "صندلی",
+      "pronunciation": null,
+      "example": "Der Stuhl kostet 35 Euro.",
+      "exampleTranslation": "صندلی ۳۵ یورو قیمت دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Lampe",
+      "type": "Word",
+      "meaning": "چراغ",
+      "pronunciation": null,
+      "example": "Die Lampe ist blau.",
+      "exampleTranslation": "چراغ آبی است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Tasse",
+      "type": "Word",
+      "meaning": "فنجان",
+      "pronunciation": null,
+      "example": "Ich nehme zwei Tassen.",
+      "exampleTranslation": "من دو فنجان برمی‌دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Was kostet ...?",
+      "type": "Chunk",
+      "meaning": "... چقدر قیمت دارد؟",
+      "pronunciation": null,
+      "example": "Was kostet der Tisch?",
+      "exampleTranslation": "میز چقدر قیمت دارد؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Ich hätte gern ...",
+      "type": "Chunk",
+      "meaning": "... می‌خواهم.",
+      "pronunciation": null,
+      "example": "Ich hätte gern eine Lampe.",
+      "exampleTranslation": "یک چراغ می‌خواهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Ich nehme ...",
+      "type": "Chunk",
+      "meaning": "... را برمی‌دارم.",
+      "pronunciation": null,
+      "example": "Ich nehme den Stuhl.",
+      "exampleTranslation": "صندلی را برمی‌دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Das gefällt mir.",
+      "type": "Chunk",
+      "meaning": "آن را دوست دارم.",
+      "pronunciation": null,
+      "example": "Die Farbe gefällt mir.",
+      "exampleTranslation": "رنگ را دوست دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "teuer",
+      "type": "Word",
+      "meaning": "گران",
+      "pronunciation": null,
+      "example": "Das ist zu teuer.",
+      "exampleTranslation": "این خیلی گران است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "günstig",
+      "type": "Word",
+      "meaning": "مقرون‌به‌صرفه",
+      "pronunciation": null,
+      "example": "Die Tasse ist günstig.",
+      "exampleTranslation": "فنجان قیمت مناسبی دارد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

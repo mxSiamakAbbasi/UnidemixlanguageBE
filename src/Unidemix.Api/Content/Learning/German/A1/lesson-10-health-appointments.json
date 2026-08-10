@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-10",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 10,
+  "courseSlug": "german-starter",
+  "title": "Appointments and Health",
+  "localizedTitle": "قرار و سلامتی",
+  "description": "در این درس وقت پزشکی می‌گیری یا تغییر می‌دهی، یک مشکل جسمی ساده را بیان می‌کنی و توصیه‌های اصلی را می‌فهمی.",
+  "estimatedDurationMinutes": 125,
+  "status": "production",
+  "mainSituation": "Calling a practice and attending a basic consultation",
+  "canDoObjectives": [
+    "Arrange or change an appointment.",
+    "Describe a basic health problem and understand simple advice."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «قرار و سلامتی» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Calling a practice and attending a basic consultation. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Praxis: Guten Morgen, Praxis Dr. Klein.\nNavid: Guten Morgen. Ich brauche einen Termin.\nPraxis: Was fehlt Ihnen?\nNavid: Ich habe Halsschmerzen und Fieber.\nPraxis: Können Sie heute um 15 Uhr kommen?\nNavid: Ja, vielen Dank.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Ich brauche einen Termin. = وقت می‌خواهم.\nIch habe Kopfschmerzen. = سردرد دارم.\nMir tut der Rücken weh. = کمرم درد می‌کند.\nSie sollten viel trinken. = بهتر است زیاد مایعات بنوشید.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای درخواست وقت کدام جمله درست است؟",
+      "correctAnswer": "Ich brauche einen Termin.",
+      "options": [
+        "Ich kaufe einen Termin.",
+        "Ich brauche einen Termin.",
+        "Ich bin ein Termin."
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Praxis: Ihr Termin ist am Dienstag um 10 Uhr.\nPatientin: Leider kann ich am Dienstag nicht.\nPraxis: Dann Mittwoch um 11 Uhr?\nPatientin: Ja, das passt. Soll ich etwas mitbringen?\nPraxis: Bitte bringen Sie Ihre Versicherungskarte mit.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف تماس چیست؟",
+      "correctAnswer": "تغییر وقت",
+      "options": [
+        "خرید دارو",
+        "تغییر وقت",
+        "پرسیدن مسیر"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "وقت جدید چه زمانی است؟",
+      "correctAnswer": "Mittwoch um 11 Uhr",
+      "options": [
+        "Dienstag um 10 Uhr",
+        "Mittwoch um 10 Uhr",
+        "Mittwoch um 11 Uhr"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "PRAXIS AM MARKT\nMo–Fr 08:00–12:00\nMo, Di, Do 15:00–18:00\nMittwoch Nachmittag geschlossen.\nBei Fieber bitte vorher anrufen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "چه زمانی مطب بعدازظهر تعطیل است؟",
+      "correctAnswer": "Mittwoch",
+      "options": [
+        "Montag",
+        "Mittwoch",
+        "Donnerstag"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Imperativ برای توصیه یا دستور:\ndu: Trink viel! · ihr: Trinkt viel! · Sie: Trinken Sie viel!\nبا sollen توصیه را بیان می‌کنیم: Sie sollten sich ausruhen. عبارت‌های Mir tut ... weh و Mir geht es ... را فعلاً به‌صورت chunk یاد می‌گیریم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "دستور مؤدبانهٔ درست چیست؟",
+      "correctAnswer": "Trinken Sie viel Wasser.",
+      "options": [
+        "Trinkt Sie viel Wasser.",
+        "Trinken Sie viel Wasser.",
+        "Sie trinken viel Wasser?"
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "توصیهٔ مناسب کدام است؟",
+      "correctAnswer": "Sie sollten sich ausruhen.",
+      "options": [
+        "Sie sollen Termin.",
+        "Sie sollten sich ausruhen.",
+        "Sie ausruhen sollten?"
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nIch habe Kopfschmerzen und bin müde. Mir tut auch der Hals weh. Ich brauche einen Termin.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "در نقش بیمار بگو: Bauchschmerzen · seit heute · Termin am Nachmittag. سپس یک توصیه را تکرار کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک مشکل سادهٔ فرضی را توصیف کن، شدت یا زمان شروع را بگو و برای وقت مناسب سؤال کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nGuten Tag, ich kann am Dienstag leider nicht kommen. Können wir den Termin auf Mittwoch um 11 Uhr ändern? Vielen Dank, Sara Ahmadi\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک پیام کوتاه برای گرفتن یا تغییر وقت بنویس. روز، ساعت و دلیل ساده را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "با مطب تماس بگیر، یک مشکل ساده را بگو، وقت مناسب بگیر و در پایان توصیهٔ پزشک را با جملهٔ خودت تکرار کن.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "دستور مؤدبانه؟",
+      "correctAnswer": "Trinken Sie viel.",
+      "options": [
+        "Trinkt Sie viel.",
+        "Trinken Sie viel.",
+        "Sie viel trinken."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Termin یعنی؟",
+      "correctAnswer": "وقت / قرار",
+      "options": [
+        "دارو",
+        "وقت / قرار",
+        "درد"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Mittwoch Nachmittag geschlossen. چه زمانی تعطیل؟",
+      "correctAnswer": "Mittwoch Nachmittag",
+      "options": [
+        "Montag Morgen",
+        "Mittwoch Nachmittag",
+        "Donnerstag Abend"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "توصیهٔ درست؟",
+      "correctAnswer": "Sie sollten schlafen.",
+      "options": [
+        "Sie schlafen sollten.",
+        "Sie sollten schlafen.",
+        "Sollten Sie schläft."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای بیان سردرد؟",
+      "correctAnswer": "Ich habe Kopfschmerzen.",
+      "options": [
+        "Ich bin Kopfschmerzen.",
+        "Ich habe Kopfschmerzen.",
+        "Mir Kopfschmerzen."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Bei Fieber vorher anrufen. چه کار کنیم؟",
+      "correctAnswer": "anrufen",
+      "options": [
+        "kommen",
+        "anrufen",
+        "schreiben"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Imperativ du از trinken؟",
+      "correctAnswer": "Trink viel!",
+      "options": [
+        "Trinken viel!",
+        "Trink viel!",
+        "Trinkt du viel!"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای تغییر وقت؟",
+      "correctAnswer": "den Termin ändern",
+      "options": [
+        "den Termin kaufen",
+        "den Termin ändern",
+        "den Termin essen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Complex medical explanations",
+    "Conditional advice clauses",
+    "Productive dative pronoun system"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "der Termin",
+      "type": "Word",
+      "meaning": "وقت / قرار",
+      "pronunciation": null,
+      "example": "Ich brauche einen Termin.",
+      "exampleTranslation": "وقت می‌خواهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "die Kopfschmerzen",
+      "type": "Word",
+      "meaning": "سردرد",
+      "pronunciation": null,
+      "example": "Ich habe Kopfschmerzen.",
+      "exampleTranslation": "سردرد دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Halsschmerzen",
+      "type": "Word",
+      "meaning": "گلودرد",
+      "pronunciation": null,
+      "example": "Ich habe Halsschmerzen.",
+      "exampleTranslation": "گلودرد دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "das Fieber",
+      "type": "Word",
+      "meaning": "تب",
+      "pronunciation": null,
+      "example": "Ich habe Fieber.",
+      "exampleTranslation": "تب دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Ich brauche einen Termin.",
+      "type": "Chunk",
+      "meaning": "وقت می‌خواهم.",
+      "pronunciation": null,
+      "example": "Ich brauche einen Termin beim Arzt.",
+      "exampleTranslation": "از پزشک وقت می‌خواهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Mir tut ... weh.",
+      "type": "Chunk",
+      "meaning": "... من درد می‌کند.",
+      "pronunciation": null,
+      "example": "Mir tut der Rücken weh.",
+      "exampleTranslation": "کمرم درد می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Was fehlt Ihnen?",
+      "type": "Chunk",
+      "meaning": "چه مشکلی دارید؟",
+      "pronunciation": null,
+      "example": "Was fehlt Ihnen heute?",
+      "exampleTranslation": "امروز چه مشکلی دارید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Sie sollten ...",
+      "type": "Chunk",
+      "meaning": "بهتر است ...",
+      "pronunciation": null,
+      "example": "Sie sollten viel trinken.",
+      "exampleTranslation": "بهتر است زیاد مایعات بنوشید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "sich ausruhen",
+      "type": "Chunk",
+      "meaning": "استراحت‌کردن",
+      "pronunciation": null,
+      "example": "Ruhen Sie sich aus.",
+      "exampleTranslation": "استراحت کنید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "den Termin ändern",
+      "type": "Chunk",
+      "meaning": "وقت را تغییر‌دادن",
+      "pronunciation": null,
+      "example": "Ich möchte den Termin ändern.",
+      "exampleTranslation": "می‌خواهم وقت را تغییر دهم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

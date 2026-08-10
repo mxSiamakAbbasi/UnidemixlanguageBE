@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-07",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 7,
+  "courseSlug": "german-starter",
+  "title": "My Day and My Week",
+  "localizedTitle": "روز و هفتهٔ من",
+  "description": "در این درس یک روز معمولی را به‌ترتیب توضیح می‌دهی، دربارهٔ تکرار کارها صحبت می‌کنی و زمان آزاد مشترک پیدا می‌کنی.",
+  "estimatedDurationMinutes": 105,
+  "status": "production",
+  "mainSituation": "Discussing daily routines and availability",
+  "canDoObjectives": [
+    "Describe a typical day in sequence.",
+    "Compare schedules and identify a suitable time."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «روز و هفتهٔ من» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Discussing daily routines and availability. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Lea: Wann stehst du normalerweise auf?\nFarid: Um halb sieben. Dann frühstücke ich.\nLea: Wann fängst du mit der Arbeit an?\nFarid: Um acht Uhr. Am Abend kaufe ich ein und koche.\nLea: Hast du am Mittwoch Zeit?\nFarid: Ja, nach der Arbeit.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Ich stehe um sieben auf. = ساعت هفت بیدار می‌شوم.\nZuerst ... dann ... = اول ... سپس ...\nNormalerweise ... = معمولاً ...\nAm Abend ... = عصر ...",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای شروع ترتیب کارها کدام واژه مناسب است؟",
+      "correctAnswer": "Zuerst",
+      "options": [
+        "Neben",
+        "Zuerst",
+        "Gestern"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Nina steht um sieben Uhr auf.\nZuerst duscht sie, dann frühstückt sie.\nUm neun beginnt ihr Kurs.\nNachmittags lernt sie Deutsch.\nAbends sieht sie manchmal fern.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "نینا دربارهٔ چه چیزی توضیح می‌دهد؟",
+      "correctAnswer": "برنامهٔ روزانه‌اش",
+      "options": [
+        "خرید خانه",
+        "برنامهٔ روزانه‌اش",
+        "سفر آخر هفته"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کلاس نینا چه ساعتی شروع می‌شود؟",
+      "correctAnswer": "um neun",
+      "options": [
+        "um sieben",
+        "um acht",
+        "um neun"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "MEIN MITTWOCH\n07:00 aufstehen\n08:30 Arbeit\n12:30 Mittagspause\n17:00 einkaufen\n19:00 Deutschkurs\n21:00 frei",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کلاس آلمانی چه ساعتی است؟",
+      "correctAnswer": "19:00",
+      "options": [
+        "17:00",
+        "19:00",
+        "21:00"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "فعل‌های جداشدنی در جملهٔ اصلی جدا می‌شوند:\nIch stehe um sieben auf. · Er kauft am Abend ein.\nاطلاعات زمان اغلب زود در جمله می‌آید: Am Montag arbeite ich zu Hause. عبارت‌های immer، oft، manchmal و nie بسامد را نشان می‌دهند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ درست کدام است؟",
+      "correctAnswer": "Ich stehe um sieben auf.",
+      "options": [
+        "Ich aufstehe um sieben.",
+        "Ich stehe um sieben auf.",
+        "Ich um sieben auf stehe."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "برای «گاهی» کدام واژه درست است؟",
+      "correctAnswer": "manchmal",
+      "options": [
+        "immer",
+        "manchmal",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nZuerst stehe ich um sieben auf. Dann frühstücke ich. Um neun arbeite ich. Abends lerne ich Deutsch.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برنامه را با صدای بلند بگو: 06:30 aufstehen · 07:00 frühstücken · 08:00 zur Arbeit fahren · 18:00 kochen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "روز معمولی خودت را در ۴ تا ۶ جمله با Zuerst، dann و mindestens یک عبارت زمانی توضیح بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nMein Montag: Zuerst stehe ich um 7 Uhr auf. Um 8 Uhr fahre ich zur Arbeit. Nachmittags kaufe ich ein. Abends lerne ich Deutsch.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "برنامهٔ یک روزت را در ۴ تا ۶ جمله بنویس. ترتیب، دو ساعت و یک عبارت بسامد را استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "روز معمولی خود را معرفی کن، برنامه‌ات را با برنامهٔ یک دوست مقایسه کن و یک زمان آزاد مشترک برای تمرین پیدا کن.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich ___ um sechs ___.",
+      "correctAnswer": "stehe / auf",
+      "options": [
+        "stehe / auf",
+        "auf / stehe",
+        "steht / auf"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Zuerst چیست؟",
+      "correctAnswer": "اول",
+      "options": [
+        "گاهی",
+        "اول",
+        "هرگز"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Plan: 17:00 einkaufen. چه کاری؟",
+      "correctAnswer": "einkaufen",
+      "options": [
+        "arbeiten",
+        "einkaufen",
+        "lernen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "جملهٔ درست؟",
+      "correctAnswer": "Am Abend koche ich.",
+      "options": [
+        "Am Abend ich koche.",
+        "Am Abend koche ich.",
+        "Ich am koche Abend."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "گاهی به آلمانی چیست؟",
+      "correctAnswer": "manchmal",
+      "options": [
+        "immer",
+        "nie",
+        "manchmal"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Kurs 19:00. زمان کلاس؟",
+      "correctAnswer": "19:00",
+      "options": [
+        "17:00",
+        "19:00",
+        "21:00"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Er ___ um acht ___.",
+      "correctAnswer": "fängt / an",
+      "options": [
+        "anfängt / -",
+        "fängt / an",
+        "fangen / an"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "متضاد immer چیست؟",
+      "correctAnswer": "nie",
+      "options": [
+        "dann",
+        "nie",
+        "oft"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Detailed past narration",
+    "Subordinate time clauses",
+    "Extended adverb placement"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "aufstehen",
+      "type": "Word",
+      "meaning": "بیدارشدن / از جا بلندشدن",
+      "pronunciation": null,
+      "example": "Ich stehe um sieben auf.",
+      "exampleTranslation": "ساعت هفت بیدار می‌شوم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "frühstücken",
+      "type": "Word",
+      "meaning": "صبحانه‌خوردن",
+      "pronunciation": null,
+      "example": "Dann frühstücke ich.",
+      "exampleTranslation": "سپس صبحانه می‌خورم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "anfangen",
+      "type": "Word",
+      "meaning": "شروع‌کردن",
+      "pronunciation": null,
+      "example": "Der Kurs fängt um neun an.",
+      "exampleTranslation": "کلاس ساعت نه شروع می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "einkaufen",
+      "type": "Word",
+      "meaning": "خریدکردن",
+      "pronunciation": null,
+      "example": "Ich kaufe am Abend ein.",
+      "exampleTranslation": "عصر خرید می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Zuerst ... dann ...",
+      "type": "Chunk",
+      "meaning": "اول ... سپس ...",
+      "pronunciation": null,
+      "example": "Zuerst arbeite ich, dann koche ich.",
+      "exampleTranslation": "اول کار می‌کنم، سپس غذا می‌پزم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Normalerweise ...",
+      "type": "Chunk",
+      "meaning": "معمولاً ...",
+      "pronunciation": null,
+      "example": "Normalerweise fahre ich mit dem Bus.",
+      "exampleTranslation": "معمولاً با اتوبوس می‌روم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "am Morgen",
+      "type": "Chunk",
+      "meaning": "صبح",
+      "pronunciation": null,
+      "example": "Am Morgen trinke ich Kaffee.",
+      "exampleTranslation": "صبح قهوه می‌نوشم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "am Abend",
+      "type": "Chunk",
+      "meaning": "عصر / شب",
+      "pronunciation": null,
+      "example": "Am Abend lerne ich.",
+      "exampleTranslation": "عصر درس می‌خوانم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "manchmal",
+      "type": "Word",
+      "meaning": "گاهی",
+      "pronunciation": null,
+      "example": "Manchmal sehe ich fern.",
+      "exampleTranslation": "گاهی تلویزیون می‌بینم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "nie",
+      "type": "Word",
+      "meaning": "هرگز",
+      "pronunciation": null,
+      "example": "Ich arbeite sonntags nie.",
+      "exampleTranslation": "یکشنبه‌ها هرگز کار نمی‌کنم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

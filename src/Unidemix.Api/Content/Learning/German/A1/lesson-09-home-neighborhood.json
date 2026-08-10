@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-09",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 9,
+  "courseSlug": "german-starter",
+  "title": "Home and Neighborhood",
+  "localizedTitle": "خانه و محله",
+  "description": "در این درس خانه، اتاق‌ها و جای وسایل را توضیح می‌دهی و اطلاعات اصلی یک آگهی مسکن را می‌فهمی.",
+  "estimatedDurationMinutes": 115,
+  "status": "production",
+  "mainSituation": "Showing a visitor a home or evaluating a listing",
+  "canDoObjectives": [
+    "Describe a home and where common objects are.",
+    "State simple housing preferences and neighborhood needs."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «خانه و محله» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Showing a visitor a home or evaluating a listing. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Yara: Willkommen! Das ist unsere Wohnung.\nTom: Schön! Ist das das Wohnzimmer?\nYara: Ja. Neben dem Wohnzimmer ist die Küche.\nTom: Und wo ist dein Zimmer?\nYara: Mein Zimmer ist hinten. Gegenüber ist das Bad.\nTom: Die Wohnung ist sehr hell.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Die Wohnung hat ... = خانه ... دارد.\nNeben ... ist ... = کنار ... قرار دارد.\nGegenüber ist ... = روبه‌رو ... است.\nIn der Nähe gibt es ... = در نزدیکی ... وجود دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای گفتن «کنار آشپزخانه» کدام درست است؟",
+      "correctAnswer": "neben der Küche",
+      "options": [
+        "neben die Küche",
+        "neben der Küche",
+        "auf Küche"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Maklerin: Die Wohnung hat zwei Zimmer, eine Küche und ein Bad.\nDas Wohnzimmer ist sehr hell.\nDer Balkon ist neben der Küche.\nIn der Nähe gibt es einen Supermarkt und eine Bushaltestelle.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "این متن دربارهٔ چیست؟",
+      "correctAnswer": "یک خانه",
+      "options": [
+        "یک رستوران",
+        "یک خانه",
+        "یک برنامهٔ روزانه"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "بالکن کجاست؟",
+      "correctAnswer": "neben der Küche",
+      "options": [
+        "neben dem Bad",
+        "neben der Küche",
+        "gegenüber dem Supermarkt"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "WOHNUNG IN BONN\n2 Zimmer, Küche, Bad, Balkon. 58 m². Ruhige Straße. Supermarkt und Bus in der Nähe. 780 Euro warm.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "خانه چند اتاق دارد؟",
+      "correctAnswer": "2 Zimmer",
+      "options": [
+        "1 Zimmer",
+        "2 Zimmer",
+        "3 Zimmer"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای مالکیت او از sein برای مذکر/خنثی و ihr برای مؤنث استفاده می‌کنیم:\nDas ist Alis Zimmer. Sein Zimmer ist hell. · Das ist Laras Küche. Ihre Küche ist klein.\nعبارت‌های مکانی پرتکرار را به‌صورت chunk با Dativ یاد می‌گیریم: neben dem Sofa، in der Küche.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "لینا یک اتاق دارد. ___ Zimmer ist hell.",
+      "correctAnswer": "Ihr",
+      "options": [
+        "Sein",
+        "Ihr",
+        "Mein"
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ مکانی درست؟",
+      "correctAnswer": "Der Tisch ist neben dem Sofa.",
+      "options": [
+        "Der Tisch ist neben das Sofa.",
+        "Der Tisch ist neben dem Sofa.",
+        "Der Tisch neben Sofa."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nMeine Wohnung hat drei Zimmer. Die Küche ist neben dem Wohnzimmer. In der Nähe gibt es einen Park.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "این نقشه را توضیح بده: Wohnzimmer neben Küche · Bad gegenüber Schlafzimmer · Balkon an Küche.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "خانه یا یک خانهٔ فرضی را با ۴ تا ۶ جمله توصیف کن و دو مکان نزدیک آن را بگو.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nMeine Wohnung hat zwei Zimmer und einen Balkon. Das Wohnzimmer ist hell. Die Küche ist neben dem Wohnzimmer. In der Nähe gibt es einen Park.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک توضیح ۴ تا ۶ جمله‌ای برای خانه بنویس. تعداد اتاق‌ها، دو موقعیت و یک ویژگی محله را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "از میان دو آگهی یک خانه انتخاب کن، اطلاعات اصلی را بگو و با سه دلیل ساده توضیح بده چرا برایت مناسب است.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Lara hat eine Wohnung. ___ Wohnung ist groß.",
+      "correctAnswer": "Ihre",
+      "options": [
+        "Seine",
+        "Ihre",
+        "Meine"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Wohnzimmer یعنی؟",
+      "correctAnswer": "اتاق نشیمن",
+      "options": [
+        "آشپزخانه",
+        "اتاق نشیمن",
+        "بالکن"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Anzeige: 3 Zimmer. تعداد؟",
+      "correctAnswer": "3 Zimmer",
+      "options": [
+        "2 Zimmer",
+        "3 Zimmer",
+        "4 Zimmer"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Der Stuhl ist neben ___ Tisch.",
+      "correctAnswer": "dem",
+      "options": [
+        "der",
+        "dem",
+        "das"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "در نزدیکی پارک هست.",
+      "correctAnswer": "In der Nähe gibt es einen Park.",
+      "options": [
+        "Der Park kostet viel.",
+        "In der Nähe gibt es einen Park.",
+        "Ich komme aus dem Park."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Balkon neben Küche. بالکن کجاست؟",
+      "correctAnswer": "neben der Küche",
+      "options": [
+        "neben der Küche",
+        "im Bad",
+        "gegenüber dem Bus"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ali hat ein Zimmer. ___ Zimmer ist klein.",
+      "correctAnswer": "Sein",
+      "options": [
+        "Ihr",
+        "Sein",
+        "Dein"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "متضاد dunkel چیست؟",
+      "correctAnswer": "hell",
+      "options": [
+        "ruhig",
+        "hell",
+        "klein"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Full movement/location contrast",
+    "Relative clauses",
+    "Productive adjective declension"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Wohnung",
+      "type": "Word",
+      "meaning": "خانه / آپارتمان",
+      "pronunciation": null,
+      "example": "Die Wohnung hat zwei Zimmer.",
+      "exampleTranslation": "خانه دو اتاق دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "das Wohnzimmer",
+      "type": "Word",
+      "meaning": "اتاق نشیمن",
+      "pronunciation": null,
+      "example": "Das Wohnzimmer ist hell.",
+      "exampleTranslation": "اتاق نشیمن روشن است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Küche",
+      "type": "Word",
+      "meaning": "آشپزخانه",
+      "pronunciation": null,
+      "example": "Die Küche ist klein.",
+      "exampleTranslation": "آشپزخانه کوچک است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "das Bad",
+      "type": "Word",
+      "meaning": "حمام",
+      "pronunciation": null,
+      "example": "Das Bad ist gegenüber.",
+      "exampleTranslation": "حمام روبه‌رو است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "der Balkon",
+      "type": "Word",
+      "meaning": "بالکن",
+      "pronunciation": null,
+      "example": "Die Wohnung hat einen Balkon.",
+      "exampleTranslation": "خانه بالکن دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Die Wohnung hat ...",
+      "type": "Chunk",
+      "meaning": "خانه ... دارد.",
+      "pronunciation": null,
+      "example": "Die Wohnung hat drei Zimmer.",
+      "exampleTranslation": "خانه سه اتاق دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "neben ...",
+      "type": "Chunk",
+      "meaning": "کنار ...",
+      "pronunciation": null,
+      "example": "Die Küche ist neben dem Bad.",
+      "exampleTranslation": "آشپزخانه کنار حمام است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "gegenüber ...",
+      "type": "Chunk",
+      "meaning": "روبه‌روی ...",
+      "pronunciation": null,
+      "example": "Die Post ist gegenüber der Bank.",
+      "exampleTranslation": "پست روبه‌روی بانک است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "In der Nähe gibt es ...",
+      "type": "Chunk",
+      "meaning": "در نزدیکی ... وجود دارد.",
+      "pronunciation": null,
+      "example": "In der Nähe gibt es einen Park.",
+      "exampleTranslation": "در نزدیکی یک پارک هست.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "hell",
+      "type": "Word",
+      "meaning": "روشن",
+      "pronunciation": null,
+      "example": "Das Zimmer ist hell.",
+      "exampleTranslation": "اتاق روشن است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

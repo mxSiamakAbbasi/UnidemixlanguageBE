@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-12",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 12,
+  "courseSlug": "german-starter",
+  "title": "Plans, Weather, and Celebrations",
+  "localizedTitle": "برنامه، آب‌وهوا و جشن",
+  "description": "در این درس دربارهٔ برنامه و خواسته صحبت می‌کنی، یک دلیل ساده می‌دهی و برنامهٔ جشن یا گردش را با آب‌وهوا هماهنگ می‌کنی.",
+  "estimatedDurationMinutes": 125,
+  "status": "production",
+  "mainSituation": "Planning a celebration or day out",
+  "canDoObjectives": [
+    "Talk about immediate plans and wishes.",
+    "Give a simple reason and adapt a plan to weather or circumstances."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «برنامه، آب‌وهوا و جشن» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Planning a celebration or day out. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Nora: Was wollen wir am Samstag machen?\nTarek: Ich würde gern im Park feiern.\nNora: Die Wetter-App sagt Regen.\nTarek: Dann feiern wir bei mir, denn meine Wohnung ist groß.\nNora: Gute Idee. Wann beginnen wir?\nTarek: Am dritten Juni um fünf Uhr.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Wir wollen ... = می‌خواهیم ...\nIch würde gern ... = دوست دارم ...\n..., denn ... = ...، چون ...\nAlles Gute zum Geburtstag! = تولدت مبارک!",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای بیان خواستهٔ مؤدبانه کدام درست است؟",
+      "correctAnswer": "Ich würde gern im Park feiern.",
+      "options": [
+        "Ich werde gern Park.",
+        "Ich würde gern im Park feiern.",
+        "Ich will gern gefeiert."
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Mila: Morgen wird es warm, aber am Nachmittag regnet es.\nJonas: Dann wollen wir morgens wandern.\nMila: Ja, und am Abend feiern wir zu Hause.\nJonas: Gut, denn dort ist es trocken und warm.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برنامه به چه چیزی وابسته است؟",
+      "correctAnswer": "آب‌وهوا",
+      "options": [
+        "قیمت بلیت",
+        "آب‌وهوا",
+        "برنامهٔ قطار"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "آن‌ها چه زمانی پیاده‌روی می‌کنند؟",
+      "correctAnswer": "morgens",
+      "options": [
+        "morgens",
+        "nachmittags",
+        "abends"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "EINLADUNG\nGeburtstag am 12. September, Beginn 17 Uhr. Bei Sonne feiern wir im Garten. Bei Regen treffen wir uns im Café Grün. Bitte bis 8. September antworten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "در صورت باران جشن کجاست؟",
+      "correctAnswer": "im Café Grün",
+      "options": [
+        "im Garten",
+        "im Café Grün",
+        "im Park"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "wollen برنامه یا قصد را بیان می‌کند: Wir wollen feiern. فعل اصلی در پایان می‌آید.\ndenn یک دلیل ساده را با ترتیب معمول جمله می‌آورد: Wir bleiben zu Hause, denn es regnet.\nIch würde gern ... یک الگوی مؤدبانهٔ ثابت برای خواسته است. تاریخ ترتیبی را در عبارت‌های آماده می‌خوانیم: am dritten Juni.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "ترتیب درست؟",
+      "correctAnswer": "Wir wollen im Park feiern.",
+      "options": [
+        "Wir im Park feiern wollen.",
+        "Wir wollen im Park feiern.",
+        "Wir feiern wollen im Park."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ دلیل درست؟",
+      "correctAnswer": "Wir bleiben zu Hause, denn es regnet.",
+      "options": [
+        "Wir bleiben zu Hause, denn regnet es.",
+        "Wir bleiben zu Hause, denn es regnet.",
+        "Denn wir zu Hause es regnet."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nAm Samstag wollen wir ein Picknick machen. Bei Sonne gehen wir in den Park. Bei Regen feiern wir zu Hause.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با این اطلاعات برنامه را پیشنهاد بده: Geburtstag 10. August · Sonne: Garten · Regen: Wohnung · Beginn 16 Uhr.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک جشن یا گردش پیشنهاد بده، خواسته‌ات را بگو، یک دلیل با denn بیاور و یک برنامهٔ جایگزین برای هوا بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHallo zusammen, ich feiere am 12. September meinen Geburtstag. Wir beginnen um 17 Uhr. Bei Sonne sind wir im Garten, bei Regen im Café. Ich würde mich freuen!\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک دعوت ۴ تا ۶ جمله‌ای بنویس. تاریخ، ساعت، برنامهٔ اصلی، جایگزین آب‌وهوا و یک دلیل ساده را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک جشن یا گردش کامل طراحی و معرفی کن: تاریخ و ساعت، خواسته، دلیل، پیش‌بینی هوا و برنامهٔ جایگزین را هماهنگ کن.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Wir ___ feiern.",
+      "correctAnswer": "wollen",
+      "options": [
+        "will",
+        "wollen",
+        "wollt"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Bei Regen یعنی؟",
+      "correctAnswer": "در صورت باران",
+      "options": [
+        "در هوای آفتابی",
+        "در صورت باران",
+        "در زمستان"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Einladung: 12. September. تاریخ؟",
+      "correctAnswer": "12. September",
+      "options": [
+        "8. September",
+        "12. September",
+        "17. September"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "جملهٔ denn درست؟",
+      "correctAnswer": "Wir gehen rein, denn es regnet.",
+      "options": [
+        "Wir gehen rein, denn regnet es.",
+        "Wir gehen rein, denn es regnet.",
+        "Denn es wir gehen rein."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "تبریک تولد؟",
+      "correctAnswer": "Alles Gute zum Geburtstag!",
+      "options": [
+        "Guten Appetit!",
+        "Alles Gute zum Geburtstag!",
+        "Gute Reise!"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Bei Regen im Café. مکان جایگزین؟",
+      "correctAnswer": "im Café",
+      "options": [
+        "im Park",
+        "im Café",
+        "im Zug"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "خواستهٔ مؤدبانه؟",
+      "correctAnswer": "Ich würde gern feiern.",
+      "options": [
+        "Ich würde gern feiern.",
+        "Ich wollen feiern.",
+        "Ich gern feiere würde."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "feiern یعنی؟",
+      "correctAnswer": "جشن‌گرفتن",
+      "options": [
+        "برنامه‌ریزی‌کردن",
+        "جشن‌گرفتن",
+        "باریدن"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Weil subordinate clauses",
+    "Broader Konjunktiv II",
+    "Extended future forms"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "das Wetter",
+      "type": "Word",
+      "meaning": "آب‌وهوا",
+      "pronunciation": null,
+      "example": "Das Wetter ist heute gut.",
+      "exampleTranslation": "امروز هوا خوب است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Regen",
+      "type": "Word",
+      "meaning": "باران",
+      "pronunciation": null,
+      "example": "Am Nachmittag gibt es Regen.",
+      "exampleTranslation": "بعدازظهر باران می‌آید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Sonne",
+      "type": "Word",
+      "meaning": "خورشید",
+      "pronunciation": null,
+      "example": "Bei Sonne sind wir im Park.",
+      "exampleTranslation": "در هوای آفتابی در پارک هستیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "feiern",
+      "type": "Word",
+      "meaning": "جشن‌گرفتن",
+      "pronunciation": null,
+      "example": "Wir feiern am Samstag.",
+      "exampleTranslation": "شنبه جشن می‌گیریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Wir wollen ...",
+      "type": "Chunk",
+      "meaning": "می‌خواهیم ...",
+      "pronunciation": null,
+      "example": "Wir wollen zusammen feiern.",
+      "exampleTranslation": "می‌خواهیم با هم جشن بگیریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Ich würde gern ...",
+      "type": "Chunk",
+      "meaning": "دوست دارم ...",
+      "pronunciation": null,
+      "example": "Ich würde gern wandern.",
+      "exampleTranslation": "دوست دارم پیاده‌روی کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "..., denn ...",
+      "type": "Chunk",
+      "meaning": "...، چون ...",
+      "pronunciation": null,
+      "example": "Wir bleiben hier, denn es regnet.",
+      "exampleTranslation": "اینجا می‌مانیم، چون باران می‌آید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Bei Sonne ...",
+      "type": "Chunk",
+      "meaning": "در هوای آفتابی ...",
+      "pronunciation": null,
+      "example": "Bei Sonne gehen wir raus.",
+      "exampleTranslation": "در هوای آفتابی بیرون می‌رویم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "Bei Regen ...",
+      "type": "Chunk",
+      "meaning": "در صورت باران ...",
+      "pronunciation": null,
+      "example": "Bei Regen feiern wir zu Hause.",
+      "exampleTranslation": "در صورت باران در خانه جشن می‌گیریم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Alles Gute zum Geburtstag!",
+      "type": "Expression",
+      "meaning": "تولدت مبارک!",
+      "pronunciation": null,
+      "example": "Alles Gute zum Geburtstag, Lea!",
+      "exampleTranslation": "لئا، تولدت مبارک!",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

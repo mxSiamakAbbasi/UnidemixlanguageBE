@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-05",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 5,
+  "courseSlug": "german-starter",
+  "title": "Food and Hospitality",
+  "localizedTitle": "غذا و مهمان‌نوازی",
+  "description": "در این درس دربارهٔ غذا و نوشیدنی موردعلاقه صحبت می‌کنی، در کافه سفارش می‌دهی و یک دعوت کوتاه می‌نویسی.",
+  "estimatedDurationMinutes": 120,
+  "status": "production",
+  "mainSituation": "A café visit or informal meal",
+  "canDoObjectives": [
+    "State food preferences and order simple food and drink.",
+    "Invite someone and respond politely."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «غذا و مهمان‌نوازی» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: A café visit or informal meal. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Kellner: Guten Abend. Was möchten Sie?\nSara: Für mich bitte eine Suppe und ein Wasser.\nKellner: Möchten Sie auch Brot?\nSara: Ja, gern. Und später einen Kaffee.\nKellner: Sehr gern.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Ich möchte ... = ... می‌خواهم.\nFür mich bitte ... = برای من لطفاً ...\nNoch etwas? = چیز دیگری؟\nGuten Appetit! = نوش جان!",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای سفارش مؤدبانه کدام جمله مناسب است؟",
+      "correctAnswer": "Für mich bitte eine Suppe.",
+      "options": [
+        "Für mich bitte eine Suppe.",
+        "Ich bin eine Suppe.",
+        "Wo ist Suppe?"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Kellnerin: Was darf es sein?\nDavid: Einen Tee und ein Käsebrot, bitte.\nKellnerin: Mit Zucker?\nDavid: Nein, danke. Aber ein Glas Wasser, bitte.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "گفت‌وگو کجا رخ می‌دهد؟",
+      "correctAnswer": "در کافه",
+      "options": [
+        "در ایستگاه",
+        "در کافه",
+        "در کلاس"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "دیوید چه نوشیدنی‌هایی سفارش می‌دهد؟",
+      "correctAnswer": "Tee und Wasser",
+      "options": [
+        "Kaffee und Saft",
+        "Tee und Wasser",
+        "Milch und Tee"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "CAFÉ AM PARK\nTomatensuppe 5 €\nKäsebrot 4 €\nSalat 7 €\nKaffee 3 €\nApfelsaft 3 €",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام غذا ۷ یورو است؟",
+      "correctAnswer": "Salat",
+      "options": [
+        "Tomatensuppe",
+        "Salat",
+        "Käsebrot"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "mögen علاقه را بیان می‌کند: Ich mag Kaffee.\nmöchte خواستهٔ مؤدبانه است: Ich möchte einen Kaffee.\nدر ترکیب‌های اسمی، اسم آخر جنسیت را تعیین می‌کند: der Apfelsaft، das Käsebrot. Akkusativ درس قبل را در سفارش‌ها مرور می‌کنیم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "برای سفارش مؤدبانه گزینهٔ درست چیست؟",
+      "correctAnswer": "Ich möchte einen Tee.",
+      "options": [
+        "Ich mag einen Tee bestellen.",
+        "Ich möchte einen Tee.",
+        "Ich möchten Tee."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله علاقه را بیان می‌کند؟",
+      "correctAnswer": "Ich mag Suppe.",
+      "options": [
+        "Ich mag Suppe.",
+        "Ich möchte Rechnung.",
+        "Ich bin Suppe."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nIch möchte einen Salat und ein Mineralwasser. Für mich bitte ohne Zwiebeln. Danke!",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "در نقش مشتری این سفارش را بگو: Tomatensuppe · Brot · Apfelsaft. سپس به Noch etwas? پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک سفارش ساده برای صبحانه یا شام بساز و بگو چه چیزی دوست داری یا دوست نداری.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHallo Amir, kommst du am Freitag um 19 Uhr zum Essen? Ich koche Suppe und Reis. Bring bitte einen Salat mit. Liebe Grüße, Neda\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک دعوت کوتاه برای غذا بنویس. روز، ساعت، دو خوراکی و یک درخواست ساده را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک وعدهٔ کوچک برای دو نفر برنامه‌ریزی کن: منو را بخوان، سفارش بده، ترجیح‌ها را بگو و یک دعوت کوتاه بنویس.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich ___ einen Kaffee.",
+      "correctAnswer": "möchte",
+      "options": [
+        "möchtest",
+        "möchte",
+        "möchten"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Guten Appetit! چیست؟",
+      "correctAnswer": "نوش جان!",
+      "options": [
+        "صبح بخیر!",
+        "نوش جان!",
+        "خداحافظ!"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Menu: Salat 7 €. قیمت سالاد؟",
+      "correctAnswer": "7 Euro",
+      "options": [
+        "5 Euro",
+        "7 Euro",
+        "3 Euro"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله علاقه است؟",
+      "correctAnswer": "Ich mag Tee.",
+      "options": [
+        "Ich mag Tee.",
+        "Ich möchte Tee?",
+        "Ich bin Tee."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای سفارش خود چه می‌گوییم؟",
+      "correctAnswer": "Für mich bitte ...",
+      "options": [
+        "Woher kommst du?",
+        "Für mich bitte ...",
+        "Das passt mir."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Kaffee 3 €, Suppe 5 €. کدام ارزان‌تر است؟",
+      "correctAnswer": "Kaffee",
+      "options": [
+        "Suppe",
+        "Kaffee",
+        "هر دو"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "ترکیب درست کدام است؟",
+      "correctAnswer": "der Apfelsaft",
+      "options": [
+        "die Apfelsaft",
+        "der Apfelsaft",
+        "das Apfelsaft"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "پرسش ادامهٔ سفارش چیست؟",
+      "correctAnswer": "Noch etwas?",
+      "options": [
+        "Wer ist das?",
+        "Noch etwas?",
+        "Wie komme ich?"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Adjective endings",
+    "Dass clauses",
+    "Extended food quantity grammar"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "das Essen",
+      "type": "Word",
+      "meaning": "غذا",
+      "pronunciation": null,
+      "example": "Das Essen ist lecker.",
+      "exampleTranslation": "غذا خوشمزه است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "das Getränk",
+      "type": "Word",
+      "meaning": "نوشیدنی",
+      "pronunciation": null,
+      "example": "Welches Getränk möchten Sie?",
+      "exampleTranslation": "چه نوشیدنی می‌خواهید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Suppe",
+      "type": "Word",
+      "meaning": "سوپ",
+      "pronunciation": null,
+      "example": "Ich möchte eine Suppe.",
+      "exampleTranslation": "یک سوپ می‌خواهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "das Brot",
+      "type": "Word",
+      "meaning": "نان",
+      "pronunciation": null,
+      "example": "Möchten Sie Brot?",
+      "exampleTranslation": "نان می‌خواهید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "der Kaffee",
+      "type": "Word",
+      "meaning": "قهوه",
+      "pronunciation": null,
+      "example": "Ich trinke einen Kaffee.",
+      "exampleTranslation": "یک قهوه می‌نوشم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Ich möchte ...",
+      "type": "Chunk",
+      "meaning": "... می‌خواهم.",
+      "pronunciation": null,
+      "example": "Ich möchte einen Tee.",
+      "exampleTranslation": "یک چای می‌خواهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Für mich bitte ...",
+      "type": "Chunk",
+      "meaning": "برای من لطفاً ...",
+      "pronunciation": null,
+      "example": "Für mich bitte den Salat.",
+      "exampleTranslation": "برای من لطفاً سالاد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Noch etwas?",
+      "type": "Chunk",
+      "meaning": "چیز دیگری؟",
+      "pronunciation": null,
+      "example": "Möchten Sie noch etwas?",
+      "exampleTranslation": "چیز دیگری می‌خواهید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "Guten Appetit!",
+      "type": "Expression",
+      "meaning": "نوش جان!",
+      "pronunciation": null,
+      "example": "Guten Appetit zusammen!",
+      "exampleTranslation": "همگی نوش جان!",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Ich mag ...",
+      "type": "Chunk",
+      "meaning": "... را دوست دارم.",
+      "pronunciation": null,
+      "example": "Ich mag Gemüse.",
+      "exampleTranslation": "سبزیجات دوست دارم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

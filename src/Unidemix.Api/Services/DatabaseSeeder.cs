@@ -6,7 +6,7 @@ using Unidemix.Api.Models;
 
 namespace Unidemix.Api.Services;
 
-public sealed class DatabaseSeeder(AppDbContext db)
+public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environment)
 {
     private const string TestPassword = "Demo123!";
 
@@ -16,6 +16,24 @@ public sealed class DatabaseSeeder(AppDbContext db)
         await SeedUsersAsync();
         await SeedCatalogAsync();
         await db.SaveChangesAsync();
+        var learningImporter = new LearningContentPackageImporter(db, environment);
+        foreach (var package in new[]
+        {
+            "lesson-00-alphabet-pronunciation.json",
+            "lesson-01-first-contact.json",
+            "lesson-02-people-around-me.json",
+            "lesson-03-shopping.json",
+            "lesson-04-free-time-plans.json",
+            "lesson-05-food-hospitality.json",
+            "lesson-06-getting-around.json",
+            "lesson-07-my-day-week.json",
+            "lesson-08-what-happened.json",
+            "lesson-09-home-neighborhood.json",
+            "lesson-10-health-appointments.json",
+            "lesson-11-clothes-choices.json",
+            "lesson-12-plans-weather-celebrations.json"
+        })
+            await learningImporter.ImportAsync($"Content/Learning/German/A1/{package}");
         await SeedLearningExtensionsAsync();
         await db.SaveChangesAsync();
         await SeedCitiesAsync();

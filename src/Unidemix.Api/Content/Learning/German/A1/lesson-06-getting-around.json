@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-06",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 6,
+  "courseSlug": "german-starter",
+  "title": "Getting Around",
+  "localizedTitle": "رفت‌وآمد در شهر",
+  "description": "در این درس مسیر می‌پرسی، راه ساده‌ای را توضیح می‌دهی و اطلاعات اصلی قطار، سکو و زمان حرکت را می‌فهمی.",
+  "estimatedDurationMinutes": 125,
+  "status": "production",
+  "mainSituation": "Reaching a destination by public transport",
+  "canDoObjectives": [
+    "Ask for and give simple directions.",
+    "Understand basic transport times, platforms, and destinations."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «رفت‌وآمد در شهر» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Reaching a destination by public transport. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mina: Entschuldigung, wie komme ich zum Bahnhof?\nPassant: Gehen Sie geradeaus und dann links.\nMina: Ist es weit?\nPassant: Nein. Der Bahnhof ist neben der Post.\nMina: Vielen Dank!\nPassant: Gern geschehen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Wie komme ich zu ...? = چطور به ... برسم؟\nGehen Sie geradeaus. = مستقیم بروید.\nSteigen Sie am Markt aus. = در ایستگاه بازار پیاده شوید.\nDer Zug fährt um ... = قطار ساعت ... حرکت می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای پرسیدن مسیر ایستگاه کدام درست است؟",
+      "correctAnswer": "Wie komme ich zum Bahnhof?",
+      "options": [
+        "Was kostet der Bahnhof?",
+        "Wie komme ich zum Bahnhof?",
+        "Wer ist der Bahnhof?"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Ansage: Der Regionalzug nach Bonn fährt heute um 14 Uhr 20 von Gleis 6.\nBitte steigen Sie in Köln um.\nDer Zug hat fünf Minuten Verspätung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "اعلان دربارهٔ کدام وسیله است؟",
+      "correctAnswer": "قطار",
+      "options": [
+        "اتوبوس",
+        "قطار",
+        "تاکسی"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "قطار از کدام سکو حرکت می‌کند؟",
+      "correctAnswer": "Gleis 6",
+      "options": [
+        "Gleis 4",
+        "Gleis 5",
+        "Gleis 6"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "BUS 12\nHauptbahnhof 09:10\nMarkt 09:16\nMuseum 09:22\nUniversität 09:30",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "اتوبوس چه ساعتی به موزه می‌رسد؟",
+      "correctAnswer": "09:22",
+      "options": [
+        "09:10",
+        "09:22",
+        "09:30"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای مکان ثابت، عبارت‌های پرکاربرد را به‌صورت chunk یاد بگیر:\nbei der Bank · neben dem Café · am Bahnhof\nبرای راهنمایی مؤدبانه از Imperativ با Sie استفاده می‌کنیم: Gehen Sie ... / Nehmen Sie ... / Steigen Sie ... aus. در این درس نظام کامل Wechselpräpositionen تدریس نمی‌شود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "دستور مؤدبانهٔ درست چیست؟",
+      "correctAnswer": "Gehen Sie links.",
+      "options": [
+        "Sie gehen links?",
+        "Gehen Sie links.",
+        "Geht Sie links."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ درست کدام است؟",
+      "correctAnswer": "Die Post ist neben der Bank.",
+      "options": [
+        "Die Post ist neben die Bank.",
+        "Die Post ist neben der Bank.",
+        "Die Post neben Bank ist der."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nGehen Sie geradeaus. An der Ampel gehen Sie rechts. Die Bibliothek ist neben dem Café.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "مسیر را توضیح بده: Bahnhof → geradeaus → zweite Straße links → Hotel neben der Bank.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "مسیر یک مکان آشنا از خانه یا ایستگاه را با سه دستور ساده توضیح بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHallo Sara, fahr mit Bus 12 bis Markt. Steig dort aus und geh geradeaus. Das Café ist neben der Apotheke.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "در یک پیام کوتاه مسیر رسیدن به محل ملاقات را بنویس. وسیله، ایستگاه پیاده‌شدن و دو مرحلهٔ مسیر را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک مسافر را از ایستگاه تا محل ملاقات راهنمایی کن: زمان و سکو را از جدول پیدا کن، وسیله را بگو و مسیر کوتاه بده.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "دستور مؤدبانهٔ درست؟",
+      "correctAnswer": "Gehen Sie geradeaus.",
+      "options": [
+        "Sie geradeaus gehen.",
+        "Gehen Sie geradeaus.",
+        "Geht Sie geradeaus."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Gleis یعنی چه؟",
+      "correctAnswer": "سکوی قطار",
+      "options": [
+        "خیابان",
+        "سکوی قطار",
+        "بلیت"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Bus: Markt 09:16. زمان بازار؟",
+      "correctAnswer": "09:16",
+      "options": [
+        "09:10",
+        "09:16",
+        "09:30"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Die Bank ist neben ___ Café.",
+      "correctAnswer": "dem",
+      "options": [
+        "das",
+        "dem",
+        "den"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای پرسیدن مسیر چه می‌گوییم؟",
+      "correctAnswer": "Wie komme ich zu ...?",
+      "options": [
+        "Was kostet ...?",
+        "Wie komme ich zu ...?",
+        "Wer ist das?"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Zug nach Bonn, Gleis 4. مقصد؟",
+      "correctAnswer": "Bonn",
+      "options": [
+        "Köln",
+        "Bonn",
+        "Berlin"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "دستور پیاده‌شدن کدام است؟",
+      "correctAnswer": "Steigen Sie aus.",
+      "options": [
+        "Steigen Sie aus.",
+        "Sie aussteigen.",
+        "Aus Sie steigen."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "umsteigen یعنی چه؟",
+      "correctAnswer": "خط عوض‌کردن",
+      "options": [
+        "منتظرماندن",
+        "خط عوض‌کردن",
+        "بلیت‌خریدن"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Full two-way preposition system",
+    "Relative clauses",
+    "Movement/location case contrast"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "der Bahnhof",
+      "type": "Word",
+      "meaning": "ایستگاه قطار",
+      "pronunciation": null,
+      "example": "Der Bahnhof ist im Zentrum.",
+      "exampleTranslation": "ایستگاه قطار در مرکز شهر است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "das Gleis",
+      "type": "Word",
+      "meaning": "سکوی قطار",
+      "pronunciation": null,
+      "example": "Der Zug fährt von Gleis 6.",
+      "exampleTranslation": "قطار از سکوی ۶ حرکت می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "der Bus",
+      "type": "Word",
+      "meaning": "اتوبوس",
+      "pronunciation": null,
+      "example": "Ich fahre mit dem Bus.",
+      "exampleTranslation": "با اتوبوس می‌روم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "aussteigen",
+      "type": "Word",
+      "meaning": "پیاده‌شدن",
+      "pronunciation": null,
+      "example": "Steigen Sie am Markt aus.",
+      "exampleTranslation": "در بازار پیاده شوید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "umsteigen",
+      "type": "Word",
+      "meaning": "خط عوض‌کردن",
+      "pronunciation": null,
+      "example": "Sie müssen in Köln umsteigen.",
+      "exampleTranslation": "باید در کلن خط عوض کنید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Wie komme ich zu ...?",
+      "type": "Chunk",
+      "meaning": "چطور به ... برسم؟",
+      "pronunciation": null,
+      "example": "Wie komme ich zum Museum?",
+      "exampleTranslation": "چطور به موزه برسم؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "geradeaus gehen",
+      "type": "Chunk",
+      "meaning": "مستقیم رفتن",
+      "pronunciation": null,
+      "example": "Gehen Sie geradeaus.",
+      "exampleTranslation": "مستقیم بروید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "links / rechts",
+      "type": "Chunk",
+      "meaning": "چپ / راست",
+      "pronunciation": null,
+      "example": "Dann gehen Sie rechts.",
+      "exampleTranslation": "سپس به راست بروید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "neben ...",
+      "type": "Chunk",
+      "meaning": "کنار ...",
+      "pronunciation": null,
+      "example": "Das Café ist neben der Post.",
+      "exampleTranslation": "کافه کنار ادارهٔ پست است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Der Zug fährt um ...",
+      "type": "Chunk",
+      "meaning": "قطار ساعت ... حرکت می‌کند.",
+      "pronunciation": null,
+      "example": "Der Zug fährt um zehn.",
+      "exampleTranslation": "قطار ساعت ده حرکت می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

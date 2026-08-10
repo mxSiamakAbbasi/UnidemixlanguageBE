@@ -301,14 +301,56 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
 
         var courses = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/courses"));
         var a1Core = courses.RootElement.EnumerateArray().First(x => x.GetProperty("level").GetString() == "A1" && x.GetProperty("kind").GetString() == "Core");
-        var lessonId = a1Core.GetProperty("lessons")[0].GetProperty("id").GetGuid();
+        var courseLessons = a1Core.GetProperty("lessons").EnumerateArray().ToArray();
+        Assert.Equal(12, courseLessons.Count(x => x.GetProperty("order").GetInt32() > 0));
+        Assert.Equal(Enumerable.Range(1, 12), courseLessons.Where(x => x.GetProperty("order").GetInt32() > 0).Select(x => x.GetProperty("order").GetInt32()).Order());
+        foreach (var lessonSummary in courseLessons.Where(x => x.GetProperty("order").GetInt32() > 1))
+        {
+            var imported = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonSummary.GetProperty("id").GetGuid()}"));
+            Assert.Equal(7, imported.RootElement.GetProperty("sections").GetArrayLength());
+            Assert.Equal(20, imported.RootElement.GetProperty("exercises").GetArrayLength());
+            Assert.Equal(8, imported.RootElement.GetProperty("questionBankCount").GetInt32());
+            Assert.Equal("script-ready-audio-deferred", imported.RootElement.GetProperty("audio").GetProperty("status").GetString());
+            Assert.Equal(2, imported.RootElement.GetProperty("learningContext").GetProperty("canDoObjectives").GetArrayLength());
+            var guided = imported.RootElement.GetProperty("exercises").EnumerateArray().ToArray();
+            Assert.True(
+                Array.FindIndex(guided, x => x.GetProperty("type").GetString() == "grammar-explanation") <
+                Array.FindIndex(guided, x => x.GetProperty("type").GetString() == "speaking"));
+        }
+        var foundationSummary = courseLessons.Single(x => x.GetProperty("order").GetInt32() == 0);
+        var foundationId = foundationSummary.GetProperty("id").GetGuid();
+        var foundation = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{foundationId}"));
+        Assert.Equal(7, foundation.RootElement.GetProperty("sections").GetArrayLength());
+        var foundationActivities = foundation.RootElement.GetProperty("exercises").EnumerateArray().ToArray();
+        Assert.True(foundationActivities.Length >= 9);
+        Assert.Contains(foundationActivities, x => x.GetProperty("sectionCode").GetString() == "final-practice");
+        Assert.Contains(foundationActivities, x => x.GetProperty("kind").GetString() == "Instruction");
+        Assert.Contains(foundationActivities, x => x.GetProperty("kind").GetString() == "Exercise");
+        Assert.Contains("الفبا", foundation.RootElement.GetProperty("title").GetString());
+
+        var lessonId = courseLessons.Single(x => x.GetProperty("order").GetInt32() == 1).GetProperty("id").GetGuid();
         var lesson = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}"));
         Assert.Equal(7, lesson.RootElement.GetProperty("sections").GetArrayLength());
+        Assert.Equal("script-ready-audio-deferred", lesson.RootElement.GetProperty("audio").GetProperty("status").GetString());
+        Assert.False(lesson.RootElement.GetProperty("audio").GetProperty("isProductionReady").GetBoolean());
+        Assert.Equal("A1", lesson.RootElement.GetProperty("learningContext").GetProperty("cefr").GetString());
+        Assert.True(lesson.RootElement.GetProperty("learningContext").GetProperty("knownVocabulary").GetArrayLength() > 0);
+        Assert.Equal(8, lesson.RootElement.GetProperty("questionBankCount").GetInt32());
         var activities = lesson.RootElement.GetProperty("exercises").EnumerateArray().ToArray();
-        Assert.True(activities.Length > 1);
+        Assert.True(activities.Length >= 20);
         Assert.All(activities, activity => Assert.False(string.IsNullOrWhiteSpace(activity.GetProperty("sectionCode").GetString())));
-        Assert.All(activities, activity => Assert.Equal("Exercise", activity.GetProperty("kind").GetString()));
+        Assert.Contains(activities, activity => activity.GetProperty("kind").GetString() == "Instruction");
+        Assert.Contains(activities, activity => activity.GetProperty("kind").GetString() == "Exercise");
+        Assert.All(activities.Where(activity => activity.GetProperty("kind").GetString() == "Instruction"),
+            activity => Assert.Equal(JsonValueKind.Null, activity.GetProperty("correctAnswer").ValueKind));
         Assert.True(activities.Select(activity => activity.GetProperty("sectionCode").GetString()).Distinct().Count() > 1);
+        var firstPractice = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}/practice-session?size=5&attempt=0"));
+        var retryPractice = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}/practice-session?size=5&attempt=1"));
+        Assert.Equal(8, firstPractice.RootElement.GetProperty("bankCount").GetInt32());
+        Assert.Equal(5, firstPractice.RootElement.GetProperty("items").GetArrayLength());
+        Assert.NotEqual(
+            firstPractice.RootElement.GetProperty("items")[0].GetProperty("id").GetGuid(),
+            retryPractice.RootElement.GetProperty("items")[0].GetProperty("id").GetGuid());
         (await demo.Client.PutAsJsonAsync($"/api/progress/lessons/{lessonId}/sections/grammar", new { percent = 100 })).EnsureSuccessStatusCode();
         var resumed = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonId}"));
         Assert.Contains(resumed.RootElement.GetProperty("sections").EnumerateArray(), x => x.GetProperty("code").GetString() == "grammar" && x.GetProperty("isCompleted").GetBoolean());
@@ -317,8 +359,10 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         {
             var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
             var before = await db.VocabularyItems.CountAsync();
+            var activitiesBefore = await db.Exercises.CountAsync();
             await scope.ServiceProvider.GetRequiredService<DatabaseSeeder>().SeedAsync();
             Assert.Equal(before, await db.VocabularyItems.CountAsync());
+            Assert.Equal(activitiesBefore, await db.Exercises.CountAsync());
         }
     }
 

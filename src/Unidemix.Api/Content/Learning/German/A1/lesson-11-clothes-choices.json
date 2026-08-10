@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-11",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 11,
+  "courseSlug": "german-starter",
+  "title": "People, Clothes, and Choices",
+  "localizedTitle": "آدم‌ها، لباس‌ها و انتخاب‌ها",
+  "description": "در این درس ظاهر و لباس افراد را توصیف می‌کنی، گزینه‌ها را مقایسه می‌کنی و قانون‌های سادهٔ یک موقعیت را می‌فهمی.",
+  "estimatedDurationMinutes": 115,
+  "status": "production",
+  "mainSituation": "Choosing clothing and identifying people at an event",
+  "canDoObjectives": [
+    "Describe and identify a person using simple features.",
+    "Compare familiar items and understand basic rules or requirements."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «آدم‌ها، لباس‌ها و انتخاب‌ها» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Choosing clothing and identifying people at an event. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Lara: Siehst du den Mann mit der blauen Jacke?\nOmid: Ja. Ist das Ben?\nLara: Nein, Ben trägt einen schwarzen Mantel.\nOmid: Ach ja. Seine Jacke ist heller.\nLara: Genau. Und hier muss man eine Karte tragen.\nOmid: Gut, ich habe meine Karte.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Er trägt ... = او ... پوشیده است.\nDas ist größer als ... = این بزرگ‌تر از ... است.\nHier darf man ... = اینجا اجازه داریم ...\nHier muss man ... = اینجا باید ...",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای توصیف لباس یک مرد کدام درست است؟",
+      "correctAnswer": "Er trägt eine Jacke.",
+      "options": [
+        "Er trägt eine Jacke.",
+        "Er ist eine Jacke.",
+        "Er hat trägt Jacke."
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Achtung: Im Labor müssen alle Besucher eine Schutzjacke tragen.\nMan darf hier nicht essen oder trinken.\nFotografieren ist erlaubt.\nKinder dürfen nur mit Erwachsenen hinein.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "این اعلان دربارهٔ چیست؟",
+      "correctAnswer": "قوانین ورود",
+      "options": [
+        "قیمت لباس",
+        "قوانین ورود",
+        "برنامهٔ قطار"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام کار مجاز است؟",
+      "correctAnswer": "Fotografieren",
+      "options": [
+        "Essen",
+        "Trinken",
+        "Fotografieren"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "REGELN IM KULTURHAUS\nMan muss eine Eintrittskarte zeigen.\nMan darf Wasser mitbringen.\nMan darf nicht rauchen.\nGroße Taschen müssen an der Garderobe bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "چه چیزی باید نشان داده شود؟",
+      "correctAnswer": "eine Eintrittskarte",
+      "options": [
+        "ein Pass",
+        "eine Eintrittskarte",
+        "eine Jacke"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "مقایسه در الگوی ساده با -er + als ساخته می‌شود: groß → größer als، klein → kleiner als. چند شکل پرکاربرد نامنظم‌اند: gut → besser.\ndürfen اجازه و müssen الزام را بیان می‌کنند. ضمیر Akkusativ را محدود و کاربردی مرور می‌کنیم: Ich sehe ihn / sie.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "مقایسهٔ درست؟",
+      "correctAnswer": "Die Jacke ist wärmer als der Pullover.",
+      "options": [
+        "Die Jacke ist warm als der Pullover.",
+        "Die Jacke ist wärmer als der Pullover.",
+        "Die Jacke wärmer der Pullover."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله الزام را بیان می‌کند؟",
+      "correctAnswer": "Man muss eine Karte zeigen.",
+      "options": [
+        "Man darf eine Karte zeigen.",
+        "Man muss eine Karte zeigen.",
+        "Man möchte eine Karte."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nMina trägt ein rotes Kleid und schwarze Schuhe. Der blaue Mantel ist wärmer als die Jacke.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو گزینه را مقایسه کن: Jacke A 40 € / leicht · Jacke B 70 € / warm. سپس یکی را پیشنهاد بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "لباس یا ظاهر دو فرد فرضی را توصیف کن و یک تفاوت ساده با größer، kleiner، heller یا dunkler بگو.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIch empfehle die blaue Jacke. Sie ist leichter und günstiger als der Mantel. Für die Veranstaltung muss man eine Karte tragen.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک توصیف یا پیشنهاد ۴ تا ۶ جمله‌ای بنویس. رنگ و لباس را بگو، دو گزینه را مقایسه کن و یک قانون را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "برای یک رویداد لباس مناسب پیشنهاد بده، دو گزینه را مقایسه کن، فرد موردنظر را توصیف کن و دو قانون محل را توضیح بده.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "groß → ?",
+      "correctAnswer": "größer",
+      "options": [
+        "großer",
+        "größer",
+        "am groß"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Er trägt ... یعنی؟",
+      "correctAnswer": "او ... پوشیده است.",
+      "options": [
+        "او ... می‌خرد.",
+        "او ... پوشیده است.",
+        "او ... می‌فروشد."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Regel: Karte zeigen. چه لازم است؟",
+      "correctAnswer": "eine Karte",
+      "options": [
+        "eine Karte",
+        "ein Mantel",
+        "ein Foto"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "الزام با کدام فعل؟",
+      "correctAnswer": "müssen",
+      "options": [
+        "dürfen",
+        "müssen",
+        "mögen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ممنوع به آلمانی؟",
+      "correctAnswer": "verboten",
+      "options": [
+        "erlaubt",
+        "verboten",
+        "günstig"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Wasser erlaubt. چه چیزی مجاز؟",
+      "correctAnswer": "Wasser",
+      "options": [
+        "Essen",
+        "Wasser",
+        "Rauchen"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "جملهٔ درست؟",
+      "correctAnswer": "Der Mantel ist wärmer als die Jacke.",
+      "options": [
+        "Der Mantel ist warm als die Jacke.",
+        "Der Mantel ist wärmer als die Jacke.",
+        "Der Mantel wärmer die Jacke."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "متضاد heller چیست؟",
+      "correctAnswer": "dunkler",
+      "options": [
+        "kleiner",
+        "dunkler",
+        "besser"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Productive adjective declension",
+    "Relative clauses",
+    "Extended accusative pronoun use"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Jacke",
+      "type": "Word",
+      "meaning": "کاپشن / کت",
+      "pronunciation": null,
+      "example": "Er trägt eine blaue Jacke.",
+      "exampleTranslation": "او یک کت آبی پوشیده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Mantel",
+      "type": "Word",
+      "meaning": "پالتو",
+      "pronunciation": null,
+      "example": "Der Mantel ist warm.",
+      "exampleTranslation": "پالتو گرم است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "das Kleid",
+      "type": "Word",
+      "meaning": "پیراهن زنانه",
+      "pronunciation": null,
+      "example": "Sie trägt ein rotes Kleid.",
+      "exampleTranslation": "او یک پیراهن قرمز پوشیده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Schuhe",
+      "type": "Word",
+      "meaning": "کفش‌ها",
+      "pronunciation": null,
+      "example": "Die Schuhe sind schwarz.",
+      "exampleTranslation": "کفش‌ها مشکی‌اند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Er/Sie trägt ...",
+      "type": "Chunk",
+      "meaning": "او ... پوشیده است.",
+      "pronunciation": null,
+      "example": "Sie trägt einen Mantel.",
+      "exampleTranslation": "او یک پالتو پوشیده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "größer als",
+      "type": "Chunk",
+      "meaning": "بزرگ‌تر از",
+      "pronunciation": null,
+      "example": "Der Mantel ist größer als die Jacke.",
+      "exampleTranslation": "پالتو بزرگ‌تر از کت است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "besser als",
+      "type": "Chunk",
+      "meaning": "بهتر از",
+      "pronunciation": null,
+      "example": "Diese Jacke ist besser als die andere.",
+      "exampleTranslation": "این کت بهتر از دیگری است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Hier darf man ...",
+      "type": "Chunk",
+      "meaning": "اینجا اجازه داریم ...",
+      "pronunciation": null,
+      "example": "Hier darf man fotografieren.",
+      "exampleTranslation": "اینجا اجازهٔ عکاسی داریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "Hier muss man ...",
+      "type": "Chunk",
+      "meaning": "اینجا باید ...",
+      "pronunciation": null,
+      "example": "Hier muss man eine Karte zeigen.",
+      "exampleTranslation": "اینجا باید کارت نشان داد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "verboten",
+      "type": "Word",
+      "meaning": "ممنوع",
+      "pronunciation": null,
+      "example": "Rauchen ist verboten.",
+      "exampleTranslation": "سیگارکشیدن ممنوع است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

@@ -40,6 +40,11 @@ public sealed class Lesson
     public required string Category { get; set; }
     public string? SectionTitle { get; set; }
     public string? SectionOrderJson { get; set; }
+    public string? CanDoObjectivesJson { get; set; }
+    public string? DeferredGrammarJson { get; set; }
+    public string AudioStatus { get; set; } = "not-configured";
+    public string? AudioAssetUrl { get; set; }
+    public int? AudioScriptExerciseOrder { get; set; }
     public int Order { get; set; }
     public int DurationMinutes { get; set; }
     public int XpReward { get; set; }
@@ -74,6 +79,8 @@ public sealed class Exercise
     public string? OptionsJson { get; set; }
     public string? Explanation { get; set; }
     public int Order { get; set; }
+    public bool IsQuestionBankItem { get; set; }
+    public string? QuestionSkill { get; set; }
 }
 
 public sealed class LessonProgress

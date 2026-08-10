@@ -47,8 +47,9 @@ public sealed class CoursesController(AppDbContext db) : ControllerBase
     public async Task<IActionResult> GetLesson(Guid lessonId)
     {
         var userId = CurrentUserId();
-        var lesson = await db.Lessons.AsNoTracking().Include(x => x.Exercises).SingleOrDefaultAsync(x => x.Id == lessonId);
+        var lesson = await db.Lessons.AsNoTracking().Include(x => x.Course).Include(x => x.Exercises).SingleOrDefaultAsync(x => x.Id == lessonId);
         if (lesson is null) return NotFound();
+        var vocabulary = await db.VocabularyItems.AsNoTracking().Where(x => x.LessonId == lessonId).OrderBy(x => x.Order).ToListAsync();
         var order = lesson.SectionOrderJson is null
             ? new[] { "vocabulary", "listening", "speaking", "reading", "writing", "grammar", "final-practice" }
             : JsonSerializer.Deserialize<string[]>(lesson.SectionOrderJson) ?? [];
@@ -57,15 +58,63 @@ public sealed class CoursesController(AppDbContext db) : ControllerBase
         return Ok(new
         {
             lesson.Id, lesson.CourseId, lesson.Title, lesson.Description, lesson.Category, lesson.SectionTitle, lesson.DurationMinutes, lesson.XpReward, lesson.Icon,
+            Audio = new
+            {
+                Status = lesson.AudioStatus,
+                AssetUrl = lesson.AudioAssetUrl,
+                ScriptExerciseId = lesson.AudioScriptExerciseOrder is null ? (Guid?)null : lesson.Exercises.FirstOrDefault(x => x.Order == lesson.AudioScriptExerciseOrder)?.Id,
+                IsProductionReady = lesson.AudioStatus == "ready" && !string.IsNullOrWhiteSpace(lesson.AudioAssetUrl)
+            },
+            QuestionBankCount = lesson.Exercises.Count(x => x.IsQuestionBankItem),
+            LearningContext = new
+            {
+                Language = lesson.Course.LanguageCode,
+                Cefr = lesson.Course.Level,
+                Course = lesson.Course.Title,
+                LessonId = lesson.Id,
+                LessonTitle = lesson.Title,
+                CanDoObjectives = lesson.CanDoObjectivesJson is null ? [] : JsonSerializer.Deserialize<string[]>(lesson.CanDoObjectivesJson) ?? [],
+                KnownVocabulary = vocabulary.Where(x => !string.Equals(x.ContentType, "Chunk", StringComparison.OrdinalIgnoreCase)).Select(x => x.Term),
+                KnownChunks = vocabulary.Where(x => string.Equals(x.ContentType, "Chunk", StringComparison.OrdinalIgnoreCase)).Select(x => x.Term),
+                KnownGrammar = lesson.Exercises.Where(x => !x.IsQuestionBankItem && x.SectionCode == "grammar" && x.Kind == "Instruction").OrderBy(x => x.Order).Select(x => x.Prompt),
+                DeferredGrammar = lesson.DeferredGrammarJson is null ? [] : JsonSerializer.Deserialize<string[]>(lesson.DeferredGrammarJson) ?? []
+            },
             Sections = order.Select((code, index) => new
             {
                 Code = code, Order = index + 1,
                 Percent = sectionProgress.TryGetValue(code, out var progress) ? progress.Percent : 0,
                 IsCompleted = sectionProgress.TryGetValue(code, out var completed) && completed.IsCompleted
             }),
-            Exercises = lesson.Exercises.OrderBy(e => e.Order).Select(e => new
+            Exercises = lesson.Exercises.Where(e => !e.IsQuestionBankItem).OrderBy(e => e.Order).Select(e => new
             {
                 e.Id, e.Type, e.Kind, e.SectionCode, e.Prompt, e.CorrectAnswer,
+                Options = e.OptionsJson == null ? null : JsonSerializer.Deserialize<string[]>(e.OptionsJson),
+                e.Explanation, e.Order
+            })
+        });
+    }
+
+    [HttpGet("lessons/{lessonId:guid}/practice-session")]
+    public async Task<IActionResult> GetPracticeSession(Guid lessonId, [FromQuery] int size = 5, [FromQuery] int attempt = 0)
+    {
+        if (size is < 3 or > 20 || attempt < 0) return BadRequest();
+        if (!await db.Lessons.AsNoTracking().AnyAsync(x => x.Id == lessonId)) return NotFound();
+        var bank = await db.Exercises.AsNoTracking()
+            .Where(x => x.LessonId == lessonId && x.IsQuestionBankItem)
+            .OrderBy(x => x.Order)
+            .ToListAsync();
+        if (bank.Count == 0) return Ok(new { BankCount = 0, Attempt = attempt, Items = Array.Empty<object>() });
+
+        var take = Math.Min(size, bank.Count);
+        var start = bank.Count > take ? (attempt * take) % bank.Count : 0;
+        var selected = Enumerable.Range(0, take).Select(index => bank[(start + index) % bank.Count]).ToList();
+        return Ok(new
+        {
+            BankCount = bank.Count,
+            Attempt = attempt,
+            Items = selected.Select(e => new
+            {
+                e.Id, e.Type, e.Kind, e.SectionCode, e.QuestionSkill, e.Prompt, e.CorrectAnswer,
                 Options = e.OptionsJson == null ? null : JsonSerializer.Deserialize<string[]>(e.OptionsJson),
                 e.Explanation, e.Order
             })

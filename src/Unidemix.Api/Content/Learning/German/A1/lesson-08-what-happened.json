@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-08",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 8,
+  "courseSlug": "german-starter",
+  "title": "What Happened?",
+  "localizedTitle": "چه اتفاقی افتاد؟",
+  "description": "در این درس چند اتفاق آشنای گذشته را با Perfekt تعریف می‌کنی و دربارهٔ تجربهٔ طرف مقابل سؤال‌های ساده می‌پرسی.",
+  "estimatedDurationMinutes": 125,
+  "status": "production",
+  "mainSituation": "Talking about a weekend or celebration",
+  "canDoObjectives": [
+    "Report a small set of completed past events.",
+    "Ask simple follow-up questions about an experience."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «چه اتفاقی افتاد؟» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Talking about a weekend or celebration. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Lina: Was hast du am Wochenende gemacht?\nSam: Ich habe Freunde besucht und wir haben zusammen gekocht.\nLina: Bist du auch in die Stadt gefahren?\nSam: Ja, am Sonntag bin ich mit dem Bus ins Zentrum gefahren.\nLina: Wie war es?\nSam: Sehr schön, aber ein bisschen kalt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Was hast du gemacht? = چه کار کردی؟\nIch habe ... besucht. = ... را دیدم.\nIch bin ... gefahren. = ... رفتم.\nEs war schön. = خوب بود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای پرسیدن فعالیت آخر هفته کدام درست است؟",
+      "correctAnswer": "Was hast du gemacht?",
+      "options": [
+        "Was machst du morgen?",
+        "Was hast du gemacht?",
+        "Wo machst du?"
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Am Samstag hat Daria lange geschlafen.\nDann hat sie ihre Schwester besucht.\nAm Abend haben sie einen Film gesehen.\nAm Sonntag ist Daria nach Potsdam gefahren und hat dort Kaffee getrunken.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "داریا دربارهٔ چه زمانی صحبت می‌کند؟",
+      "correctAnswer": "آخر هفتهٔ گذشته",
+      "options": [
+        "برنامهٔ فردا",
+        "آخر هفتهٔ گذشته",
+        "یک روز کاری معمولی"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "داریا یکشنبه کجا رفت؟",
+      "correctAnswer": "nach Potsdam",
+      "options": [
+        "nach Berlin",
+        "nach Potsdam",
+        "nach Wien"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "Hallo Amir,\nam Wochenende war ich in Leipzig. Ich bin am Samstag mit dem Zug gefahren. Dort habe ich meine Cousine besucht. Wir haben Musik gehört und Pizza gegessen. Am Sonntag bin ich zurückgekommen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "نویسنده چه کسی را دید؟",
+      "correctAnswer": "seine Cousine",
+      "options": [
+        "seinen Bruder",
+        "seine Cousine",
+        "seinen Lehrer"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Perfekt معمولاً با haben یا sein و Partizip II ساخته می‌شود:\nIch habe gekocht. · Wir haben Musik gehört.\nبرای حرکت و تغییر مکانِ چند فعل پرکاربرد از sein استفاده می‌کنیم: Ich bin gefahren. · Sie ist gekommen. فعلاً همین فعل‌های پرتکرار را به‌صورت کنترل‌شده یاد بگیر.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "گزینهٔ درست: Ich ___ nach Bonn gefahren.",
+      "correctAnswer": "bin",
+      "options": [
+        "habe",
+        "bin",
+        "ist"
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ درست کدام است؟",
+      "correctAnswer": "Wir haben Pizza gegessen.",
+      "options": [
+        "Wir sind Pizza gegessen.",
+        "Wir haben Pizza gegessen.",
+        "Wir Pizza haben gegessen."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nAm Samstag habe ich gearbeitet. Danach habe ich Freunde getroffen. Am Sonntag bin ich spazieren gegangen. Es war schön.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "این رویدادها را با Perfekt تعریف کن: Samstag Freunde besuchen · zusammen kochen · Sonntag nach Köln fahren.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "سه اتفاق واقعی یا فرضی از آخر هفته یا یک جشن را تعریف کن و در پایان بگو تجربه چطور بود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nAm Samstag habe ich Freunde getroffen. Wir haben zusammen gekocht. Am Sonntag bin ich im Park spazieren gegangen. Das Wochenende war ruhig und schön.\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک پیام ۴ تا ۶ جمله‌ای دربارهٔ آخر هفته یا یک رویداد بنویس. دست‌کم دو فعل با haben و یک فعل حرکت با sein استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک داستان کوتاه آخر هفته تعریف کن: سه اتفاق را به‌ترتیب بگو، احساس کلی را بیان کن و به دو پرسش پیگیری پاسخ بده.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich ___ Freunde besucht.",
+      "correctAnswer": "habe",
+      "options": [
+        "bin",
+        "habe",
+        "ist"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Was hast du gemacht? چیست؟",
+      "correctAnswer": "چه کار کردی؟",
+      "options": [
+        "چه کار می‌کنی؟",
+        "چه کار کردی؟",
+        "کجا می‌روی؟"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Text: Ich bin nach Leipzig gefahren. مقصد؟",
+      "correctAnswer": "Leipzig",
+      "options": [
+        "Bonn",
+        "Leipzig",
+        "Wien"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Sie ___ nach Hause gegangen.",
+      "correctAnswer": "ist",
+      "options": [
+        "hat",
+        "ist",
+        "haben"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "«پس از آن» چیست؟",
+      "correctAnswer": "danach",
+      "options": [
+        "zuerst",
+        "danach",
+        "nie"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Wir haben Pizza gegessen. چه خوردند؟",
+      "correctAnswer": "Pizza",
+      "options": [
+        "Suppe",
+        "Pizza",
+        "Salat"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "جملهٔ درست؟",
+      "correctAnswer": "Wir haben Musik gehört.",
+      "options": [
+        "Wir sind Musik gehört.",
+        "Wir haben Musik gehört.",
+        "Wir Musik gehört haben."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "Es war schön. یعنی؟",
+      "correctAnswer": "خوب بود.",
+      "options": [
+        "گران بود.",
+        "خوب بود.",
+        "سرد است."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Narrative preterite beyond war and hatte",
+    "Complex event sequencing",
+    "Full participle formation system"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "das Wochenende",
+      "type": "Word",
+      "meaning": "آخر هفته",
+      "pronunciation": null,
+      "example": "Am Wochenende war ich in Köln.",
+      "exampleTranslation": "آخر هفته در کلن بودم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "besuchen",
+      "type": "Word",
+      "meaning": "دیدن / ملاقات‌کردن",
+      "pronunciation": null,
+      "example": "Ich habe Freunde besucht.",
+      "exampleTranslation": "دوستانم را دیدم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "treffen",
+      "type": "Word",
+      "meaning": "ملاقات‌کردن",
+      "pronunciation": null,
+      "example": "Wir haben Sara getroffen.",
+      "exampleTranslation": "سارا را دیدیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "fahren",
+      "type": "Word",
+      "meaning": "رفتن با وسیله",
+      "pronunciation": null,
+      "example": "Ich bin nach Bonn gefahren.",
+      "exampleTranslation": "به بن رفتم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Was hast du gemacht?",
+      "type": "Chunk",
+      "meaning": "چه کار کردی؟",
+      "pronunciation": null,
+      "example": "Was hast du gestern gemacht?",
+      "exampleTranslation": "دیروز چه کار کردی؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Ich habe ... gemacht.",
+      "type": "Chunk",
+      "meaning": "... انجام دادم.",
+      "pronunciation": null,
+      "example": "Ich habe Sport gemacht.",
+      "exampleTranslation": "ورزش کردم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Ich bin ... gefahren.",
+      "type": "Chunk",
+      "meaning": "... رفتم.",
+      "pronunciation": null,
+      "example": "Ich bin nach Köln gefahren.",
+      "exampleTranslation": "به کلن رفتم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Es war ...",
+      "type": "Chunk",
+      "meaning": "... بود.",
+      "pronunciation": null,
+      "example": "Es war sehr schön.",
+      "exampleTranslation": "خیلی خوب بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "danach",
+      "type": "Word",
+      "meaning": "پس از آن",
+      "pronunciation": null,
+      "example": "Danach haben wir gegessen.",
+      "exampleTranslation": "پس از آن غذا خوردیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "zurückkommen",
+      "type": "Word",
+      "meaning": "برگشتن",
+      "pronunciation": null,
+      "example": "Ich bin Sonntag zurückgekommen.",
+      "exampleTranslation": "یکشنبه برگشتم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

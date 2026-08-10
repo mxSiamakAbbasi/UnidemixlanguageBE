@@ -1,0 +1,508 @@
+{
+  "contentKey": "de-a1-core-lesson-04",
+  "language": "de",
+  "cefr": "A1",
+  "lessonNumber": 4,
+  "courseSlug": "german-starter",
+  "title": "Free Time and Making Plans",
+  "localizedTitle": "اوقات فراغت و قرار گذاشتن",
+  "description": "در این درس دربارهٔ سرگرمی‌ها و توانایی‌ها صحبت می‌کنی، پیشنهاد می‌دهی و زمان یک برنامهٔ مشترک را هماهنگ می‌کنی.",
+  "estimatedDurationMinutes": 115,
+  "status": "production",
+  "mainSituation": "Planning an activity with another person",
+  "canDoObjectives": [
+    "Talk about leisure activities and basic abilities.",
+    "Suggest, accept, decline, and arrange a time."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «اوقات فراغت و قرار گذاشتن» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت: Planning an activity with another person. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Nora: Hast du am Samstag Zeit?\nArman: Ja. Was möchtest du machen?\nNora: Wir können ins Kino gehen.\nArman: Gute Idee! Um wie viel Uhr?\nNora: Um sieben.\nArman: Das passt mir.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Hast du am Samstag Zeit? = شنبه وقت داری؟\nWir können ... = می‌توانیم ...\nDas passt mir. = برای من مناسب است.\nLeider kann ich nicht. = متأسفانه نمی‌توانم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "برای پذیرفتن زمان کدام عبارت مناسب است؟",
+      "correctAnswer": "Das passt mir.",
+      "options": [
+        "Das passt mir.",
+        "Ich komme aus.",
+        "Das kostet viel."
+      ],
+      "correctFeedback": "درست است؛ این عبارت با موقعیت درس هماهنگ است.",
+      "incorrectFeedback": "عبارت‌های نمونه را دوباره مرور کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "اکنون یک گفت‌وگو یا اعلان تازه را گوش کن. ابتدا فقط موضوع کلی را پیدا کن؛ متن تا بعد از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Mila: Kannst du am Freitag schwimmen?\nBen: Am Freitag leider nicht. Ich arbeite bis sechs.\nMila: Und am Sonntag um zehn?\nBen: Ja, Sonntag passt gut.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "میلا و بن برای چه فعالیتی برنامه می‌ریزند؟",
+      "correctAnswer": "شنا",
+      "options": [
+        "سینما",
+        "شنا",
+        "خرید"
+      ],
+      "correctFeedback": "درست است؛ موضوع اصلی را تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و به واژه‌های کلیدی توجه کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "چه زمانی برای بن مناسب است؟",
+      "correctAnswer": "Sonntag um zehn",
+      "options": [
+        "Freitag um sechs",
+        "Samstag um zehn",
+        "Sonntag um zehn"
+      ],
+      "correctFeedback": "درست است؛ جزئیات شنیداری را پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و روی عدد، زمان، نام یا واژهٔ هدف تمرکز کن."
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KULTURHAUS\nFreitag 19 Uhr: Filmabend\nSamstag 15 Uhr: Fotokurs\nSonntag 10 Uhr: Yoga\nEintritt frei.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کلاس عکاسی چه زمانی است؟",
+      "correctAnswer": "Samstag um 15 Uhr",
+      "options": [
+        "Freitag um 19 Uhr",
+        "Samstag um 15 Uhr",
+        "Sonntag um 10 Uhr"
+      ],
+      "correctFeedback": "درست است؛ اطلاعات متن را پیدا کردی.",
+      "incorrectFeedback": "متن را دوباره اسکن کن و به واژهٔ کلیدی توجه کن."
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "فعل modal können با فعل اصلی در پایان جمله می‌آید:\nIch kann gut kochen. · Wir können ins Kino gehen.\nبرای زمان از am + روز و um + ساعت استفاده می‌کنیم. فعل‌های جداشدنی مانند fernsehen در جمله جدا می‌شوند: Ich sehe heute fern.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "ترتیب درست کدام است؟",
+      "correctAnswer": "Wir können heute tanzen.",
+      "options": [
+        "Wir heute tanzen können.",
+        "Wir können heute tanzen.",
+        "Wir tanzen können heute."
+      ],
+      "correctFeedback": "درست است؛ الگوی گرامری را درست به کار بردی.",
+      "incorrectFeedback": "مثال‌های بخش آموزش را دوباره مقایسه کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ درست برای ساعت چیست؟",
+      "correctAnswer": "Wir treffen uns um sieben.",
+      "options": [
+        "Wir treffen uns am sieben.",
+        "Wir treffen uns um sieben.",
+        "Wir um treffen sieben."
+      ],
+      "correctFeedback": "درست است؛ فرم و معنا هر دو مناسب‌اند.",
+      "incorrectFeedback": "به معنای موقعیت و فرم جمله با هم توجه کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و با صدای بلند تکرار کن:\nIch spiele gern Fußball. Am Samstag kann ich nicht. Am Sonntag um drei habe ich Zeit. Passt das?",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با این اطلاعات یک قرار هماهنگ کن: Aktivität: Kaffee trinken · Tag: Dienstag · Uhrzeit: 17 Uhr.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک فعالیت واقعی یا فرضی پیشنهاد بده، روز و ساعت را بپرس و یک بار موافقت یا مخالفت مؤدبانه را تمرین کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تولید شخصی را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHallo Lea, hast du am Samstag Zeit? Wir können um 18 Uhr ins Kino gehen. Passt das? Liebe Grüße, Mina\n\nاز ساختار مدل کمک بگیر، اما اطلاعات و جمله‌های خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک دعوت یا پیام قرار کوتاه بنویس. فعالیت، روز، ساعت و یک پرسش برای تأیید را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن کوتاه را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "با یک دوست برای آخر هفته برنامه بریز: فعالیت پیشنهاد بده، توانایی یا علاقه را بگو، زمان را مذاکره کن و به توافق برس.\n\nمعیار موفقیت: پیام قابل‌فهم، استفاده از عبارت‌های کلیدی همین درس و انجام هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Wir ___ heute tanzen.",
+      "correctAnswer": "können",
+      "options": [
+        "kann",
+        "können",
+        "könnt"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی Das passt mir. چیست؟",
+      "correctAnswer": "برای من مناسب است.",
+      "options": [
+        "گران است.",
+        "برای من مناسب است.",
+        "وقت ندارم."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Yoga: Sonntag 10 Uhr. زمان چیست؟",
+      "correctAnswer": "Sonntag um 10 Uhr",
+      "options": [
+        "Samstag um 10 Uhr",
+        "Sonntag um 10 Uhr",
+        "Sonntag um 19 Uhr"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "Ich kann gut ___.",
+      "correctAnswer": "kochen",
+      "options": [
+        "koche",
+        "kochen",
+        "gekocht"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای پرسیدن وقت شنبه چه می‌گوییم؟",
+      "correctAnswer": "Hast du am Samstag Zeit?",
+      "options": [
+        "Hast du um Samstag Zeit?",
+        "Hast du am Samstag Zeit?",
+        "Kann Samstag du?"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "Filmabend Freitag 19 Uhr. رویداد چیست؟",
+      "correctAnswer": "Filmabend",
+      "options": [
+        "Fotokurs",
+        "Filmabend",
+        "Yoga"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "حرف اضافهٔ ساعت چیست؟",
+      "correctAnswer": "um",
+      "options": [
+        "am",
+        "um",
+        "im"
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "رد مؤدبانه کدام است؟",
+      "correctAnswer": "Leider kann ich nicht.",
+      "options": [
+        "Leider kann ich nicht.",
+        "Das ist mein Bruder.",
+        "Ich hätte gern Kaffee."
+      ],
+      "correctFeedback": "درست است.",
+      "incorrectFeedback": "پاسخ و مثال مرتبط در همین درس را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Subordinate clauses",
+    "Conditional forms",
+    "Extended separable verb patterns"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Freizeit",
+      "type": "Word",
+      "meaning": "اوقات فراغت",
+      "pronunciation": null,
+      "example": "In meiner Freizeit lese ich.",
+      "exampleTranslation": "در اوقات فراغتم کتاب می‌خوانم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "schwimmen",
+      "type": "Word",
+      "meaning": "شناکردن",
+      "pronunciation": null,
+      "example": "Ich kann gut schwimmen.",
+      "exampleTranslation": "من خوب شنا می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "ins Kino gehen",
+      "type": "Chunk",
+      "meaning": "به سینما رفتن",
+      "pronunciation": null,
+      "example": "Wir gehen ins Kino.",
+      "exampleTranslation": "ما به سینما می‌رویم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "Zeit haben",
+      "type": "Chunk",
+      "meaning": "وقت داشتن",
+      "pronunciation": null,
+      "example": "Hast du heute Zeit?",
+      "exampleTranslation": "امروز وقت داری؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Hast du am ... Zeit?",
+      "type": "Chunk",
+      "meaning": "روز ... وقت داری؟",
+      "pronunciation": null,
+      "example": "Hast du am Freitag Zeit?",
+      "exampleTranslation": "جمعه وقت داری؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Wir können ...",
+      "type": "Chunk",
+      "meaning": "می‌توانیم ...",
+      "pronunciation": null,
+      "example": "Wir können Kaffee trinken.",
+      "exampleTranslation": "می‌توانیم قهوه بنوشیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Das passt mir.",
+      "type": "Chunk",
+      "meaning": "برای من مناسب است.",
+      "pronunciation": null,
+      "example": "Um acht? Das passt mir.",
+      "exampleTranslation": "ساعت هشت؟ برایم مناسب است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Leider kann ich nicht.",
+      "type": "Chunk",
+      "meaning": "متأسفانه نمی‌توانم.",
+      "pronunciation": null,
+      "example": "Heute kann ich leider nicht.",
+      "exampleTranslation": "امروز متأسفانه نمی‌توانم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-09",
+      "target": "um sieben Uhr",
+      "type": "Chunk",
+      "meaning": "ساعت هفت",
+      "pronunciation": null,
+      "example": "Der Film beginnt um sieben Uhr.",
+      "exampleTranslation": "فیلم ساعت هفت شروع می‌شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "am Wochenende",
+      "type": "Chunk",
+      "meaning": "آخر هفته",
+      "pronunciation": null,
+      "example": "Am Wochenende spiele ich Fußball.",
+      "exampleTranslation": "آخر هفته فوتبال بازی می‌کنم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}
