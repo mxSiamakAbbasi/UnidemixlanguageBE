@@ -9,10 +9,10 @@
   "description": "در این درس دربارهٔ سرگرمی‌ها و توانایی‌ها صحبت می‌کنی، پیشنهاد می‌دهی و زمان یک برنامهٔ مشترک را هماهنگ می‌کنی.",
   "estimatedDurationMinutes": 115,
   "status": "production",
-  "mainSituation": "Planning an activity with another person",
+  "mainSituation": "برنامه‌ریزی یک فعالیت مشترک با فردی دیگر",
   "canDoObjectives": [
-    "Talk about leisure activities and basic abilities.",
-    "Suggest, accept, decline, and arrange a time."
+    "دربارهٔ فعالیت‌های اوقات فراغت و توانایی‌های ساده صحبت کنی.",
+    "پیشنهاد بدهی، پیشنهادی را بپذیری یا رد کنی و برای آن زمان تعیین کنی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «اوقات فراغت و قرار گذاشتن» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Planning an activity with another person. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس دربارهٔ سرگرمی‌ها و توانایی‌ها صحبت می‌کنی، پیشنهاد می‌دهی و زمان یک برنامهٔ مشترک را هماهنگ می‌کنی.\n\n• دربارهٔ فعالیت‌های اوقات فراغت و توانایی‌های ساده صحبت کنی.\n• پیشنهاد بدهی، پیشنهادی را بپذیری یا رد کنی و برای آن زمان تعیین کنی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-07",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 7,
+  "courseSlug": "german-b1-core",
+  "title": "Health Information and Presentations",
+  "localizedTitle": "اطلاعات سلامت و ارائه",
+  "description": "یک ارائهٔ کوتاه و منظم دربارهٔ سلامت انجام می‌دهی و به پرسش‌ها پاسخ می‌دهی.",
+  "estimatedDurationMinutes": 180,
+  "status": "production",
+  "mainSituation": "ارائهٔ برنامهٔ سلامت در محیط کار یا کلاس",
+  "canDoObjectives": [
+    "دربارهٔ موضوعی آشنا در سلامت، ارائه‌ای کوتاه و منظم انجام بدهی.",
+    "توصیه‌ها و داده‌های ساده را مقایسه کنی و به پرسش‌ها پاسخ بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «اطلاعات سلامت و ارائه» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: ارائهٔ برنامهٔ سلامت در محیط کار یا کلاس. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Moderator: Welches Programm empfehlen Sie?\nReferentin: Im Vergleich zum bisherigen Angebot ist das neue Programm flexibler. Der wichtigste Vorteil besteht darin, dass kurze Einheiten in den Arbeitstag passen.\nTeilnehmer: Gibt es auch ein günstigeres Angebot?\nReferentin: Ja. Eine digitale Variante ist preiswerter, bietet aber weniger persönliche Betreuung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "im Vergleich zu = در مقایسه با\nIm Vergleich zum alten Plan ist dieser flexibler. = در مقایسه با برنامهٔ قبلی، این منعطف‌تر است.\n\nDer wichtigste Vorteil ... = مهم‌ترین مزیت...\nDer wichtigste Vorteil ist die Flexibilität. = مهم‌ترین مزیت انعطاف‌پذیری است.\n\nEin Vorteil besteht darin, dass ... = یک مزیت این است که...\nEin Vorteil besteht darin, dass alle teilnehmen können. = یک مزیت این است که همه می‌توانند شرکت کنند.\n\nzusammenfassend = در جمع‌بندی\nZusammenfassend empfehle ich kurze Pausen. = در جمع‌بندی، وقفه‌های کوتاه را توصیه می‌کنم.\n\ndie Bewegungspause = وقفهٔ حرکتی\nWir machen eine kurze Bewegungspause. = یک وقفهٔ حرکتی کوتاه داریم.\n\nausgewogene Ernährung = تغذیهٔ متعادل\nAusgewogene Ernährung unterstützt das Wohlbefinden. = تغذیهٔ متعادل به سلامت کمک می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "im Vergleich zu",
+      "options": [
+        "im Vergleich zu",
+        "Der wichtigste Vorteil ...",
+        "Ein Vorteil besteht darin, dass ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer dreiminütigen Präsentation stellt eine Trainerin ein Bewegungsprogramm vor. Zunächst erklärt sie, dass viele Beschäftigte zu lange sitzen. Danach vergleicht sie zwei Angebote. Das kürzere Programm ist leichter in den Alltag zu integrieren, während das längere eine persönlichere Betreuung bietet. Zusammenfassend empfiehlt sie eine Kombination aus täglichen kurzen Pausen und zwei längeren Einheiten pro Woche.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "GESUND IM ARBEITSALLTAG\nEin Unternehmen testete drei Programme. Das günstigste bestand nur aus einer App, wurde aber selten langfristig genutzt. Das erfolgreichste Programm kombinierte kurze Bewegungspausen mit persönlichen Terminen. Nach acht Wochen berichteten mehr Teilnehmende über weniger Rückenschmerzen. Die Ergebnisse beweisen keine allgemeine Wirkung, zeigen aber einen praktikablen Weg.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «دربارهٔ موضوعی آشنا در سلامت، ارائه‌ای کوتاه و منظم انجام بدهی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در مقایسه و صفت عالی همراه اسم، پایان صفت به حرف تعریف و حالت وابسته است: ein gesünderes Frühstück، der wichtigste Vorteil، mit dem besseren Programm. برای ارائه از نشانه‌های ساختاری استفاده می‌کنیم: Zunächst ...، Ein weiterer Punkt ...، Zusammenfassend ... .",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nZunächst möchte ich das Problem beschreiben: Viele Menschen sitzen zu lange. Im Vergleich zu einer reinen App bietet ein kombiniertes Programm mehr persönliche Unterstützung. Der wichtigste Vorteil besteht darin, dass kurze Übungen leicht in den Alltag passen. Ein weiterer Punkt ist die regelmäßige Rückmeldung. Zusammenfassend empfehle ich tägliche Bewegungspausen und zwei betreute Termine pro Woche.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «ارائهٔ برنامهٔ سلامت در محیط کار یا کلاس» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «اطلاعات سلامت و ارائه» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nZunächst möchte ich das Problem beschreiben: Viele Menschen sitzen zu lange. Im Vergleich zu einer reinen App bietet ein kombiniertes Programm mehr persönliche Unterstützung. Der wichtigste Vorteil besteht darin, dass kurze Übungen leicht in den Alltag passen. Ein weiterer Punkt ist die regelmäßige Rückmeldung. Zusammenfassend empfehle ich tägliche Bewegungspausen und zwei betreute Termine pro Woche.\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک ارائهٔ سه‌دقیقه‌ای طراحی کن: مسئله، سه نکتهٔ مرتبط، مقایسهٔ دو توصیه، یک محدودیت داده و جمع‌بندی را ارائه بده و به دو پرسش پاسخ بده.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «im Vergleich zu» چیست؟",
+      "correctAnswer": "در مقایسه با",
+      "options": [
+        "در مقایسه با",
+        "مهم‌ترین مزیت...",
+        "یک مزیت این است که..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «اطلاعات سلامت و ارائه» مرتبط است؟",
+      "correctAnswer": "zusammenfassend",
+      "options": [
+        "zusammenfassend",
+        "die Bewegungspause",
+        "ausgewogene Ernährung"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «vorsichtig formulieren» چیست؟",
+      "correctAnswer": "محتاطانه بیان کردن",
+      "options": [
+        "محتاطانه بیان کردن",
+        "پشتیبانی و همراهی",
+        "به پرسش پاسخ دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Academic hedging",
+    "Nominalization"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "im Vergleich zu",
+      "type": "Chunk",
+      "meaning": "در مقایسه با",
+      "pronunciation": null,
+      "example": "Im Vergleich zum alten Plan ist dieser flexibler.",
+      "exampleTranslation": "در مقایسه با برنامهٔ قبلی، این منعطف‌تر است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Der wichtigste Vorteil ...",
+      "type": "Chunk",
+      "meaning": "مهم‌ترین مزیت...",
+      "pronunciation": null,
+      "example": "Der wichtigste Vorteil ist die Flexibilität.",
+      "exampleTranslation": "مهم‌ترین مزیت انعطاف‌پذیری است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "Ein Vorteil besteht darin, dass ...",
+      "type": "Chunk",
+      "meaning": "یک مزیت این است که...",
+      "pronunciation": null,
+      "example": "Ein Vorteil besteht darin, dass alle teilnehmen können.",
+      "exampleTranslation": "یک مزیت این است که همه می‌توانند شرکت کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "zusammenfassend",
+      "type": "Word",
+      "meaning": "در جمع‌بندی",
+      "pronunciation": null,
+      "example": "Zusammenfassend empfehle ich kurze Pausen.",
+      "exampleTranslation": "در جمع‌بندی، وقفه‌های کوتاه را توصیه می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "die Bewegungspause",
+      "type": "Chunk",
+      "meaning": "وقفهٔ حرکتی",
+      "pronunciation": null,
+      "example": "Wir machen eine kurze Bewegungspause.",
+      "exampleTranslation": "یک وقفهٔ حرکتی کوتاه داریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "ausgewogene Ernährung",
+      "type": "Chunk",
+      "meaning": "تغذیهٔ متعادل",
+      "pronunciation": null,
+      "example": "Ausgewogene Ernährung unterstützt das Wohlbefinden.",
+      "exampleTranslation": "تغذیهٔ متعادل به سلامت کمک می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "vorsichtig formulieren",
+      "type": "Chunk",
+      "meaning": "محتاطانه بیان کردن",
+      "pronunciation": null,
+      "example": "Er formuliert das Ergebnis vorsichtig.",
+      "exampleTranslation": "او نتیجه را محتاطانه بیان می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "die Betreuung",
+      "type": "Chunk",
+      "meaning": "پشتیبانی و همراهی",
+      "pronunciation": null,
+      "example": "Persönliche Betreuung motiviert viele Menschen.",
+      "exampleTranslation": "همراهی شخصی افراد زیادی را ترغیب می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine Frage beantworten",
+      "type": "Chunk",
+      "meaning": "به پرسش پاسخ دادن",
+      "pronunciation": null,
+      "example": "Die Referentin beantwortet zwei Fragen.",
+      "exampleTranslation": "ارائه‌دهنده به دو پرسش پاسخ می‌دهد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Ein weiterer Punkt ...",
+      "type": "Chunk",
+      "meaning": "نکتهٔ دیگر...",
+      "pronunciation": null,
+      "example": "Ein weiterer Punkt ist die regelmäßige Übung.",
+      "exampleTranslation": "نکتهٔ دیگر تمرین منظم است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

@@ -418,6 +418,62 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("Courses");
                 });
 
+            modelBuilder.Entity("Unidemix.Api.Models.ExamBlueprint", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Cefr")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("DefinitionJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ExamKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("ExamProgramId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ProviderCode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SourceReferencesJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("ValidFrom")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Variant")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Version")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamProgramId");
+
+                    b.HasIndex("ProviderCode", "ExamKey", "Variant", "Version")
+                        .IsUnique();
+
+                    b.ToTable("ExamBlueprints");
+                });
+
             modelBuilder.Entity("Unidemix.Api.Models.ExamLevelMapping", b =>
                 {
                     b.Property<Guid>("Id")
@@ -442,15 +498,74 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("ExamLevelMappings");
                 });
 
+            modelBuilder.Entity("Unidemix.Api.Models.ExamPracticeSession", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AnswersJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset?>("CompletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("CurrentItemIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ExamProgramId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("PartKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SectionKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SubmittedItemsJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamProgramId");
+
+                    b.HasIndex("UserId", "ExamProgramId", "SectionKey", "PartKey", "Status");
+
+                    b.ToTable("ExamPracticeSessions");
+                });
+
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("BlueprintJson")
+                        .HasColumnType("text");
+
                     b.Property<string>("Code")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("ContentVersion")
+                        .HasColumnType("integer");
 
                     b.Property<Guid>("ExamProviderId")
                         .HasColumnType("uuid");
@@ -458,13 +573,40 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("boolean");
 
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("Level")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("MockVariantsJson")
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<string>("PracticeBankJson")
+                        .HasColumnType("text");
+
+                    b.Property<int>("PreparationDurationMinutes")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ScoringJson")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SourceReference")
+                        .HasColumnType("text");
+
+                    b.Property<int>("SpeakingDurationMinutes")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("TimingJson")
+                        .HasColumnType("text");
+
+                    b.Property<int>("WrittenDurationMinutes")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -583,6 +725,306 @@ namespace Unidemix.Api.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Exercises");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.FollowRequest", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("RequesterId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset?>("RespondedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("TargetUserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TargetUserId");
+
+                    b.HasIndex("RequesterId", "TargetUserId")
+                        .IsUnique()
+                        .HasFilter("\"Status\" = 'Pending'");
+
+                    b.ToTable("FollowRequests");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GeneratedExamContent", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ContentJson")
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("ExamBlueprintId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Fingerprint")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Mode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ModelReference")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PartKey")
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset?>("ReadyAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("RejectionReason")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SectionKey")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ValidatorResultJson")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamBlueprintId");
+
+                    b.HasIndex("Fingerprint");
+
+                    b.HasIndex("UserId", "Status", "CreatedAt");
+
+                    b.ToTable("GeneratedExamContents");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarPracticeAnswer", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("AnsweredAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("CorrectAnswer")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("GrammarPracticeSessionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("GrammarTopicId")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("LearnerAnswer")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("QuestionId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GrammarTopicId");
+
+                    b.HasIndex("GrammarPracticeSessionId", "QuestionId")
+                        .IsUnique();
+
+                    b.ToTable("GrammarPracticeAnswers");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarPracticeSession", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CefrLevel")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("CompletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("CurrentQuestionIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("GrammarTopicId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("LanguageCode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Mode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("QuestionOptionOrderJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("SelectedQuestionIdsJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("StartedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GrammarTopicId");
+
+                    b.HasIndex("UserId", "Status", "UpdatedAt");
+
+                    b.ToTable("GrammarPracticeSessions");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarTopic", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CefrLevel")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentVersion")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ExerciseBlueprintJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ExercisesJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("LanguageCode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Progression")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("QualityStatus")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ReferenceJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("RelatedCoreLessonsJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleDe")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleFa")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContentKey")
+                        .IsUnique();
+
+                    b.HasIndex("LanguageCode", "CefrLevel", "Order")
+                        .IsUnique();
+
+                    b.ToTable("GrammarTopics");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarTopicProgress", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("CorrectAnswers")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("GrammarTopicId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("LastPracticedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("ReferenceViewedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("SessionsCompleted")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TotalAnswers")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GrammarTopicId");
+
+                    b.HasIndex("UserId", "GrammarTopicId")
+                        .IsUnique();
+
+                    b.ToTable("GrammarTopicProgress");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Language", b =>
@@ -790,6 +1232,63 @@ namespace Unidemix.Api.Data.Migrations
                     b.HasIndex("SenderId", "RecipientId", "Status");
 
                     b.ToTable("MessageRequests");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.MockExamAttempt", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AnswersJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("CurrentItemIndex")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ExamProgramId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ExecutionMode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset?>("ExpiresAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("GeneratedExamContentId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ResultJson")
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("StartedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset?>("SubmittedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("VariantKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ExamProgramId");
+
+                    b.HasIndex("GeneratedExamContentId");
+
+                    b.HasIndex("UserId", "ExamProgramId", "VariantKey", "Status");
+
+                    b.ToTable("MockExamAttempts");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Notification", b =>
@@ -1018,6 +1517,10 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("Privacy")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("ProfilePhotoStorageKey")
                         .HasColumnType("text");
 
@@ -1027,9 +1530,17 @@ namespace Unidemix.Api.Data.Migrations
                     b.Property<DateTimeOffset>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(24)
+                        .HasColumnType("character varying(24)");
+
                     b.HasKey("UserId");
 
                     b.HasIndex("CityId");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
 
                     b.ToTable("SocialProfiles");
                 });
@@ -1084,6 +1595,61 @@ namespace Unidemix.Api.Data.Migrations
                     b.ToTable("SubscriptionPlans");
                 });
 
+            modelBuilder.Entity("Unidemix.Api.Models.SupplementaryModule", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CefrLevel")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentKey")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ContentVersion")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("ItemsJson")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("LanguageCode")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ContentKey")
+                        .IsUnique();
+
+                    b.HasIndex("LanguageCode", "CefrLevel", "Category")
+                        .IsUnique();
+
+                    b.ToTable("SupplementaryModules");
+                });
+
             modelBuilder.Entity("Unidemix.Api.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -1104,13 +1670,25 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("ExamGoal")
+                        .HasColumnType("text");
+
                     b.Property<string>("Goal")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("GoalSubtype")
                         .HasColumnType("text");
 
                     b.Property<string>("LearningLanguage")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<bool>("LearningOnboardingCompleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("LearningPathGuideDismissed")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("Level")
                         .IsRequired()
@@ -1126,6 +1704,9 @@ namespace Unidemix.Api.Data.Migrations
 
                     b.Property<string>("Role")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("TargetLevel")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -1393,6 +1974,17 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Reporter");
                 });
 
+            modelBuilder.Entity("Unidemix.Api.Models.ExamBlueprint", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.ExamProgram", "Program")
+                        .WithMany("Blueprints")
+                        .HasForeignKey("ExamProgramId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Program");
+                });
+
             modelBuilder.Entity("Unidemix.Api.Models.ExamLevelMapping", b =>
                 {
                     b.HasOne("Unidemix.Api.Models.ExamProgram", "Program")
@@ -1402,6 +1994,25 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Program");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.ExamPracticeSession", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.ExamProgram", "Program")
+                        .WithMany()
+                        .HasForeignKey("ExamProgramId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Program");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
@@ -1435,6 +2046,100 @@ namespace Unidemix.Api.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Lesson");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.FollowRequest", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.User", "Requester")
+                        .WithMany()
+                        .HasForeignKey("RequesterId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.User", "TargetUser")
+                        .WithMany()
+                        .HasForeignKey("TargetUserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Requester");
+
+                    b.Navigation("TargetUser");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GeneratedExamContent", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.ExamBlueprint", "Blueprint")
+                        .WithMany("GeneratedContents")
+                        .HasForeignKey("ExamBlueprintId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blueprint");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarPracticeAnswer", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.GrammarPracticeSession", "Session")
+                        .WithMany("Answers")
+                        .HasForeignKey("GrammarPracticeSessionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.GrammarTopic", "GrammarTopic")
+                        .WithMany()
+                        .HasForeignKey("GrammarTopicId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("GrammarTopic");
+
+                    b.Navigation("Session");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarPracticeSession", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.GrammarTopic", "GrammarTopic")
+                        .WithMany()
+                        .HasForeignKey("GrammarTopicId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("Unidemix.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GrammarTopic");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarTopicProgress", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.GrammarTopic", "GrammarTopic")
+                        .WithMany()
+                        .HasForeignKey("GrammarTopicId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GrammarTopic");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Lesson", b =>
@@ -1503,6 +2208,32 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Recipient");
 
                     b.Navigation("Sender");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.MockExamAttempt", b =>
+                {
+                    b.HasOne("Unidemix.Api.Models.ExamProgram", "Program")
+                        .WithMany("Attempts")
+                        .HasForeignKey("ExamProgramId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Unidemix.Api.Models.GeneratedExamContent", "GeneratedExamContent")
+                        .WithMany()
+                        .HasForeignKey("GeneratedExamContentId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("Unidemix.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GeneratedExamContent");
+
+                    b.Navigation("Program");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Notification", b =>
@@ -1705,8 +2436,17 @@ namespace Unidemix.Api.Data.Migrations
                     b.Navigation("Lessons");
                 });
 
+            modelBuilder.Entity("Unidemix.Api.Models.ExamBlueprint", b =>
+                {
+                    b.Navigation("GeneratedContents");
+                });
+
             modelBuilder.Entity("Unidemix.Api.Models.ExamProgram", b =>
                 {
+                    b.Navigation("Attempts");
+
+                    b.Navigation("Blueprints");
+
                     b.Navigation("LevelMappings");
 
                     b.Navigation("Sections");
@@ -1715,6 +2455,11 @@ namespace Unidemix.Api.Data.Migrations
             modelBuilder.Entity("Unidemix.Api.Models.ExamProvider", b =>
                 {
                     b.Navigation("Programs");
+                });
+
+            modelBuilder.Entity("Unidemix.Api.Models.GrammarPracticeSession", b =>
+                {
+                    b.Navigation("Answers");
                 });
 
             modelBuilder.Entity("Unidemix.Api.Models.Lesson", b =>

@@ -10,6 +10,11 @@ public sealed class User
     public string LearningLanguage { get; set; } = "de";
     public string Level { get; set; } = "A1";
     public string Goal { get; set; } = "daily-life";
+    public string? GoalSubtype { get; set; }
+    public string? TargetLevel { get; set; }
+    public string? ExamGoal { get; set; }
+    public bool LearningOnboardingCompleted { get; set; }
+    public bool LearningPathGuideDismissed { get; set; }
     public int DailyGoalMinutes { get; set; } = 15;
     public string Role { get; set; } = "User";
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;

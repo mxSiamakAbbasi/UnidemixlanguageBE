@@ -15,7 +15,7 @@ using System.Text;
 namespace Unidemix.Api.Controllers;
 
 [ApiController, Authorize, Route("api/social")]
-public sealed class SocialController(AppDbContext db, ISocialImageStorage imageStorage) : ControllerBase
+public sealed class SocialController(AppDbContext db, ISocialImageStorage imageStorage, ISocialFollowerAccessService followerAccess, ISocialUsernameService usernames) : ControllerBase
 {
     private static readonly HashSet<string> ReportReasons =
     ["Spam", "Harassment", "FakeProfile", "InappropriateBehavior", "SexualContent", "Other"];
@@ -28,8 +28,9 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         var userId = CurrentUserId();
         if (!await db.SocialProfiles.AnyAsync(x => x.UserId == userId))
         {
-            db.SocialProfiles.Add(new SocialProfile { UserId = userId });
-            await db.SaveChangesAsync();
+            var user = await db.Users.AsNoTracking().SingleAsync(x => x.Id == userId);
+            var profile = new SocialProfile { UserId = userId, Username = "pending" };
+            await usernames.SaveNewProfileAsync(profile, user.Email, user.DisplayName);
         }
         return Ok(await ProfileResponse(userId, userId));
     }
@@ -39,9 +40,10 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
     {
         var userId = CurrentUserId();
         var profile = await db.SocialProfiles.SingleOrDefaultAsync(x => x.UserId == userId);
+        var isNewProfile = profile is null;
         if (profile is null)
         {
-            profile = new SocialProfile { UserId = userId };
+            profile = new SocialProfile { UserId = userId, Username = "pending" };
             db.SocialProfiles.Add(profile);
         }
         var user = await db.Users.SingleAsync(x => x.Id == userId);
@@ -67,8 +69,10 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         profile.CityId = request.CityId;
         profile.City = request.CityId is null ? null : await db.Cities.Where(x => x.Id == request.CityId).Select(x => x.PersianName).SingleAsync();
         profile.LookingForPartner = request.LookingForPartner;
+        profile.Privacy = request.Privacy;
         profile.UpdatedAt = DateTimeOffset.UtcNow;
-        await db.SaveChangesAsync();
+        if (isNewProfile) await usernames.SaveNewProfileAsync(profile, user.Email, user.DisplayName);
+        else await db.SaveChangesAsync();
         return Ok(await ProfileResponse(userId, userId));
     }
 
@@ -77,7 +81,7 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         [FromQuery] string? nativeLanguage, [FromQuery] string? learningLanguage,
         [FromQuery] string? cefrLevel, [FromQuery] string? goal,
         [FromQuery] string? availability, [FromQuery] Guid? cityId,
-        [FromQuery] bool excludeFollowing = false, [FromQuery] int page = 1, [FromQuery] int pageSize = 12)
+        [FromQuery] string? search = null, [FromQuery] bool excludeFollowing = false, [FromQuery] int page = 1, [FromQuery] int pageSize = 12)
     {
         var currentId = CurrentUserId();
         var current = await db.Users.AsNoTracking().SingleAsync(x => x.Id == currentId);
@@ -95,11 +99,14 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         if (!string.IsNullOrWhiteSpace(goal)) query = query.Where(x => x.User.Goal == goal || x.PracticeGoal.Contains(goal));
         if (!string.IsNullOrWhiteSpace(availability)) query = query.Where(x => x.Availability.Contains(availability));
         if (cityId is not null) query = query.Where(x => x.CityId == cityId);
+        var normalizedSearch = usernames.Normalize(search ?? "");
+        if (!string.IsNullOrWhiteSpace(search)) query = query.Where(x => x.Username == normalizedSearch || x.User.DisplayName.ToLower().Contains(search.Trim().TrimStart('@').ToLower()));
         if (excludeFollowing) query = query.Where(x => !db.UserFollows.Any(f => f.FollowerId == currentId && f.FollowedUserId == x.UserId));
 
         var total = await query.CountAsync();
         var profiles = await query
-            .OrderByDescending(x => x.User.NativeLanguage == current.LearningLanguage)
+            .OrderByDescending(x => x.Username == normalizedSearch)
+            .ThenByDescending(x => x.User.NativeLanguage == current.LearningLanguage)
             .ThenByDescending(x => x.User.LearningLanguage == current.NativeLanguage)
             .ThenByDescending(x => x.User.Level == current.Level)
             .ThenByDescending(x => x.User.Goal == current.Goal)
@@ -108,13 +115,15 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         var followedIds = await db.UserFollows.AsNoTracking().Where(x => x.FollowerId == currentId)
             .Select(x => x.FollowedUserId).ToListAsync();
         var followed = followedIds.ToHashSet();
-        var items = profiles.Select(x => ToPartnerSummary(x, current, followed.Contains(x.UserId))).ToList();
+        var requested = (await db.FollowRequests.AsNoTracking().Where(x => x.RequesterId == currentId && x.Status == "Pending")
+            .Select(x => x.TargetUserId).ToListAsync()).ToHashSet();
+        var items = profiles.Select(x => ToPartnerSummary(x, current, followed.Contains(x.UserId), requested.Contains(x.UserId))).ToList();
         return Ok(new PagedResponse<PartnerSummaryResponse>(items, page, pageSize, total));
     }
 
     [HttpGet("suggestions")]
     public Task<ActionResult<PagedResponse<PartnerSummaryResponse>>> Suggestions([FromQuery] int pageSize = 8) =>
-        Discover(null, null, null, null, null, null, true, 1, pageSize);
+        Discover(null, null, null, null, null, null, null, true, 1, pageSize);
 
     [HttpGet("cities")]
     public async Task<ActionResult<IReadOnlyList<CityResponse>>> SearchCities([FromQuery] string query = "")
@@ -150,11 +159,15 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
             await using var optimized = new MemoryStream();
             await image.SaveAsWebpAsync(optimized, new WebpEncoder { Quality = 82 }, cancellationToken); optimized.Position = 0;
             var stored = await imageStorage.SaveAsync(optimized, "webp", cancellationToken);
-            var userId = CurrentUserId(); var profile = await db.SocialProfiles.SingleOrDefaultAsync(x => x.UserId == userId);
-            if (profile is null) { profile = new SocialProfile { UserId = userId }; db.SocialProfiles.Add(profile); }
+            var userId = CurrentUserId(); var profile = await db.SocialProfiles.SingleOrDefaultAsync(x => x.UserId == userId, cancellationToken);
+            var isNewProfile = profile is null;
+            var user = await db.Users.AsNoTracking().SingleAsync(x => x.Id == userId, cancellationToken);
+            if (profile is null) { profile = new SocialProfile { UserId = userId, Username = "pending" }; db.SocialProfiles.Add(profile); }
             profile.ProfilePhotoStorageKey = stored.StorageKey;
             profile.ProfilePhotoUrl = $"{Request.Scheme}://{Request.Host}{stored.ImageUrl}";
-            profile.UpdatedAt = DateTimeOffset.UtcNow; await db.SaveChangesAsync();
+            profile.UpdatedAt = DateTimeOffset.UtcNow;
+            if (isNewProfile) await usernames.SaveNewProfileAsync(profile, user.Email, user.DisplayName, cancellationToken);
+            else await db.SaveChangesAsync(cancellationToken);
             return Ok(await ProfileResponse(userId, userId));
         }
         catch (UnknownImageFormatException) { return BadRequest(new ProblemDetails { Title = "The uploaded file is not a valid image" }); }
@@ -169,18 +182,94 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         return await ProfileResponse(userId, currentId) is { } profile ? Ok(profile) : NotFound();
     }
 
+    [HttpGet("profiles/by-username/{username}")]
+    public async Task<ActionResult<SocialProfileResponse>> GetByUsername(string username)
+    {
+        var currentId = CurrentUserId(); var normalized = usernames.Normalize(username);
+        if (normalized.Length is < 3 or > 24) return NotFound();
+        var userId = await db.SocialProfiles.AsNoTracking().Where(x => x.Username == normalized).Select(x => (Guid?)x.UserId).SingleOrDefaultAsync();
+        if (userId is null || userId != currentId && await IsBlocked(currentId, userId.Value)) return NotFound();
+        return await ProfileResponse(userId.Value, currentId) is { } profile ? Ok(profile) : NotFound();
+    }
+
     [HttpPost("follows/{userId:guid}")]
-    public async Task<IActionResult> Follow(Guid userId)
+    public async Task<ActionResult<FollowActionResponse>> Follow(Guid userId)
     {
         var currentId = CurrentUserId();
         if (userId == currentId) return BadRequest(new ProblemDetails { Title = "Users cannot follow themselves" });
-        if (!await db.SocialProfiles.AnyAsync(x => x.UserId == userId)) return NotFound();
-        if (await IsBlocked(currentId, userId)) return Conflict(new ProblemDetails { Title = "Social interaction is unavailable" });
+        var target = await db.SocialProfiles.AsNoTracking().SingleOrDefaultAsync(x => x.UserId == userId);
+        if (target is null) return NotFound();
+        if (await followerAccess.IsBlockedAsync(currentId, userId)) return Conflict(new ProblemDetails { Title = "Social interaction is unavailable" });
+        if (await db.UserFollows.AnyAsync(x => x.FollowerId == currentId && x.FollowedUserId == userId))
+            return Ok(new FollowActionResponse("Following"));
+        if (target.Privacy == "Private")
+        {
+            if (!await db.FollowRequests.AnyAsync(x => x.RequesterId == currentId && x.TargetUserId == userId && x.Status == "Pending"))
+            {
+                db.FollowRequests.Add(new FollowRequest { RequesterId = currentId, TargetUserId = userId });
+                AddNotification(userId, currentId, "FollowRequest", "درخواست دنبال‌کردن جدیدی دارید.", "/social/profile?followRequests=1");
+                await db.SaveChangesAsync();
+            }
+            return Ok(new FollowActionResponse("Requested"));
+        }
         if (!await db.UserFollows.AnyAsync(x => x.FollowerId == currentId && x.FollowedUserId == userId))
         {
             db.UserFollows.Add(new UserFollow { FollowerId = currentId, FollowedUserId = userId });
+            var pending = await db.FollowRequests.SingleOrDefaultAsync(x => x.RequesterId == currentId && x.TargetUserId == userId && x.Status == "Pending");
+            if (pending is not null) { pending.Status = "Accepted"; pending.RespondedAt = DateTimeOffset.UtcNow; }
             await db.SaveChangesAsync();
         }
+        return Ok(new FollowActionResponse("Following"));
+    }
+
+    [HttpDelete("follow-requests/{userId:guid}")]
+    public async Task<IActionResult> CancelFollowRequest(Guid userId)
+    {
+        var currentId = CurrentUserId();
+        var request = await db.FollowRequests.SingleOrDefaultAsync(x => x.RequesterId == currentId && x.TargetUserId == userId && x.Status == "Pending");
+        if (request is not null) { request.Status = "Cancelled"; request.RespondedAt = DateTimeOffset.UtcNow; await db.SaveChangesAsync(); }
+        return NoContent();
+    }
+
+    [HttpGet("follow-requests")]
+    public async Task<ActionResult<PagedResponse<FollowRequestResponse>>> FollowRequests([FromQuery] int page = 1, [FromQuery] int pageSize = 20)
+    {
+        var currentId = CurrentUserId(); (page, pageSize) = NormalizePaging(page, pageSize);
+        var query = db.FollowRequests.AsNoTracking().Where(x => x.TargetUserId == currentId && x.Status == "Pending");
+        var total = await query.CountAsync();
+        var items = await query.OrderByDescending(x => x.CreatedAt).Skip((page - 1) * pageSize).Take(pageSize)
+            .Join(db.Users, x => x.RequesterId, x => x.Id, (r, u) => new { r, u })
+            .GroupJoin(db.SocialProfiles, x => x.r.RequesterId, x => x.UserId, (x, p) => new { x.r, x.u, p })
+            .SelectMany(x => x.p.DefaultIfEmpty(), (x, p) => new FollowRequestResponse(x.r.Id, x.r.RequesterId, x.u.DisplayName,
+                p == null ? null : p.ProfilePhotoUrl, x.u.NativeLanguage, x.u.LearningLanguage, x.u.Level, x.r.CreatedAt)).ToListAsync();
+        return Ok(new PagedResponse<FollowRequestResponse>(items, page, pageSize, total));
+    }
+
+    [HttpPost("follow-requests/{requestId:guid}/accept")]
+    public async Task<ActionResult<FollowActionResponse>> AcceptFollowRequest(Guid requestId)
+    {
+        var currentId = CurrentUserId();
+        var request = await db.FollowRequests.SingleOrDefaultAsync(x => x.Id == requestId && x.TargetUserId == currentId);
+        if (request is null) return NotFound();
+        if (request.Status == "Accepted") return Ok(new FollowActionResponse("Following"));
+        if (request.Status != "Pending") return Conflict(new ProblemDetails { Title = "Follow request is no longer pending" });
+        if (await followerAccess.IsBlockedAsync(currentId, request.RequesterId)) return Conflict(new ProblemDetails { Title = "Social interaction is unavailable" });
+        if (!await db.UserFollows.AnyAsync(x => x.FollowerId == request.RequesterId && x.FollowedUserId == currentId))
+            db.UserFollows.Add(new UserFollow { FollowerId = request.RequesterId, FollowedUserId = currentId });
+        request.Status = "Accepted"; request.RespondedAt = DateTimeOffset.UtcNow;
+        AddNotification(request.RequesterId, currentId, "FollowRequestAccepted", "درخواست دنبال‌کردن شما پذیرفته شد.", $"/social/profile/{currentId}");
+        await db.SaveChangesAsync();
+        return Ok(new FollowActionResponse("Following"));
+    }
+
+    [HttpPost("follow-requests/{requestId:guid}/decline")]
+    public async Task<IActionResult> DeclineFollowRequest(Guid requestId)
+    {
+        var currentId = CurrentUserId();
+        var request = await db.FollowRequests.SingleOrDefaultAsync(x => x.Id == requestId && x.TargetUserId == currentId);
+        if (request is null) return NotFound();
+        if (request.Status != "Pending") return Conflict(new ProblemDetails { Title = "Follow request is no longer pending" });
+        request.Status = "Declined"; request.RespondedAt = DateTimeOffset.UtcNow; await db.SaveChangesAsync();
         return NoContent();
     }
 
@@ -210,8 +299,13 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         if (!await db.UserBlocks.AnyAsync(x => x.BlockerId == currentId && x.BlockedUserId == userId))
         {
             db.UserBlocks.Add(new UserBlock { BlockerId = currentId, BlockedUserId = userId });
-            await db.SaveChangesAsync();
         }
+        db.UserFollows.RemoveRange(await db.UserFollows.Where(x =>
+            (x.FollowerId == currentId && x.FollowedUserId == userId) || (x.FollowerId == userId && x.FollowedUserId == currentId)).ToListAsync());
+        var pending = await db.FollowRequests.Where(x => x.Status == "Pending" &&
+            ((x.RequesterId == currentId && x.TargetUserId == userId) || (x.RequesterId == userId && x.TargetUserId == currentId))).ToListAsync();
+        foreach (var request in pending) { request.Status = "Cancelled"; request.RespondedAt = DateTimeOffset.UtcNow; }
+        await db.SaveChangesAsync();
         return NoContent();
     }
 
@@ -245,6 +339,12 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
     {
         var currentId = CurrentUserId();
         if (userId != currentId && await IsBlocked(currentId, userId)) return NotFound();
+        if (userId != currentId)
+        {
+            var target = await db.SocialProfiles.AsNoTracking().SingleOrDefaultAsync(x => x.UserId == userId);
+            if (target is null) return NotFound();
+            if (target.Privacy == "Private" && !await db.UserFollows.AnyAsync(x => x.FollowerId == currentId && x.FollowedUserId == userId)) return Forbid();
+        }
         (page, pageSize) = NormalizePaging(page, pageSize);
         var ids = followers
             ? db.UserFollows.Where(x => x.FollowedUserId == userId).Select(x => x.FollowerId)
@@ -255,7 +355,8 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         var profiles = await query.OrderBy(x => x.User.DisplayName).Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
         var myFollowing = (await db.UserFollows.AsNoTracking().Where(x => x.FollowerId == currentId).Select(x => x.FollowedUserId).ToListAsync()).ToHashSet();
         var current = await db.Users.AsNoTracking().SingleAsync(x => x.Id == currentId);
-        return Ok(new PagedResponse<PartnerSummaryResponse>(profiles.Select(x => ToPartnerSummary(x, current, myFollowing.Contains(x.UserId))).ToList(), page, pageSize, total));
+        var requested = (await db.FollowRequests.AsNoTracking().Where(x => x.RequesterId == currentId && x.Status == "Pending").Select(x => x.TargetUserId).ToListAsync()).ToHashSet();
+        return Ok(new PagedResponse<PartnerSummaryResponse>(profiles.Select(x => ToPartnerSummary(x, current, myFollowing.Contains(x.UserId), requested.Contains(x.UserId))).ToList(), page, pageSize, total));
     }
 
     private async Task<SocialProfileResponse?> ProfileResponse(Guid userId, Guid viewerId)
@@ -269,26 +370,32 @@ public sealed class SocialController(AppDbContext db, ISocialImageStorage imageS
         var posts = await db.SocialPosts.CountAsync(x => x.UserId == userId && x.Status == "Published");
         var isFollowing = viewerId != userId && await db.UserFollows.AnyAsync(x => x.FollowerId == viewerId && x.FollowedUserId == userId);
         var isBlocked = viewerId != userId && await db.UserBlocks.AnyAsync(x => x.BlockerId == viewerId && x.BlockedUserId == userId);
-        return new SocialProfileResponse(profile.UserId, profile.User.DisplayName, profile.ProfilePhotoUrl, profile.Bio,
+        var isRequested = viewerId != userId && await db.FollowRequests.AnyAsync(x => x.RequesterId == viewerId && x.TargetUserId == userId && x.Status == "Pending");
+        var followState = isFollowing ? "Following" : isRequested ? "Requested" : "None";
+        return new SocialProfileResponse(profile.UserId, profile.Username, profile.User.DisplayName, profile.ProfilePhotoUrl, profile.Bio,
             profile.User.NativeLanguage, profile.User.LearningLanguage, profile.User.Level, profile.User.Goal,
             profile.PracticeGoal, profile.Availability, profile.CityReference?.PersianName ?? profile.City, profile.CityId, profile.LookingForPartner,
-            posts, followers, following, isFollowing && !isBlocked, isBlocked);
+            posts, followers, following, isFollowing && !isBlocked, isBlocked, profile.Privacy, isBlocked ? "Blocked" : followState);
     }
 
     private async Task<bool> IsBlocked(Guid first, Guid second) => await db.UserBlocks.AnyAsync(x =>
         (x.BlockerId == first && x.BlockedUserId == second) || (x.BlockerId == second && x.BlockedUserId == first));
 
-    private static PartnerSummaryResponse ToPartnerSummary(SocialProfile profile, User current, bool isFollowing)
+    private static PartnerSummaryResponse ToPartnerSummary(SocialProfile profile, User current, bool isFollowing, bool isRequested)
     {
         var reason = profile.User.NativeLanguage == current.LearningLanguage && profile.User.LearningLanguage == current.NativeLanguage
             ? $"زبان مادری {profile.User.DisplayName} {LanguageFa(profile.User.NativeLanguage)} است و در حال یادگیری {LanguageFa(profile.User.LearningLanguage)} است."
             : profile.User.NativeLanguage == current.LearningLanguage
                 ? $"زبان مادری او {LanguageFa(profile.User.NativeLanguage)} است."
                 : profile.User.Level == current.Level ? $"سطح زبانی مشابه شما ({profile.User.Level}) دارد." : "برای تمرین زبان در دسترس است.";
-        return new PartnerSummaryResponse(profile.UserId, profile.User.DisplayName, profile.ProfilePhotoUrl,
+        return new PartnerSummaryResponse(profile.UserId, profile.Username, profile.User.DisplayName, profile.ProfilePhotoUrl,
             profile.User.NativeLanguage, profile.User.LearningLanguage, profile.User.Level, profile.User.Goal,
-            profile.PracticeGoal, profile.Availability, profile.CityReference?.PersianName ?? profile.City, profile.CityId, reason, isFollowing);
+            profile.PracticeGoal, profile.Availability, profile.CityReference?.PersianName ?? profile.City, profile.CityId, reason, isFollowing,
+            profile.Privacy, isFollowing ? "Following" : isRequested ? "Requested" : "None");
     }
+
+    private void AddNotification(Guid userId, Guid actorId, string type, string text, string destination) =>
+        db.Notifications.Add(new Notification { UserId = userId, ActorId = actorId, Type = type, Text = text, Destination = destination });
 
     private static string LanguageFa(string code) => code switch { "de" => "آلمانی", "fa" => "فارسی", "en" => "انگلیسی", _ => code.ToUpperInvariant() };
     private static (int Page, int PageSize) NormalizePaging(int page, int pageSize) => (Math.Max(1, page), Math.Clamp(pageSize, 1, 50));

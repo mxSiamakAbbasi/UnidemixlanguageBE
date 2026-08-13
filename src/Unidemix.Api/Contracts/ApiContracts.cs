@@ -10,12 +10,19 @@ public sealed record RegisterRequest(
 public sealed record LoginRequest([Required, EmailAddress] string Email, [Required] string Password);
 public sealed record AuthResponse(string AccessToken, DateTimeOffset ExpiresAt, UserResponse User);
 public sealed record UserResponse(Guid Id, string Email, string DisplayName, string NativeLanguage,
-    string LearningLanguage, string Level, string Goal, int DailyGoalMinutes, string Role);
+    string LearningLanguage, string Level, string Goal, int DailyGoalMinutes, string Role,
+    string? GoalSubtype, string? TargetLevel, string? ExamGoal,
+    bool LearningOnboardingCompleted, bool LearningPathGuideDismissed);
 public sealed record UpdateProfileRequest(
     [Required, MaxLength(80)] string DisplayName,
     [Required, MaxLength(10)] string NativeLanguage,
     [Required, MaxLength(10)] string LearningLanguage,
     [RegularExpression("^(A1|A2|B1|B2|C1|C2)$")] string Level,
     [Required, MaxLength(50)] string Goal,
-    [Range(5, 180)] int DailyGoalMinutes);
+    [Range(5, 180)] int DailyGoalMinutes,
+    [MaxLength(50)] string? GoalSubtype = null,
+    [RegularExpression("^(A1|A2|B1|B2|C1)$")] string? TargetLevel = null,
+    [MaxLength(80)] string? ExamGoal = null,
+    bool? LearningOnboardingCompleted = null,
+    bool? LearningPathGuideDismissed = null);
 public sealed record ProgressRequest([Range(0, 100)] int Percent, [Range(0, 100)] int Score);

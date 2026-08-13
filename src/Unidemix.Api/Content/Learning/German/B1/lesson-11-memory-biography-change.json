@@ -1,0 +1,584 @@
+{
+  "contentKey": "de-b1-core-lesson-11",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 11,
+  "courseSlug": "german-b1-core",
+  "title": "Memory, Biography, and Social Change",
+  "localizedTitle": "خاطره، زندگی‌نامه و تغییر اجتماعی",
+  "description": "داستان زندگی را پیوسته بازگو می‌کنی و گذشته و امروز را با نگاه متعادل مقایسه می‌کنی.",
+  "estimatedDurationMinutes": 180,
+  "status": "production",
+  "mainSituation": "ثبت یک تاریخ شفاهی کوتاه",
+  "canDoObjectives": [
+    "داستان زندگی فردی را با مرحله‌های مرتبط بازگو کنی.",
+    "روش‌های گذشته و امروز را بدون ساده‌سازی افراطی مقایسه کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «خاطره، زندگی‌نامه و تغییر اجتماعی» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: ثبت یک تاریخ شفاهی کوتاه. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Enkelin: Wie hast du früher Kontakt gehalten?\nGroßmutter: Wir brauchten nicht täglich zu telefonieren. Briefe waren wichtig.\nEnkelin: War das nicht langsam?\nGroßmutter: Zwar dauerte es länger, aber wir schrieben ausführlicher. Heute kann man entweder sofort schreiben oder ein Video senden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich erinnern an = به یاد آوردن\nSie erinnert sich an ihre Schulzeit. = او دوران مدرسه را به یاد می‌آورد.\n\nEs geht um ... = موضوع دربارهٔ... است\nEs geht um eine wichtige Veränderung. = موضوع یک تغییر مهم است.\n\nzwar ... aber = درست است که... اما\nEs war zwar schwer, aber lehrreich. = سخت بود اما آموزنده.\n\nweder ... noch = نه... نه\nWeder die Arbeit noch die Wohnung war einfach. = نه کار و نه مسکن آسان بود.\n\nentweder ... oder = یا... یا\nWir fahren entweder heute oder morgen. = یا امروز یا فردا می‌رویم.\n\nnicht zu brauchen = لازم نبودن\nDu brauchst nicht zu warten. = لازم نیست منتظر بمانی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "sich erinnern an",
+      "options": [
+        "sich erinnern an",
+        "Es geht um ...",
+        "zwar ... aber"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Herr Brandt erzählt von seiner Jugend in einer kleinen Stadt. Weder seine Familie noch seine Freunde hatten ein Auto. Deshalb gingen sie viel zu Fuß. Nach der Ausbildung zog er in eine größere Stadt und arbeitete dort vierzig Jahre. Zwar veränderte sich sein Alltag stark, aber die Verbindung zu seinem Heimatort blieb wichtig. Heute besucht er ihn regelmäßig mit seinen Enkeln.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "EIN LEBEN ZWISCHEN ZWEI ORTEN\nMarta wurde 1955 in einem Dorf geboren. Nach der Schule brauchte sie nicht lange nach Arbeit zu suchen, weil eine Fabrik neue Kräfte einstellte. Später zog sie mit ihrer Familie in die Stadt. Dort gab es zwar mehr Möglichkeiten, aber auch weniger Kontakt zu den Nachbarn. Heute sagt sie, dass weder das alte noch das neue Leben nur Vorteile hatte.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «داستان زندگی فردی را با مرحله‌های مرتبط بازگو کنی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "brauchen + nicht/nur + zu نیاز یا عدم نیاز را بیان می‌کند: Du brauchst nicht zu warten. با weder ... noch، entweder ... oder و zwar ... aber گزینه یا تضاد ساخته می‌شود. عبارت‌های es مانند Es geht um ... و Es kommt darauf an ... انسجام روایت را کمک می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nEs geht um das Leben von Marta, die 1955 in einem Dorf geboren wurde. Nach der Schule fand sie schnell Arbeit. Später zog sie mit ihrer Familie in die Stadt. Dort gab es zwar mehr berufliche Möglichkeiten, aber weniger Kontakt zu den Nachbarn. Weder das Dorf noch die Stadt war für sie perfekt. Heute erinnert sie sich besonders an die gegenseitige Hilfe im Dorf.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «ثبت یک تاریخ شفاهی کوتاه» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nEs geht um das Leben von Marta, die 1955 in einem Dorf geboren wurde. Nach der Schule fand sie schnell Arbeit. Später zog sie mit ihrer Familie in die Stadt. Dort gab es zwar mehr berufliche Möglichkeiten, aber weniger Kontakt zu den Nachbarn. Weder das Dorf noch die Stadt war für sie perfekt. Heute erinnert sie sich besonders an die gegenseitige Hilfe im Dorf.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک پرترهٔ «آن زمان و امروز» بساز: پنج مرحلهٔ زندگی را بازگو کن، دو تغییر را متعادل مقایسه کن و اهمیت تجربه را جمع‌بندی کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich erinnern an» چیست؟",
+      "correctAnswer": "به یاد آوردن",
+      "options": [
+        "به یاد آوردن",
+        "موضوع دربارهٔ... است",
+        "درست است که... اما"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «خاطره، زندگی‌نامه و تغییر اجتماعی» مربوط است؟",
+      "correctAnswer": "weder ... noch",
+      "options": [
+        "weder ... noch",
+        "entweder ... oder",
+        "nicht zu brauchen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «die Lebensphase» چیست؟",
+      "correctAnswer": "مرحلهٔ زندگی",
+      "options": [
+        "مرحلهٔ زندگی",
+        "آن زمان",
+        "در طول زمان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Systematic indirect speech"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "sich erinnern an",
+      "type": "Chunk",
+      "meaning": "به یاد آوردن",
+      "pronunciation": null,
+      "example": "Sie erinnert sich an ihre Schulzeit.",
+      "exampleTranslation": "او دوران مدرسه را به یاد می‌آورد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Es geht um ...",
+      "type": "Chunk",
+      "meaning": "موضوع دربارهٔ... است",
+      "pronunciation": null,
+      "example": "Es geht um eine wichtige Veränderung.",
+      "exampleTranslation": "موضوع یک تغییر مهم است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "zwar ... aber",
+      "type": "Chunk",
+      "meaning": "درست است که... اما",
+      "pronunciation": null,
+      "example": "Es war zwar schwer, aber lehrreich.",
+      "exampleTranslation": "سخت بود اما آموزنده.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "weder ... noch",
+      "type": "Chunk",
+      "meaning": "نه... نه",
+      "pronunciation": null,
+      "example": "Weder die Arbeit noch die Wohnung war einfach.",
+      "exampleTranslation": "نه کار و نه مسکن آسان بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "entweder ... oder",
+      "type": "Chunk",
+      "meaning": "یا... یا",
+      "pronunciation": null,
+      "example": "Wir fahren entweder heute oder morgen.",
+      "exampleTranslation": "یا امروز یا فردا می‌رویم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "nicht zu brauchen",
+      "type": "Chunk",
+      "meaning": "لازم نبودن",
+      "pronunciation": null,
+      "example": "Du brauchst nicht zu warten.",
+      "exampleTranslation": "لازم نیست منتظر بمانی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "die Lebensphase",
+      "type": "Chunk",
+      "meaning": "مرحلهٔ زندگی",
+      "pronunciation": null,
+      "example": "Jede Lebensphase brachte Veränderungen.",
+      "exampleTranslation": "هر مرحله تغییرهایی آورد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "damals",
+      "type": "Word",
+      "meaning": "آن زمان",
+      "pronunciation": null,
+      "example": "Damals gab es weniger Verkehr.",
+      "exampleTranslation": "آن زمان رفت‌وآمد کمتر بود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "im Laufe der Zeit",
+      "type": "Chunk",
+      "meaning": "در طول زمان",
+      "pronunciation": null,
+      "example": "Im Laufe der Zeit änderte sich vieles.",
+      "exampleTranslation": "در طول زمان چیزهای زیادی تغییر کرد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Entwicklung schildern",
+      "type": "Chunk",
+      "meaning": "روندی را شرح دادن",
+      "pronunciation": null,
+      "example": "Der Text schildert eine Entwicklung.",
+      "exampleTranslation": "متن یک روند را شرح می‌دهد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

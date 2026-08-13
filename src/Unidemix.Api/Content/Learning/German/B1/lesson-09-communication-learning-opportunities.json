@@ -1,0 +1,584 @@
+{
+  "contentKey": "de-b1-core-lesson-09",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 9,
+  "courseSlug": "german-b1-core",
+  "title": "Clear Communication and Learning Opportunities",
+  "localizedTitle": "ارتباط روشن و فرصت‌های یادگیری",
+  "description": "سوءتفاهم را برطرف می‌کنی و پس از روشن‌کردن نیازها، دوره‌ای مناسب پیشنهاد می‌دهی.",
+  "estimatedDurationMinutes": 165,
+  "status": "production",
+  "mainSituation": "رفع سوءتفاهم هنگام انتخاب دورهٔ آموزشی",
+  "canDoObjectives": [
+    "سوءتفاهم را تشخیص بدهی، منظور را روشن و درک مشترک را تأیید کنی.",
+    "چند دوره را مقایسه و متناسب با نیاز فرد توصیه کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «ارتباط روشن و فرصت‌های یادگیری» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: رفع سوءتفاهم هنگام انتخاب دورهٔ آموزشی. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Berater: Sie suchen also einen Intensivkurs am Vormittag?\nKundin: Habe ich Sie richtig verstanden? Ich brauche keinen Intensivkurs, sondern einen berufsbegleitenden Kurs.\nBerater: Danke für die Korrektur. Das liegt daran, dass ich Ihre Zeitangabe falsch notiert habe.\nKundin: Genau. Daher passt das Abendprogramm besser.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Habe ich Sie richtig verstanden? = آیا درست متوجه شدم؟\nHabe ich Sie richtig verstanden: Sie brauchen Abendtermine? = درست فهمیدم که زمان عصر می‌خواهید؟\n\nDas liegt daran, dass ... = دلیلش این است که...\nDas liegt daran, dass die Information fehlte. = دلیلش نبود اطلاعات بود.\n\ndarum = به همین دلیل\nDer Kurs ist flexibel, darum passt er gut. = دوره منعطف است، بنابراین مناسب است.\n\ndaher = از این رو\nSie arbeitet tagsüber, daher lernt sie abends. = روزها کار می‌کند، از این رو عصر می‌آموزد.\n\nnämlich = زیرا / در واقع\nIch komme später; ich arbeite nämlich noch. = دیرتر می‌آیم چون هنوز کار می‌کنم.\n\nwegen = به‌دلیل\nWegen der Arbeit braucht er flexible Termine. = به‌دلیل کار زمان منعطف می‌خواهد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "Habe ich Sie richtig verstanden?",
+      "options": [
+        "Habe ich Sie richtig verstanden?",
+        "Das liegt daran, dass ...",
+        "darum"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Bei einer telefonischen Beratung entsteht ein Missverständnis. Der Mitarbeiter glaubt, dass die Kundin nur online lernen möchte. Sie erklärt jedoch, dass sie wegen ihrer Arbeit an zwei Abenden teilnehmen kann und zusätzlich digitale Übungen braucht. Der Mitarbeiter fasst ihre Wünsche noch einmal zusammen. Danach empfiehlt er einen kombinierten Kurs mit aufgezeichneten Einheiten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "WEITERBILDUNG IM VERGLEICH\nKurs A ist ein kompakter Präsenzkurs mit festen Terminen. Kurs B kombiniert angebotene Online-Module mit einem wöchentlichen Treffen. Kurs C richtet sich an Berufstätige, die flexibel lernen möchten. Wegen der begrenzten Betreuung eignet sich Kurs C weniger für Personen, die häufige Rückmeldung brauchen. Entscheidend ist daher nicht nur der Preis, sondern das passende Lernformat.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «سوءتفاهم را تشخیص بدهی، منظور را روشن و درک مشترک را تأیید کنی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "darum/daher نتیجه را در جملهٔ اصلی می‌آورند؛ nämlich دلیل را پس از ادعا توضیح می‌دهد و wegen با اسم می‌آید. Partizip I/II می‌تواند نقش صفت داشته باشد: ein passender Kurs، die angebotenen Module، ein motivierender Lehrer. در B1 این ساختار ابتدا فهمیده و سپس محدود استفاده می‌شود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nHabe ich Sie richtig verstanden: Sie möchten flexibel lernen, brauchen aber regelmäßiges Feedback? Dann empfehle ich Kurs B. Er verbindet aufgezeichnete Module mit einem wöchentlichen Treffen. Wegen Ihrer Arbeitszeiten ist dieses Format leichter planbar. Kurs C ist zwar günstiger, bietet jedoch weniger Betreuung. Daher passt Kurs B besser zu Ihren Zielen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «رفع سوءتفاهم هنگام انتخاب دورهٔ آموزشی» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHabe ich Sie richtig verstanden: Sie möchten flexibel lernen, brauchen aber regelmäßiges Feedback? Dann empfehle ich Kurs B. Er verbindet aufgezeichnete Module mit einem wöchentlichen Treffen. Wegen Ihrer Arbeitszeiten ist dieses Format leichter planbar. Kurs C ist zwar günstiger, bietet jedoch weniger Betreuung. Daher passt Kurs B besser zu Ihren Zielen.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "نیازهای یک فرد را با پرسش‌های روشن‌کننده مشخص کن، سوءتفاهم را اصلاح کن و از میان سه دوره یک گزینه را با دلیل توصیه کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Habe ich Sie richtig verstanden?» چیست؟",
+      "correctAnswer": "آیا درست متوجه شدم؟",
+      "options": [
+        "آیا درست متوجه شدم؟",
+        "دلیلش این است که...",
+        "به همین دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «ارتباط روشن و فرصت‌های یادگیری» مربوط است؟",
+      "correctAnswer": "daher",
+      "options": [
+        "daher",
+        "nämlich",
+        "wegen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «ein passender Kurs» چیست؟",
+      "correctAnswer": "دوره‌ای مناسب",
+      "options": [
+        "دوره‌ای مناسب",
+        "هم‌زمان با کار",
+        "پرسش تکمیلی مطرح کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Extended participial attributes"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "Habe ich Sie richtig verstanden?",
+      "type": "Chunk",
+      "meaning": "آیا درست متوجه شدم؟",
+      "pronunciation": null,
+      "example": "Habe ich Sie richtig verstanden: Sie brauchen Abendtermine?",
+      "exampleTranslation": "درست فهمیدم که زمان عصر می‌خواهید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Das liegt daran, dass ...",
+      "type": "Chunk",
+      "meaning": "دلیلش این است که...",
+      "pronunciation": null,
+      "example": "Das liegt daran, dass die Information fehlte.",
+      "exampleTranslation": "دلیلش نبود اطلاعات بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "darum",
+      "type": "Word",
+      "meaning": "به همین دلیل",
+      "pronunciation": null,
+      "example": "Der Kurs ist flexibel, darum passt er gut.",
+      "exampleTranslation": "دوره منعطف است، بنابراین مناسب است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "daher",
+      "type": "Word",
+      "meaning": "از این رو",
+      "pronunciation": null,
+      "example": "Sie arbeitet tagsüber, daher lernt sie abends.",
+      "exampleTranslation": "روزها کار می‌کند، از این رو عصر می‌آموزد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "nämlich",
+      "type": "Word",
+      "meaning": "زیرا / در واقع",
+      "pronunciation": null,
+      "example": "Ich komme später; ich arbeite nämlich noch.",
+      "exampleTranslation": "دیرتر می‌آیم چون هنوز کار می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "wegen",
+      "type": "Word",
+      "meaning": "به‌دلیل",
+      "pronunciation": null,
+      "example": "Wegen der Arbeit braucht er flexible Termine.",
+      "exampleTranslation": "به‌دلیل کار زمان منعطف می‌خواهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "ein passender Kurs",
+      "type": "Chunk",
+      "meaning": "دوره‌ای مناسب",
+      "pronunciation": null,
+      "example": "Wir suchen einen passenden Kurs.",
+      "exampleTranslation": "دنبال دوره‌ای مناسب هستیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "berufsbegleitend",
+      "type": "Word",
+      "meaning": "هم‌زمان با کار",
+      "pronunciation": null,
+      "example": "Der Kurs ist berufsbegleitend.",
+      "exampleTranslation": "دوره هم‌زمان با کار است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine Rückfrage stellen",
+      "type": "Chunk",
+      "meaning": "پرسش تکمیلی مطرح کردن",
+      "pronunciation": null,
+      "example": "Die Beraterin stellt eine Rückfrage.",
+      "exampleTranslation": "مشاور پرسش تکمیلی می‌پرسد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "etwas zusammenfassen",
+      "type": "Chunk",
+      "meaning": "چیزی را جمع‌بندی کردن",
+      "pronunciation": null,
+      "example": "Ich fasse Ihre Wünsche zusammen.",
+      "exampleTranslation": "خواسته‌های شما را جمع‌بندی می‌کنم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

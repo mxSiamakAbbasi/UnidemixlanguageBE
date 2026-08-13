@@ -1,0 +1,557 @@
+{
+  "contentKey": "de-a2-core-lesson-05",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 5,
+  "courseSlug": "german-for-real-life",
+  "title": "Health, Fitness, and Advice",
+  "localizedTitle": "سلامتی، تناسب اندام و توصیه",
+  "description": "در این درس دربارهٔ مشکل سادهٔ سلامتی یا تمرین صحبت می‌کنی، نگرانی نشان می‌دهی و توصیه‌ای همراه با دلیل ارائه می‌کنی.",
+  "estimatedDurationMinutes": 140,
+  "status": "production",
+  "mainSituation": "پاسخ به یک مشکل سادهٔ سلامتی یا تمرینی با توصیه‌های امن و غیرپزشکی",
+  "canDoObjectives": [
+    "برای سلامتی و تناسب اندام توصیهٔ عملی بخواهی و ارائه بدهی.",
+    "نگرانی، امید، علت و پیامد را به زبان ساده بیان کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس دربارهٔ مشکل سادهٔ سلامتی یا تمرین صحبت می‌کنی، نگرانی نشان می‌دهی و توصیه‌ای همراه با دلیل ارائه می‌کنی.\n\n• برای سلامتی و تناسب اندام توصیهٔ عملی بخواهی و ارائه بدهی.\n• نگرانی، امید، علت و پیامد را به زبان ساده بیان کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Roya: Seit gestern tut mir der Rücken weh.\nDaniel: Du solltest heute nicht schwer trainieren.\nRoya: Meinst du, ich könnte trotzdem spazieren gehen?\nDaniel: Ja, ein ruhiger Spaziergang könnte gut sein. Aber wenn die Schmerzen bleiben, geh bitte zum Arzt.\nRoya: Ich habe wenig geschlafen, weil ich lange gearbeitet habe.\nDaniel: Deshalb solltest du dich heute auch ausruhen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich ausruhen = استراحت کردن\nDu solltest dich heute ausruhen. = بهتر است امروز استراحت کنی.\n\ngenug trinken = به‌اندازه نوشیدن\nDu solltest genug Wasser trinken. = بهتر است آب کافی بنوشی.\n\nder Trainingsplan = برنامهٔ تمرین\nIch ändere meinen Trainingsplan. = برنامهٔ تمرینم را تغییر می‌دهم.\n\nDu solltest ... = بهتر است ...\nDu solltest langsam beginnen. = بهتر است آرام شروع کنی.\n\nDu könntest ... = می‌توانی ...\nDu könntest spazieren gehen. = می‌توانی پیاده‌روی کنی.\n\nweil = زیرا\nIch bleibe zu Hause, weil ich müde bin. = خانه می‌مانم زیرا خسته‌ام.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «سلامتی، تناسب اندام و توصیه» هماهنگ‌تر است؟",
+      "correctAnswer": "Du solltest ...",
+      "options": [
+        "genug trinken",
+        "Du solltest ...",
+        "Hoffentlich ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Jonas trainiert seit drei Monaten für einen Stadtlauf. Letzte Woche war er oft müde, weil er zu wenig geschlafen hat. Seine Trainerin sagt, er sollte zwei ruhige Tage einplanen und genug trinken. Er könnte außerdem kürzer trainieren. Deshalb verändert Jonas seinen Plan: Am Montag ruht er sich aus, am Dienstag geht er nur spazieren. Hoffentlich fühlt er sich am Mittwoch besser.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "مربی چه چیزی را پیشنهاد می‌کند؟",
+      "correctAnswer": "استراحت و تمرین سبک‌تر",
+      "options": [
+        "تمرین سنگین‌تر",
+        "استراحت و تمرین سبک‌تر",
+        "شرکت فوری در مسابقه"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "یوناس سه‌شنبه چه می‌کند؟",
+      "correctAnswer": "پیاده‌روی می‌کند",
+      "options": [
+        "می‌دود",
+        "پیاده‌روی می‌کند",
+        "مسابقه می‌دهد"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "FORUM: WIEDER FIT WERDEN\nIch war zwei Wochen erkältet und möchte wieder Sport machen. Früher bin ich dreimal pro Woche gelaufen. Jetzt bin ich schnell müde. Was könnte ich tun?\nAntwort: Beginne langsam, weil dein Körper Zeit braucht. Du könntest zuerst kurze Spaziergänge machen. Wenn du dich gut fühlst, trainiere etwas länger. Bei starken oder langen Beschwerden solltest du medizinischen Rat suchen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "نویسندهٔ پاسخ در آغاز چه پیشنهادی می‌دهد؟",
+      "correctAnswer": "شروع آرام با پیاده‌روی کوتاه",
+      "options": [
+        "مسابقهٔ طولانی",
+        "شروع آرام با پیاده‌روی کوتاه",
+        "قطع کامل حرکت برای همیشه"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «برای سلامتی و تناسب اندام توصیهٔ عملی بخواهی و ارائه بدهی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای توصیهٔ مؤدبانه و غیرقطعی از sollte و könnte استفاده می‌کنیم: Du solltest dich ausruhen. Du könntest spazieren gehen. در weil فعل به پایان می‌رود: weil du wenig geschlafen hast. deshalb جملهٔ اصلی تازه‌ای می‌سازد و فعل جایگاه دوم است: Deshalb bleibe ich heute zu Hause.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله علت و پیامد را درست بیان می‌کند؟",
+      "correctAnswer": "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+      "options": [
+        "Ich bin müde, weil ich habe wenig geschlafen.",
+        "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+        "Deshalb ich ruhe mich aus, weil müde."
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+      "options": [
+        "Deshalb ich ruhe mich aus, weil müde.",
+        "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+        "Ich bin müde, weil ich habe wenig geschlafen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nDu solltest heute eine Pause machen, weil du sehr müde bist. Du könntest einen kurzen Spaziergang machen. Deshalb musst du nicht den ganzen Tag im Bett bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برای این موقعیت دو توصیه بده: seit drei Tagen müde · wenig Wasser · morgen Training.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک مشکل روزمرهٔ بی‌خطر را انتخاب کن، درباره‌اش سؤال بپرس و سه توصیه با دلیل و پیامد ارائه بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nHallo Mina, du solltest heute nicht intensiv trainieren, weil dein Körper Ruhe braucht. Du könntest langsam spazieren gehen und genug Wasser trinken. Deshalb würde ich den Lauf auf Freitag verschieben. Wenn es nicht besser wird, solltest du professionellen Rat suchen. Hoffentlich geht es dir bald besser.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "به یک درخواست توصیه در ۷ تا ۹ جمله پاسخ بده. نگرانی، دو توصیه، یک گزینهٔ ملایم، علت، پیامد و مرز مراجعه به متخصص را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "برای یک سناریوی آشنا یک برنامهٔ امنِ تندرستی بساز. مشکل را خلاصه کن، سه اقدام همراه با دلیل پیشنهاد بده و مشخص کن چه زمانی کمک حرفه‌ای لازم است.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله علت و پیامد را درست بیان می‌کند؟",
+      "correctAnswer": "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+      "options": [
+        "Ich bin müde, weil ich habe wenig geschlafen.",
+        "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+        "Deshalb ich ruhe mich aus, weil müde."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich ausruhen» چیست؟",
+      "correctAnswer": "استراحت کردن",
+      "options": [
+        "استراحت کردن",
+        "برنامهٔ تمرین",
+        "زیرا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "نویسندهٔ پاسخ در آغاز چه پیشنهادی می‌دهد؟",
+      "correctAnswer": "شروع آرام با پیاده‌روی کوتاه",
+      "options": [
+        "مسابقهٔ طولانی",
+        "شروع آرام با پیاده‌روی کوتاه",
+        "قطع کامل حرکت برای همیشه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "یوناس سه‌شنبه چه می‌کند؟",
+      "correctAnswer": "پیاده‌روی می‌کند",
+      "options": [
+        "می‌دود",
+        "پیاده‌روی می‌کند",
+        "مسابقه می‌دهد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «می‌توانی ...»؟",
+      "correctAnswer": "Du könntest ...",
+      "options": [
+        "der Trainingsplan",
+        "Du könntest ...",
+        "Hoffentlich ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+      "options": [
+        "Ich bin müde, weil ich habe wenig geschlafen.",
+        "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+        "Deshalb ich ruhe mich aus, weil müde."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "مربی چه چیزی را پیشنهاد می‌کند؟",
+      "correctAnswer": "استراحت و تمرین سبک‌تر",
+      "options": [
+        "تمرین سنگین‌تر",
+        "استراحت و تمرین سبک‌تر",
+        "شرکت فوری در مسابقه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "شروع آرام با پیاده‌روی کوتاه",
+      "options": [
+        "قطع کامل حرکت برای همیشه",
+        "شروع آرام با پیاده‌روی کوتاه",
+        "مسابقهٔ طولانی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «die Beschwerden» چیست؟",
+      "correctAnswer": "ناراحتی‌ها و علائم",
+      "options": [
+        "ناراحتی‌ها و علائم",
+        "به‌اندازه نوشیدن",
+        "به همین دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus.",
+      "options": [
+        "Deshalb ich ruhe mich aus, weil müde.",
+        "Ich bin müde, weil ich habe wenig geschlafen.",
+        "Ich bin müde, weil ich wenig geschlafen habe. Deshalb ruhe ich mich aus."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Past counterfactuals",
+    "Complex causal relations"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "sich ausruhen",
+      "type": "Chunk",
+      "meaning": "استراحت کردن",
+      "pronunciation": null,
+      "example": "Du solltest dich heute ausruhen.",
+      "exampleTranslation": "بهتر است امروز استراحت کنی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "genug trinken",
+      "type": "Chunk",
+      "meaning": "به‌اندازه نوشیدن",
+      "pronunciation": null,
+      "example": "Du solltest genug Wasser trinken.",
+      "exampleTranslation": "بهتر است آب کافی بنوشی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "der Trainingsplan",
+      "type": "Chunk",
+      "meaning": "برنامهٔ تمرین",
+      "pronunciation": null,
+      "example": "Ich ändere meinen Trainingsplan.",
+      "exampleTranslation": "برنامهٔ تمرینم را تغییر می‌دهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "Du solltest ...",
+      "type": "Chunk",
+      "meaning": "بهتر است ...",
+      "pronunciation": null,
+      "example": "Du solltest langsam beginnen.",
+      "exampleTranslation": "بهتر است آرام شروع کنی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Du könntest ...",
+      "type": "Chunk",
+      "meaning": "می‌توانی ...",
+      "pronunciation": null,
+      "example": "Du könntest spazieren gehen.",
+      "exampleTranslation": "می‌توانی پیاده‌روی کنی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "weil",
+      "type": "Word",
+      "meaning": "زیرا",
+      "pronunciation": null,
+      "example": "Ich bleibe zu Hause, weil ich müde bin.",
+      "exampleTranslation": "خانه می‌مانم زیرا خسته‌ام.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "deshalb",
+      "type": "Word",
+      "meaning": "به همین دلیل",
+      "pronunciation": null,
+      "example": "Ich bin müde. Deshalb mache ich Pause.",
+      "exampleTranslation": "خسته‌ام؛ به همین دلیل استراحت می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Hoffentlich ...",
+      "type": "Chunk",
+      "meaning": "امیدوارم ...",
+      "pronunciation": null,
+      "example": "Hoffentlich geht es dir besser.",
+      "exampleTranslation": "امیدوارم حالت بهتر شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "die Beschwerden",
+      "type": "Chunk",
+      "meaning": "ناراحتی‌ها و علائم",
+      "pronunciation": null,
+      "example": "Bei langen Beschwerden brauche ich Rat.",
+      "exampleTranslation": "برای علائم طولانی به راهنمایی نیاز دارم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "langsam beginnen",
+      "type": "Chunk",
+      "meaning": "آرام آغاز کردن",
+      "pronunciation": null,
+      "example": "Nach der Pause beginne ich langsam.",
+      "exampleTranslation": "بعد از وقفه آرام آغاز می‌کنم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-11",
+      "target": "medizinischen Rat suchen",
+      "type": "Chunk",
+      "meaning": "مشورت پزشکی گرفتن",
+      "pronunciation": null,
+      "example": "Bei starken Schmerzen suche ich medizinischen Rat.",
+      "exampleTranslation": "برای درد شدید مشورت پزشکی می‌گیرم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

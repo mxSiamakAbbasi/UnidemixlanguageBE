@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-07",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 7,
+  "courseSlug": "german-for-real-life",
+  "title": "Learning, Media, and Communication",
+  "localizedTitle": "یادگیری، رسانه و ارتباط",
+  "description": "در این درس تجربهٔ یادگیری و عادت‌های رسانه‌ای را توضیح می‌دهی و یک فرایند ساده را مرحله‌به‌مرحله بیان می‌کنی.",
+  "estimatedDurationMinutes": 150,
+  "status": "production",
+  "mainSituation": "مقایسهٔ روش‌های یادگیری و توضیح فرستادن یک بسته یا راه‌اندازی یک ابزار",
+  "canDoObjectives": [
+    "توضیح بدهی چگونه چیزی را یاد گرفته‌ای و عادت‌های رسانه‌ای را مقایسه کنی.",
+    "یک فرایند ساده را بفهمی و مرحله‌به‌مرحله توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس تجربهٔ یادگیری و عادت‌های رسانه‌ای را توضیح می‌دهی و یک فرایند ساده را مرحله‌به‌مرحله بیان می‌کنی.\n\n• توضیح بدهی چگونه چیزی را یاد گرفته‌ای و عادت‌های رسانه‌ای را مقایسه کنی.\n• یک فرایند ساده را بفهمی و مرحله‌به‌مرحله توضیح بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mina: Wie hast du Deutsch gelernt, als du neu in Berlin warst?\nTom: Ich habe jeden Tag kurze Podcasts gehört und neue Wörter notiert.\nMina: Und wie schickst du deine Lernkarten an deine Schwester?\nTom: Die Karten werden zuerst fotografiert. Dann schicke ich ihr die Bilder über eine App.\nMina: Gute Idee. Ich sende meinem Bruder meistens nur einen Link.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Als ich ... = وقتی که در گذشته ...\nAls ich neu war, habe ich viel gehört. = وقتی تازه‌وارد بودم زیاد گوش می‌دادم.\n\nder Lernplan = برنامهٔ یادگیری\nDer Lernplan wird sonntags vorbereitet. = برنامهٔ یادگیری یکشنبه آماده می‌شود.\n\nauswählen = انتخاب کردن\nDrei Themen werden ausgewählt. = سه موضوع انتخاب می‌شوند.\n\nnotieren = یادداشت کردن\nIch notiere neue Ausdrücke. = عبارت‌های جدید را یادداشت می‌کنم.\n\neine Zusammenfassung schreiben = خلاصه نوشتن\nDanach schreibe ich eine Zusammenfassung. = پس از آن خلاصه می‌نویسم.\n\nverschickt werden = فرستاده شدن\nDas Paket wird morgen verschickt. = بسته فردا فرستاده می‌شود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «یادگیری، رسانه و ارتباط» هماهنگ‌تر است؟",
+      "correctAnswer": "notieren",
+      "options": [
+        "der Lernplan",
+        "notieren",
+        "Feedback geben"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "SO WIRD EIN PAKET VERSCHICKT\nZuerst wird der Inhalt sicher eingepackt. Danach wird die Adresse deutlich auf das Paket geschrieben. Online kann ein Versandetikett erstellt und bezahlt werden. Das Paket wird anschließend in einer Filiale abgegeben. Der Empfängerin schickt man die Sendungsnummer, damit sie den Weg des Pakets verfolgen kann.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برای دنبال‌کردن بسته چه چیزی فرستاده می‌شود؟",
+      "correctAnswer": "شمارهٔ مرسوله",
+      "options": [
+        "رمز تلفن",
+        "شمارهٔ مرسوله",
+        "فهرست خرید"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Als ich mit Deutsch angefangen habe, habe ich fast nur mit einem Buch gelernt. Später entdeckte ich kurze Videos und Podcasts. Heute wird mein Lernplan jeden Sonntag vorbereitet. Zuerst werden drei Themen ausgewählt, dann notiere ich wichtige Wörter. Am Abend schicke ich meiner Lernpartnerin eine kurze Zusammenfassung. Sie gibt mir Feedback, und ich schicke ihr am nächsten Tag meine Korrekturen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موضوع اصلی گزارش چیست؟",
+      "correctAnswer": "تغییر روش یادگیری زبان",
+      "options": [
+        "خرید تلفن جدید",
+        "تغییر روش یادگیری زبان",
+        "سفر با قطار"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برنامهٔ یادگیری چه زمانی آماده می‌شود؟",
+      "correctAnswer": "یکشنبه‌ها",
+      "options": [
+        "هر صبح",
+        "یکشنبه‌ها",
+        "ماهانه"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «توضیح بدهی چگونه چیزی را یاد گرفته‌ای و عادت‌های رسانه‌ای را مقایسه کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "als برای یک بازه یا رویداد یک‌باره در گذشته می‌آید: Als ich klein war, ... . در Passiv Präsens تمرکز بر فرایند است: Das Paket wird eingepackt. در ترتیب دو مفعول معمولاً ضمیر پیش از اسم می‌آید: Ich schicke ihr die Bilder؛ و دو اسم معمولاً Dativ پیش از Akkusativ: Ich schicke meiner Schwester einen Link.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Das Paket wird heute verschickt.",
+      "options": [
+        "Das Paket wird heute verschicken.",
+        "Das Paket wird heute verschickt.",
+        "Das Paket heute verschickt wird."
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Das Paket wird heute verschickt.",
+      "options": [
+        "Das Paket heute verschickt wird.",
+        "Das Paket wird heute verschickt.",
+        "Das Paket wird heute verschicken."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nAls ich angefangen habe, habe ich täglich gelesen. Heute wird mein Lernplan am Sonntag vorbereitet. Danach schicke ich meiner Partnerin eine Zusammenfassung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "فرایند را توضیح بده: Text wählen → wichtige Wörter markieren → Zusammenfassung schreiben → Partner schicken.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "روش یادگیری خودت را با گذشته مقایسه کن و یک فرایند چهارمرحله‌ای برای استفاده از یک ابزار آموزشی توضیح بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nAls ich mit Deutsch angefangen habe, habe ich nur Vokabeln gelernt. Heute höre ich kurze Podcasts. Zuerst wird ein Thema ausgewählt. Danach notiere ich neue Ausdrücke und schreibe eine Zusammenfassung. Am Abend schicke ich meinem Partner den Text und bitte um Feedback.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک پیام ۷ تا ۹ جمله‌ای دربارهٔ تغییر روش یادگیری و مراحل یک عادت مفید بنویس. als، یک ساختار مجهول و ترتیب درست دو مفعول را به‌کار ببر.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک روش یادگیری مفید را معرفی کن: تجربهٔ گذشته، عادت امروز، چهار مرحلهٔ اجرا و روش تبادل نتیجه با یک پارتنر را توضیح بده.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Das Paket wird heute verschickt.",
+      "options": [
+        "Das Paket wird heute verschicken.",
+        "Das Paket wird heute verschickt.",
+        "Das Paket heute verschickt wird."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Als ich ...» چیست؟",
+      "correctAnswer": "وقتی که در گذشته ...",
+      "options": [
+        "وقتی که در گذشته ...",
+        "انتخاب کردن",
+        "فرستاده شدن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن بسته چه چیزی فرستاده می‌شود؟",
+      "correctAnswer": "شمارهٔ مرسوله",
+      "options": [
+        "رمز تلفن",
+        "شمارهٔ مرسوله",
+        "فهرست خرید"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برنامهٔ یادگیری چه زمانی آماده می‌شود؟",
+      "correctAnswer": "یکشنبه‌ها",
+      "options": [
+        "هر صبح",
+        "یکشنبه‌ها",
+        "ماهانه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «خلاصه نوشتن»؟",
+      "correctAnswer": "eine Zusammenfassung schreiben",
+      "options": [
+        "auswählen",
+        "eine Zusammenfassung schreiben",
+        "Feedback geben"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Das Paket wird heute verschickt.",
+      "options": [
+        "Das Paket wird heute verschicken.",
+        "Das Paket wird heute verschickt.",
+        "Das Paket heute verschickt wird."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "موضوع اصلی گزارش چیست؟",
+      "correctAnswer": "تغییر روش یادگیری زبان",
+      "options": [
+        "خرید تلفن جدید",
+        "تغییر روش یادگیری زبان",
+        "سفر با قطار"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "شمارهٔ مرسوله",
+      "options": [
+        "فهرست خرید",
+        "شمارهٔ مرسوله",
+        "رمز تلفن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «Medien nutzen» چیست؟",
+      "correctAnswer": "از رسانه استفاده کردن",
+      "options": [
+        "از رسانه استفاده کردن",
+        "برنامهٔ یادگیری",
+        "شمارهٔ مرسوله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Das Paket wird heute verschickt.",
+      "options": [
+        "Das Paket heute verschickt wird.",
+        "Das Paket wird heute verschicken.",
+        "Das Paket wird heute verschickt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Passive across tenses",
+    "Complex temporal clauses"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "Als ich ...",
+      "type": "Chunk",
+      "meaning": "وقتی که در گذشته ...",
+      "pronunciation": null,
+      "example": "Als ich neu war, habe ich viel gehört.",
+      "exampleTranslation": "وقتی تازه‌وارد بودم زیاد گوش می‌دادم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Lernplan",
+      "type": "Chunk",
+      "meaning": "برنامهٔ یادگیری",
+      "pronunciation": null,
+      "example": "Der Lernplan wird sonntags vorbereitet.",
+      "exampleTranslation": "برنامهٔ یادگیری یکشنبه آماده می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "auswählen",
+      "type": "Word",
+      "meaning": "انتخاب کردن",
+      "pronunciation": null,
+      "example": "Drei Themen werden ausgewählt.",
+      "exampleTranslation": "سه موضوع انتخاب می‌شوند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "notieren",
+      "type": "Word",
+      "meaning": "یادداشت کردن",
+      "pronunciation": null,
+      "example": "Ich notiere neue Ausdrücke.",
+      "exampleTranslation": "عبارت‌های جدید را یادداشت می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "eine Zusammenfassung schreiben",
+      "type": "Chunk",
+      "meaning": "خلاصه نوشتن",
+      "pronunciation": null,
+      "example": "Danach schreibe ich eine Zusammenfassung.",
+      "exampleTranslation": "پس از آن خلاصه می‌نویسم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "verschickt werden",
+      "type": "Chunk",
+      "meaning": "فرستاده شدن",
+      "pronunciation": null,
+      "example": "Das Paket wird morgen verschickt.",
+      "exampleTranslation": "بسته فردا فرستاده می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "die Sendungsnummer",
+      "type": "Chunk",
+      "meaning": "شمارهٔ مرسوله",
+      "pronunciation": null,
+      "example": "Ich schicke dir die Sendungsnummer.",
+      "exampleTranslation": "شمارهٔ مرسوله را برایت می‌فرستم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Feedback geben",
+      "type": "Chunk",
+      "meaning": "بازخورد دادن",
+      "pronunciation": null,
+      "example": "Meine Partnerin gibt mir Feedback.",
+      "exampleTranslation": "پارتنرم به من بازخورد می‌دهد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "Medien nutzen",
+      "type": "Chunk",
+      "meaning": "از رسانه استفاده کردن",
+      "pronunciation": null,
+      "example": "Ich nutze Medien bewusst.",
+      "exampleTranslation": "آگاهانه از رسانه استفاده می‌کنم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "jemandem etwas schicken",
+      "type": "Chunk",
+      "meaning": "چیزی برای کسی فرستادن",
+      "pronunciation": null,
+      "example": "Ich schicke meiner Schwester einen Link.",
+      "exampleTranslation": "برای خواهرم یک لینک می‌فرستم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

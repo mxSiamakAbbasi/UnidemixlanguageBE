@@ -21,6 +21,7 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<SocialProfile> SocialProfiles => Set<SocialProfile>();
     public DbSet<City> Cities => Set<City>();
     public DbSet<UserFollow> UserFollows => Set<UserFollow>();
+    public DbSet<FollowRequest> FollowRequests => Set<FollowRequest>();
     public DbSet<UserBlock> UserBlocks => Set<UserBlock>();
     public DbSet<Report> Reports => Set<Report>();
     public DbSet<MessageRequest> MessageRequests => Set<MessageRequest>();
@@ -35,14 +36,36 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
     public DbSet<VocabularyItem> VocabularyItems => Set<VocabularyItem>();
     public DbSet<VocabularyReview> VocabularyReviews => Set<VocabularyReview>();
     public DbSet<ExamProvider> ExamProviders => Set<ExamProvider>();
+    public DbSet<MockExamAttempt> MockExamAttempts => Set<MockExamAttempt>();
+    public DbSet<ExamPracticeSession> ExamPracticeSessions => Set<ExamPracticeSession>();
     public DbSet<ExamProgram> ExamPrograms => Set<ExamProgram>();
     public DbSet<ExamSection> ExamSections => Set<ExamSection>();
     public DbSet<ExamLevelMapping> ExamLevelMappings => Set<ExamLevelMapping>();
+    public DbSet<ExamBlueprint> ExamBlueprints => Set<ExamBlueprint>();
+    public DbSet<GeneratedExamContent> GeneratedExamContents => Set<GeneratedExamContent>();
+    public DbSet<SupplementaryModule> SupplementaryModules => Set<SupplementaryModule>();
+    public DbSet<GrammarTopic> GrammarTopics => Set<GrammarTopic>();
+    public DbSet<GrammarPracticeSession> GrammarPracticeSessions => Set<GrammarPracticeSession>();
+    public DbSet<GrammarPracticeAnswer> GrammarPracticeAnswers => Set<GrammarPracticeAnswer>();
+    public DbSet<GrammarTopicProgress> GrammarTopicProgress => Set<GrammarTopicProgress>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>().HasIndex(x => x.Email).IsUnique();
         modelBuilder.Entity<Course>().HasIndex(x => x.Slug).IsUnique();
+        modelBuilder.Entity<SupplementaryModule>().HasIndex(x => x.ContentKey).IsUnique();
+        modelBuilder.Entity<SupplementaryModule>().HasIndex(x => new { x.LanguageCode, x.CefrLevel, x.Category }).IsUnique();
+        modelBuilder.Entity<GrammarTopic>().HasIndex(x => x.ContentKey).IsUnique();
+        modelBuilder.Entity<GrammarTopic>().HasIndex(x => new { x.LanguageCode, x.CefrLevel, x.Order }).IsUnique();
+        modelBuilder.Entity<GrammarPracticeSession>().HasIndex(x => new { x.UserId, x.Status, x.UpdatedAt });
+        modelBuilder.Entity<GrammarPracticeSession>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<GrammarPracticeSession>().HasOne(x => x.GrammarTopic).WithMany().HasForeignKey(x => x.GrammarTopicId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<GrammarPracticeAnswer>().HasIndex(x => new { x.GrammarPracticeSessionId, x.QuestionId }).IsUnique();
+        modelBuilder.Entity<GrammarPracticeAnswer>().HasOne(x => x.Session).WithMany(x => x.Answers).HasForeignKey(x => x.GrammarPracticeSessionId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<GrammarPracticeAnswer>().HasOne(x => x.GrammarTopic).WithMany().HasForeignKey(x => x.GrammarTopicId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<GrammarTopicProgress>().HasIndex(x => new { x.UserId, x.GrammarTopicId }).IsUnique();
+        modelBuilder.Entity<GrammarTopicProgress>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<GrammarTopicProgress>().HasOne(x => x.GrammarTopic).WithMany().HasForeignKey(x => x.GrammarTopicId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<Lesson>().HasIndex(x => new { x.CourseId, x.Order }).IsUnique();
         modelBuilder.Entity<Exercise>().HasIndex(x => new { x.LessonId, x.Order }).IsUnique();
         modelBuilder.Entity<LessonProgress>().HasIndex(x => new { x.UserId, x.LessonId }).IsUnique();
@@ -63,12 +86,17 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
         modelBuilder.Entity<SubscriptionPlan>().Property(x => x.MonthlyPrice).HasPrecision(12, 2);
         modelBuilder.Entity<SubscriptionPlan>().Property(x => x.YearlyPrice).HasPrecision(12, 2);
         modelBuilder.Entity<SocialProfile>().HasKey(x => x.UserId);
+        modelBuilder.Entity<SocialProfile>().HasIndex(x => x.Username).IsUnique();
+        modelBuilder.Entity<SocialProfile>().Property(x => x.Username).HasMaxLength(24);
         modelBuilder.Entity<SocialProfile>().HasOne(x => x.User).WithOne(x => x.SocialProfile).HasForeignKey<SocialProfile>(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<SocialProfile>().HasOne(x => x.CityReference).WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.SetNull);
         modelBuilder.Entity<City>().HasIndex(x => new { x.CountryCode, x.CanonicalName }).IsUnique();
         modelBuilder.Entity<UserFollow>().HasIndex(x => new { x.FollowerId, x.FollowedUserId }).IsUnique();
         modelBuilder.Entity<UserFollow>().HasOne(x => x.Follower).WithMany().HasForeignKey(x => x.FollowerId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<UserFollow>().HasOne(x => x.FollowedUser).WithMany().HasForeignKey(x => x.FollowedUserId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<FollowRequest>().HasIndex(x => new { x.RequesterId, x.TargetUserId }).IsUnique().HasFilter("\"Status\" = 'Pending'");
+        modelBuilder.Entity<FollowRequest>().HasOne(x => x.Requester).WithMany().HasForeignKey(x => x.RequesterId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<FollowRequest>().HasOne(x => x.TargetUser).WithMany().HasForeignKey(x => x.TargetUserId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<UserBlock>().HasIndex(x => new { x.BlockerId, x.BlockedUserId }).IsUnique();
         modelBuilder.Entity<UserBlock>().HasOne(x => x.Blocker).WithMany().HasForeignKey(x => x.BlockerId).OnDelete(DeleteBehavior.Restrict);
         modelBuilder.Entity<UserBlock>().HasOne(x => x.BlockedUser).WithMany().HasForeignKey(x => x.BlockedUserId).OnDelete(DeleteBehavior.Restrict);
@@ -112,9 +140,22 @@ public sealed class AppDbContext(DbContextOptions<AppDbContext> options) : DbCon
         modelBuilder.Entity<ExamProgram>().HasIndex(x => new { x.ExamProviderId, x.Level }).IsUnique();
         modelBuilder.Entity<ExamProgram>().HasIndex(x => new { x.ExamProviderId, x.Code }).IsUnique();
         modelBuilder.Entity<ExamProgram>().HasOne(x => x.Provider).WithMany(x => x.Programs).HasForeignKey(x => x.ExamProviderId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<MockExamAttempt>().HasIndex(x => new { x.UserId, x.ExamProgramId, x.VariantKey, x.Status });
+        modelBuilder.Entity<MockExamAttempt>().HasOne(x => x.Program).WithMany(x => x.Attempts).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<MockExamAttempt>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamPracticeSession>().HasIndex(x => new { x.UserId, x.ExamProgramId, x.SectionKey, x.PartKey, x.Status });
+        modelBuilder.Entity<ExamPracticeSession>().HasOne(x => x.Program).WithMany().HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamPracticeSession>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<ExamSection>().HasIndex(x => new { x.ExamProgramId, x.Code }).IsUnique();
         modelBuilder.Entity<ExamSection>().HasOne(x => x.Program).WithMany(x => x.Sections).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
         modelBuilder.Entity<ExamLevelMapping>().HasIndex(x => new { x.ExamProgramId, x.CefrLevel }).IsUnique();
         modelBuilder.Entity<ExamLevelMapping>().HasOne(x => x.Program).WithMany(x => x.LevelMappings).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<ExamBlueprint>().HasIndex(x => new { x.ProviderCode, x.ExamKey, x.Variant, x.Version }).IsUnique();
+        modelBuilder.Entity<ExamBlueprint>().HasOne(x => x.Program).WithMany(x => x.Blueprints).HasForeignKey(x => x.ExamProgramId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<GeneratedExamContent>().HasIndex(x => x.Fingerprint);
+        modelBuilder.Entity<GeneratedExamContent>().HasIndex(x => new { x.UserId, x.Status, x.CreatedAt });
+        modelBuilder.Entity<GeneratedExamContent>().HasOne(x => x.Blueprint).WithMany(x => x.GeneratedContents).HasForeignKey(x => x.ExamBlueprintId).OnDelete(DeleteBehavior.Restrict);
+        modelBuilder.Entity<GeneratedExamContent>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
+        modelBuilder.Entity<MockExamAttempt>().HasOne(x => x.GeneratedExamContent).WithMany().HasForeignKey(x => x.GeneratedExamContentId).OnDelete(DeleteBehavior.Restrict);
     }
 }

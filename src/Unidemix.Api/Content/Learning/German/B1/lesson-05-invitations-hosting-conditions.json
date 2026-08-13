@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-05",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 5,
+  "courseSlug": "german-b1-core",
+  "title": "Invitations, Hosting, and Conditions",
+  "localizedTitle": "دعوت، میزبانی و شرط‌ها",
+  "description": "دعوت نیمه‌رسمی می‌نویسی، پاسخ مناسب می‌دهی و تغییرهای احتمالی را هماهنگ می‌کنی.",
+  "estimatedDurationMinutes": 145,
+  "status": "production",
+  "mainSituation": "برنامه‌ریزی یک دورهمی کاری یا اجتماعی",
+  "canDoObjectives": [
+    "دعوت کنی، بپذیری، رد کنی و جزئیات برنامه را متناسب با موقعیت روشن کنی.",
+    "برای یک وضعیت احتمالی، شرط و اقدام مناسب بیان کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «دعوت، میزبانی و شرط‌ها» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: برنامه‌ریزی یک دورهمی کاری یا اجتماعی. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Teamleiterin: Wir würden uns freuen, wenn ihr am Freitag zu unserem Sommerabend kommt.\nMitarbeiter: Gern. Wo findet er statt?\nTeamleiterin: Im Innenhof. Falls es regnet, gehen wir in den großen Besprechungsraum.\nMitarbeiter: Soll ich etwas mitbringen?\nTeamleiterin: Bitte gib bis Mittwoch Bescheid. Getränke organisieren wir.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "jemanden einladen = کسی را دعوت کردن\nWir laden das Team zum Abendessen ein. = تیم را به شام دعوت می‌کنیم.\n\nBescheid geben = خبر دادن\nBitte gib bis Mittwoch Bescheid. = لطفاً تا چهارشنبه خبر بده.\n\nFalls ... = اگر احیاناً...\nFalls es regnet, bleiben wir drinnen. = اگر باران بیاید داخل می‌مانیم.\n\nstattfinden = برگزار شدن\nDas Treffen findet am Freitag statt. = جلسه جمعه برگزار می‌شود.\n\nWir würden uns freuen, wenn ... = خوشحال می‌شویم اگر...\nWir würden uns freuen, wenn Sie kommen. = اگر بیایید خوشحال می‌شویم.\n\netwas mitbringen = چیزی همراه آوردن\nSoll ich einen Salat mitbringen? = آیا سالاد همراه بیاورم؟",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "jemanden einladen",
+      "options": [
+        "jemanden einladen",
+        "Bescheid geben",
+        "Falls ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer Sprachnachricht erklärt Laleh eine kurzfristige Änderung. Das Treffen beginnt weiterhin um 18 Uhr, findet aber nicht im Garten statt. Falls das Wetter besser wird, können die Gäste später nach draußen gehen. Wer besondere Essenswünsche hat, soll bis Donnerstag Bescheid geben. Laleh bittet außerdem zwei Personen, etwas früher beim Aufbau zu helfen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "EINLADUNG ZUM TEAMABEND\nLiebe Kolleginnen und Kollegen, wir möchten gemeinsam den Abschluss unseres Projekts feiern. Der Abend findet am 18. Juni ab 18 Uhr im Innenhof statt. Falls das Wetter schlecht ist, nutzen wir Raum 204. Wir würden uns freuen, wenn ihr dabei seid. Bitte gebt bis zum 12. Juni Bescheid und informiert uns über besondere Essenswünsche.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «دعوت کنی، بپذیری، رد کنی و جزئیات برنامه را متناسب با موقعیت روشن کنی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "falls شرطی را معرفی می‌کند که احتمال آن باز است: Falls es regnet, feiern wir drinnen. wenn عمومی‌تر است و برای شرط یا زمان تکرارشونده هم می‌آید. در دعوت نیمه‌رسمی عبارت Wir würden uns freuen, wenn ... لحن محترمانه می‌سازد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nLiebe Frau Keller,",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «برنامه‌ریزی یک دورهمی کاری یا اجتماعی» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «دعوت، میزبانی و شرط‌ها» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nLiebe Frau Keller,\nvielen Dank für die Einladung zum Teamabend. Ich komme sehr gern und kann ab 17.30 Uhr beim Aufbau helfen. Falls noch Getränke fehlen, kann ich etwas mitbringen. Meine Kollegin möchte ebenfalls teilnehmen. Könnten Sie mir bitte sagen, ob sie sich separat anmelden soll?\nHerzliche Grüße\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک رویداد را هماهنگ کن: دعوت نیمه‌رسمی، اطلاعات زمان و مکان، دو وضعیت احتمالی با falls، درخواست پاسخ و یک پاسخ پذیرش یا رد مناسب تولید کن.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «jemanden einladen» چیست؟",
+      "correctAnswer": "کسی را دعوت کردن",
+      "options": [
+        "کسی را دعوت کردن",
+        "خبر دادن",
+        "اگر احیاناً..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «دعوت، میزبانی و شرط‌ها» مرتبط است؟",
+      "correctAnswer": "stattfinden",
+      "options": [
+        "stattfinden",
+        "Wir würden uns freuen, wenn ...",
+        "etwas mitbringen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «der Aufbau» چیست؟",
+      "correctAnswer": "آماده‌سازی",
+      "options": [
+        "آماده‌سازی",
+        "متأسفانه رد کردن",
+        "شرکت را تأیید کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Complex conditionals",
+    "Unreal conditions"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "jemanden einladen",
+      "type": "Chunk",
+      "meaning": "کسی را دعوت کردن",
+      "pronunciation": null,
+      "example": "Wir laden das Team zum Abendessen ein.",
+      "exampleTranslation": "تیم را به شام دعوت می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Bescheid geben",
+      "type": "Chunk",
+      "meaning": "خبر دادن",
+      "pronunciation": null,
+      "example": "Bitte gib bis Mittwoch Bescheid.",
+      "exampleTranslation": "لطفاً تا چهارشنبه خبر بده.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "Falls ...",
+      "type": "Chunk",
+      "meaning": "اگر احیاناً...",
+      "pronunciation": null,
+      "example": "Falls es regnet, bleiben wir drinnen.",
+      "exampleTranslation": "اگر باران بیاید داخل می‌مانیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "stattfinden",
+      "type": "Word",
+      "meaning": "برگزار شدن",
+      "pronunciation": null,
+      "example": "Das Treffen findet am Freitag statt.",
+      "exampleTranslation": "جلسه جمعه برگزار می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Wir würden uns freuen, wenn ...",
+      "type": "Chunk",
+      "meaning": "خوشحال می‌شویم اگر...",
+      "pronunciation": null,
+      "example": "Wir würden uns freuen, wenn Sie kommen.",
+      "exampleTranslation": "اگر بیایید خوشحال می‌شویم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "etwas mitbringen",
+      "type": "Chunk",
+      "meaning": "چیزی همراه آوردن",
+      "pronunciation": null,
+      "example": "Soll ich einen Salat mitbringen?",
+      "exampleTranslation": "آیا سالاد همراه بیاورم؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "der Aufbau",
+      "type": "Chunk",
+      "meaning": "آماده‌سازی",
+      "pronunciation": null,
+      "example": "Ich helfe beim Aufbau.",
+      "exampleTranslation": "در آماده‌سازی کمک می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "leider absagen",
+      "type": "Chunk",
+      "meaning": "متأسفانه رد کردن",
+      "pronunciation": null,
+      "example": "Ich muss leider absagen.",
+      "exampleTranslation": "متأسفانه باید رد کنم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "die Teilnahme bestätigen",
+      "type": "Chunk",
+      "meaning": "شرکت را تأیید کردن",
+      "pronunciation": null,
+      "example": "Bitte bestätigen Sie Ihre Teilnahme.",
+      "exampleTranslation": "لطفاً شرکت خود را تأیید کنید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "kurzfristig ändern",
+      "type": "Chunk",
+      "meaning": "کوتاه‌مدت تغییر دادن",
+      "pronunciation": null,
+      "example": "Wir mussten den Ort kurzfristig ändern.",
+      "exampleTranslation": "مجبور شدیم مکان را کوتاه‌مدت تغییر دهیم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

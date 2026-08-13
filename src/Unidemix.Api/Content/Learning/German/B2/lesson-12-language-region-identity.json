@@ -1,0 +1,639 @@
+{
+  "contentKey": "de-b2-core-lesson-12",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 12,
+  "courseSlug": "german-b2-core",
+  "title": "Language, Region, and Identity",
+  "localizedTitle": "زبان، منطقه و هویت",
+  "description": "تنوع زبانی را بدون کلیشه تحلیل و دیدگاه‌های متفاوت را در جمع‌بندی ساختارمند ترکیب می‌کنی.",
+  "estimatedDurationMinutes": 235,
+  "status": "production",
+  "mainSituation": "مشارکت در بحث عمومی دربارهٔ تنوع زبان",
+  "canDoObjectives": [
+    "دربارهٔ تنوع زبانی بدون کلیشه‌سازی بحث و ادعاها را بیان دقیق کنی.",
+    "تحلیل کنی انتخاب‌های زبانی چگونه بیان دقیق، بیان دقیق و بیان دقیق را نشان می‌دهند."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «زبان، منطقه و هویت» خوش آمدی. در این بخش، زبان B2 را برای تحلیل، ارتباط حرفه‌ای و بیان دقیق منصفانه به‌کار می‌بری.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: مشارکت در بحث عمومی دربارهٔ تنوع زبان. موضع، بیان دقیق، شاهد، محدودیت، بیان دقیق و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Moderatorin: Welche Rolle spielt Dialekt im Alltag?\nSprecher: Die in unserer Region gesprochene Variante schafft Nähe. Das bedeutet aber nicht, dass alle gleich sprechen.\nLinguistin: Genau. Während Dialekt in manchen Situationen Zugehörigkeit بیان دقیقisiert, wird Standardsprache in anderen als neutraler wahrgenommen.\nModeratorin: Wir sollten also Unterschiede erklären, wohingegen stereotype Bewertungen vermieden werden müssen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "im Gegensatz zu = در مقابل\nIm Gegensatz zur Standardsprache ist die Variante regional begrenzt. = در مقابل زبان معیار، گونه منطقه‌ای محدود است.\n\nregional geprägt = متأثر از منطقه\nSeine Aussprache ist regional geprägt. = تلفظ او متأثر از منطقه است.\n\neine Rolle spielen = نقش داشتن\nKontext spielt eine wichtige Rolle. = زمینه نقش مهمی دارد.\n\nZugehörigkeit بیان دقیقisieren = تعلق را نشان دادن\nDialekt kann Zugehörigkeit بیان دقیقisieren. = گویش می‌تواند تعلق را نشان دهد.\n\neine Bewertung vermeiden = از قضاوت پرهیز کردن\nWir sollten stereotype Bewertungen vermeiden. = باید از قضاوت کلیشه‌ای پرهیز کنیم.\n\nsprachliche Vielfalt = تنوع زبانی\nSprachliche Vielfalt ist gesellschaftliche Realität. = تنوع زبانی واقعیت اجتماعی است.\n\nEinfluss ausüben auf = اثر گذاشتن بر\nDie Situation übt Einfluss auf die Wortwahl aus. = موقعیت بر انتخاب واژه اثر می‌گذارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضوع مناسب‌تر است؟",
+      "correctAnswer": "im Gegensatz zu",
+      "options": [
+        "im Gegensatz zu",
+        "regional geprägt",
+        "eine Rolle spielen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و بیان دقیق موضع‌ها را دنبال کن؛ بار دوم ادعا، شاهد، بیان دقیق، بیان دقیق و بیان دقیق را یادداشت کن. متن ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer mehrteiligen Radiosendung berichten Menschen aus drei Regionen über Dialekt und Standardsprache. Eine Lehrerin nutzt im Unterricht überwiegend Standardsprache, wechselt in informellen Gesprächen aber häufig zum Dialekt. Ein junger Mitarbeiter vermeidet seine regionale Aussprache, weil er früher negativ bewertet wurde. Eine Linguistin erklärt, sprachliche Formen könnten Zugehörigkeit بیان دقیقisieren, sagten jedoch nichts über Intelligenz oder berufliche Kompetenz aus.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "بازسازی و ارزیابی چند موضع یا راه‌حل",
+      "options": [
+        "فقط معرفی واژه",
+        "بازسازی و ارزیابی چند موضع یا راه‌حل",
+        "خواندن عددها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت تحلیل را پشتیبانی می‌کند؟",
+      "correctAnswer": "گوینده → موضع → شاهد → محدودیت",
+      "options": [
+        "فقط نام",
+        "گوینده → موضع → شاهد → محدودیت",
+        "فقط جمله آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "فاصلهٔ گوینده از ادعا چگونه روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق و میزان قطعیت",
+      "options": [
+        "فقط بلندی صدا",
+        "از بیان دقیق و میزان قطعیت",
+        "از طول نام"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را برای هدف، موضع، نوع شاهد، بیان دقیق و خلأ اطلاعاتی بخوان و سپس بیان دقیق منصفانه بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "SPRACHE ALS REGIONALES ZEICHEN\nDie in einer Region entstandenen Sprachformen tragen historische und soziale Informationen. Viele Menschen verbinden Dialekt mit Nähe und Herkunft. Gleichzeitig verändert sich Sprachgebrauch je nach Alter, Beruf und Situation. Eine regionale Variante ist daher kein festes Paket, das alle Bewohner identisch verwenden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "STANDARDSPRACHE UND TEILHABE\nStandardsprache erleichtert Kommunikation über Regionen hinweg und spielt in Bildung und Verwaltung eine wichtige Rolle. Daraus folgt jedoch nicht, dass regionale Formen minderwertig sind. Problematisch wird es, wenn Aussprache automatisch mit Kompetenz verbunden wird. Sprachliche Vielfalt sollte erklärt und nicht hierarchisch bewertet werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ منصفانه چه کاری می‌کند؟",
+      "correctAnswer": "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+      "options": [
+        "یکی را حذف می‌کند",
+        "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+        "فقط واژه‌های مشابه را می‌شمارد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که برای «دربارهٔ تنوع زبانی بدون کلیشه‌سازی بحث و ادعاها را بیان دقیق کنی.» و بیان دقیق در بیان دقیق استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "صفت‌های بیان دقیق گسترده اطلاعات را پیش از اسم فشرده می‌کنند: die in mehreren Regionen gesprochene Variante. برای خوانایی باید طول آن‌ها محدود بماند. بیان دقیق با während، wohingegen و außer dass دیدگاه‌ها را دقیق مقابل هم می‌گذارند. بیان دقیق و بیان دقیق ? بیان دقیق مانند eine Rolle spielen و Einfluss ausüben انسجام بیان دقیق بی‌طرف را تقویت می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله دقیق و منسجم است؟",
+      "correctAnswer": "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+      "options": [
+        "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+        "Während Quelle A Zugang, Quelle B Risiken weist.",
+        "Quelle A während betont Quelle B."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام عبارت بیان دقیق را مسئولانه محدود می‌کند؟",
+      "correctAnswer": "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+      "options": [
+        "Die Angaben beweisen alles.",
+        "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+        "Angaben Empfehlung immer."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر بیان دقیق، بیان دقیق، بیان دقیق و بیان دقیق تحلیل کن:\nQuelle A hebt hervor, dass regional geprägte Sprache Zugehörigkeit ausdrücken kann, während Quelle B die überregionale Funktion der Standardsprache betont. Beide wenden sich gegen starre Bewertungen. Die in unterschiedlichen Situationen gewählten Formen بیان دقیقisieren Kontext und Beziehung, nicht automatisch Kompetenz. Eine faire Sprachpolitik sollte daher Standardsprache zugänglich machen, wohingegen regionale und mehrsprachige Ressourcen sichtbar bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «مشارکت در بحث عمومی دربارهٔ تنوع زبان» یک پاسخ ۱۰ تا ۱۳ جمله‌ای ارائه کن: بیان دقیق، موضع، شاهد، limitation و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو منبع یا گزینه را شفاهی synthesize کن، از موضع خود دفاع کن و به دو پرسش انتقادی با بیان دقیق مناسب پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nQuelle A hebt hervor, dass regional geprägte Sprache Zugehörigkeit ausdrücken kann, während Quelle B die überregionale Funktion der Standardsprache betont. Beide wenden sich gegen starre Bewertungen. Die in unterschiedlichen Situationen gewählten Formen بیان دقیقisieren Kontext und Beziehung, nicht automatisch Kompetenz. Eine faire Sprachpolitik sollte daher Standardsprache zugänglich machen, wohingegen regionale und mehrsprachige Ressourcen sichtbar bleiben.\n\nساختار، بیان دقیق و بیان دقیق را تحلیل کن و سپس متن مستقل خودت را بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۵ تا ۱۹ جمله‌ای در دو یا سه بند بنویس: خلاصهٔ منصفانه، مقایسه، شاهد، بیان دقیق، بیان دقیق و بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "سه بیان دقیق را دربارهٔ بیان دقیق synthesize کن، stereotype را رد کن و بیان دقیق منصفانه برای بیان دقیق بنویس که بیان دقیق، بیان دقیق و بیان دقیق را متعادل کند.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق دقیق، بیان دقیق مناسب، موضع مستدل و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق منصفانه می‌سازد؟",
+      "correctAnswer": "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+      "options": [
+        "Beide gleich.",
+        "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+        "Quelle Begründung jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «im Gegensatz zu» چیست؟",
+      "correctAnswer": "در مقابل",
+      "options": [
+        "در مقابل",
+        "متأثر از منطقه",
+        "نقش داشتن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی نباید تحریف شود؟",
+      "correctAnswer": "نسبت هر ادعا با گوینده و شاهد",
+      "options": [
+        "طول متن",
+        "نسبت هر ادعا با گوینده و شاهد",
+        "شماره صفحه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق چه چیزی را روشن می‌کند؟",
+      "correctAnswer": "اینکه هر موضع متعلق به چه کسی است",
+      "options": [
+        "فقط زمان",
+        "اینکه هر موضع متعلق به چه کسی است",
+        "فقط مکان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای گزارش بی‌طرف مناسب‌تر است؟",
+      "correctAnswer": "Die Quelle vertritt die Auffassung, dass ...",
+      "options": [
+        "Die spinnen doch.",
+        "Die Quelle vertritt die Auffassung, dass ...",
+        "Das ist Quatsch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله contrast روشن دارد؟",
+      "correctAnswer": "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+      "options": [
+        "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+        "Während flexibel zweite Sicherheit.",
+        "Option während zweite."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «زبان، منطقه و هویت» مرتبط است؟",
+      "correctAnswer": "Zugehörigkeit بیان دقیقisieren",
+      "options": [
+        "Zugehörigkeit بیان دقیقisieren",
+        "eine Bewertung vermeiden",
+        "sprachliche Vielfalt"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "interpretation معتبر چگونه است؟",
+      "correctAnswer": "محتاطانه و متکی به چند بیان دقیق متن",
+      "options": [
+        "قطعی و بدون شاهد",
+        "محتاطانه و متکی به چند بیان دقیق متن",
+        "فقط تکرار عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت uncertainty را نشان می‌دهد؟",
+      "correctAnswer": "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+      "options": [
+        "Das ist sicher immer so.",
+        "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+        "Alle wissen es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را شروع می‌کند؟",
+      "correctAnswer": "Insgesamt lässt sich daraus ableiten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Insgesamt lässt sich daraus ableiten, dass ...",
+        "Im ersten Satz ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «Einfluss ausüben auf» چیست؟",
+      "correctAnswer": "اثر گذاشتن بر",
+      "options": [
+        "اثر گذاشتن بر",
+        "در حالی که",
+        "در مقابل اینکه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر بیان دقیق متفاوت باشد چه باید کرد؟",
+      "correctAnswer": "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+      "options": [
+        "هر دو قطعی اعلام شوند",
+        "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+        "شاهد حذف شود"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "در پاسخ به بیان دقیق چه چیزی لازم است؟",
+      "correctAnswer": "پذیرش بخش معتبر و دفاع مستدل",
+      "options": [
+        "نادیده گرفتن",
+        "پذیرش بخش معتبر و دفاع مستدل",
+        "تکرار موضع"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق مناسب B2 چگونه انتخاب می‌شود؟",
+      "correctAnswer": "با توجه به مخاطب، هدف و بیان دقیق",
+      "options": [
+        "همیشه بسیار دانشگاهی",
+        "با توجه به مخاطب، هدف و بیان دقیق",
+        "همیشه محاوره‌ای"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "C1 بیان دقیق switching",
+    "Advanced بیان دقیق analysis"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "im Gegensatz zu",
+      "type": "Chunk",
+      "meaning": "در مقابل",
+      "pronunciation": null,
+      "example": "Im Gegensatz zur Standardsprache ist die Variante regional begrenzt.",
+      "exampleTranslation": "در مقابل زبان معیار، گونه منطقه‌ای محدود است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "regional geprägt",
+      "type": "Chunk",
+      "meaning": "متأثر از منطقه",
+      "pronunciation": null,
+      "example": "Seine Aussprache ist regional geprägt.",
+      "exampleTranslation": "تلفظ او متأثر از منطقه است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "eine Rolle spielen",
+      "type": "Chunk",
+      "meaning": "نقش داشتن",
+      "pronunciation": null,
+      "example": "Kontext spielt eine wichtige Rolle.",
+      "exampleTranslation": "زمینه نقش مهمی دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "Zugehörigkeit بیان دقیقisieren",
+      "type": "Chunk",
+      "meaning": "تعلق را نشان دادن",
+      "pronunciation": null,
+      "example": "Dialekt kann Zugehörigkeit بیان دقیقisieren.",
+      "exampleTranslation": "گویش می‌تواند تعلق را نشان دهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "eine Bewertung vermeiden",
+      "type": "Chunk",
+      "meaning": "از قضاوت پرهیز کردن",
+      "pronunciation": null,
+      "example": "Wir sollten stereotype Bewertungen vermeiden.",
+      "exampleTranslation": "باید از قضاوت کلیشه‌ای پرهیز کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "sprachliche Vielfalt",
+      "type": "Chunk",
+      "meaning": "تنوع زبانی",
+      "pronunciation": null,
+      "example": "Sprachliche Vielfalt ist gesellschaftliche Realität.",
+      "exampleTranslation": "تنوع زبانی واقعیت اجتماعی است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "Einfluss ausüben auf",
+      "type": "Chunk",
+      "meaning": "اثر گذاشتن بر",
+      "pronunciation": null,
+      "example": "Die Situation übt Einfluss auf die Wortwahl aus.",
+      "exampleTranslation": "موقعیت بر انتخاب واژه اثر می‌گذارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "während",
+      "type": "Word",
+      "meaning": "در حالی که",
+      "pronunciation": null,
+      "example": "Während A Nähe betont, hebt B Zugang hervor.",
+      "exampleTranslation": "در حالی که الف صمیمیت را برجسته می‌کند، ب دسترسی را.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "wohingegen",
+      "type": "Word",
+      "meaning": "در مقابل اینکه",
+      "pronunciation": null,
+      "example": "Dialekt wirkt vertraut, wohingegen Standardsprache neutraler erscheint.",
+      "exampleTranslation": "گویش آشناست، در مقابل زبان معیار بی‌طرف‌تر است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "ohne zu stereotypisieren",
+      "type": "Chunk",
+      "meaning": "بدون کلیشه‌سازی",
+      "pronunciation": null,
+      "example": "Wir beschreiben Unterschiede, ohne zu stereotypisieren.",
+      "exampleTranslation": "تفاوت‌ها را بدون کلیشه‌سازی شرح می‌دهیم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

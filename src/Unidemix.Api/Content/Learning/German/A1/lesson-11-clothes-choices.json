@@ -9,10 +9,10 @@
   "description": "در این درس ظاهر و لباس افراد را توصیف می‌کنی، گزینه‌ها را مقایسه می‌کنی و قانون‌های سادهٔ یک موقعیت را می‌فهمی.",
   "estimatedDurationMinutes": 115,
   "status": "production",
-  "mainSituation": "Choosing clothing and identifying people at an event",
+  "mainSituation": "انتخاب لباس و شناسایی افراد در یک رویداد",
   "canDoObjectives": [
-    "Describe and identify a person using simple features.",
-    "Compare familiar items and understand basic rules or requirements."
+    "با استفاده از ویژگی‌های ساده فردی را توصیف و شناسایی کنی.",
+    "وسایل آشنا را مقایسه کنی و قوانین یا الزام‌های ساده را بفهمی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «آدم‌ها، لباس‌ها و انتخاب‌ها» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Choosing clothing and identifying people at an event. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس ظاهر و لباس افراد را توصیف می‌کنی، گزینه‌ها را مقایسه می‌کنی و قانون‌های سادهٔ یک موقعیت را می‌فهمی.\n\n• با استفاده از ویژگی‌های ساده فردی را توصیف و شناسایی کنی.\n• وسایل آشنا را مقایسه کنی و قوانین یا الزام‌های ساده را بفهمی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

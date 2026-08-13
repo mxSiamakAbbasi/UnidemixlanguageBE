@@ -9,10 +9,10 @@
   "description": "در این درس دربارهٔ برنامه و خواسته صحبت می‌کنی، یک دلیل ساده می‌دهی و برنامهٔ جشن یا گردش را با آب‌وهوا هماهنگ می‌کنی.",
   "estimatedDurationMinutes": 125,
   "status": "production",
-  "mainSituation": "Planning a celebration or day out",
+  "mainSituation": "برنامه‌ریزی برای یک جشن یا گردش روزانه",
   "canDoObjectives": [
-    "Talk about immediate plans and wishes.",
-    "Give a simple reason and adapt a plan to weather or circumstances."
+    "دربارهٔ برنامه‌های نزدیک و خواسته‌هایت صحبت کنی.",
+    "یک دلیل ساده بیاوری و برنامه را با آب‌وهوا یا شرایط هماهنگ کنی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «برنامه، آب‌وهوا و جشن» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Planning a celebration or day out. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس دربارهٔ برنامه و خواسته صحبت می‌کنی، یک دلیل ساده می‌دهی و برنامهٔ جشن یا گردش را با آب‌وهوا هماهنگ می‌کنی.\n\n• دربارهٔ برنامه‌های نزدیک و خواسته‌هایت صحبت کنی.\n• یک دلیل ساده بیاوری و برنامه را با آب‌وهوا یا شرایط هماهنگ کنی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

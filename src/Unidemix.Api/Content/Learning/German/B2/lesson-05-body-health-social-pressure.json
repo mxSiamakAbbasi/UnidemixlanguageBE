@@ -1,0 +1,638 @@
+{
+  "contentKey": "de-b2-core-lesson-05",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 5,
+  "courseSlug": "german-b2-core",
+  "title": "Body, Health, and Social Pressure",
+  "localizedTitle": "بدن، سلامت و فشار اجتماعی",
+  "description": "روندهای سلامت را بدون اغراق ارزیابی و ادعا، تجربه و شاهد را از هم جدا می‌کنی.",
+  "estimatedDurationMinutes": 215,
+  "status": "production",
+  "mainSituation": "ارزیابی یک کمپین بیان دقیق ? بیان دقیق",
+  "canDoObjectives": [
+    "دربارهٔ روندهای بدن و سلامت بدون نتیجه‌گیری اغراق‌آمیز بحث کنی.",
+    "دربارهٔ گذشته فرض محتاطانه بسازی و گزارش شخصی را از شاهد جدا کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «بدن، سلامت و فشار اجتماعی» خوش آمدی. این درس مهارت‌های B1 را به بیان دقیق‌تر، متقاعدکننده‌تر و آگاه از منبع در سطح B2 گسترش می‌دهد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: ارزیابی یک کمپین بیان دقیق ? بیان دقیق. هنگام خواندن، موضع، شاهد، محدودیت، لحن و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Redakteurin: Die Kampagne behauptet, alle könnten in vier Wochen gesünder werden.\nExpertin: Das dürfte für manche motivierend gewesen sein, ist aber zu pauschal. Gesundheit lässt sich nicht auf ein einziges Ziel reduzieren.\nRedakteurin: Einige Teilnehmende berichten von positiven Erfahrungen.\nExpertin: Das ist relevant, ersetzt jedoch keine systematische Untersuchung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich untersuchen lassen = خود را معاینه کردن\nSie lässt sich regelmäßig untersuchen. = او مرتب خود را معاینه می‌کند.\n\nunter Druck stehen = زیر فشار بودن\nViele Jugendliche stehen unter Druck. = نوجوانان زیادی زیر فشارند.\n\ndürfte gewesen sein = احتمالاً بوده است\nDer Einfluss dürfte groß gewesen sein. = اثر احتمالاً زیاد بوده است.\n\nsich lösen lassen = قابل حل بودن\nDas Problem lässt sich gemeinsam lösen. = مشکل باهم قابل حل است.\n\neine Wirkung nachweisen = اثری را اثبات کردن\nDie Studie weist keine langfristige Wirkung nach. = مطالعه اثر بلندمدت را اثبات نمی‌کند.\n\neine Aussage übertreiben = در ادعا اغراق کردن\nDie Werbung übertreibt ihre Aussage. = تبلیغ در ادعا اغراق می‌کند.\n\nsozialer Druck = فشار اجتماعی\nÖffentliche Vergleiche erzeugen sozialen Druck. = مقایسه عمومی فشار اجتماعی ایجاد می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضع در این درس مناسب‌تر است؟",
+      "correctAnswer": "sich untersuchen lassen",
+      "options": [
+        "sich untersuchen lassen",
+        "unter Druck stehen",
+        "dürfte gewesen sein"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و موضع گویندگان را دنبال کن. بار دوم ادعا، شاهد، میزان موافقت یا مخالفت، محدودیت و بیان دقیق را یادداشت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einem Interview sprechen eine ehemalige Teilnehmerin und ein Gesundheitsforscher über eine Fitnesskampagne. Die Teilnehmerin fühlte sich anfangs motiviert, später jedoch durch tägliche Vergleichsbilder unter Druck gesetzt. Der Forscher vermutet, dass die öffentliche Rangliste diesen Effekt verstärkt haben dürfte. Gleichzeitig betont er, dass einzelne Erfahrungen keine allgemeine Wirkung beweisen. Die Kampagne habe vermutlich sowohl Unterstützung als auch zusätzlichen Druck erzeugt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+      "options": [
+        "فقط معرفی چند واژه",
+        "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+        "خواندن یک فهرست بی‌زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای تحلیل B2 مناسب‌تر است؟",
+      "correctAnswer": "موضع → شاهد → محدودیت → نتیجه",
+      "options": [
+        "فقط نام‌ها",
+        "موضع → شاهد → محدودیت → نتیجه",
+        "فقط جملهٔ آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موافقت مشروط چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "پذیرش بخشی از ادعا همراه با محدودیت",
+      "options": [
+        "تکرار کامل ادعا",
+        "پذیرش بخشی از ادعا همراه با محدودیت",
+        "بی‌توجهی به دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را جداگانه برای هدف و استدلال بخوان؛ سپس نقطهٔ توافق، اختلاف، نوع شاهد و خلأ اطلاعاتی را مقایسه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KAMPAGNE: DEIN BESTES ICH IN 30 TAGEN\nTeilnehmende können persönliche Ziele wählen und erhalten tägliche Erinnerungen. Nach Angaben der Anbieterin fühlen sich 80 Prozent danach aktiver. Die Kampagne wirbt mit sichtbaren Veränderungen und öffentlichen Erfolgslisten. Informationen zur Auswahl der Befragten oder zu langfristigen Auswirkungen fehlen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KRITISCHE EINORDNUNG\nKurze Programme können einen Einstieg erleichtern, sofern Ziele realistisch bleiben. Öffentliche Vergleiche erhöhen jedoch möglicherweise sozialen Druck. Positive Erfahrungsberichte sind wertvoll, dürfen aber nicht mit medizinischem Nachweis verwechselt werden. Sinnvoll wären freiwillige Teilnahme, unterschiedliche Zieltypen und unabhängige Auswertung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ معتبر دو منبع چه چیزی را حفظ می‌کند؟",
+      "correctAnswer": "تفاوت ادعا، شاهد، لحن و محدودیت",
+      "options": [
+        "فقط واژه‌های مشترک",
+        "تفاوت ادعا، شاهد، لحن و محدودیت",
+        "فقط متن کوتاه‌تر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که به تحقق هدف «دربارهٔ روندهای بدن و سلامت بدون نتیجه‌گیری اغراق‌آمیز بحث کنی.» و انسجام بیان دقیق کمک می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "lassen کاربردهای سببی، اجازه‌ای و بازتابی دارد: Ich lasse mich untersuchen؛ Die Kampagne lässt Teilnehmende Ziele wählen؛ Das Problem lässt sich lösen. Futur II می‌تواند فرض محتاطانه دربارهٔ گذشته بسازد: Der Druck dürfte groß gewesen sein؛ Die Botschaft wird viele beeinflusst haben. این ساختارها قطعیت علمی ایجاد نمی‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر انسجام و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+      "options": [
+        "Einerseits Vorteile, andererseits Fragen offen bleiben.",
+        "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+        "Die Maßnahme einerseits andererseits offen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام بیان دقیق ادعا را مسئولانه بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+      "options": [
+        "Die Daten beweisen immer alles.",
+        "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+        "Vorteil Daten ohne Einschränkung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر موضع، شاهد، بیان دقیق و بیان دقیق تحلیل کن:\nDie Kampagne dürfte einige Teilnehmende motiviert haben, da sie klare Ziele und regelmäßige Unterstützung bietet. Allerdings lässt sich ihre allgemeine Wirkung mit den veröffentlichten Angaben nicht beurteilen. Erfahrungsberichte weisen sowohl auf Motivation als auch auf sozialen Druck hin. Besonders problematisch erscheint die öffentliche Rangliste. Ich würde die Kampagne nur empfehlen, wenn Vergleiche freiwillig sind und die Wirkung unabhängig ausgewertet wird.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «ارزیابی یک کمپین بیان دقیق ? بیان دقیق» یک پاسخ ۹ تا ۱۲ جمله‌ای بساز: موضع، دو دلیل، یک شاهد، یک محدودیت و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "بدون متن کامل آماده، دو گزینه را بسنج، موضع خود را بیان دقیق کن و به دو پرسش یا بیان دقیق واکنش طبیعی نشان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nDie Kampagne dürfte einige Teilnehmende motiviert haben, da sie klare Ziele und regelmäßige Unterstützung bietet. Allerdings lässt sich ihre allgemeine Wirkung mit den veröffentlichten Angaben nicht beurteilen. Erfahrungsberichte weisen sowohl auf Motivation als auch auf sozialen Druck hin. Besonders problematisch erscheint die öffentliche Rangliste. Ich würde die Kampagne nur empfehlen, wenn Vergleiche freiwillig sind und die Wirkung unabhängig ausgewertet wird.\n\nساختار منبع‌محور و بیان دقیق را تحلیل کن؛ عبارت‌های مدل را بدون دلیل کپی نکن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۴ تا ۱۸ جمله‌ای در دو یا سه بند بنویس: مسئله، مقایسهٔ منابع یا گزینه‌ها، شاهد، بیان دقیق، نتیجه و بیان دقیق روشن داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "کمپین را از نظر دقت، شاهد و اثر اجتماعی ارزیابی کن؛ ادعا، تجربه و بیان دقیق را جدا کن و سه اصلاح مسئولانه پیشنهاد بده.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق منصفانه، استدلال پیوسته، بیان دقیق مناسب و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ موضع و محدودیت را هم‌زمان بیان می‌کند؟",
+      "correctAnswer": "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+      "options": [
+        "Der Vorschlag gut.",
+        "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+        "Daten fehlen Vorschlag überzeugt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich untersuchen lassen» چیست؟",
+      "correctAnswer": "خود را معاینه کردن",
+      "options": [
+        "خود را معاینه کردن",
+        "زیر فشار بودن",
+        "احتمالاً بوده است"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی ضروری است؟",
+      "correctAnswer": "تفکیک ادعا، شاهد و محدودیت",
+      "options": [
+        "فقط عنوان‌ها",
+        "تفکیک ادعا، شاهد و محدودیت",
+        "فقط تعداد جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از کجا روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+      "options": [
+        "فقط سرعت",
+        "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+        "فقط نام برنامه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای متن حرفه‌ای مناسب‌تر است؟",
+      "correctAnswer": "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+      "options": [
+        "Macht das einfach so.",
+        "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+        "Das Ding ist super."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله تضاد متعادل دارد؟",
+      "correctAnswer": "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+      "options": [
+        "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+        "Zwar Zeit jedoch Problem.",
+        "Spart zwar Prozess jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «بدن، سلامت و فشار اجتماعی» مرتبط است؟",
+      "correctAnswer": "sich lösen lassen",
+      "options": [
+        "sich lösen lassen",
+        "eine Wirkung nachweisen",
+        "eine Aussage übertreiben"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "استنباط معتبر B2 چیست؟",
+      "correctAnswer": "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+        "تکرار یک واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Ergebnisse legen nahe, dass ...",
+      "options": [
+        "Es ist immer so.",
+        "Die Ergebnisse legen nahe, dass ...",
+        "Ohne Zweifel alle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام ساختار بیان دقیق را معرفی می‌کند؟",
+      "correctAnswer": "Zusammenfassend lässt sich festhalten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Zusammenfassend lässt sich festhalten, dass ...",
+        "Dagegen ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «sozialer Druck» چیست؟",
+      "correctAnswer": "فشار اجتماعی",
+      "options": [
+        "فشار اجتماعی",
+        "محتاطانه تفسیر کردن",
+        "گزارش تجربه شخصی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر دو منبع از یک داده نتیجهٔ متفاوت بگیرند چه باید کرد؟",
+      "correctAnswer": "روش استنتاج و محدودیت هر دو مقایسه شود",
+      "options": [
+        "یکی بدون بررسی انتخاب شود",
+        "روش استنتاج و محدودیت هر دو مقایسه شود",
+        "هر دو نادیده گرفته شوند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ پایدار B2 چه دارد؟",
+      "correctAnswer": "موضع، شاهد، بیان دقیق و پاسخ",
+      "options": [
+        "فقط یک نظر",
+        "موضع، شاهد، بیان دقیق و پاسخ",
+        "فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن B2 چگونه از C1 drift جلوگیری می‌کند؟",
+      "correctAnswer": "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+      "options": [
+        "با بیشترین اسم‌سازی ممکن",
+        "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+        "با جمله‌های بسیار مبهم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "C1 subjective modal nuance"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "sich untersuchen lassen",
+      "type": "Chunk",
+      "meaning": "خود را معاینه کردن",
+      "pronunciation": null,
+      "example": "Sie lässt sich regelmäßig untersuchen.",
+      "exampleTranslation": "او مرتب خود را معاینه می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "unter Druck stehen",
+      "type": "Chunk",
+      "meaning": "زیر فشار بودن",
+      "pronunciation": null,
+      "example": "Viele Jugendliche stehen unter Druck.",
+      "exampleTranslation": "نوجوانان زیادی زیر فشارند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "dürfte gewesen sein",
+      "type": "Chunk",
+      "meaning": "احتمالاً بوده است",
+      "pronunciation": null,
+      "example": "Der Einfluss dürfte groß gewesen sein.",
+      "exampleTranslation": "اثر احتمالاً زیاد بوده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "sich lösen lassen",
+      "type": "Chunk",
+      "meaning": "قابل حل بودن",
+      "pronunciation": null,
+      "example": "Das Problem lässt sich gemeinsam lösen.",
+      "exampleTranslation": "مشکل باهم قابل حل است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "eine Wirkung nachweisen",
+      "type": "Chunk",
+      "meaning": "اثری را اثبات کردن",
+      "pronunciation": null,
+      "example": "Die Studie weist keine langfristige Wirkung nach.",
+      "exampleTranslation": "مطالعه اثر بلندمدت را اثبات نمی‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "eine Aussage übertreiben",
+      "type": "Chunk",
+      "meaning": "در ادعا اغراق کردن",
+      "pronunciation": null,
+      "example": "Die Werbung übertreibt ihre Aussage.",
+      "exampleTranslation": "تبلیغ در ادعا اغراق می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "sozialer Druck",
+      "type": "Chunk",
+      "meaning": "فشار اجتماعی",
+      "pronunciation": null,
+      "example": "Öffentliche Vergleiche erzeugen sozialen Druck.",
+      "exampleTranslation": "مقایسه عمومی فشار اجتماعی ایجاد می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "vorsichtig einordnen",
+      "type": "Chunk",
+      "meaning": "محتاطانه تفسیر کردن",
+      "pronunciation": null,
+      "example": "Die Ergebnisse müssen vorsichtig eingeordnet werden.",
+      "exampleTranslation": "نتایج باید محتاطانه تفسیر شوند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "ein Erfahrungsbericht",
+      "type": "Chunk",
+      "meaning": "گزارش تجربه شخصی",
+      "pronunciation": null,
+      "example": "Ein Erfahrungsbericht ist kein Beweis.",
+      "exampleTranslation": "گزارش تجربه شاهد علمی نیست.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "unter der Voraussetzung, dass",
+      "type": "Chunk",
+      "meaning": "به شرط اینکه",
+      "pronunciation": null,
+      "example": "Das Programm ist sinnvoll, unter der Voraussetzung, dass Ziele realistisch sind.",
+      "exampleTranslation": "برنامه مفید است به شرط واقعی‌بودن هدف‌ها.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

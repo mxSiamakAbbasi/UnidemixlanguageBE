@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-09",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 9,
+  "courseSlug": "german-for-real-life",
+  "title": "Culture, Books, and Opinions",
+  "localizedTitle": "فرهنگ، کتاب و نظر",
+  "description": "در این درس رویداد یا کتابی را پیشنهاد می‌کنی، علاقه یا تردید نشان می‌دهی و دربارهٔ محدودیت‌های گذشته صحبت می‌کنی.",
+  "estimatedDurationMinutes": 140,
+  "status": "production",
+  "mainSituation": "انتخاب یک فعالیت فرهنگی بر اساس معرفی‌ها و نظرهای کوتاه",
+  "canDoObjectives": [
+    "یک رویداد یا متن را پیشنهاد کنی و با علاقه یا تردید پاسخ بدهی.",
+    "یک ترجیح یا محدودیت ساده در گذشته را توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس رویداد یا کتابی را پیشنهاد می‌کنی، علاقه یا تردید نشان می‌دهی و دربارهٔ محدودیت‌های گذشته صحبت می‌کنی.\n\n• یک رویداد یا متن را پیشنهاد کنی و با علاقه یا تردید پاسخ بدهی.\n• یک ترجیح یا محدودیت ساده در گذشته را توضیح بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Nora: Im Kulturzentrum läuft ein neuer Film. Das könnte interessant sein.\nArash: Worum geht es?\nNora: Um einen Musiker, der aus dem Iran nach Deutschland kommt.\nArash: Das interessiert mich. Früher durfte ich selten ins Kino gehen, deshalb sehe ich heute gern Filme.\nNora: Oder möchtest du lieber zur Lesung?\nArash: Ich bin noch nicht sicher. Lass uns die Kritiken lesen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "die Lesung = جلسهٔ کتاب‌خوانی\nAm Freitag gibt es eine Lesung. = جمعه جلسهٔ کتاب‌خوانی برگزار می‌شود.\n\ndie Ausstellung = نمایشگاه\nDie Ausstellung zeigt Fotografien. = نمایشگاه عکس‌ها را نشان می‌دهد.\n\nder Dokumentarfilm = فیلم مستند\nWir sehen einen Dokumentarfilm. = یک فیلم مستند می‌بینیم.\n\nDas interessiert mich. = این برایم جالب است.\nDas Thema interessiert mich. = این موضوع برایم جالب است.\n\nIch bin noch nicht sicher. = هنوز مطمئن نیستم.\nIch bin noch nicht sicher, ob ich komme. = هنوز مطمئن نیستم بیایم یا نه.\n\netwas empfehlen = چیزی را پیشنهاد کردن\nIch empfehle dir dieses Buch. = این کتاب را به تو پیشنهاد می‌کنم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «فرهنگ، کتاب و نظر» هماهنگ‌تر است؟",
+      "correctAnswer": "Das interessiert mich.",
+      "options": [
+        "die Ausstellung",
+        "Das interessiert mich.",
+        "aus Österreich"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KULTUR AM WOCHENENDE\nFreitag, 19 Uhr: Lesung mit der Autorin Mila Kern im Literaturhaus. Eintritt 8 Euro.\nSamstag, 16 Uhr: Führung durch die neue Fotoausstellung im Stadtmuseum. Die Führung kommt vom Museumsteam und dauert 60 Minuten.\nSonntag, 18 Uhr: Dokumentarfilm im Programmkino. Nach dem Film gibt es ein Gespräch mit dem Regisseur.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "پس از فیلم چه برنامه‌ای برگزار می‌شود؟",
+      "correctAnswer": "گفت‌وگو با کارگردان",
+      "options": [
+        "اجرای موسیقی",
+        "گفت‌وگو با کارگردان",
+        "فروش کتاب"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Heute stellen wir drei Kulturangebote vor. Im Stadtmuseum gibt es eine Ausstellung über Fotografie. Am Freitag liest eine junge Autorin aus ihrem neuen Roman. Außerdem zeigt das Programmkino einen Dokumentarfilm über Musik in verschiedenen Ländern. Zwei Gäste empfehlen besonders die Lesung, weil die Autorin Fragen beantwortet. Ein anderer Gast würde lieber den Film sehen, da er sich für Musik interessiert.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام برنامه را دو مهمان بیشتر پیشنهاد می‌کنند؟",
+      "correctAnswer": "جلسهٔ کتاب‌خوانی",
+      "options": [
+        "نمایشگاه عکس",
+        "جلسهٔ کتاب‌خوانی",
+        "فیلم کودک"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "چرا مهمان دیگر فیلم را ترجیح می‌دهد؟",
+      "correctAnswer": "به موسیقی علاقه دارد",
+      "options": [
+        "فیلم رایگان است",
+        "به موسیقی علاقه دارد",
+        "نویسنده را می‌شناسد"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «یک رویداد یا متن را پیشنهاد کنی و با علاقه یا تردید پاسخ بدهی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "افعال modal در Präteritum برای گذشته رایج‌اند: ich konnte، musste، durfte، wollte. ترتیب جمله مانند فعل صرف‌شدهٔ معمولی است: Früher durfte ich selten ausgehen. برای مبدأ از aus استفاده می‌کنیم: der Autor aus Österreich؛ و vom برای رویداد یا نهاد: eine Empfehlung vom Museum.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله دربارهٔ گذشته درست است؟",
+      "correctAnswer": "Früher durfte ich selten ins Kino gehen.",
+      "options": [
+        "Früher darf ich selten ins Kino gehen.",
+        "Früher durfte ich selten ins Kino gehen.",
+        "Früher ich durfte selten gehen ins Kino."
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Früher durfte ich selten ins Kino gehen.",
+      "options": [
+        "Früher ich durfte selten gehen ins Kino.",
+        "Früher durfte ich selten ins Kino gehen.",
+        "Früher darf ich selten ins Kino gehen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nIch empfehle die Lesung, weil man mit der Autorin sprechen kann. Das interessiert mich besonders. Früher konnte ich wenig Deutsch lesen, aber heute lese ich kurze Romane.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یکی را پیشنهاد کن و دلیل بده: Fotoausstellung Samstag 16 Uhr / Dokumentarfilm Sonntag 18 Uhr.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک کتاب، فیلم یا رویداد را معرفی کن، واکنش مخاطب را بپرس و دربارهٔ یک علاقه یا محدودیت گذشته دو جمله بگو.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIch empfehle den Dokumentarfilm am Sonntag. Er handelt von Musik aus verschiedenen Ländern. Das Thema interessiert mich, weil ich gern Musik höre. Nach dem Film kann man mit dem Regisseur sprechen. Früher konnte ich deutsche Filme kaum verstehen, aber heute klappt es besser.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک پیشنهاد فرهنگی ۷ تا ۹ جمله‌ای بنویس. موضوع، زمان، محل، دلیل توصیه، واکنش احتمالی و یک مقایسه با گذشته را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "از میان سه معرفی فرهنگی یک گزینه انتخاب کن، آن را به همراهت پیشنهاد بده، به تردید او پاسخ بده و با دلیل به یک تصمیم مشترک برس.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دربارهٔ گذشته درست است؟",
+      "correctAnswer": "Früher durfte ich selten ins Kino gehen.",
+      "options": [
+        "Früher darf ich selten ins Kino gehen.",
+        "Früher durfte ich selten ins Kino gehen.",
+        "Früher ich durfte selten gehen ins Kino."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «die Lesung» چیست؟",
+      "correctAnswer": "جلسهٔ کتاب‌خوانی",
+      "options": [
+        "جلسهٔ کتاب‌خوانی",
+        "فیلم مستند",
+        "چیزی را پیشنهاد کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "پس از فیلم چه برنامه‌ای برگزار می‌شود؟",
+      "correctAnswer": "گفت‌وگو با کارگردان",
+      "options": [
+        "اجرای موسیقی",
+        "گفت‌وگو با کارگردان",
+        "فروش کتاب"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "چرا مهمان دیگر فیلم را ترجیح می‌دهد؟",
+      "correctAnswer": "به موسیقی علاقه دارد",
+      "options": [
+        "فیلم رایگان است",
+        "به موسیقی علاقه دارد",
+        "نویسنده را می‌شناسد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «هنوز مطمئن نیستم.»؟",
+      "correctAnswer": "Ich bin noch nicht sicher.",
+      "options": [
+        "der Dokumentarfilm",
+        "Ich bin noch nicht sicher.",
+        "aus Österreich"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Früher durfte ich selten ins Kino gehen.",
+      "options": [
+        "Früher darf ich selten ins Kino gehen.",
+        "Früher durfte ich selten ins Kino gehen.",
+        "Früher ich durfte selten gehen ins Kino."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "کدام برنامه را دو مهمان بیشتر پیشنهاد می‌کنند؟",
+      "correctAnswer": "جلسهٔ کتاب‌خوانی",
+      "options": [
+        "نمایشگاه عکس",
+        "جلسهٔ کتاب‌خوانی",
+        "فیلم کودک"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "گفت‌وگو با کارگردان",
+      "options": [
+        "فروش کتاب",
+        "گفت‌وگو با کارگردان",
+        "اجرای موسیقی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «vom Museum» چیست؟",
+      "correctAnswer": "از طرف موزه",
+      "options": [
+        "از طرف موزه",
+        "نمایشگاه",
+        "قبلاً اجازه داشتم ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Früher durfte ich selten ins Kino gehen.",
+      "options": [
+        "Früher ich durfte selten gehen ins Kino.",
+        "Früher darf ich selten ins Kino gehen.",
+        "Früher durfte ich selten ins Kino gehen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Nuanced argumentation",
+    "Modal particles"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Lesung",
+      "type": "Chunk",
+      "meaning": "جلسهٔ کتاب‌خوانی",
+      "pronunciation": null,
+      "example": "Am Freitag gibt es eine Lesung.",
+      "exampleTranslation": "جمعه جلسهٔ کتاب‌خوانی برگزار می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "die Ausstellung",
+      "type": "Chunk",
+      "meaning": "نمایشگاه",
+      "pronunciation": null,
+      "example": "Die Ausstellung zeigt Fotografien.",
+      "exampleTranslation": "نمایشگاه عکس‌ها را نشان می‌دهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "der Dokumentarfilm",
+      "type": "Chunk",
+      "meaning": "فیلم مستند",
+      "pronunciation": null,
+      "example": "Wir sehen einen Dokumentarfilm.",
+      "exampleTranslation": "یک فیلم مستند می‌بینیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "Das interessiert mich.",
+      "type": "Chunk",
+      "meaning": "این برایم جالب است.",
+      "pronunciation": null,
+      "example": "Das Thema interessiert mich.",
+      "exampleTranslation": "این موضوع برایم جالب است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Ich bin noch nicht sicher.",
+      "type": "Chunk",
+      "meaning": "هنوز مطمئن نیستم.",
+      "pronunciation": null,
+      "example": "Ich bin noch nicht sicher, ob ich komme.",
+      "exampleTranslation": "هنوز مطمئن نیستم بیایم یا نه.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "etwas empfehlen",
+      "type": "Chunk",
+      "meaning": "چیزی را پیشنهاد کردن",
+      "pronunciation": null,
+      "example": "Ich empfehle dir dieses Buch.",
+      "exampleTranslation": "این کتاب را به تو پیشنهاد می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Früher durfte ich ...",
+      "type": "Chunk",
+      "meaning": "قبلاً اجازه داشتم ...",
+      "pronunciation": null,
+      "example": "Früher durfte ich selten ausgehen.",
+      "exampleTranslation": "قبلاً به‌ندرت اجازه داشتم بیرون بروم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "aus Österreich",
+      "type": "Chunk",
+      "meaning": "از اتریش",
+      "pronunciation": null,
+      "example": "Die Autorin kommt aus Österreich.",
+      "exampleTranslation": "نویسنده از اتریش می‌آید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "vom Museum",
+      "type": "Chunk",
+      "meaning": "از طرف موزه",
+      "pronunciation": null,
+      "example": "Die Führung kommt vom Museum.",
+      "exampleTranslation": "راهنمایی از طرف موزه است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Kritik lesen",
+      "type": "Chunk",
+      "meaning": "نقد خواندن",
+      "pronunciation": null,
+      "example": "Wir lesen zuerst die Kritiken.",
+      "exampleTranslation": "ابتدا نقدها را می‌خوانیم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

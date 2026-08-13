@@ -1,0 +1,557 @@
+{
+  "contentKey": "de-a2-core-lesson-01",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 1,
+  "courseSlug": "german-for-real-life",
+  "title": "Family Stories and Life Changes",
+  "localizedTitle": "داستان‌های خانواده و تغییرات زندگی",
+  "description": "در این درس یک داستان کوتاه خانوادگی یا کاری را به‌ترتیب تعریف می‌کنی و گذشته را با امروز مقایسه می‌کنی.",
+  "estimatedDurationMinutes": 135,
+  "status": "production",
+  "mainSituation": "تعریف یک داستان خانوادگی یا کاری و توضیح تغییرات آن",
+  "canDoObjectives": [
+    "یک داستان کوتاه خانوادگی یا کاری را با ترتیب زمانی تعریف کنی.",
+    "وضعیت گذشته را با امروز مقایسه کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس یک داستان کوتاه خانوادگی یا کاری را به‌ترتیب تعریف می‌کنی و گذشته را با امروز مقایسه می‌کنی.\n\n• یک داستان کوتاه خانوادگی یا کاری را با ترتیب زمانی تعریف کنی.\n• وضعیت گذشته را با امروز مقایسه کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Neda: Was hat dein Großvater früher gemacht?\nPaul: Er war Bäcker und hatte eine kleine Bäckerei.\nNeda: Und danach?\nPaul: Danach hat er in einer großen Firma gearbeitet. Später ist unsere Familie nach Köln gezogen.\nNeda: Arbeitet heute noch jemand in der Bäckerei?\nPaul: Nein, heute haben wir andere Berufe.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "früher = قبلاً\nFrüher war alles anders. = قبلاً همه‌چیز متفاوت بود.\n\ndanach = پس از آن\nDanach hat sie eine Ausbildung gemacht. = پس از آن دورهٔ حرفه‌ای گذراند.\n\nspäter = بعدتر\nSpäter ist er nach Köln gezogen. = بعدتر به کلن نقل مکان کرد.\n\ndie Generation = نسل\nDrei Generationen erzählen ihre Geschichte. = سه نسل داستان خود را تعریف می‌کنند.\n\ndie Veränderung = تغییر\nDie Veränderung war nicht leicht. = این تغییر آسان نبود.\n\numziehen = اسباب‌کشی کردن\nWir sind 2018 umgezogen. = ما سال ۲۰۱۸ اسباب‌کشی کردیم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «داستان‌های خانواده و تغییرات زندگی» هماهنگ‌تر است؟",
+      "correctAnswer": "die Generation",
+      "options": [
+        "danach",
+        "die Generation",
+        "selbstständig arbeiten"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Meine Tante Leila ist 1978 in Shiraz geboren. Früher hat sie als Lehrerin gearbeitet. Im Jahr 2005 ist sie mit ihrer Familie nach Hamburg gezogen. Dort hat sie zuerst einen Sprachkurs besucht. Danach hat sie eine Ausbildung gemacht und später in einem Büro gearbeitet. Heute leitet sie ein kleines Team. Sie sagt, dass der Anfang nicht leicht war, aber sie ist mit ihrem neuen Leben zufrieden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موضوع اصلی گزارش شنیداری چیست؟",
+      "correctAnswer": "تغییرات زندگی و کار لیلا",
+      "options": [
+        "برنامهٔ سفر لیلا",
+        "تغییرات زندگی و کار لیلا",
+        "خرید خانهٔ لیلا"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "لیلا پس از رفتن به هامبورگ ابتدا چه کرد؟",
+      "correctAnswer": "در یک دورهٔ زبان شرکت کرد",
+      "options": [
+        "در یک دورهٔ زبان شرکت کرد",
+        "یک نانوایی باز کرد",
+        "به شیراز برگشت"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "DREI GENERATIONEN\nOmid war früher Mechaniker und hatte eine kleine Werkstatt. Seine Tochter Sara hat Informatik studiert und viele Jahre in einer Bank gearbeitet. Seit zwei Jahren arbeitet sie selbstständig. Saras Sohn Milan macht gerade eine Ausbildung. In der Familie haben sich die Berufe verändert, aber alle sagen: Gute Arbeit braucht Geduld und Übung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "چه چیزی در سه نسل تغییر کرده است؟",
+      "correctAnswer": "شغل‌ها و مسیرهای کاری",
+      "options": [
+        "نام خانوادگی",
+        "شغل‌ها و مسیرهای کاری",
+        "شهر محل تولد"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «یک داستان کوتاه خانوادگی یا کاری را با ترتیب زمانی تعریف کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای روایت کوتاه می‌توانی Perfekt را با war و hatte ترکیب کنی: Früher war er Bäcker. Danach hat er in einer Firma gearbeitet. همچنین unser و euer مالکیت گروهی را نشان می‌دهند: unsere Familie، eure Geschichte. عبارت‌های zuerst، danach، später و heute ترتیب روایت را روشن می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله ترتیب زمانی درستی دارد؟",
+      "correctAnswer": "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+      "options": [
+        "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+        "Danach sie hat gearbeitet zuerst.",
+        "Zuerst gelernt sie, danach gearbeitet."
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+      "options": [
+        "Zuerst gelernt sie, danach gearbeitet.",
+        "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+        "Zuerst sie hat gelernt, danach sie hat gearbeitet."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nFrüher war meine Mutter Verkäuferin. Danach hat sie eine Ausbildung gemacht. Später hat sie in einem Hotel gearbeitet. Heute arbeitet sie im Büro.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با این اطلاعات یک روایت کوتاه بساز: 1995 Koch · 2002 nach Berlin gezogen · danach Restaurant eröffnet · heute Küchenchef.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "داستان سه‌مرحله‌ای یکی از اعضای خانواده یا یک شخصیت فرضی را با früher، danach و heute تعریف کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nMein Onkel war früher Fahrer. 2010 ist er nach München gezogen. Danach hat er eine Ausbildung gemacht und als Techniker gearbeitet. Heute hat er eine kleine Firma. Seine Arbeit ist anders als früher, aber sie gefällt ihm.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک بند پیوستهٔ ۶ تا ۸ جمله‌ای دربارهٔ مسیر زندگی یا کار یک نفر بنویس. گذشته، یک تغییر مهم، ترتیب رویدادها و وضعیت امروز را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک داستان سه‌مرحله‌ای خانوادگی یا کاری آماده کن: گذشته، تغییر اصلی و وضعیت امروز را توضیح بده و در پایان یک تفاوت میان گذشته و حال بیان کن.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب زمانی درستی دارد؟",
+      "correctAnswer": "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+      "options": [
+        "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+        "Danach sie hat gearbeitet zuerst.",
+        "Zuerst gelernt sie, danach gearbeitet."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «früher» چیست؟",
+      "correctAnswer": "قبلاً",
+      "options": [
+        "قبلاً",
+        "بعدتر",
+        "اسباب‌کشی کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "چه چیزی در سه نسل تغییر کرده است؟",
+      "correctAnswer": "شغل‌ها و مسیرهای کاری",
+      "options": [
+        "نام خانوادگی",
+        "شغل‌ها و مسیرهای کاری",
+        "شهر محل تولد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "لیلا پس از رفتن به هامبورگ ابتدا چه کرد؟",
+      "correctAnswer": "در یک دورهٔ زبان شرکت کرد",
+      "options": [
+        "در یک دورهٔ زبان شرکت کرد",
+        "یک نانوایی باز کرد",
+        "به شیراز برگشت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «تغییر»؟",
+      "correctAnswer": "die Veränderung",
+      "options": [
+        "später",
+        "die Veränderung",
+        "selbstständig arbeiten"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+      "options": [
+        "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+        "Danach sie hat gearbeitet zuerst.",
+        "Zuerst gelernt sie, danach gearbeitet."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "موضوع اصلی گزارش شنیداری چیست؟",
+      "correctAnswer": "تغییرات زندگی و کار لیلا",
+      "options": [
+        "برنامهٔ سفر لیلا",
+        "تغییرات زندگی و کار لیلا",
+        "خرید خانهٔ لیلا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "شغل‌ها و مسیرهای کاری",
+      "options": [
+        "شهر محل تولد",
+        "شغل‌ها و مسیرهای کاری",
+        "نام خانوادگی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «In unserer Familie ...» چیست؟",
+      "correctAnswer": "در خانوادهٔ ما ...",
+      "options": [
+        "در خانوادهٔ ما ...",
+        "پس از آن",
+        "دورهٔ حرفه‌ای گذراندن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+      "options": [
+        "Zuerst gelernt sie, danach gearbeitet.",
+        "Zuerst hat sie gelernt, danach hat sie gearbeitet.",
+        "Zuerst sie hat gelernt, danach sie hat gearbeitet."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Full narrative preterite",
+    "Plusquamperfekt"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "früher",
+      "type": "Word",
+      "meaning": "قبلاً",
+      "pronunciation": null,
+      "example": "Früher war alles anders.",
+      "exampleTranslation": "قبلاً همه‌چیز متفاوت بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "danach",
+      "type": "Word",
+      "meaning": "پس از آن",
+      "pronunciation": null,
+      "example": "Danach hat sie eine Ausbildung gemacht.",
+      "exampleTranslation": "پس از آن دورهٔ حرفه‌ای گذراند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "später",
+      "type": "Word",
+      "meaning": "بعدتر",
+      "pronunciation": null,
+      "example": "Später ist er nach Köln gezogen.",
+      "exampleTranslation": "بعدتر به کلن نقل مکان کرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Generation",
+      "type": "Chunk",
+      "meaning": "نسل",
+      "pronunciation": null,
+      "example": "Drei Generationen erzählen ihre Geschichte.",
+      "exampleTranslation": "سه نسل داستان خود را تعریف می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "die Veränderung",
+      "type": "Chunk",
+      "meaning": "تغییر",
+      "pronunciation": null,
+      "example": "Die Veränderung war nicht leicht.",
+      "exampleTranslation": "این تغییر آسان نبود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "umziehen",
+      "type": "Word",
+      "meaning": "اسباب‌کشی کردن",
+      "pronunciation": null,
+      "example": "Wir sind 2018 umgezogen.",
+      "exampleTranslation": "ما سال ۲۰۱۸ اسباب‌کشی کردیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "eine Ausbildung machen",
+      "type": "Chunk",
+      "meaning": "دورهٔ حرفه‌ای گذراندن",
+      "pronunciation": null,
+      "example": "Sie hat eine Ausbildung gemacht.",
+      "exampleTranslation": "او یک دورهٔ حرفه‌ای گذراند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "selbstständig arbeiten",
+      "type": "Chunk",
+      "meaning": "مستقل کار کردن",
+      "pronunciation": null,
+      "example": "Heute arbeitet er selbstständig.",
+      "exampleTranslation": "امروز او مستقل کار می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "In unserer Familie ...",
+      "type": "Chunk",
+      "meaning": "در خانوادهٔ ما ...",
+      "pronunciation": null,
+      "example": "In unserer Familie gibt es viele Berufe.",
+      "exampleTranslation": "در خانوادهٔ ما شغل‌های زیادی وجود دارد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Früher war ..., heute ...",
+      "type": "Chunk",
+      "meaning": "قبلاً ... بود، امروز ...",
+      "pronunciation": null,
+      "example": "Früher war sie Studentin, heute ist sie Ärztin.",
+      "exampleTranslation": "قبلاً دانشجو بود، امروز پزشک است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-11",
+      "target": "die Werkstatt",
+      "type": "Chunk",
+      "meaning": "کارگاه",
+      "pronunciation": null,
+      "example": "Mein Großvater hatte eine Werkstatt.",
+      "exampleTranslation": "پدربزرگم یک کارگاه داشت.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

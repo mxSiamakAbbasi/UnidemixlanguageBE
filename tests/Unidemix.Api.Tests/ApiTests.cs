@@ -52,6 +52,82 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
     }
 
     [Fact]
+    public async Task Learning_orientation_is_structured_editable_and_persisted()
+    {
+        var client = factory.CreateClient();
+        var email = $"orientation-{Guid.NewGuid():N}@unidemix.local";
+        var registration = await client.PostAsJsonAsync("/api/auth/register", new RegisterRequest(email, "Password123!", "Learner"));
+        registration.EnsureSuccessStatusCode();
+        var auth = await registration.Content.ReadFromJsonAsync<AuthResponse>();
+        Assert.NotNull(auth); Assert.False(auth.User.LearningOnboardingCompleted);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", auth.AccessToken);
+
+        var response = await client.PutAsJsonAsync("/api/profile", new UpdateProfileRequest(
+            "Learner", "fa", "de", "A1", "migration", 15,
+            "work-migration", "B1", null, true, false));
+        response.EnsureSuccessStatusCode();
+        var profile = await response.Content.ReadFromJsonAsync<UserResponse>();
+        Assert.NotNull(profile); Assert.Equal("migration", profile.Goal); Assert.Equal("work-migration", profile.GoalSubtype);
+        Assert.Equal("B1", profile.TargetLevel); Assert.True(profile.LearningOnboardingCompleted); Assert.False(profile.LearningPathGuideDismissed);
+
+        var persisted = await client.GetFromJsonAsync<UserResponse>("/api/profile");
+        Assert.Equal(profile, persisted);
+    }
+
+    [Fact]
+    public async Task Supplementary_learning_has_five_valid_categories_per_cefr_and_is_idempotent()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        var modules = await demo.Client.GetFromJsonAsync<JsonElement>("/api/learning/supplementary?languageCode=de");
+        Assert.Equal(25, modules.GetArrayLength());
+        foreach (var level in new[] { "A1", "A2", "B1", "B2", "C1" })
+        {
+            var levelModules = modules.EnumerateArray().Where(x => x.GetProperty("cefrLevel").GetString() == level).ToArray();
+            Assert.Equal(SupplementaryContentImporter.Categories.Order(), levelModules.Select(x => x.GetProperty("category").GetString()!).Order());
+            Assert.All(levelModules, module => { Assert.True(module.GetProperty("items").GetArrayLength() >= 8); Assert.Equal("SupplementaryContextualTutor", module.GetProperty("ai").GetProperty("capability").GetString()); Assert.Equal("GermanLanguageLearningOnly", module.GetProperty("ai").GetProperty("scope").GetString()); });
+        }
+        using var scope = factory.Services.CreateScope();
+        var importer = ActivatorUtilities.CreateInstance<SupplementaryContentImporter>(scope.ServiceProvider);
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var before = await db.SupplementaryModules.CountAsync();
+        await importer.ImportAsync("Content/Learning/German/Supplementary/supplementary-v1.json");
+        Assert.Equal(before, await db.SupplementaryModules.CountAsync());
+    }
+
+    [Fact]
+    public async Task Social_username_uses_email_local_part_and_guarantees_unique_normalized_values()
+    {
+        async Task<(HttpClient Client, AuthResponse Auth)> Register(string email)
+        {
+            var client = factory.CreateClient();
+            var response = await client.PostAsJsonAsync("/api/auth/register", new RegisterRequest(email, "Password123!", "نام نمایشی"));
+            response.EnsureSuccessStatusCode();
+            var auth = await response.Content.ReadFromJsonAsync<AuthResponse>();
+            Assert.NotNull(auth);
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", auth.AccessToken);
+            return (client, auth);
+        }
+
+        var first = await Register("siamak.abbasi@example.com");
+        var second = await Register("siamak.abbasi@example.org");
+        var profiles = new[]
+        {
+            await first.Client.GetFromJsonAsync<SocialProfileResponse>("/api/social/profile"),
+            await second.Client.GetFromJsonAsync<SocialProfileResponse>("/api/social/profile")
+        };
+
+        Assert.All(profiles, Assert.NotNull);
+        Assert.Contains(profiles, x => x!.Username == "siamak.abbasi");
+        Assert.Contains(profiles, x => x!.Username.StartsWith("siamak.abbasi", StringComparison.Ordinal) && x.Username != "siamak.abbasi");
+        Assert.Equal(2, profiles.Select(x => x!.Username.ToLowerInvariant()).Distinct().Count());
+
+        using var scope = factory.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        Assert.DoesNotContain(await db.SocialProfiles.Select(x => x.Username).ToListAsync(), x =>
+            System.Text.RegularExpressions.Regex.IsMatch(x, "^member[0-9]+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase));
+    }
+
+    [Fact]
     public async Task Social_discovery_follow_report_and_block_rules_are_enforced()
     {
         var client = factory.CreateClient();
@@ -67,8 +143,8 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         var partner = discovery.Items.First(x => x.NativeLanguageCode == "de" && x.LearningLanguageCode == "fa");
 
         Assert.Equal(HttpStatusCode.BadRequest, (await client.PostAsync($"/api/social/follows/{auth.User.Id}", null)).StatusCode);
-        Assert.Equal(HttpStatusCode.NoContent, (await client.PostAsync($"/api/social/follows/{partner.UserId}", null)).StatusCode);
-        Assert.Equal(HttpStatusCode.NoContent, (await client.PostAsync($"/api/social/follows/{partner.UserId}", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.OK, (await client.PostAsync($"/api/social/follows/{partner.UserId}", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.OK, (await client.PostAsync($"/api/social/follows/{partner.UserId}", null)).StatusCode);
 
         var report = new CreateUserReportRequest(partner.UserId, "Spam", "Development test report");
         Assert.Equal(HttpStatusCode.Created, (await client.PostAsJsonAsync("/api/social/reports", report)).StatusCode);
@@ -79,6 +155,45 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         var afterBlock = await client.GetFromJsonAsync<PagedResponse<PartnerSummaryResponse>>("/api/social/discover?page=1&pageSize=20");
         Assert.NotNull(afterBlock);
         Assert.DoesNotContain(afterBlock.Items, x => x.UserId == partner.UserId);
+    }
+
+    [Fact]
+    public async Task Private_profile_follow_requests_enforce_lifecycle_authorization_notifications_and_blocks()
+    {
+        var requester = await AuthenticatedClient("parsa@unidemix.local");
+        var owner = await AuthenticatedClient("niloofar@unidemix.local");
+        var outsider = await AuthenticatedClient("demo@unidemix.local");
+        await requester.Client.DeleteAsync($"/api/social/blocks/{owner.Auth.User.Id}");
+        await owner.Client.DeleteAsync($"/api/social/blocks/{requester.Auth.User.Id}");
+        await requester.Client.DeleteAsync($"/api/social/follows/{owner.Auth.User.Id}");
+        await using (var scope = factory.Services.CreateAsyncScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            var stale = await db.FollowRequests.Where(x => x.RequesterId == requester.Auth.User.Id && x.TargetUserId == owner.Auth.User.Id).ToListAsync();
+            db.FollowRequests.RemoveRange(stale);
+            var profile = await db.SocialProfiles.SingleAsync(x => x.UserId == owner.Auth.User.Id);
+            profile.Privacy = "Private"; await db.SaveChangesAsync();
+        }
+
+        Assert.Equal(HttpStatusCode.BadRequest, (await requester.Client.PostAsync($"/api/social/follows/{requester.Auth.User.Id}", null)).StatusCode);
+        var first = await requester.Client.PostAsync($"/api/social/follows/{owner.Auth.User.Id}", null); first.EnsureSuccessStatusCode();
+        Assert.Equal("Requested", (await first.Content.ReadFromJsonAsync<FollowActionResponse>())!.State);
+        var duplicate = await requester.Client.PostAsync($"/api/social/follows/{owner.Auth.User.Id}", null); duplicate.EnsureSuccessStatusCode();
+        var incoming = await owner.Client.GetFromJsonAsync<PagedResponse<FollowRequestResponse>>("/api/social/follow-requests");
+        Assert.NotNull(incoming); Assert.Single(incoming.Items.Where(x => x.RequesterId == requester.Auth.User.Id));
+        var request = incoming.Items.Single(x => x.RequesterId == requester.Auth.User.Id);
+        Assert.Equal(HttpStatusCode.NotFound, (await outsider.Client.PostAsync($"/api/social/follow-requests/{request.Id}/accept", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.OK, (await owner.Client.PostAsync($"/api/social/follow-requests/{request.Id}/accept", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.OK, (await owner.Client.PostAsync($"/api/social/follow-requests/{request.Id}/accept", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.Conflict, (await owner.Client.PostAsync($"/api/social/follow-requests/{request.Id}/decline", null)).StatusCode);
+        var notifications = await requester.Client.GetFromJsonAsync<PagedResponse<NotificationResponse>>("/api/notifications?pageSize=50");
+        Assert.NotNull(notifications); Assert.Contains(notifications.Items, x => x.Type == "FollowRequestAccepted");
+
+        Assert.Equal(HttpStatusCode.NoContent, (await owner.Client.PostAsync($"/api/social/blocks/{requester.Auth.User.Id}", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.Conflict, (await requester.Client.PostAsync($"/api/social/follows/{owner.Auth.User.Id}", null)).StatusCode);
+        Assert.Equal(HttpStatusCode.NoContent, (await owner.Client.DeleteAsync($"/api/social/blocks/{requester.Auth.User.Id}")).StatusCode);
+        var ownerProfile = await requester.Client.GetFromJsonAsync<SocialProfileResponse>($"/api/social/profiles/{owner.Auth.User.Id}");
+        Assert.NotNull(ownerProfile); Assert.False(ownerProfile.IsFollowing);
     }
 
     [Fact]
@@ -195,6 +310,9 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         var ali = await AuthenticatedClient("ali@unidemix.local");
         await demo.Client.DeleteAsync($"/api/social/blocks/{ali.Auth.User.Id}");
         await ali.Client.DeleteAsync($"/api/social/blocks/{demo.Auth.User.Id}");
+        var aliProfile = await ali.Client.GetFromJsonAsync<SocialProfileResponse>("/api/social/profile");
+        var demoProfile = await demo.Client.GetFromJsonAsync<SocialProfileResponse>("/api/social/profile");
+        Assert.NotNull(aliProfile); Assert.NotNull(demoProfile);
 
         using var testImage = new Image<Rgba32>(4, 3);
         await using var imageStream = new MemoryStream(); await testImage.SaveAsPngAsync(imageStream);
@@ -204,7 +322,7 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         var uploadResponse = await demo.Client.PostAsync("/api/social/uploads/images", upload); uploadResponse.EnsureSuccessStatusCode();
         var storedImage = await uploadResponse.Content.ReadFromJsonAsync<ImageUploadResponse>(); Assert.NotNull(storedImage);
         var createdResponse = await demo.Client.PostAsJsonAsync("/api/social/posts",
-            new CreatePostRequest(storedImage.StorageKey, "تمرین امروز با @ali و دوباره @ali #آلمانی"));
+            new CreatePostRequest(storedImage.StorageKey, $"تمرین امروز با @{aliProfile.Username} و دوباره @{aliProfile.Username} #آلمانی"));
         Assert.Equal(HttpStatusCode.Created, createdResponse.StatusCode);
         var post = await createdResponse.Content.ReadFromJsonAsync<PostResponse>();
         Assert.NotNull(post);
@@ -217,7 +335,7 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         Assert.NotNull(liked); Assert.Equal(1, liked.Post.LikeCount);
         Assert.Equal(HttpStatusCode.NoContent, (await ali.Client.DeleteAsync($"/api/social/posts/{post.Id}/likes")).StatusCode);
 
-        var commentResponse = await ali.Client.PostAsJsonAsync($"/api/social/posts/{post.Id}/comments", new CreateCommentRequest("عالی بود @demo @demo"));
+        var commentResponse = await ali.Client.PostAsJsonAsync($"/api/social/posts/{post.Id}/comments", new CreateCommentRequest($"عالی بود @{demoProfile.Username} @{demoProfile.Username}"));
         Assert.Equal(HttpStatusCode.Created, commentResponse.StatusCode);
         var comment = await commentResponse.Content.ReadFromJsonAsync<CommentResponse>(); Assert.NotNull(comment);
         Assert.Equal(HttpStatusCode.Forbidden, (await demo.Client.DeleteAsync($"/api/social/comments/{comment.Id}")).StatusCode);
@@ -234,7 +352,7 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         Assert.Equal(HttpStatusCode.Forbidden, (await ali.Client.DeleteAsync($"/api/social/posts/{post.Id}")).StatusCode);
 
         Assert.Equal(HttpStatusCode.NoContent, (await demo.Client.PostAsync($"/api/social/blocks/{ali.Auth.User.Id}", null)).StatusCode);
-        var suggestions = await demo.Client.GetFromJsonAsync<List<MentionSuggestionResponse>>("/api/social/mentions?query=ali");
+        var suggestions = await demo.Client.GetFromJsonAsync<List<MentionSuggestionResponse>>($"/api/social/mentions?query={aliProfile.Username}");
         Assert.NotNull(suggestions); Assert.DoesNotContain(suggestions, x => x.UserId == ali.Auth.User.Id);
         Assert.Equal(HttpStatusCode.NotFound, (await ali.Client.PostAsync($"/api/social/posts/{post.Id}/likes", null)).StatusCode);
         Assert.Equal(HttpStatusCode.NoContent, (await demo.Client.DeleteAsync($"/api/social/blocks/{ali.Auth.User.Id}")).StatusCode);
@@ -308,11 +426,12 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
         {
             var imported = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/courses/lessons/{lessonSummary.GetProperty("id").GetGuid()}"));
             Assert.Equal(7, imported.RootElement.GetProperty("sections").GetArrayLength());
-            Assert.Equal(20, imported.RootElement.GetProperty("exercises").GetArrayLength());
+            Assert.Equal(19, imported.RootElement.GetProperty("exercises").GetArrayLength());
             Assert.Equal(8, imported.RootElement.GetProperty("questionBankCount").GetInt32());
             Assert.Equal("script-ready-audio-deferred", imported.RootElement.GetProperty("audio").GetProperty("status").GetString());
             Assert.Equal(2, imported.RootElement.GetProperty("learningContext").GetProperty("canDoObjectives").GetArrayLength());
             var guided = imported.RootElement.GetProperty("exercises").EnumerateArray().ToArray();
+            Assert.Single(guided.Where(x => x.GetProperty("type").GetString() == "introduction"));
             Assert.True(
                 Array.FindIndex(guided, x => x.GetProperty("type").GetString() == "grammar-explanation") <
                 Array.FindIndex(guided, x => x.GetProperty("type").GetString() == "speaking"));
@@ -364,6 +483,216 @@ public sealed class ApiTests(ApiFactory factory) : IClassFixture<ApiFactory>
             Assert.Equal(before, await db.VocabularyItems.CountAsync());
             Assert.Equal(activitiesBefore, await db.Exercises.CountAsync());
         }
+    }
+
+    [Fact]
+    public async Task Telc_mock_attempt_hides_answers_and_transcripts_and_returns_provisional_result()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        using var catalog = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/exams?languageCode=de&level=B1"));
+        var telc = catalog.RootElement.EnumerateArray().Single(x => x.GetProperty("code").GetString() == "telc");
+        var program = telc.GetProperty("programs").EnumerateArray().Single();
+        Assert.True(program.GetProperty("isPublished").GetBoolean());
+        var programId = program.GetProperty("id").GetGuid();
+
+        using var definition = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams/{programId}"));
+        var variant = definition.RootElement.GetProperty("mockVariants")[0];
+        var listening = variant.GetProperty("tasks").EnumerateArray().First(x => x.GetProperty("section").GetString() == "listening");
+        Assert.Equal(JsonValueKind.Null, listening.GetProperty("script").ValueKind);
+        Assert.False(listening.TryGetProperty("correctAnswer", out _));
+
+        var started = await demo.Client.PostAsJsonAsync($"/api/exams/{programId}/attempts", new { variantKey = variant.GetProperty("key").GetString() });
+        started.EnsureSuccessStatusCode();
+        var attempt = await started.Content.ReadFromJsonAsync<JsonElement>();
+        var attemptId = attempt.GetProperty("id").GetGuid();
+        var taskKey = listening.GetProperty("key").GetString()!;
+        var maximum = listening.GetProperty("playbackCount").GetInt32();
+        for (var play = 1; play <= maximum; play++)
+        {
+            var playback = await demo.Client.PostAsync($"/api/exams/attempts/{attemptId}/playback/{taskKey}", null);
+            playback.EnsureSuccessStatusCode();
+            var state = await playback.Content.ReadFromJsonAsync<JsonElement>();
+            Assert.False(string.IsNullOrWhiteSpace(state.GetProperty("script").GetString()));
+            Assert.Equal("de-DE", state.GetProperty("language").GetString());
+            Assert.Equal(play, state.GetProperty("used").GetInt32());
+        }
+        Assert.Equal(HttpStatusCode.Conflict, (await demo.Client.PostAsync($"/api/exams/attempts/{attemptId}/playback/{taskKey}", null)).StatusCode);
+        var persisted = await demo.Client.GetFromJsonAsync<JsonElement>($"/api/exams/attempts/{attemptId}");
+        Assert.Equal(maximum, persisted.GetProperty("playbackCounts").GetProperty(taskKey).GetInt32());
+        Assert.False(persisted.GetProperty("answers").TryGetProperty($"__playback:{taskKey}", out _));
+        (await demo.Client.PutAsJsonAsync($"/api/exams/attempts/{attemptId}", new { answers = new Dictionary<string, string>() })).EnsureSuccessStatusCode();
+        var submitted = await demo.Client.PostAsJsonAsync($"/api/exams/attempts/{attemptId}/submit", new { answers = new Dictionary<string, string>() });
+        submitted.EnsureSuccessStatusCode();
+        var result = await submitted.Content.ReadFromJsonAsync<JsonElement>();
+        Assert.Equal("Provisional", result.GetProperty("result").GetProperty("status").GetString());
+        Assert.Contains(result.GetProperty("result").GetProperty("needsEvaluation").EnumerateArray(), x => x.GetString() == "writing");
+        Assert.Contains(result.GetProperty("result").GetProperty("needsEvaluation").EnumerateArray(), x => x.GetString() == "speaking");
+    }
+
+    [Fact]
+    public async Task Telc_A1_is_published_with_official_structure_scoring_rubrics_and_two_original_mocks()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        using var catalog = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/exams?languageCode=de&level=A1"));
+        var telc = catalog.RootElement.EnumerateArray().Single(x => x.GetProperty("code").GetString() == "telc");
+        var program = telc.GetProperty("programs").EnumerateArray().Single();
+        Assert.True(program.GetProperty("isPublished").GetBoolean());
+        Assert.Equal(65, program.GetProperty("writtenDurationMinutes").GetInt32());
+        Assert.Equal(15, program.GetProperty("speakingDurationMinutes").GetInt32());
+
+        using var definition = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams/{program.GetProperty("id").GetGuid()}"));
+        var root = definition.RootElement;
+        var timing = root.GetProperty("timing");
+        Assert.Equal(65, timing.GetProperty("writtenMinutes").GetInt32());
+        Assert.Equal(10, timing.GetProperty("administrativeDurationMinutes").GetInt32());
+        Assert.Equal(75, timing.GetProperty("sessionDurationMinutes").GetInt32());
+        Assert.Equal(20, timing.GetProperty("listeningDurationMinutes").GetInt32());
+        Assert.Equal(45, timing.GetProperty("readingWritingDurationMinutes").GetInt32());
+        Assert.Equal(15, timing.GetProperty("speakingMinutes").GetInt32());
+        Assert.Equal(new[] { 3, 3, 2, 3 }, root.GetProperty("sections").EnumerateArray().Select(x => x.GetProperty("parts").GetArrayLength()));
+        Assert.Equal(2, root.GetProperty("mockVariants").GetArrayLength());
+        Assert.True(root.GetProperty("isFullMockComplete").GetBoolean());
+        Assert.All(root.GetProperty("mockVariants").EnumerateArray(), variant => Assert.Equal(39, variant.GetProperty("tasks").GetArrayLength()));
+        foreach (var variant in root.GetProperty("mockVariants").EnumerateArray())
+        {
+            var tasks = variant.GetProperty("tasks").EnumerateArray().ToArray();
+            Assert.Equal(6, tasks.Count(x => x.GetProperty("part").GetString() == "h1"));
+            Assert.Equal(4, tasks.Count(x => x.GetProperty("part").GetString() == "h2"));
+            Assert.Equal(5, tasks.Count(x => x.GetProperty("part").GetString() == "h3"));
+            Assert.Equal(5, tasks.Count(x => x.GetProperty("part").GetString() == "r1"));
+            Assert.Equal(5, tasks.Count(x => x.GetProperty("part").GetString() == "r2"));
+            Assert.Equal(5, tasks.Count(x => x.GetProperty("part").GetString() == "r3"));
+            Assert.Equal(5, tasks.Count(x => x.GetProperty("part").GetString() == "w1"));
+            Assert.Equal(2, tasks.Where(x => x.GetProperty("section").GetString() == "writing").Select(x => x.GetProperty("part").GetString()).Distinct().Count());
+            Assert.Equal(3, tasks.Count(x => x.GetProperty("section").GetString() == "speaking"));
+        }
+        var variants = root.GetProperty("mockVariants").EnumerateArray().ToArray();
+        Assert.NotEqual(variants[0].GetRawText(), variants[1].GetRawText());
+        Assert.Equal(22, root.GetProperty("practiceBank").GetArrayLength());
+        var scoring = root.GetProperty("scoring");
+        Assert.Equal(60, scoring.GetProperty("maxPoints").GetInt32());
+        Assert.Equal(36, scoring.GetProperty("passPoints").GetInt32());
+        Assert.Equal(5, scoring.GetProperty("resultBands").GetArrayLength());
+        Assert.True(scoring.GetProperty("writingRubric").GetProperty("part2").GetProperty("requiresEvaluation").GetBoolean());
+        Assert.True(scoring.GetProperty("speakingRubric").GetProperty("requiresEvaluation").GetBoolean());
+
+        var firstVariant = variants[0].GetProperty("key").GetString();
+        var started = await demo.Client.PostAsJsonAsync($"/api/exams/{program.GetProperty("id").GetGuid()}/attempts", new { variantKey = firstVariant });
+        started.EnsureSuccessStatusCode();
+        var attempt = await started.Content.ReadFromJsonAsync<JsonElement>();
+        var submitted = await demo.Client.PostAsJsonAsync($"/api/exams/attempts/{attempt.GetProperty("id").GetGuid()}/submit", new { answers = new Dictionary<string, string>() });
+        submitted.EnsureSuccessStatusCode();
+        var result = await submitted.Content.ReadFromJsonAsync<JsonElement>();
+        Assert.Equal("Provisional", result.GetProperty("result").GetProperty("status").GetString());
+        Assert.Equal(35, result.GetProperty("result").GetProperty("automaticallyScoredMaximum").GetInt32());
+    }
+
+    [Theory]
+    [InlineData("A2", 34)]
+    [InlineData("B1", 64)]
+    [InlineData("B2", 64)]
+    public async Task Telc_A2_to_B2_variants_match_every_declared_official_part_count(string level, int totalTasks)
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        using var catalog = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams?languageCode=de&level={level}"));
+        var program = catalog.RootElement.EnumerateArray().Single(x => x.GetProperty("code").GetString() == "telc").GetProperty("programs")[0];
+        using var definition = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams/{program.GetProperty("id").GetGuid()}"));
+        var root = definition.RootElement;
+        Assert.True(root.GetProperty("isFullMockComplete").GetBoolean());
+        var expected = root.GetProperty("sections").EnumerateArray().SelectMany(section => section.GetProperty("parts").EnumerateArray()
+            .Select(part => (Section: section.GetProperty("code").GetString()!, Part: part.GetProperty("key").GetString()!,
+                Count: part.GetProperty("taskType").GetString() is "writing" or "speaking" ? 1 : part.GetProperty("itemCount").GetInt32()))).ToArray();
+        foreach (var variant in root.GetProperty("mockVariants").EnumerateArray())
+        {
+            var tasks = variant.GetProperty("tasks").EnumerateArray().ToArray();
+            Assert.Equal(totalTasks, tasks.Length);
+            Assert.All(expected, item => Assert.Equal(item.Count, tasks.Count(x => x.GetProperty("section").GetString() == item.Section && x.GetProperty("part").GetString() == item.Part)));
+        }
+    }
+
+    [Fact]
+    public async Task Stored_telc_full_mock_validator_rejects_structural_drift()
+    {
+        await using var scope = factory.Services.CreateAsyncScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var program = await db.ExamPrograms.AsNoTracking().Include(x => x.Provider).SingleAsync(x => x.Provider.Code == "telc" && x.Level == "A1");
+        var package = new TelcExamPackage("telc", "de", "A1", program.Name, program.ContentVersion, program.SourceReference!,
+            JsonSerializer.Deserialize<ExamTimingSource>(program.TimingJson!, new JsonSerializerOptions { PropertyNameCaseInsensitive = true })!,
+            JsonSerializer.Deserialize<ExamSectionSource[]>(program.BlueprintJson!)!,
+            JsonSerializer.Deserialize<ExamTaskSource[]>(program.PracticeBankJson!)!,
+            JsonSerializer.Deserialize<MockVariantSource[]>(program.MockVariantsJson!)!,
+            JsonSerializer.Deserialize<ExamScoringSource>(program.ScoringJson!)!);
+        Assert.True(TelcExamPackageImporter.ValidateFullMocks(package).IsFullMockComplete);
+
+        var first = package.MockVariants[0];
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { MockVariants = [first with { Tasks = first.Tasks.Skip(1).ToArray() }, package.MockVariants[1]] }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { Timing = package.Timing with { WrittenMinutes = 64 } }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { Timing = package.Timing with { AdministrativeDurationMinutes = 9 } }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { Sections = package.Sections.Where(x => x.Code != "writing").ToArray(), MockVariants = package.MockVariants.Select(v => v with { Tasks = v.Tasks.Where(x => x.Section != "writing").ToArray() }).ToArray() }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { MockVariants = [first with { Tasks = first.Tasks.Select((x, i) => i == 0 ? x with { Type = "wrong-type" } : x).ToArray() }, package.MockVariants[1]] }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { MockVariants = [first with { Tasks = first.Tasks.Select((x, i) => i == 0 ? x with { PlaybackCount = 1 } : x).ToArray() }, package.MockVariants[1]] }).IsFullMockComplete);
+        Assert.False(TelcExamPackageImporter.ValidateFullMocks(package with { MockVariants = [first with { Tasks = first.Tasks.Select((x, i) => i == 0 ? x with { Options = [x.Options![0], x.Options[0], x.Options[2]] } : x).ToArray() }, package.MockVariants[1]] }).IsFullMockComplete);
+    }
+
+    [Fact]
+    public async Task Exam_practice_sessions_resume_by_provider_level_and_part_and_mock_retries_are_independent()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        using var telcCatalog = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/exams?languageCode=de&level=A1"));
+        var telc = telcCatalog.RootElement.EnumerateArray().Single(x => x.GetProperty("code").GetString() == "telc").GetProperty("programs")[0];
+        var programId = telc.GetProperty("id").GetGuid();
+        using var definition = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams/{programId}"));
+        var practice = definition.RootElement.GetProperty("practiceBank").EnumerateArray();
+        Assert.All(practice.Where(x => x.GetProperty("section").GetString() == "listening" && x.GetProperty("part").GetString() == "h1"), x => Assert.Equal("h1", x.GetProperty("part").GetString()));
+        var started = await demo.Client.PostAsJsonAsync($"/api/exams/{programId}/practice-sessions", new { sectionKey = "listening", partKey = "h1" });
+        started.EnsureSuccessStatusCode(); var session = await started.Content.ReadFromJsonAsync<JsonElement>();
+        var answer = practice.First(x => x.GetProperty("part").GetString() == "h1");
+        var savedAnswer = new Dictionary<string,string> { [answer.GetProperty("key").GetString()!] = answer.GetProperty("correctAnswer").GetString()! };
+        (await demo.Client.PutAsJsonAsync($"/api/exams/practice-sessions/{session.GetProperty("id").GetGuid()}", new { currentItemIndex = 1, answers = savedAnswer, submittedItems = savedAnswer.Keys.ToArray() })).EnsureSuccessStatusCode();
+        var resumed = await (await demo.Client.PostAsJsonAsync($"/api/exams/{programId}/practice-sessions", new { sectionKey = "listening", partKey = "h1" })).Content.ReadFromJsonAsync<JsonElement>();
+        Assert.Equal(session.GetProperty("id").GetGuid(), resumed.GetProperty("id").GetGuid()); Assert.Equal(1, resumed.GetProperty("currentItemIndex").GetInt32());
+
+        var variant = definition.RootElement.GetProperty("mockVariants")[0].GetProperty("key").GetString();
+        var first = await (await demo.Client.PostAsJsonAsync($"/api/exams/{programId}/attempts", new { variantKey = variant, executionMode = "Familiarization" })).Content.ReadFromJsonAsync<JsonElement>();
+        var second = await (await demo.Client.PostAsJsonAsync($"/api/exams/{programId}/attempts", new { variantKey = variant, executionMode = "TimedSimulation" })).Content.ReadFromJsonAsync<JsonElement>();
+        Assert.NotEqual(first.GetProperty("id").GetGuid(), second.GetProperty("id").GetGuid()); Assert.Equal("Familiarization", first.GetProperty("executionMode").GetString()); Assert.Equal("TimedSimulation", second.GetProperty("executionMode").GetString());
+        var firstId = first.GetProperty("id").GetGuid();
+        (await demo.Client.PutAsJsonAsync($"/api/exams/attempts/{firstId}", new { currentItemIndex = 2, answers = savedAnswer })).EnsureSuccessStatusCode();
+        var continued = await (await demo.Client.GetAsync($"/api/exams/attempts/{firstId}")).Content.ReadFromJsonAsync<JsonElement>();
+        Assert.Equal("InProgress", continued.GetProperty("status").GetString());
+        Assert.Equal(2, continued.GetProperty("currentItemIndex").GetInt32());
+        Assert.Equal(savedAnswer.Single().Value, continued.GetProperty("answers").GetProperty(savedAnswer.Single().Key).GetString());
+
+        using var goetheCatalog = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/exams?languageCode=de&level=C1"));
+        var goetheId = goetheCatalog.RootElement.EnumerateArray().Single(x => x.GetProperty("code").GetString() == "goethe").GetProperty("programs")[0].GetProperty("id").GetGuid();
+        using var goethe = JsonDocument.Parse(await demo.Client.GetStringAsync($"/api/exams/{goetheId}"));
+        Assert.NotEmpty(goethe.RootElement.GetProperty("practiceBank").EnumerateArray()); Assert.Equal(2, goethe.RootElement.GetProperty("mockVariants").GetArrayLength());
+        Assert.All(goethe.RootElement.GetProperty("practiceBank").EnumerateArray(), x => Assert.StartsWith("goethe-c1-", x.GetProperty("key").GetString()));
+    }
+
+    [Fact]
+    public async Task Grammar_session_persists_question_and_option_order_across_resume()
+    {
+        var demo = await AuthenticatedClient("demo@unidemix.local");
+        using var topics = JsonDocument.Parse(await demo.Client.GetStringAsync("/api/learning/grammar?languageCode=de&level=A1"));
+        var topicId = topics.RootElement.EnumerateArray().First().GetProperty("id").GetGuid();
+        var startedResponse = await demo.Client.PostAsJsonAsync("/api/learning/grammar/sessions", new { languageCode = "de", cefrLevel = "A1", topicId, mode = "Topic", forceNew = true });
+        startedResponse.EnsureSuccessStatusCode(); var started = await startedResponse.Content.ReadFromJsonAsync<JsonElement>();
+        var sessionId = started.GetProperty("id").GetGuid();
+        var resumed = await demo.Client.GetFromJsonAsync<JsonElement>($"/api/learning/grammar/sessions/{sessionId}");
+        Assert.Equal(started.GetProperty("questions").GetRawText(), resumed.GetProperty("questions").GetRawText());
+
+        await using var scope = factory.Services.CreateAsyncScope();
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        var stored = await db.GrammarPracticeSessions.AsNoTracking().SingleAsync(x => x.Id == sessionId);
+        var optionOrder = JsonSerializer.Deserialize<Dictionary<string,string[]>>(stored.QuestionOptionOrderJson);
+        Assert.NotNull(optionOrder); Assert.Equal(started.GetProperty("questions").GetArrayLength(), optionOrder.Count);
+        var topic = await db.GrammarTopics.AsNoTracking().SingleAsync(x => x.Id == topicId);
+        var bank = JsonSerializer.Deserialize<GrammarExercise[]>(topic.ExercisesJson)!;
+        var positions = bank.Where(x => optionOrder.TryGetValue(x.Id, out var options) && options.Length > 0).Select(x => Array.FindIndex(optionOrder[x.Id], x.AcceptedAnswers.Contains)).ToArray();
+        var counts = positions.GroupBy(x => x).Select(x => x.Count()).ToArray();
+        Assert.True(counts.Max() - counts.Min() <= 1);
+        Assert.DoesNotContain(new[] { 2, 3 }, size => positions.Length >= size * 2 && positions.Select((value, index) => index < size || value == positions[index % size]).All(x => x));
     }
 
     private async Task<(HttpClient Client, AuthResponse Auth)> AuthenticatedClient(string email)

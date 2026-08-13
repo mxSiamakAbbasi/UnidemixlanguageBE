@@ -9,10 +9,10 @@
   "description": "در این درس مسیر می‌پرسی، راه ساده‌ای را توضیح می‌دهی و اطلاعات اصلی قطار، سکو و زمان حرکت را می‌فهمی.",
   "estimatedDurationMinutes": 125,
   "status": "production",
-  "mainSituation": "Reaching a destination by public transport",
+  "mainSituation": "رسیدن به مقصد با حمل‌ونقل عمومی",
   "canDoObjectives": [
-    "Ask for and give simple directions.",
-    "Understand basic transport times, platforms, and destinations."
+    "مسیر را بپرسی و یک مسیر ساده را توضیح بدهی.",
+    "زمان حرکت، سکوی حرکت و مقصد را در اطلاعات سادهٔ حمل‌ونقل تشخیص بدهی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «رفت‌وآمد در شهر» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Reaching a destination by public transport. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس مسیر می‌پرسی، راه ساده‌ای را توضیح می‌دهی و اطلاعات اصلی قطار، سکو و زمان حرکت را می‌فهمی.\n\n• مسیر را بپرسی و یک مسیر ساده را توضیح بدهی.\n• زمان حرکت، سکوی حرکت و مقصد را در اطلاعات سادهٔ حمل‌ونقل تشخیص بدهی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

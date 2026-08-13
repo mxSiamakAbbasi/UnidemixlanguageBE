@@ -1,0 +1,639 @@
+{
+  "contentKey": "de-b2-core-lesson-06",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 6,
+  "courseSlug": "german-b2-core",
+  "title": "Cities for Different Lives",
+  "localizedTitle": "شهرها برای شیوه‌های متفاوت زندگی",
+  "description": "شهرها را با معیار و تجربه مقایسه و پیشنهادی فرضی و فراگیر ارائه می‌کنی.",
+  "estimatedDurationMinutes": 215,
+  "status": "production",
+  "mainSituation": "پیشنهاد بهبود فراگیر شهری با محدودیت بودجه",
+  "canDoObjectives": [
+    "شهرها را بر اساس معیارها، داده‌ها و تجربهٔ زیسته مقایسه کنی.",
+    "شرایط غیرواقعی یا فرضی و بهبودهای ممکن را مطرح و از پیشنهاد دفاع کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «شهرها برای شیوه‌های متفاوت زندگی» خوش آمدی. این درس مهارت‌های B1 را به بیان دقیق‌تر، متقاعدکننده‌تر و آگاه از منبع در سطح B2 گسترش می‌دهد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: پیشنهاد بهبود فراگیر شهری با محدودیت بودجه. هنگام خواندن، موضع، شاهد، محدودیت، لحن و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Planerin: Wenn wir mehr Mittel hätten, würden wir alle Haltestellen sofort umbauen.\nBewohner: Es wirkt aber, als ob nur das Zentrum berücksichtigt würde.\nPlanerin: Der Vorwurf ist nachvollziehbar. Wir könnten zunächst drei Außenbezirke auswählen.\nBewohnerin: Wichtig wäre, dass barrierefreie Wege auch nachts zur Verfügung stünden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "zur Verfügung stehen = در دسترس بودن\nMehr Daten stehen zur Verfügung. = داده‌های بیشتری در دسترس است.\n\nWenn ... würde ... = اگر... آنگاه...\nWenn mehr Geld da wäre, würde die Stadt investieren. = اگر پول بیشتر بود شهر سرمایه‌گذاری می‌کرد.\n\nals ob = گویی\nEs wirkt, als ob niemand gefragt worden wäre. = به نظر می‌رسد گویی از کسی نپرسیده‌اند.\n\nbarrierefrei = بدون مانع و دسترس‌پذیر\nAlle Haltestellen sollen barrierefrei sein. = همه ایستگاه‌ها باید دسترس‌پذیر باشند.\n\nLebensqualität = کیفیت زندگی\nKurze Wege erhöhen die Lebensqualität. = مسیر کوتاه کیفیت زندگی را بالا می‌برد.\n\nein Pilotprojekt durchführen = پروژهٔ آزمایشی اجرا کردن\nDie Stadt führt ein Pilotprojekt durch. = شهر پروژهٔ آزمایشی اجرا می‌کند.\n\neinen Einwand berücksichtigen = اعتراضی را در نظر گرفتن\nDer Plan berücksichtigt diesen Einwand. = طرح اعتراض را در نظر می‌گیرد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضع در این درس مناسب‌تر است؟",
+      "correctAnswer": "zur Verfügung stehen",
+      "options": [
+        "zur Verfügung stehen",
+        "Wenn ... würde ...",
+        "als ob"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و موضع گویندگان را دنبال کن. بار دوم ادعا، شاهد، میزان موافقت یا مخالفت، محدودیت و بیان دقیق را یادداشت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer Ausschusssitzung wird über einen begrenzten Stadtetat diskutiert. Eine Gruppe schlägt breitere Radwege im Zentrum vor. Vertreter aus Außenbezirken wenden ein, dass dort sichere Wege zu Haltestellen fehlen. Eine Planerin erklärt, ein stufenweiser Ausbau wäre realistischer. Wenn zunächst besonders belastete Routen ausgewählt würden, könnten unterschiedliche Bedürfnisse berücksichtigt und die Wirkung gemessen werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+      "options": [
+        "فقط معرفی چند واژه",
+        "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+        "خواندن یک فهرست بی‌زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای تحلیل B2 مناسب‌تر است؟",
+      "correctAnswer": "موضع → شاهد → محدودیت → نتیجه",
+      "options": [
+        "فقط نام‌ها",
+        "موضع → شاهد → محدودیت → نتیجه",
+        "فقط جملهٔ آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موافقت مشروط چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "پذیرش بخشی از ادعا همراه با محدودیت",
+      "options": [
+        "تکرار کامل ادعا",
+        "پذیرش بخشی از ادعا همراه با محدودیت",
+        "بی‌توجهی به دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را جداگانه برای هدف و استدلال بخوان؛ سپس نقطهٔ توافق، اختلاف، نوع شاهد و خلأ اطلاعاتی را مقایسه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "STADTPROFIL A\nDie Innenstadt bietet ein dichtes Kulturangebot und kurze Wege. Öffentliche Verkehrsmittel fahren häufig, doch bezahlbarer Wohnraum ist knapp. In Außenbezirken stehen größere Wohnungen zur Verfügung, allerdings sind einige Haltestellen nur eingeschränkt barrierefrei. Die Stadt plant Investitionen, verfügt aber über ein begrenztes Budget.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "VORSCHLAG: MOBILE STADT FÜR ALLE\nPriorität sollten Routen erhalten, die Wohngebiete mit Arbeit, Bildung und Gesundheitsdiensten verbinden. Ein Pilotprojekt könnte zunächst drei Bezirke umfassen. Kritiker befürchten, dass das Zentrum dadurch vernachlässigt würde. Befürworter بیان دقیقieren, die Maßnahme gleiche bestehende Nachteile aus und könne später erweitert werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ معتبر دو منبع چه چیزی را حفظ می‌کند؟",
+      "correctAnswer": "تفاوت ادعا، شاهد، لحن و محدودیت",
+      "options": [
+        "فقط واژه‌های مشترک",
+        "تفاوت ادعا، شاهد، لحن و محدودیت",
+        "فقط متن کوتاه‌تر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که به تحقق هدف «شهرها را بر اساس معیارها، داده‌ها و تجربهٔ زیسته مقایسه کنی.» و انسجام بیان دقیق کمک می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "شرط غیرواقعی با Konjunktiv II ساخته می‌شود: Wenn mehr Flächen verfügbar wären, könnte die Stadt breitere Wege bauen. würde + Infinitiv برای بسیاری افعال رایج است، اما wäre، hätte و modal forms دقیق‌ترند. als ob برداشت ظاهری یا مقایسهٔ غیرواقعی می‌سازد: Es wirkt, als ob nur Autos berücksichtigt würden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر انسجام و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+      "options": [
+        "Einerseits Vorteile, andererseits Fragen offen bleiben.",
+        "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+        "Die Maßnahme einerseits andererseits offen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام بیان دقیق ادعا را مسئولانه بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+      "options": [
+        "Die Daten beweisen immer alles.",
+        "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+        "Vorteil Daten ohne Einschränkung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر موضع، شاهد، بیان دقیق و بیان دقیق تحلیل کن:\nWenn die Stadt unbegrenzte Mittel hätte, könnte sie alle Routen gleichzeitig modernisieren. Da dies unrealistisch ist, schlage ich ein Pilotprojekt in drei Außenbezirken vor. Dort stehen zwar größere Wohnungen zur Verfügung, doch wichtige Haltestellen sind teilweise schwer zugänglich. Es wirkt, als ob bisher vor allem zentrale Wege berücksichtigt worden wären. Der Erfolg sollte anhand von Reisezeit, Nutzung und Barrierefreiheit gemessen werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «پیشنهاد بهبود فراگیر شهری با محدودیت بودجه» یک پاسخ ۹ تا ۱۲ جمله‌ای بساز: موضع، دو دلیل، یک شاهد، یک محدودیت و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "بدون متن کامل آماده، دو گزینه را بسنج، موضع خود را بیان دقیق کن و به دو پرسش یا بیان دقیق واکنش طبیعی نشان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nWenn die Stadt unbegrenzte Mittel hätte, könnte sie alle Routen gleichzeitig modernisieren. Da dies unrealistisch ist, schlage ich ein Pilotprojekt in drei Außenbezirken vor. Dort stehen zwar größere Wohnungen zur Verfügung, doch wichtige Haltestellen sind teilweise schwer zugänglich. Es wirkt, als ob bisher vor allem zentrale Wege berücksichtigt worden wären. Der Erfolg sollte anhand von Reisezeit, Nutzung und Barrierefreiheit gemessen werden.\n\nساختار منبع‌محور و بیان دقیق را تحلیل کن؛ عبارت‌های مدل را بدون دلیل کپی نکن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۴ تا ۱۸ جمله‌ای در دو یا سه بند بنویس: مسئله، مقایسهٔ منابع یا گزینه‌ها، شاهد، بیان دقیق، نتیجه و بیان دقیق روشن داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک بهبود فراگیر شهری را با بیان دقیق واقعی بیان دقیق کن: دو منبع، معیارها، گزینهٔ فرضی، بیان دقیق و پاسخ، بودجهٔ محدود و معیار موفقیت را ترکیب کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق منصفانه، استدلال پیوسته، بیان دقیق مناسب و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ موضع و محدودیت را هم‌زمان بیان می‌کند؟",
+      "correctAnswer": "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+      "options": [
+        "Der Vorschlag gut.",
+        "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+        "Daten fehlen Vorschlag überzeugt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «zur Verfügung stehen» چیست؟",
+      "correctAnswer": "در دسترس بودن",
+      "options": [
+        "در دسترس بودن",
+        "اگر... آنگاه...",
+        "گویی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی ضروری است؟",
+      "correctAnswer": "تفکیک ادعا، شاهد و محدودیت",
+      "options": [
+        "فقط عنوان‌ها",
+        "تفکیک ادعا، شاهد و محدودیت",
+        "فقط تعداد جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از کجا روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+      "options": [
+        "فقط سرعت",
+        "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+        "فقط نام برنامه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای متن حرفه‌ای مناسب‌تر است؟",
+      "correctAnswer": "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+      "options": [
+        "Macht das einfach so.",
+        "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+        "Das Ding ist super."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله تضاد متعادل دارد؟",
+      "correctAnswer": "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+      "options": [
+        "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+        "Zwar Zeit jedoch Problem.",
+        "Spart zwar Prozess jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «شهرها برای شیوه‌های متفاوت زندگی» مرتبط است؟",
+      "correctAnswer": "barrierefrei",
+      "options": [
+        "barrierefrei",
+        "Lebensqualität",
+        "ein Pilotprojekt durchführen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "استنباط معتبر B2 چیست؟",
+      "correctAnswer": "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+        "تکرار یک واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Ergebnisse legen nahe, dass ...",
+      "options": [
+        "Es ist immer so.",
+        "Die Ergebnisse legen nahe, dass ...",
+        "Ohne Zweifel alle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام ساختار بیان دقیق را معرفی می‌کند؟",
+      "correctAnswer": "Zusammenfassend lässt sich festhalten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Zusammenfassend lässt sich festhalten, dass ...",
+        "Dagegen ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «einen Einwand berücksichtigen» چیست؟",
+      "correctAnswer": "اعتراضی را در نظر گرفتن",
+      "options": [
+        "اعتراضی را در نظر گرفتن",
+        "تحت یک شرط",
+        "نابرابری موجود را جبران کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر دو منبع از یک داده نتیجهٔ متفاوت بگیرند چه باید کرد؟",
+      "correctAnswer": "روش استنتاج و محدودیت هر دو مقایسه شود",
+      "options": [
+        "یکی بدون بررسی انتخاب شود",
+        "روش استنتاج و محدودیت هر دو مقایسه شود",
+        "هر دو نادیده گرفته شوند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ پایدار B2 چه دارد؟",
+      "correctAnswer": "موضع، شاهد، بیان دقیق و پاسخ",
+      "options": [
+        "فقط یک نظر",
+        "موضع، شاهد، بیان دقیق و پاسخ",
+        "فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن B2 چگونه از C1 drift جلوگیری می‌کند؟",
+      "correctAnswer": "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+      "options": [
+        "با بیشترین اسم‌سازی ممکن",
+        "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+        "با جمله‌های بسیار مبهم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Dense planning بیان دقیق",
+    "Nominal policy language"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "zur Verfügung stehen",
+      "type": "Chunk",
+      "meaning": "در دسترس بودن",
+      "pronunciation": null,
+      "example": "Mehr Daten stehen zur Verfügung.",
+      "exampleTranslation": "داده‌های بیشتری در دسترس است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "Wenn ... würde ...",
+      "type": "Chunk",
+      "meaning": "اگر... آنگاه...",
+      "pronunciation": null,
+      "example": "Wenn mehr Geld da wäre, würde die Stadt investieren.",
+      "exampleTranslation": "اگر پول بیشتر بود شهر سرمایه‌گذاری می‌کرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "als ob",
+      "type": "Chunk",
+      "meaning": "گویی",
+      "pronunciation": null,
+      "example": "Es wirkt, als ob niemand gefragt worden wäre.",
+      "exampleTranslation": "به نظر می‌رسد گویی از کسی نپرسیده‌اند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "barrierefrei",
+      "type": "Word",
+      "meaning": "بدون مانع و دسترس‌پذیر",
+      "pronunciation": null,
+      "example": "Alle Haltestellen sollen barrierefrei sein.",
+      "exampleTranslation": "همه ایستگاه‌ها باید دسترس‌پذیر باشند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "Lebensqualität",
+      "type": "Word",
+      "meaning": "کیفیت زندگی",
+      "pronunciation": null,
+      "example": "Kurze Wege erhöhen die Lebensqualität.",
+      "exampleTranslation": "مسیر کوتاه کیفیت زندگی را بالا می‌برد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "ein Pilotprojekt durchführen",
+      "type": "Chunk",
+      "meaning": "پروژهٔ آزمایشی اجرا کردن",
+      "pronunciation": null,
+      "example": "Die Stadt führt ein Pilotprojekt durch.",
+      "exampleTranslation": "شهر پروژهٔ آزمایشی اجرا می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "einen Einwand berücksichtigen",
+      "type": "Chunk",
+      "meaning": "اعتراضی را در نظر گرفتن",
+      "pronunciation": null,
+      "example": "Der Plan berücksichtigt diesen Einwand.",
+      "exampleTranslation": "طرح اعتراض را در نظر می‌گیرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "unter einer Bedingung",
+      "type": "Chunk",
+      "meaning": "تحت یک شرط",
+      "pronunciation": null,
+      "example": "Der Vorschlag funktioniert nur unter einer Bedingung.",
+      "exampleTranslation": "پیشنهاد فقط تحت یک شرط کار می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "bestehende Nachteile ausgleichen",
+      "type": "Chunk",
+      "meaning": "نابرابری موجود را جبران کردن",
+      "pronunciation": null,
+      "example": "Die Maßnahme soll bestehende Nachteile ausgleichen.",
+      "exampleTranslation": "اقدام باید نابرابری موجود را جبران کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "die Wirkung messen",
+      "type": "Chunk",
+      "meaning": "اثر را سنجیدن",
+      "pronunciation": null,
+      "example": "Nach sechs Monaten wird die Wirkung gemessen.",
+      "exampleTranslation": "پس از شش ماه اثر سنجیده می‌شود.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

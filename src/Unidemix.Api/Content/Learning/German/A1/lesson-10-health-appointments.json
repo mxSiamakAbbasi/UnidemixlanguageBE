@@ -9,10 +9,10 @@
   "description": "در این درس وقت پزشکی می‌گیری یا تغییر می‌دهی، یک مشکل جسمی ساده را بیان می‌کنی و توصیه‌های اصلی را می‌فهمی.",
   "estimatedDurationMinutes": 125,
   "status": "production",
-  "mainSituation": "Calling a practice and attending a basic consultation",
+  "mainSituation": "تماس با مطب و شرکت در یک ویزیت ساده",
   "canDoObjectives": [
-    "Arrange or change an appointment.",
-    "Describe a basic health problem and understand simple advice."
+    "یک وقت ملاقات تنظیم کنی یا زمان آن را تغییر بدهی.",
+    "یک مشکل جسمی ساده را توضیح بدهی و توصیه‌های ساده را بفهمی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «قرار و سلامتی» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Calling a practice and attending a basic consultation. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس وقت پزشکی می‌گیری یا تغییر می‌دهی، یک مشکل جسمی ساده را بیان می‌کنی و توصیه‌های اصلی را می‌فهمی.\n\n• یک وقت ملاقات تنظیم کنی یا زمان آن را تغییر بدهی.\n• یک مشکل جسمی ساده را توضیح بدهی و توصیه‌های ساده را بفهمی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

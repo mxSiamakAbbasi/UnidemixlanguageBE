@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-03",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 3,
+  "courseSlug": "german-for-real-life",
+  "title": "Travel Choices and City Experiences",
+  "localizedTitle": "انتخاب سفر و تجربهٔ شهر",
+  "description": "در این درس گزینه‌های سفر را مقایسه می‌کنی، دربارهٔ دیدنی‌ها نظر می‌دهی و یک برنامهٔ دو روزه می‌سازی.",
+  "estimatedDurationMinutes": 150,
+  "status": "production",
+  "mainSituation": "انتخاب و برنامه‌ریزی یک سفر کوتاه شهری با همراهان",
+  "canDoObjectives": [
+    "گزینه‌های سفر را مقایسه کنی و ترجیح خود را بیان کنی.",
+    "یک بازدید کوتاه را برنامه‌ریزی کنی و نکات مهم آن را گزارش بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس گزینه‌های سفر را مقایسه می‌کنی، دربارهٔ دیدنی‌ها نظر می‌دهی و یک برنامهٔ دو روزه می‌سازی.\n\n• گزینه‌های سفر را مقایسه کنی و ترجیح خود را بیان کنی.\n• یک بازدید کوتاه را برنامه‌ریزی کنی و نکات مهم آن را گزارش بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Lina: Welches Ziel findest du besser: Dresden oder Leipzig?\nNavid: Ich finde das historische Dresden interessant, aber Leipzig hat ein lebendiges Kulturprogramm.\nLina: Von Freitag an gibt es dort ein Musikfestival.\nNavid: Dann nehmen wir den frühen Zug und bleiben über das Wochenende.\nLina: Einverstanden. Am Sonntag besuchen wir noch das moderne Kunstmuseum.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "das Reiseziel = مقصد سفر\nUnser Reiseziel ist Leipzig. = مقصد سفر ما لایپزیگ است.\n\ndie Altstadt = بافت قدیمی شهر\nDie Altstadt ist gut erhalten. = بافت قدیمی شهر خوب حفظ شده است.\n\nsehenswert = دیدنی\nDas Museum ist sehenswert. = موزه دیدنی است.\n\nsich einigen auf = بر سر چیزی توافق کردن\nWir einigen uns auf Bremen. = بر سر برمن توافق می‌کنیم.\n\nvon Freitag an = از جمعه به بعد\nVon Freitag an beginnt das Festival. = جشنواره از جمعه آغاز می‌شود.\n\nüber das Wochenende = در طول آخر هفته\nWir bleiben über das Wochenende. = در طول آخر هفته می‌مانیم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «انتخاب سفر و تجربهٔ شهر» هماهنگ‌تر است؟",
+      "correctAnswer": "sich einigen auf",
+      "options": [
+        "die Altstadt",
+        "sich einigen auf",
+        "die günstige Unterkunft"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Für unser Wochenende haben wir zwei Städte verglichen. Dresden bietet eine berühmte Altstadt und schöne Spaziergänge an der Elbe. Leipzig ist besonders interessant für Musikfans und hat viele kleine Cafés. Weil am Samstag ein kostenloses Konzert stattfindet, haben wir uns für Leipzig entschieden. Wir fahren am Freitagabend los, bleiben zwei Nächte und kommen am Sonntag nach dem Museumsbesuch zurück.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "آن‌ها کدام شهر را انتخاب کرده‌اند؟",
+      "correctAnswer": "لایپزیگ",
+      "options": [
+        "درسدن",
+        "لایپزیگ",
+        "هامبورگ"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "دلیل مهم انتخاب شهر چیست؟",
+      "correctAnswer": "کنسرت رایگان شنبه",
+      "options": [
+        "هتل ارزان یکشنبه",
+        "کنسرت رایگان شنبه",
+        "پرواز مستقیم"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "WOCHENENDE IN BREMEN\nDie historische Innenstadt ist gut zu Fuß erreichbar. Besuchen Sie am Samstag den bekannten Markt und danach das kleine Schifffahrtsmuseum. Von April an finden am Fluss regelmäßig Konzerte statt. Für Familien ist der grüne Bürgerpark besonders attraktiv. Eine günstige Tageskarte gilt für Bus und Straßenbahn.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام بلیت برای رفت‌وآمد شهری پیشنهاد شده است؟",
+      "correctAnswer": "بلیت روزانه",
+      "options": [
+        "بلیت هفتگی",
+        "بلیت روزانه",
+        "بلیت موزه"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «گزینه‌های سفر را مقایسه کنی و ترجیح خود را بیان کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "پس از حرف تعریف معین، صفت پایان مشخص می‌گیرد: der bekannte Markt، die historische Innenstadt، das moderne Museum؛ در Akkusativ مذکر: den frühen Zug. über das Wochenende مدت را نشان می‌دهد و von Freitag an یعنی از جمعه به بعد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام ترکیب درست است؟",
+      "correctAnswer": "den frühen Zug",
+      "options": [
+        "den frühe Zug",
+        "den frühen Zug",
+        "dem frühen Zug"
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "den frühen Zug",
+      "options": [
+        "dem frühen Zug",
+        "den frühen Zug",
+        "den frühe Zug"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nIch finde die historische Altstadt interessant. Das moderne Museum ist aber auch sehenswert. Wir fahren mit dem frühen Zug und bleiben über das Wochenende.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو گزینه را مقایسه کن: Köln – berühmter Dom / viele Besucher؛ Bonn – ruhiges Zentrum / interessante Museen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برای یک سفر دو روزه دو مقصد را مقایسه کن و با دست‌کم سه معیار به یک انتخاب مشترک برس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nAm Freitag fahren wir mit dem frühen Zug nach Bremen. Am Samstag besuchen wir den bekannten Markt und das kleine Museum. Danach gehen wir am Fluss spazieren. Am Sonntag sehen wir den grünen Park. Gegen 18 Uhr fahren wir zurück.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک برنامهٔ پیوستهٔ ۷ تا ۹ جمله‌ای برای سفر دو روزه بنویس. زمان، حمل‌ونقل، سه فعالیت، یک ترجیح و دلیل انتخاب را ذکر کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "دو مقصد را از روی اطلاعات موجود مقایسه کن، یک مقصد را انتخاب کن و برنامهٔ دو روزه‌ات را به‌صورت شفاهی و نوشتاری معرفی کن.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام ترکیب درست است؟",
+      "correctAnswer": "den frühen Zug",
+      "options": [
+        "den frühe Zug",
+        "den frühen Zug",
+        "dem frühen Zug"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «das Reiseziel» چیست؟",
+      "correctAnswer": "مقصد سفر",
+      "options": [
+        "مقصد سفر",
+        "دیدنی",
+        "در طول آخر هفته"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام بلیت برای رفت‌وآمد شهری پیشنهاد شده است؟",
+      "correctAnswer": "بلیت روزانه",
+      "options": [
+        "بلیت هفتگی",
+        "بلیت روزانه",
+        "بلیت موزه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "دلیل مهم انتخاب شهر چیست؟",
+      "correctAnswer": "کنسرت رایگان شنبه",
+      "options": [
+        "هتل ارزان یکشنبه",
+        "کنسرت رایگان شنبه",
+        "پرواز مستقیم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «از جمعه به بعد»؟",
+      "correctAnswer": "von Freitag an",
+      "options": [
+        "sehenswert",
+        "von Freitag an",
+        "die günstige Unterkunft"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "den frühen Zug",
+      "options": [
+        "den frühe Zug",
+        "den frühen Zug",
+        "dem frühen Zug"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "آن‌ها کدام شهر را انتخاب کرده‌اند؟",
+      "correctAnswer": "لایپزیگ",
+      "options": [
+        "درسدن",
+        "لایپزیگ",
+        "هامبورگ"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "بلیت روزانه",
+      "options": [
+        "بلیت موزه",
+        "بلیت روزانه",
+        "بلیت هفتگی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «eine Stadt erkunden» چیست؟",
+      "correctAnswer": "یک شهر را گشتن",
+      "options": [
+        "یک شهر را گشتن",
+        "بافت قدیمی شهر",
+        "قطار زودهنگام"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "den frühen Zug",
+      "options": [
+        "dem frühen Zug",
+        "den frühe Zug",
+        "den frühen Zug"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Extended adjective phrases",
+    "Relative clauses"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "das Reiseziel",
+      "type": "Chunk",
+      "meaning": "مقصد سفر",
+      "pronunciation": null,
+      "example": "Unser Reiseziel ist Leipzig.",
+      "exampleTranslation": "مقصد سفر ما لایپزیگ است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "die Altstadt",
+      "type": "Chunk",
+      "meaning": "بافت قدیمی شهر",
+      "pronunciation": null,
+      "example": "Die Altstadt ist gut erhalten.",
+      "exampleTranslation": "بافت قدیمی شهر خوب حفظ شده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "sehenswert",
+      "type": "Word",
+      "meaning": "دیدنی",
+      "pronunciation": null,
+      "example": "Das Museum ist sehenswert.",
+      "exampleTranslation": "موزه دیدنی است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "sich einigen auf",
+      "type": "Chunk",
+      "meaning": "بر سر چیزی توافق کردن",
+      "pronunciation": null,
+      "example": "Wir einigen uns auf Bremen.",
+      "exampleTranslation": "بر سر برمن توافق می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "von Freitag an",
+      "type": "Chunk",
+      "meaning": "از جمعه به بعد",
+      "pronunciation": null,
+      "example": "Von Freitag an beginnt das Festival.",
+      "exampleTranslation": "جشنواره از جمعه آغاز می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "über das Wochenende",
+      "type": "Chunk",
+      "meaning": "در طول آخر هفته",
+      "pronunciation": null,
+      "example": "Wir bleiben über das Wochenende.",
+      "exampleTranslation": "در طول آخر هفته می‌مانیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "der frühe Zug",
+      "type": "Chunk",
+      "meaning": "قطار زودهنگام",
+      "pronunciation": null,
+      "example": "Wir nehmen den frühen Zug.",
+      "exampleTranslation": "قطار زودهنگام را می‌گیریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "die günstige Unterkunft",
+      "type": "Chunk",
+      "meaning": "اقامتگاه ارزان",
+      "pronunciation": null,
+      "example": "Wir suchen eine günstige Unterkunft.",
+      "exampleTranslation": "دنبال اقامتگاه ارزانی می‌گردیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine Stadt erkunden",
+      "type": "Chunk",
+      "meaning": "یک شهر را گشتن",
+      "pronunciation": null,
+      "example": "Wir erkunden die Stadt zu Fuß.",
+      "exampleTranslation": "شهر را پیاده می‌گردیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "einverstanden sein",
+      "type": "Chunk",
+      "meaning": "موافق بودن",
+      "pronunciation": null,
+      "example": "Ich bin mit dem Plan einverstanden.",
+      "exampleTranslation": "با برنامه موافقم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

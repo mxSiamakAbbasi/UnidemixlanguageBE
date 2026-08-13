@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-04",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 4,
+  "courseSlug": "german-b1-core",
+  "title": "Technology and Future Life",
+  "localizedTitle": "فناوری و زندگی آینده",
+  "description": "پیش‌بینی‌های محتاطانه می‌سازی و سود و خطر فناوری را متعادل بررسی می‌کنی.",
+  "estimatedDurationMinutes": 165,
+  "status": "production",
+  "mainSituation": "بحث دربارهٔ تغییر احتمالی زندگی روزمره",
+  "canDoObjectives": [
+    "دربارهٔ آینده پیش‌بینی بسازی و میزان قطعیت آن را نشان بدهی.",
+    "مزایا و خطرهای یک فناوری آشنا را مقایسه و جمع‌بندی کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «فناوری و زندگی آینده» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: بحث دربارهٔ تغییر احتمالی زندگی روزمره. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Nora: Werden intelligente Geräte unseren Alltag wirklich erleichtern?\nDavid: Vermutlich schon. Sie werden Energie automatisch sparen.\nNora: Es könnte aber sein, dass wir zu viele Daten weitergeben.\nDavid: Stimmt. Einerseits ist die Technik bequem, andererseits braucht sie klare Regeln.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "vermutlich = احتمالاً\nVermutlich wird die Technik günstiger. = احتمالاً فناوری ارزان‌تر خواهد شد.\n\nEs könnte sein, dass ... = ممکن است که...\nEs könnte sein, dass Geräte mehr Daten sammeln. = ممکن است دستگاه‌ها دادهٔ بیشتری جمع کنند.\n\neinerseits ... andererseits = از یک سو... از سوی دیگر\nEinerseits ist es bequem, andererseits teuer. = از یک سو راحت و از سوی دیگر گران است.\n\nder Datenschutz = حفاظت از داده\nDatenschutz bleibt wichtig. = حفاظت از داده مهم می‌ماند.\n\nEnergie sparen = صرفه‌جویی انرژی\nDas System soll Energie sparen. = سیستم باید انرژی صرفه‌جویی کند.\n\ndie Vorhersage = پیش‌بینی\nDiese Vorhersage ist unsicher. = این پیش‌بینی نامطمئن است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "vermutlich",
+      "options": [
+        "vermutlich",
+        "Es könnte sein, dass ...",
+        "einerseits ... andererseits"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer kurzen Radiosendung diskutieren zwei Gäste über digitale Assistenten. Eine Expertin erwartet, dass Geräte künftig den Energieverbrauch genauer steuern werden. Ein Verbraucherschützer warnt jedoch vor unklarer Datennutzung. Beide sind sich einig, dass die Technik Vorteile bringen kann, wenn Nutzer verständliche Informationen und echte Kontrolle erhalten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "UMFRAGE: WIE DIGITAL WIRD DAS ZUHAUSE?\nMehr als die Hälfte der Befragten glaubt, dass automatische Systeme in zehn Jahren normal sein werden. Besonders beliebt sind Lösungen, die Energie sparen. Gleichzeitig sorgen sich viele um Datenschutz und hohe Kosten. Fachleute betonen: Die Zukunft hängt nicht nur von neuer Technik ab, sondern auch davon, ob Produkte sicher und verständlich bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «دربارهٔ آینده پیش‌بینی بسازی و میزان قطعیت آن را نشان بدهی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Futur I با werden + Infinitiv برای پیش‌بینی می‌آید: Haushalte werden mehr Energie sparen. واژه‌های vermutlich، wahrscheinlich و vielleicht میزان قطعیت را نشان می‌دهند. Es könnte sein, dass ... پیش‌بینی محتاطانه‌تری می‌سازد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nVermutlich werden digitale Assistenten in vielen Haushalten normal. Einerseits können sie Energie sparen und Routineaufgaben übernehmen. Andererseits sammeln manche Geräte viele persönliche Daten. Es könnte sein, dass klare Regeln das Vertrauen erhöhen. Meiner Meinung nach ist die Technik sinnvoll, wenn Nutzer selbst entscheiden können, welche Daten gespeichert werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «بحث دربارهٔ تغییر احتمالی زندگی روزمره» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «فناوری و زندگی آینده» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nVermutlich werden digitale Assistenten in vielen Haushalten normal. Einerseits können sie Energie sparen und Routineaufgaben übernehmen. Andererseits sammeln manche Geräte viele persönliche Daten. Es könnte sein, dass klare Regeln das Vertrauen erhöhen. Meiner Meinung nach ist die Technik sinnvoll, wenn Nutzer selbst entscheiden können, welche Daten gespeichert werden.\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک تغییر محتمل در زندگی روزمره ارائه کن؛ واقعیت و پیش‌بینی را جدا کن، دو مزیت، دو خطر و یک شرط برای استفادهٔ مسئولانه بیان کن.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «vermutlich» چیست؟",
+      "correctAnswer": "احتمالاً",
+      "options": [
+        "احتمالاً",
+        "ممکن است که...",
+        "از یک سو... از سوی دیگر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «فناوری و زندگی آینده» مرتبط است؟",
+      "correctAnswer": "der Datenschutz",
+      "options": [
+        "der Datenschutz",
+        "Energie sparen",
+        "die Vorhersage"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «künftig» چیست؟",
+      "correctAnswer": "در آینده",
+      "options": [
+        "در آینده",
+        "کنترل را حفظ کردن",
+        "خطر ایجاد کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Futur II",
+    "Reported claims"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "vermutlich",
+      "type": "Word",
+      "meaning": "احتمالاً",
+      "pronunciation": null,
+      "example": "Vermutlich wird die Technik günstiger.",
+      "exampleTranslation": "احتمالاً فناوری ارزان‌تر خواهد شد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Es könnte sein, dass ...",
+      "type": "Chunk",
+      "meaning": "ممکن است که...",
+      "pronunciation": null,
+      "example": "Es könnte sein, dass Geräte mehr Daten sammeln.",
+      "exampleTranslation": "ممکن است دستگاه‌ها دادهٔ بیشتری جمع کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "einerseits ... andererseits",
+      "type": "Chunk",
+      "meaning": "از یک سو... از سوی دیگر",
+      "pronunciation": null,
+      "example": "Einerseits ist es bequem, andererseits teuer.",
+      "exampleTranslation": "از یک سو راحت و از سوی دیگر گران است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "der Datenschutz",
+      "type": "Chunk",
+      "meaning": "حفاظت از داده",
+      "pronunciation": null,
+      "example": "Datenschutz bleibt wichtig.",
+      "exampleTranslation": "حفاظت از داده مهم می‌ماند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Energie sparen",
+      "type": "Chunk",
+      "meaning": "صرفه‌جویی انرژی",
+      "pronunciation": null,
+      "example": "Das System soll Energie sparen.",
+      "exampleTranslation": "سیستم باید انرژی صرفه‌جویی کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "die Vorhersage",
+      "type": "Chunk",
+      "meaning": "پیش‌بینی",
+      "pronunciation": null,
+      "example": "Diese Vorhersage ist unsicher.",
+      "exampleTranslation": "این پیش‌بینی نامطمئن است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "künftig",
+      "type": "Word",
+      "meaning": "در آینده",
+      "pronunciation": null,
+      "example": "Künftig arbeiten Geräte zusammen.",
+      "exampleTranslation": "در آینده دستگاه‌ها باهم کار می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "die Kontrolle behalten",
+      "type": "Chunk",
+      "meaning": "کنترل را حفظ کردن",
+      "pronunciation": null,
+      "example": "Nutzer müssen die Kontrolle behalten.",
+      "exampleTranslation": "کاربران باید کنترل را حفظ کنند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "ein Risiko darstellen",
+      "type": "Chunk",
+      "meaning": "خطر ایجاد کردن",
+      "pronunciation": null,
+      "example": "Schwache Passwörter stellen ein Risiko dar.",
+      "exampleTranslation": "رمزهای ضعیف خطر ایجاد می‌کنند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "unter der Bedingung, dass",
+      "type": "Chunk",
+      "meaning": "به شرط اینکه",
+      "pronunciation": null,
+      "example": "Das ist sinnvoll, unter der Bedingung, dass Daten geschützt sind.",
+      "exampleTranslation": "این مفید است به شرط حفاظت از داده‌ها.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

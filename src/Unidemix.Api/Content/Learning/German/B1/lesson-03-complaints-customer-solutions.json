@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-03",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 3,
+  "courseSlug": "german-b1-core",
+  "title": "Complaints and Customer Solutions",
+  "localizedTitle": "شکایت و راه‌حل مشتری",
+  "description": "مشکل خدماتی را روشن توضیح می‌دهی و مؤدبانه برای راه‌حل مذاکره می‌کنی.",
+  "estimatedDurationMinutes": 165,
+  "status": "production",
+  "mainSituation": "رسیدگی تلفنی و کتبی به یک شکایت چندمرحله‌ای",
+  "canDoObjectives": [
+    "نقص خدمات را روشن بیان کنی و مؤدبانه بر درخواست خود پافشاری کنی.",
+    "یک راه‌حل منصفانه پیشنهاد بدهی یا دربارهٔ آن مذاکره کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «شکایت و راه‌حل مشتری» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: رسیدگی تلفنی و کتبی به یک شکایت چندمرحله‌ای. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Kundin: Obwohl die Lieferung für Montag bestätigt war, ist sie noch nicht angekommen.\nService: Das tut mir leid. Laut System wurde das Paket verschickt.\nKundin: Trotzdem habe ich keine Sendungsnummer erhalten. Ich bestehe darauf, dass Sie den Fall prüfen.\nService: Wir können neu liefern oder den Betrag erstatten. Welche Lösung bevorzugen Sie?",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich beschweren über = از چیزی شکایت کردن\nIch möchte mich über die Lieferung beschweren. = می‌خواهم از ارسال سفارش شکایت کنم.\n\nder Mangel = نقص\nDas Gerät hat einen Mangel. = دستگاه نقصی دارد.\n\ndie Rückerstattung = بازپرداخت\nIch erwarte eine Rückerstattung. = انتظار بازپرداخت دارم.\n\nder Austausch = تعویض\nWir bieten einen Austausch an. = ما تعویض پیشنهاد می‌دهیم.\n\ndarauf bestehen, dass = اصرار داشتن که\nIch bestehe darauf, dass Sie den Fall prüfen. = اصرار دارم پرونده را بررسی کنید.\n\nWie können wir das lösen? = چطور می‌توانیم حلش کنیم؟\nWie können wir das heute lösen? = چطور می‌توانیم امروز حلش کنیم؟",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "sich beschweren über",
+      "options": [
+        "sich beschweren über",
+        "der Mangel",
+        "die Rückerstattung"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Ein Kunde ruft wegen einer defekten Kaffeemaschine an. Obwohl das Gerät erst zwei Wochen alt ist, schaltet es sich ständig aus. Die Mitarbeiterin fragt nach der Bestellnummer und bietet zunächst nur eine Reparatur an. Der Kunde erklärt ruhig, dass er das Gerät beruflich braucht. Schließlich einigen sie sich auf ein Ersatzgerät, das am nächsten Tag verschickt wird.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "BETREFF: Reklamation zur Bestellung 4817\nSehr geehrte Damen und Herren, obwohl ich die Ware pünktlich bezahlt habe, wurde ein falsches Modell geliefert. Außerdem fehlt ein wichtiges Zubehörteil. Ich habe den Kundenservice bereits zweimal kontaktiert, trotzdem erhielt ich keine konkrete Lösung. Ich bitte Sie daher um einen vollständigen Austausch bis Freitag. Falls das nicht möglich ist, erwarte ich eine Rückerstattung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «نقص خدمات را روشن بیان کنی و مؤدبانه بر درخواست خود پافشاری کنی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "obwohl تضاد غیرمنتظره را در جملهٔ وابسته نشان می‌دهد و فعل را به پایان می‌برد: Obwohl die Lieferung bestätigt war, kam sie nicht. trotzdem جملهٔ اصلی تازه‌ای می‌سازد: Die Lieferung war bestätigt. Trotzdem kam sie nicht. برای علت و نتیجه از weil/deshalb بازیافت می‌کنیم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nSehr geehrte Damen und Herren,",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «رسیدگی تلفنی و کتبی به یک شکایت چندمرحله‌ای» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «شکایت و راه‌حل مشتری» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nSehr geehrte Damen und Herren,\nobwohl meine Bestellung vollständig bestätigt wurde, fehlt ein Teil der Lieferung. Ich habe bereits angerufen, trotzdem wurde das Problem nicht gelöst. Das Gerät kann ohne dieses Teil nicht benutzt werden. Ich bitte Sie daher, das fehlende Teil bis Freitag zu senden. Alternativ akzeptiere ich einen Austausch. Bitte bestätigen Sie mir die Lösung schriftlich.\nMit freundlichen Grüßen\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک پروندهٔ خدماتی را حل کن: مشکل و خط زمانی را توضیح بده، با obwohl/trotzdem تضاد را روشن کن، دو راه‌حل پیشنهاد بده و نتیجه را در ایمیلی رسمی ثبت کن.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich beschweren über» چیست؟",
+      "correctAnswer": "از چیزی شکایت کردن",
+      "options": [
+        "از چیزی شکایت کردن",
+        "نقص",
+        "بازپرداخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «شکایت و راه‌حل مشتری» مرتبط است؟",
+      "correctAnswer": "der Austausch",
+      "options": [
+        "der Austausch",
+        "darauf bestehen, dass",
+        "Wie können wir das lösen?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «obwohl» چیست؟",
+      "correctAnswer": "با اینکه",
+      "options": [
+        "با اینکه",
+        "با این حال",
+        "راه‌حل ارائه کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Formal nominal style",
+    "Complex concession"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "sich beschweren über",
+      "type": "Chunk",
+      "meaning": "از چیزی شکایت کردن",
+      "pronunciation": null,
+      "example": "Ich möchte mich über die Lieferung beschweren.",
+      "exampleTranslation": "می‌خواهم از ارسال سفارش شکایت کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "der Mangel",
+      "type": "Chunk",
+      "meaning": "نقص",
+      "pronunciation": null,
+      "example": "Das Gerät hat einen Mangel.",
+      "exampleTranslation": "دستگاه نقصی دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Rückerstattung",
+      "type": "Chunk",
+      "meaning": "بازپرداخت",
+      "pronunciation": null,
+      "example": "Ich erwarte eine Rückerstattung.",
+      "exampleTranslation": "انتظار بازپرداخت دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "der Austausch",
+      "type": "Chunk",
+      "meaning": "تعویض",
+      "pronunciation": null,
+      "example": "Wir bieten einen Austausch an.",
+      "exampleTranslation": "ما تعویض پیشنهاد می‌دهیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "darauf bestehen, dass",
+      "type": "Chunk",
+      "meaning": "اصرار داشتن که",
+      "pronunciation": null,
+      "example": "Ich bestehe darauf, dass Sie den Fall prüfen.",
+      "exampleTranslation": "اصرار دارم پرونده را بررسی کنید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Wie können wir das lösen?",
+      "type": "Chunk",
+      "meaning": "چطور می‌توانیم حلش کنیم؟",
+      "pronunciation": null,
+      "example": "Wie können wir das heute lösen?",
+      "exampleTranslation": "چطور می‌توانیم امروز حلش کنیم؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "obwohl",
+      "type": "Word",
+      "meaning": "با اینکه",
+      "pronunciation": null,
+      "example": "Obwohl ich bezahlt habe, kam nichts an.",
+      "exampleTranslation": "با اینکه پرداخت کردم، چیزی نرسید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "trotzdem",
+      "type": "Word",
+      "meaning": "با این حال",
+      "pronunciation": null,
+      "example": "Es war spät. Trotzdem rief sie an.",
+      "exampleTranslation": "دیر بود؛ با این حال تماس گرفت.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine Lösung anbieten",
+      "type": "Chunk",
+      "meaning": "راه‌حل ارائه کردن",
+      "pronunciation": null,
+      "example": "Der Service bot eine Lösung an.",
+      "exampleTranslation": "خدمات راه‌حلی ارائه کرد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "schriftlich bestätigen",
+      "type": "Chunk",
+      "meaning": "کتبی تأیید کردن",
+      "pronunciation": null,
+      "example": "Bitte bestätigen Sie das schriftlich.",
+      "exampleTranslation": "لطفاً آن را کتبی تأیید کنید.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

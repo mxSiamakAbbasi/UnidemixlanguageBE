@@ -1,0 +1,545 @@
+{
+  "contentKey": "de-a2-core-lesson-02",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 2,
+  "courseSlug": "german-for-real-life",
+  "title": "A Home That Works",
+  "localizedTitle": "خانه‌ای که کار می‌کند",
+  "description": "در این درس جای وسایل و جهت حرکت آن‌ها را دقیق‌تر توضیح می‌دهی و برای چیدمان خانه پیشنهاد می‌دهی.",
+  "estimatedDurationMinutes": 140,
+  "status": "production",
+  "mainSituation": "چیدن یک اتاق پس از اسباب‌کشی و رسیدن به یک طرح عملی",
+  "canDoObjectives": [
+    "توضیح بدهی وسایل کجا هستند و باید کجا قرار بگیرند.",
+    "برای چیدمان خانه پیشنهاد بدهی و به پیشنهاد دیگران پاسخ بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس جای وسایل و جهت حرکت آن‌ها را دقیق‌تر توضیح می‌دهی و برای چیدمان خانه پیشنهاد می‌دهی.\n\n• توضیح بدهی وسایل کجا هستند و باید کجا قرار بگیرند.\n• برای چیدمان خانه پیشنهاد بدهی و به پیشنهاد دیگران پاسخ بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mara: Wohin stellen wir das Sofa?\nArman: Stell es bitte an die Wand neben das Fenster.\nMara: Und wo steht das Regal?\nArman: Das Regal steht schon zwischen der Tür und dem Schreibtisch.\nMara: Soll die Lampe auf den Tisch?\nArman: Nein, stell sie lieber hinter das Sofa.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "die Wand = دیوار\nDas Bild hängt an der Wand. = تابلو روی دیوار آویزان است.\n\nan die Wand = به کنار دیوار\nStell das Sofa an die Wand. = مبل را کنار دیوار بگذار.\n\nzwischen = میان\nDer Tisch steht zwischen den Sesseln. = میز میان صندلی‌ها قرار دارد.\n\ngegenüber = روبروی\nDer Spiegel hängt gegenüber dem Fenster. = آینه روبه‌روی پنجره آویزان است.\n\nstellen = عمودی قرار دادن\nIch stelle die Lampe auf den Tisch. = چراغ را روی میز می‌گذارم.\n\nlegen = افقی قرار دادن\nLeg den Teppich vor das Sofa. = فرش را جلوی مبل پهن کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «خانه‌ای که کار می‌کند» هماهنگ‌تر است؟",
+      "correctAnswer": "gegenüber",
+      "options": [
+        "an die Wand",
+        "gegenüber",
+        "Platz sparen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Willkommen in der neuen Wohnung. Im Wohnzimmer steht das Sofa jetzt vor dem großen Fenster. Den niedrigen Tisch haben wir zwischen das Sofa und den Sessel gestellt. An der linken Wand hängt ein Regal. Die Pflanzen stehen auf dem Regal, weil sie dort genug Licht bekommen. Im Schlafzimmer haben wir den Schrank neben die Tür gestellt. So bleibt in der Mitte genug Platz.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "گوینده دربارهٔ چه چیزی توضیح می‌دهد؟",
+      "correctAnswer": "چیدمان خانهٔ جدید",
+      "options": [
+        "قیمت خانه",
+        "چیدمان خانهٔ جدید",
+        "تعمیر آسانسور"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "گیاهان کجا قرار دارند؟",
+      "correctAnswer": "روی قفسه",
+      "options": [
+        "پشت مبل",
+        "روی قفسه",
+        "زیر میز"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "TIPPS FÜR EIN KLEINES ZIMMER\nStellen Sie hohe Möbel an die Wand und lassen Sie die Mitte frei. Ein heller Teppich liegt am besten vor dem Sofa. Hängen Sie den Spiegel gegenüber dem Fenster auf: Dann wirkt das Zimmer größer. Kleine Kisten können Sie unter das Bett stellen. Achten Sie darauf, dass Türen und Wege frei bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "چرا آینه باید روبه‌روی پنجره باشد؟",
+      "correctAnswer": "تا اتاق بزرگ‌تر به نظر برسد",
+      "options": [
+        "تا اتاق بزرگ‌تر به نظر برسد",
+        "تا در باز نشود",
+        "تا فرش روشن بماند"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «توضیح بدهی وسایل کجا هستند و باید کجا قرار بگیرند.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای مکان ثابت از Dativ استفاده می‌کنیم: Das Bild hängt an der Wand. برای جهت و جابه‌جایی از Akkusativ: Ich hänge das Bild an die Wand. فعل‌های stehen/liegen/hängen مکان را نشان می‌دهند؛ stellen/legen/hängen حرکت و قرار دادن را.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله جابه‌جایی را بیان می‌کند؟",
+      "correctAnswer": "Ich stelle den Stuhl neben den Tisch.",
+      "options": [
+        "Der Stuhl steht neben dem Tisch.",
+        "Ich stelle den Stuhl neben den Tisch.",
+        "Der Stuhl ist neben dem Tisch."
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "Ich stelle den Stuhl neben den Tisch.",
+      "options": [
+        "Der Stuhl ist neben dem Tisch.",
+        "Ich stelle den Stuhl neben den Tisch.",
+        "Der Stuhl steht neben dem Tisch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nDas Regal steht an der Wand. Ich stelle den Sessel neben das Fenster. Die Lampe kommt hinter das Sofa, damit der Weg frei bleibt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با این نقشه چیدمان را توضیح بده: Sofa → an die Wand · Tisch → vor das Sofa · Pflanze → auf das Regal.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "اتاق خودت یا یک اتاق فرضی را توصیف کن و دست‌کم سه پیشنهاد برای بهترشدن چیدمان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nStell zuerst das Bett an die rechte Wand. Der Schreibtisch kommt ans Fenster, weil es dort hell ist. Häng das Regal über den Schreibtisch. Die Kisten kannst du unter das Bett stellen. So bleibt die Mitte frei.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "برای یک اتاق کوچک ۶ تا ۸ دستور و توضیح پیوسته بنویس. هم مکان ثابت و هم جهت حرکت را به‌کار ببر و یک دلیل ساده اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک اتاق کاربردی طراحی کن. محل دست‌کم پنج وسیله را مشخص کن، دو جابه‌جایی پیشنهاد بده و توضیح بده چرا طرح تو عملی است.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله جابه‌جایی را بیان می‌کند؟",
+      "correctAnswer": "Ich stelle den Stuhl neben den Tisch.",
+      "options": [
+        "Der Stuhl steht neben dem Tisch.",
+        "Ich stelle den Stuhl neben den Tisch.",
+        "Der Stuhl ist neben dem Tisch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «die Wand» چیست؟",
+      "correctAnswer": "دیوار",
+      "options": [
+        "دیوار",
+        "میان",
+        "افقی قرار دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "چرا آینه باید روبه‌روی پنجره باشد؟",
+      "correctAnswer": "تا اتاق بزرگ‌تر به نظر برسد",
+      "options": [
+        "تا اتاق بزرگ‌تر به نظر برسد",
+        "تا در باز نشود",
+        "تا فرش روشن بماند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "گیاهان کجا قرار دارند؟",
+      "correctAnswer": "روی قفسه",
+      "options": [
+        "پشت مبل",
+        "روی قفسه",
+        "زیر میز"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «عمودی قرار دادن»؟",
+      "correctAnswer": "stellen",
+      "options": [
+        "zwischen",
+        "stellen",
+        "Platz sparen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "Ich stelle den Stuhl neben den Tisch.",
+      "options": [
+        "Der Stuhl steht neben dem Tisch.",
+        "Ich stelle den Stuhl neben den Tisch.",
+        "Der Stuhl ist neben dem Tisch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "گوینده دربارهٔ چه چیزی توضیح می‌دهد؟",
+      "correctAnswer": "چیدمان خانهٔ جدید",
+      "options": [
+        "قیمت خانه",
+        "چیدمان خانهٔ جدید",
+        "تعمیر آسانسور"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "تا اتاق بزرگ‌تر به نظر برسد",
+      "options": [
+        "تا فرش روشن بماند",
+        "تا اتاق بزرگ‌تر به نظر برسد",
+        "تا پنجره بسته بماند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «Wohin kommt ...?» چیست؟",
+      "correctAnswer": "... کجا قرار می‌گیرد؟",
+      "options": [
+        "... کجا قرار می‌گیرد؟",
+        "به کنار دیوار",
+        "آویزان کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "Ich stelle den Stuhl neben den Tisch.",
+      "options": [
+        "Der Stuhl ist neben dem Tisch.",
+        "Der Stuhl steht neben dem Tisch.",
+        "Ich stelle den Stuhl neben den Tisch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Relative clauses with prepositions"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Wand",
+      "type": "Chunk",
+      "meaning": "دیوار",
+      "pronunciation": null,
+      "example": "Das Bild hängt an der Wand.",
+      "exampleTranslation": "تابلو روی دیوار آویزان است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "an die Wand",
+      "type": "Chunk",
+      "meaning": "به کنار دیوار",
+      "pronunciation": null,
+      "example": "Stell das Sofa an die Wand.",
+      "exampleTranslation": "مبل را کنار دیوار بگذار.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "zwischen",
+      "type": "Word",
+      "meaning": "میان",
+      "pronunciation": null,
+      "example": "Der Tisch steht zwischen den Sesseln.",
+      "exampleTranslation": "میز میان صندلی‌ها قرار دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "gegenüber",
+      "type": "Word",
+      "meaning": "روبروی",
+      "pronunciation": null,
+      "example": "Der Spiegel hängt gegenüber dem Fenster.",
+      "exampleTranslation": "آینه روبه‌روی پنجره آویزان است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "stellen",
+      "type": "Word",
+      "meaning": "عمودی قرار دادن",
+      "pronunciation": null,
+      "example": "Ich stelle die Lampe auf den Tisch.",
+      "exampleTranslation": "چراغ را روی میز می‌گذارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "legen",
+      "type": "Word",
+      "meaning": "افقی قرار دادن",
+      "pronunciation": null,
+      "example": "Leg den Teppich vor das Sofa.",
+      "exampleTranslation": "فرش را جلوی مبل پهن کن.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "aufhängen",
+      "type": "Word",
+      "meaning": "آویزان کردن",
+      "pronunciation": null,
+      "example": "Wir hängen das Bild auf.",
+      "exampleTranslation": "تابلو را آویزان می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Platz sparen",
+      "type": "Chunk",
+      "meaning": "صرفه‌جویی در فضا",
+      "pronunciation": null,
+      "example": "Das Regal spart viel Platz.",
+      "exampleTranslation": "قفسه فضای زیادی ذخیره می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "Wohin kommt ...?",
+      "type": "Chunk",
+      "meaning": "... کجا قرار می‌گیرد؟",
+      "pronunciation": null,
+      "example": "Wohin kommt der Schrank?",
+      "exampleTranslation": "کمد کجا قرار می‌گیرد؟",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Es steht an ...",
+      "type": "Chunk",
+      "meaning": "کنار ... قرار دارد",
+      "pronunciation": null,
+      "example": "Es steht an der linken Wand.",
+      "exampleTranslation": "کنار دیوار چپ قرار دارد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

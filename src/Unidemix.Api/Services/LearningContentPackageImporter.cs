@@ -189,9 +189,9 @@ public sealed class LearningContentPackageImporter(AppDbContext db, IWebHostEnvi
 
     public static void Validate(LearningContentPackage package)
     {
-        if (string.IsNullOrWhiteSpace(package.ContentKey) || package.Language != "de" || package.Cefr != "A1" || package.LessonNumber < 0)
+        if (string.IsNullOrWhiteSpace(package.ContentKey) || package.Language != "de" || package.Cefr is not ("A1" or "A2" or "B1" or "B2" or "C1") || package.LessonNumber < 0)
             throw new InvalidOperationException("Learning package metadata is invalid.");
-        var minimumActivities = package.LessonNumber == 0 ? 9 : 20;
+        var minimumActivities = package.LessonNumber == 0 ? 9 : 19;
         if (package.CanDoObjectives.Length < 2 || package.Activities.Length < minimumActivities || package.Vocabulary.Length is < 8 or > 18)
             throw new InvalidOperationException("Learning package content coverage is incomplete or overloaded.");
         if (package.SectionOrder.Length != Sections.Count || package.SectionOrder.Distinct().Count() != Sections.Count || package.SectionOrder.Any(x => !Sections.Contains(x)))
@@ -204,6 +204,8 @@ public sealed class LearningContentPackageImporter(AppDbContext db, IWebHostEnvi
             throw new InvalidOperationException("A scored activity is missing its answer.");
         if (package.Activities.Any(x => x.Options is { Length: > 0 } && !x.Options.Contains(x.CorrectAnswer)))
             throw new InvalidOperationException("An activity answer is missing from its options.");
+        if (package.Activities.Any(x => x.Options is { Length: > 0 } && x.Options.Distinct(StringComparer.Ordinal).Count() != x.Options.Length))
+            throw new InvalidOperationException("An activity contains duplicate answer options.");
         if (!package.Activities.Any(x => x.Key == package.Audio.ScriptActivityKey))
             throw new InvalidOperationException("Audio script activity reference is invalid.");
         if (package.Audio.Status == "ready" && string.IsNullOrWhiteSpace(package.Audio.AssetUrl))
@@ -216,6 +218,8 @@ public sealed class LearningContentPackageImporter(AppDbContext db, IWebHostEnvi
             throw new InvalidOperationException("Question bank content is invalid.");
         if (questionBank.Any(x => x.Options is { Length: > 0 } && !x.Options.Contains(x.CorrectAnswer)))
             throw new InvalidOperationException("A question bank answer is missing from its options.");
+        if (questionBank.Any(x => x.Options is { Length: > 0 } && x.Options.Distinct(StringComparer.Ordinal).Count() != x.Options.Length))
+            throw new InvalidOperationException("A question bank item contains duplicate answer options.");
     }
 
     private static string? Feedback(LearningActivitySource source)

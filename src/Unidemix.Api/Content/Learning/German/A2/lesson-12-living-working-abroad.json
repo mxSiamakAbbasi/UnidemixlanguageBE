@@ -1,0 +1,557 @@
+{
+  "contentKey": "de-a2-core-lesson-12",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 12,
+  "courseSlug": "german-for-real-life",
+  "title": "Living and Working Abroad",
+  "localizedTitle": "زندگی و کار در خارج",
+  "description": "در این درس تجربهٔ زندگی یا کار در خارج را پیوسته روایت می‌کنی، انتظار و واقعیت را مقایسه می‌کنی و درس آموخته‌شده را می‌گویی.",
+  "estimatedDurationMinutes": 170,
+  "status": "production",
+  "mainSituation": "بازنگری یک تجربهٔ تحصیل یا کار در خارج و دادن توصیه به نفر بعدی",
+  "canDoObjectives": [
+    "مرحله‌های اصلی یک تجربه در خارج را به‌ترتیب روایت کنی.",
+    "رضایت، ناامیدی و یک درس عملی را بیان کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس تجربهٔ زندگی یا کار در خارج را پیوسته روایت می‌کنی، انتظار و واقعیت را مقایسه می‌کنی و درس آموخته‌شده را می‌گویی.\n\n• مرحله‌های اصلی یک تجربه در خارج را به‌ترتیب روایت کنی.\n• رضایت، ناامیدی و یک درس عملی را بیان کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mara: Wie war dein erstes Jahr in Wien?\nReza: Am Anfang war alles neu. Ich fand nur langsam eine Wohnung und kannte niemanden.\nMara: Und die Arbeit?\nReza: Mein Team half mir sehr. Nach drei Monaten verstand ich die Abläufe besser.\nMara: Warst du zufrieden?\nReza: Ja, obwohl ich meine Familie vermisst habe. Ich habe gelernt, früh um Hilfe zu bitten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "damals = آن زمان\nDamals kannte ich die Stadt nicht. = آن زمان شهر را نمی‌شناختم.\n\nam Anfang = در آغاز\nAm Anfang war alles neu. = در آغاز همه‌چیز تازه بود.\n\nsich einleben = جا افتادن\nNach drei Monaten lebte ich mich ein. = پس از سه ماه جا افتادم.\n\ndie Wohnungssuche = جست‌وجوی خانه\nDie Wohnungssuche war schwierig. = جست‌وجوی خانه دشوار بود.\n\nErfahrung sammeln = تجربه کسب کردن\nIch sammelte viele Erfahrungen. = تجربه‌های زیادی کسب کردم.\n\njemandem helfen = به کسی کمک کردن\nMeine Kollegin half mir. = همکارم به من کمک کرد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «زندگی و کار در خارج» هماهنگ‌تر است؟",
+      "correctAnswer": "die Wohnungssuche",
+      "options": [
+        "am Anfang",
+        "die Wohnungssuche",
+        "enttäuscht sein"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ERFAHRUNGSBERICHT\nAls ich nach Zürich kam, erwartete ich einen einfachen Start. Die Wohnungssuche war jedoch schwieriger als gedacht. In der ersten Woche kannte ich die Stadt kaum und verpasste zweimal den Bus. Meine Kolleginnen halfen mir, und bald fand ich einen Sportverein. Nach sechs Monaten fühlte ich mich zu Hause. Mein wichtigster Rat: Plane genug Zeit ein und sprich offen über Probleme.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مهم‌ترین توصیهٔ نویسنده چیست؟",
+      "correctAnswer": "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+      "options": [
+        "همیشه تنها بمان",
+        "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+        "از حمل‌ونقل عمومی استفاده نکن"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Vor zwei Jahren ging Laleh für ein Praktikum nach Graz. Am Anfang wohnte sie in einem kleinen Zimmer und fuhr jeden Morgen mit dem Bus zur Firma. Die ersten Wochen waren anstrengend, weil sie viele neue Regeln lernen musste. Ihre Kollegin zeigte ihr die wichtigsten Abläufe und lud sie zu gemeinsamen Mittagessen ein. Nach einigen Monaten sprach Laleh sicherer Deutsch und übernahm eigene Aufgaben. Heute sagt sie, dass Geduld und offene Fragen am meisten geholfen haben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "گزارش دربارهٔ چیست؟",
+      "correctAnswer": "تجربهٔ کارآموزی لاله در گراتس",
+      "options": [
+        "سفر تفریحی یک‌روزه",
+        "تجربهٔ کارآموزی لاله در گراتس",
+        "خرید خانه در تهران"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "چه چیزی بیشترین کمک را به لاله کرده است؟",
+      "correctAnswer": "صبر و سؤال‌پرسیدن آشکار",
+      "options": [
+        "فقط مطالعهٔ کتاب",
+        "صبر و سؤال‌پرسیدن آشکار",
+        "تعویض فوری کار"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «مرحله‌های اصلی یک تجربه در خارج را به‌ترتیب روایت کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "برای روایت نوشتاری A2 می‌توانیم مجموعهٔ محدودی از Präteritum پرکاربرد را استفاده کنیم: war، hatte، konnte، musste، fand، ging، kam، half. در گفت‌وگوی روزمره Perfekt همچنان رایج است: Ich bin nach Wien gezogen. ترکیب زمان‌ها باید روشن و کنترل‌شده باشد، نه پیچیده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله روایت نوشتاری درست دارد؟",
+      "correctAnswer": "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+      "options": [
+        "Am Anfang kenne ich niemanden, aber half meine Kollegin mir.",
+        "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+        "Am Anfang gekannt ich niemanden und geholfen sie."
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+      "options": [
+        "Am Anfang gekannt ich niemanden und geholfen sie.",
+        "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+        "Am Anfang kenne ich niemanden, aber half meine Kollegin mir."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nAm Anfang war alles ungewohnt und ich kannte niemanden. Meine Kollegin half mir, und nach einigen Wochen verstand ich mehr. Ich war zufrieden, obwohl ich meine Familie vermisst habe.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "گزارش بساز: 2024 nach Wien gegangen · zuerst keine Wohnung gefunden · Kollegin geholfen · nach zwei Monaten eigenes Zimmer.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربهٔ واقعی یا فرضی در شهر یا کشور دیگر را با انتظار، مشکل، کمک، تغییر و درس آموخته‌شده روایت کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nLetztes Jahr ging ich für ein Praktikum nach Hamburg. Am Anfang war ich nervös und kannte die Stadt kaum. Die Wohnungssuche dauerte länger als erwartet. Ein Kollege half mir und zeigte mir den Weg zur Arbeit. Nach zwei Monaten verstand ich die Abläufe besser. Ich war zufrieden, weil ich selbstständiger wurde. Mein Rat ist: Frag früh nach Hilfe und plane genug Zeit ein.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک گزارش پیوستهٔ ۹ تا ۱۱ جمله‌ای بنویس. انتظار، ورود، دو مشکل یا رویداد، کمک، تغییر، ارزیابی و توصیهٔ نهایی را با زمان‌های کنترل‌شده بیان کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک تجربهٔ کاملِ خارج از کشور را ارائه کن: انتظار و واقعیت، سه مرحلهٔ زمانی، یک مشکل و راه‌حل، احساس نهایی و دو توصیه برای نفر بعدی را ترکیب کن.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله روایت نوشتاری درست دارد؟",
+      "correctAnswer": "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+      "options": [
+        "Am Anfang kenne ich niemanden, aber half meine Kollegin mir.",
+        "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+        "Am Anfang gekannt ich niemanden und geholfen sie."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «damals» چیست؟",
+      "correctAnswer": "آن زمان",
+      "options": [
+        "آن زمان",
+        "جا افتادن",
+        "به کسی کمک کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "مهم‌ترین توصیهٔ نویسنده چیست؟",
+      "correctAnswer": "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+      "options": [
+        "همیشه تنها بمان",
+        "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+        "از حمل‌ونقل عمومی استفاده نکن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "چه چیزی بیشترین کمک را به لاله کرده است؟",
+      "correctAnswer": "صبر و سؤال‌پرسیدن آشکار",
+      "options": [
+        "فقط مطالعهٔ کتاب",
+        "صبر و سؤال‌پرسیدن آشکار",
+        "تعویض فوری کار"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «تجربه کسب کردن»؟",
+      "correctAnswer": "Erfahrung sammeln",
+      "options": [
+        "sich einleben",
+        "Erfahrung sammeln",
+        "enttäuscht sein"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+      "options": [
+        "Am Anfang kenne ich niemanden, aber half meine Kollegin mir.",
+        "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+        "Am Anfang gekannt ich niemanden und geholfen sie."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "گزارش دربارهٔ چیست؟",
+      "correctAnswer": "تجربهٔ کارآموزی لاله در گراتس",
+      "options": [
+        "سفر تفریحی یک‌روزه",
+        "تجربهٔ کارآموزی لاله در گراتس",
+        "خرید خانه در تهران"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+      "options": [
+        "از حمل‌ونقل عمومی استفاده نکن",
+        "زمان کافی برنامه‌ریزی کن و دربارهٔ مشکلات حرف بزن",
+        "همیشه تنها بمان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «offen über Probleme sprechen» چیست؟",
+      "correctAnswer": "آشکار دربارهٔ مشکلات حرف زدن",
+      "options": [
+        "آشکار دربارهٔ مشکلات حرف زدن",
+        "در آغاز",
+        "راضی بودن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Am Anfang kannte ich niemanden, aber meine Kollegin half mir.",
+      "options": [
+        "Am Anfang gekannt ich niemanden und geholfen sie.",
+        "Am Anfang kenne ich niemanden, aber half meine Kollegin mir.",
+        "Am Anfang kannte ich niemanden, aber meine Kollegin half mir."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Plusquamperfekt",
+    "Complex reported speech"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "damals",
+      "type": "Word",
+      "meaning": "آن زمان",
+      "pronunciation": null,
+      "example": "Damals kannte ich die Stadt nicht.",
+      "exampleTranslation": "آن زمان شهر را نمی‌شناختم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "am Anfang",
+      "type": "Chunk",
+      "meaning": "در آغاز",
+      "pronunciation": null,
+      "example": "Am Anfang war alles neu.",
+      "exampleTranslation": "در آغاز همه‌چیز تازه بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "sich einleben",
+      "type": "Chunk",
+      "meaning": "جا افتادن",
+      "pronunciation": null,
+      "example": "Nach drei Monaten lebte ich mich ein.",
+      "exampleTranslation": "پس از سه ماه جا افتادم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Wohnungssuche",
+      "type": "Chunk",
+      "meaning": "جست‌وجوی خانه",
+      "pronunciation": null,
+      "example": "Die Wohnungssuche war schwierig.",
+      "exampleTranslation": "جست‌وجوی خانه دشوار بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Erfahrung sammeln",
+      "type": "Chunk",
+      "meaning": "تجربه کسب کردن",
+      "pronunciation": null,
+      "example": "Ich sammelte viele Erfahrungen.",
+      "exampleTranslation": "تجربه‌های زیادی کسب کردم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "jemandem helfen",
+      "type": "Chunk",
+      "meaning": "به کسی کمک کردن",
+      "pronunciation": null,
+      "example": "Meine Kollegin half mir.",
+      "exampleTranslation": "همکارم به من کمک کرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "zufrieden sein",
+      "type": "Chunk",
+      "meaning": "راضی بودن",
+      "pronunciation": null,
+      "example": "Am Ende war ich zufrieden.",
+      "exampleTranslation": "در پایان راضی بودم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "enttäuscht sein",
+      "type": "Chunk",
+      "meaning": "ناامید بودن",
+      "pronunciation": null,
+      "example": "Zuerst war ich enttäuscht.",
+      "exampleTranslation": "ابتدا ناامید بودم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "offen über Probleme sprechen",
+      "type": "Chunk",
+      "meaning": "آشکار دربارهٔ مشکلات حرف زدن",
+      "pronunciation": null,
+      "example": "Wir sprachen offen über Probleme.",
+      "exampleTranslation": "آشکار دربارهٔ مشکلات حرف زدیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Lektion lernen",
+      "type": "Chunk",
+      "meaning": "درسی آموختن",
+      "pronunciation": null,
+      "example": "Ich habe eine wichtige Lektion gelernt.",
+      "exampleTranslation": "درس مهمی آموختم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-11",
+      "target": "genug Zeit einplanen",
+      "type": "Chunk",
+      "meaning": "زمان کافی در نظر گرفتن",
+      "pronunciation": null,
+      "example": "Plane genug Zeit ein.",
+      "exampleTranslation": "زمان کافی در نظر بگیر.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

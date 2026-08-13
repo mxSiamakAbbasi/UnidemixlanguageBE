@@ -34,7 +34,85 @@ public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environm
             "lesson-12-plans-weather-celebrations.json"
         })
             await learningImporter.ImportAsync($"Content/Learning/German/A1/{package}");
+        foreach (var package in new[]
+        {
+            "lesson-01-family-stories.json",
+            "lesson-02-home-that-works.json",
+            "lesson-03-travel-city-experiences.json",
+            "lesson-04-shopping-food-choices.json",
+            "lesson-05-health-fitness-advice.json",
+            "lesson-06-workplaces-service-problems.json",
+            "lesson-07-learning-media-communication.json",
+            "lesson-08-hotel-journey-weather.json",
+            "lesson-09-culture-books-opinions.json",
+            "lesson-10-documents-public-services.json",
+            "lesson-11-education-right-job.json",
+            "lesson-12-living-working-abroad.json"
+        })
+            await learningImporter.ImportAsync($"Content/Learning/German/A2/{package}");
+        foreach (var package in new[]
+        {
+            "lesson-01-relationships-character.json",
+            "lesson-02-work-housing-choices.json",
+            "lesson-03-complaints-customer-solutions.json",
+            "lesson-04-technology-future-life.json",
+            "lesson-05-invitations-hosting-conditions.json",
+            "lesson-06-advice-strengths-career.json",
+            "lesson-07-health-presentations.json",
+            "lesson-08-regret-luck-life-events.json",
+            "lesson-09-communication-learning-opportunities.json",
+            "lesson-10-applications-interviews.json",
+            "lesson-11-memory-biography-change.json",
+            "lesson-12-public-issues-rules.json",
+            "lesson-13-tourism-events-presentation.json",
+            "lesson-14-history-climate-solutions.json"
+        })
+            await learningImporter.ImportAsync($"Content/Learning/German/B1/{package}");
+        foreach (var package in new[]
+        {
+            "lesson-01-friendship-boundaries-belonging.json",
+            "lesson-02-workplace-processes-responsibility.json",
+            "lesson-03-media-claims-information-quality.json",
+            "lesson-04-education-after-school.json",
+            "lesson-05-body-health-social-pressure.json",
+            "lesson-06-cities-different-lives.json",
+            "lesson-07-family-models-social-expectations.json",
+            "lesson-08-food-systems-consumer-decisions.json",
+            "lesson-09-university-life-access.json",
+            "lesson-10-services-innovation-trust.json",
+            "lesson-11-health-systems-approaches.json",
+            "lesson-12-language-region-identity.json"
+        })
+            await learningImporter.ImportAsync($"Content/Learning/German/B2/{package}");
+        foreach (var package in new[]
+        {
+            "lesson-01-modern-life-conscious-choices.json",
+            "lesson-02-tourism-sustainability-enterprise.json",
+            "lesson-03-intelligence-knowledge-evidence.json",
+            "lesson-04-workplace-communication-fair-decisions.json",
+            "lesson-05-art-interpretation-criticism.json",
+            "lesson-06-university-study-academic-guidance.json",
+            "lesson-07-money-values-responsible-decisions.json",
+            "lesson-08-psychology-evidence-human-behavior.json",
+            "lesson-09-future-communities-city-rural-life.json",
+            "lesson-10-literature-interpretation-creative-voice.json",
+            "lesson-11-international-business-communication.json",
+            "lesson-12-research-technology-ethical-innovation.json"
+        })
+            await learningImporter.ImportAsync($"Content/Learning/German/C1/{package}");
         await SeedLearningExtensionsAsync();
+        await new SupplementaryContentImporter(db, environment).ImportAsync("Content/Learning/German/Supplementary/supplementary-v1.json");
+        var grammarImporter = new GrammarContentImporter(db, environment);
+        await grammarImporter.ImportAsync("Content/Learning/German/Grammar/grammar-a1-v1.json");
+        await grammarImporter.ImportAsync("Content/Learning/German/Grammar/grammar-a2-v1.json");
+        await grammarImporter.ImportAsync("Content/Learning/German/Grammar/grammar-b1-v1.json");
+        await grammarImporter.ImportAsync("Content/Learning/German/Grammar/grammar-b2-v1.json");
+        await grammarImporter.ImportAsync("Content/Learning/German/Grammar/grammar-c1-v1.json");
+        var telcImporter = new TelcExamPackageImporter(db, environment);
+        foreach (var level in new[] { "A1", "A2", "B1", "B2" })
+            await telcImporter.ImportAsync($"Content/Learning/German/Exams/telc/{level}/exam-package.json");
+        await db.SaveChangesAsync();
+        await new ExamBlueprintSeeder(db).SeedAsync();
         await db.SaveChangesAsync();
         await SeedCitiesAsync();
         await db.SaveChangesAsync();
@@ -136,8 +214,25 @@ public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environm
     {
         var catalogs = new[]
         {
-            Catalog("german-for-real-life", "آلمانی برای زندگی واقعی", "موقعیت‌های روزمره از خرید تا مراجعه به پزشک", "A2", "روزمره", "🏠",
-                "معرفی خود و دیگران", "خرید از سوپرمارکت", "پرسیدن مسیر در شهر", "قرار ملاقات با پزشک", "اجاره خانه", "کارهای بانکی", "اداره پست", "تماس تلفنی"),
+            Catalog("german-c1-core", "آلمانی C1 برای ارتباط دقیق و انعطاف‌پذیر", "ترکیب منابع، کنترل سبک و ارتباط پیشرفتهٔ حرفه‌ای و عمومی", "C1", "یادگیری اصلی", "🌲",
+                "زندگی مدرن و انتخاب‌های آگاهانه", "گردشگری، پایداری و بنگاه", "هوش، دانش و شواهد",
+                "ارتباط کاری و تصمیم‌های منصفانه", "هنر، تفسیر و نقد", "تحصیل دانشگاهی و راهنمایی علمی",
+                "پول، ارزش‌ها و تصمیم‌های مسئولانه", "روان‌شناسی، شواهد و رفتار انسان", "جوامع آینده: شهر و روستا",
+                "ادبیات، تفسیر و صدای خلاق", "ارتباطات تجاری بین‌المللی", "پژوهش، فناوری و نوآوری اخلاقی"),
+            Catalog("german-b2-core", "آلمانی B2 برای ارتباط دقیق و متقاعدکننده", "تحلیل منبع، استدلال، ارائه و ارتباط حرفه‌ای مستقل", "B2", "یادگیری اصلی", "🌲",
+                "دوستی، مرزها و احساس تعلق", "محیط کار، فرایند و مسئولیت", "ادعاهای رسانه‌ای و کیفیت اطلاعات",
+                "آموزش پس از مدرسه", "بدن، سلامت و فشار اجتماعی", "شهرها برای شیوه‌های متفاوت زندگی",
+                "الگوهای خانواده و انتظارهای اجتماعی", "نظام غذایی و تصمیم مصرف‌کننده", "زندگی دانشگاهی و دسترسی",
+                "خدمات، نوآوری و اعتماد مشتری", "نظام سلامت و رویکردهای رقیب", "زبان، منطقه و هویت"),
+            Catalog("german-b1-core", "آلمانی B1 برای ارتباط مستقل", "روایت، نظر، حل مسئله و ارتباط پیوسته در زندگی و کار", "B1", "یادگیری اصلی", "🌳",
+                "روابط، شخصیت و شواهد", "تجربهٔ کاری و انتخاب محل زندگی", "شکایت و راه‌حل مشتری", "فناوری و زندگی آینده",
+                "دعوت، میزبانی و شرط‌ها", "مشاوره، توانمندی‌ها و مسیر شغلی", "اطلاعات سلامت و ارائه", "حسرت، شانس و رویدادهای زندگی",
+                "ارتباط روشن و فرصت‌های یادگیری", "درخواست شغلی و مصاحبه", "خاطره، زندگی‌نامه و تغییر اجتماعی", "مسائل عمومی و قوانین",
+                "گردشگری، رویداد و ارائهٔ عمومی", "تاریخ، اقلیم و راه‌حل‌های آینده"),
+            Catalog("german-for-real-life", "آلمانی A2 برای زندگی واقعی", "ارتباط پیوسته‌تر در موقعیت‌های روزمره، سفر، خدمات و کار", "A2", "یادگیری اصلی", "🌿",
+                "داستان‌های خانواده و تغییرات زندگی", "خانه‌ای که کار می‌کند", "انتخاب سفر و تجربه شهر", "خرید، غذا و انتخاب بهتر",
+                "سلامتی، تناسب اندام و توصیه", "محیط کار و مشکلات خدمات", "یادگیری، رسانه و ارتباط", "هتل، مسیر و آب‌وهوا",
+                "فرهنگ، کتاب و نظر", "مدارک و خدمات عمومی", "تحصیل و شغل مناسب", "زندگی و کار در خارج"),
             Catalog("german-starter", "شروع آلمانی از صفر", "پایه‌های ضروری برای زبان‌آموزان تازه‌کار", "A1", "مقدماتی", "🌱",
                 "الفبا و تلفظ", "سلام و احوال‌پرسی", "اعداد و ساعت", "خانواده من", "رنگ‌ها و وسایل", "روزهای هفته", "غذا و نوشیدنی", "مرور سطح A1"),
             Catalog("german-at-work", "آلمانی در محیط کار", "ارتباط حرفه‌ای، جلسه و مکاتبه اداری", "B1", "کار", "💼",
@@ -274,6 +369,14 @@ public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environm
 
     private async Task SeedSocialAsync()
     {
+        var usernameService = new SocialUsernameService(db);
+        var generatedProfiles = await db.SocialProfiles.Include(x => x.User).ToListAsync();
+        foreach (var generatedProfile in generatedProfiles.Where(x => System.Text.RegularExpressions.Regex.IsMatch(x.Username, "^member[0-9]+$", System.Text.RegularExpressions.RegexOptions.IgnoreCase)))
+        {
+            generatedProfile.Username = await usernameService.GenerateAsync(generatedProfile.User.Email, generatedProfile.User.DisplayName);
+            await db.SaveChangesAsync();
+        }
+
         var socialPeople = new[]
         {
             ("demo@unidemix.local", "fa", "de", "A2", "daily-life", "تمرین مکالمه روزمره", "عصرها", "برلین", true, "برای زندگی در آلمان، مکالمه روزمره تمرین می‌کنم."),
@@ -299,15 +402,17 @@ public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environm
             user.Level = person.Item4;
             user.Goal = person.Item5;
             if (existingIds.Contains(user.Id)) continue;
-            db.SocialProfiles.Add(new SocialProfile
+            var profile = new SocialProfile
             {
                 UserId = user.Id,
+                Username = "pending",
                 Bio = person.Item10,
                 PracticeGoal = person.Item6,
                 Availability = person.Item7,
                 City = person.Item8,
                 LookingForPartner = person.Item9
-            });
+            };
+            await usernameService.SaveNewProfileAsync(profile, user.Email, user.DisplayName);
         }
         await db.SaveChangesAsync();
         var cityByName = await db.Cities.ToDictionaryAsync(x => x.PersianName);
@@ -432,6 +537,9 @@ public sealed class DatabaseSeeder(AppDbContext db, IWebHostEnvironment environm
     private static (string Kind, string? PathCode) TrackMetadata(string slug) => slug switch
     {
         "german-starter" => ("Core", null),
+        "german-c1-core" => ("Core", null),
+        "german-b2-core" => ("Core", null),
+        "german-b1-core" => ("Core", null),
         "german-for-real-life" => ("Core", null),
         "german-at-work" => ("Specialized", "work"),
         "german-for-travel" => ("Specialized", "travel"),

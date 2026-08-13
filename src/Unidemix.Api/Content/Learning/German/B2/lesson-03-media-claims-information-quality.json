@@ -1,0 +1,639 @@
+{
+  "contentKey": "de-b2-core-lesson-03",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 3,
+  "courseSlug": "german-b2-core",
+  "title": "Media Claims and Information Quality",
+  "localizedTitle": "ادعاهای رسانه‌ای و کیفیت اطلاعات",
+  "description": "ادعاهای رسانه‌ای را خلاصه و ارزیابی می‌کنی و شاهد را از نظر جدا نگه می‌داری.",
+  "estimatedDurationMinutes": 215,
+  "status": "production",
+  "mainSituation": "ارزیابی دو گزارش رسانه‌ای رقیب",
+  "canDoObjectives": [
+    "یک ادعای رسانه‌ای را دقیق خلاصه و اعتبار آن را ارزیابی کنی.",
+    "به گفته‌های پیشین روشن ارجاع بدهی و شاهد، برداشت و نظر را از هم جدا کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «ادعاهای رسانه‌ای و کیفیت اطلاعات» خوش آمدی. این درس مهارت‌های B1 را به بیان دقیق‌تر، متقاعدکننده‌تر و آگاه از منبع در سطح B2 گسترش می‌دهد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: ارزیابی دو گزارش رسانه‌ای رقیب. هنگام خواندن، موضع، شاهد، محدودیت، لحن و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Redakteurin: Bericht A behauptet, dass die Nutzung stark gestiegen sei. Worauf stützt sich diese Aussage?\nAnalyst: Auf eine kleine Online-Umfrage. Darauf weist der Bericht nur am Rand hin.\nRedakteurin: Bericht B versucht dagegen, mehrere Datensätze zu vergleichen.\nAnalyst: Genau. Dadurch wirkt seine Schlussfolgerung vorsichtiger, obwohl auch dort wichtige Angaben fehlen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich auf etwas beziehen = به چیزی ارجاع دادن\nDer Artikel bezieht sich auf eine Umfrage. = مقاله به یک نظرسنجی ارجاع می‌دهد.\n\nEs wird behauptet, dass ... = ادعا می‌شود که...\nEs wird behauptet, dass die Methode wirksam ist. = ادعا می‌شود روش مؤثر است.\n\nauf etwas hinweisen = به چیزی اشاره کردن\nDie Quelle weist auf eine Einschränkung hin. = منبع به محدودیتی اشاره می‌کند.\n\ndie Aussagekraft = قدرت دلالت داده\nDie Aussagekraft der Studie ist begrenzt. = قدرت نتیجه‌گیری مطالعه محدود است.\n\neine Stichprobe = نمونهٔ آماری\nDie Stichprobe war sehr klein. = نمونهٔ آماری بسیار کوچک بود.\n\neinen Schluss ableiten = نتیجه‌ای استنتاج کردن\nAus diesen Daten lässt sich kein sicherer Schluss ableiten. = از این داده‌ها نتیجهٔ قطعی نمی‌توان گرفت.\n\nnachvollziehbar belegen = به‌شکل قابل پیگیری اثبات کردن\nDer Bericht belegt die Aussage nachvollziehbar. = گزارش ادعا را قابل پیگیری اثبات می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضع در این درس مناسب‌تر است؟",
+      "correctAnswer": "sich auf etwas beziehen",
+      "options": [
+        "sich auf etwas beziehen",
+        "Es wird behauptet, dass ...",
+        "auf etwas hinweisen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و موضع گویندگان را دنبال کن. بار دوم ادعا، شاهد، میزان موافقت یا مخالفت، محدودیت و بیان دقیق را یادداشت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einem Medieninterview wird über eine Studie zur digitalen Nutzung gesprochen. Der Moderator nennt zunächst eine auffällige Schlagzeile. Die Forscherin erklärt jedoch, dass die untersuchte Gruppe nicht repräsentativ war. Ein Journalist verteidigt die Schlagzeile mit dem Hinweis, sie gebe einen tatsächlichen Trend wieder. Die Forscherin stimmt teilweise zu, warnt aber davor, aus einer begrenzten Stichprobe allgemeine Aussagen abzuleiten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+      "options": [
+        "فقط معرفی چند واژه",
+        "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+        "خواندن یک فهرست بی‌زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای تحلیل B2 مناسب‌تر است؟",
+      "correctAnswer": "موضع → شاهد → محدودیت → نتیجه",
+      "options": [
+        "فقط نام‌ها",
+        "موضع → شاهد → محدودیت → نتیجه",
+        "فقط جملهٔ آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موافقت مشروط چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "پذیرش بخشی از ادعا همراه با محدودیت",
+      "options": [
+        "تکرار کامل ادعا",
+        "پذیرش بخشی از ادعا همراه با محدودیت",
+        "بی‌توجهی به دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را جداگانه برای هدف و استدلال بخوان؛ سپس نقطهٔ توافق، اختلاف، نوع شاهد و خلأ اطلاعاتی را مقایسه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "BERICHT A: DIGITALE PAUSEN STEIGERN DIE LEISTUNG\nEine neue Umfrage zeigt angeblich, dass kurze digitale Pausen die Arbeitsleistung deutlich erhöhen. 68 Prozent der Befragten berichteten von besserer Konzentration. Der Bericht nennt jedoch weder die Zahl der Teilnehmenden noch die Dauer der Untersuchung. Trotzdem wird das Ergebnis als eindeutiger Beleg präsentiert.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "BERICHT B: POSITIVER TREND, ABER OFFENE FRAGEN\nDieselbe Umfrage deutet darauf hin, dass bewusst geplante Pausen hilfreich sein könnten. Die Quelle weist allerdings nicht aus, wie die Befragten ausgewählt wurden. Daher lässt sich noch nicht beurteilen, ob das Ergebnis auf andere Arbeitsplätze übertragbar ist. Weitere Untersuchungen wären erforderlich.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ معتبر دو منبع چه چیزی را حفظ می‌کند؟",
+      "correctAnswer": "تفاوت ادعا، شاهد، لحن و محدودیت",
+      "options": [
+        "فقط واژه‌های مشترک",
+        "تفاوت ادعا، شاهد، لحن و محدودیت",
+        "فقط متن کوتاه‌تر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که به تحقق هدف «یک ادعای رسانه‌ای را دقیق خلاصه و اعتبار آن را ارزیابی کنی.» و انسجام بیان دقیق کمک می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "واژه‌های ارجاعی مانند dabei، dadurch، darauf، dies و Letzteres انسجام متن را حفظ می‌کنند. اگر فاعل دو عمل یکی باشد، مصدر با zu اغلب فشرده‌تر است: Die Redaktion versucht, die Daten zu prüfen. اگر فاعل‌ها متفاوت باشند، dass لازم است: Die Redaktion erwartet, dass die Behörde antwortet.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر انسجام و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+      "options": [
+        "Einerseits Vorteile, andererseits Fragen offen bleiben.",
+        "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+        "Die Maßnahme einerseits andererseits offen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام بیان دقیق ادعا را مسئولانه بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+      "options": [
+        "Die Daten beweisen immer alles.",
+        "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+        "Vorteil Daten ohne Einschränkung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر موضع، شاهد، بیان دقیق و بیان دقیق تحلیل کن:\nBeide Berichte beziehen sich auf dieselbe Umfrage, bewerten ihre Aussagekraft jedoch unterschiedlich. Bericht A behauptet, die Wirkung sei eindeutig belegt. Dafür nennt er einen Prozentwert, informiert aber nicht über Stichprobe oder Dauer. Bericht B weist auf genau diese Lücken hin und formuliert seine Schlussfolgerung vorsichtiger. Daher halte ich Bericht B für glaubwürdiger, obwohl auch er keine unabhängigen Vergleichsdaten bietet.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «ارزیابی دو گزارش رسانه‌ای رقیب» یک پاسخ ۹ تا ۱۲ جمله‌ای بساز: موضع، دو دلیل، یک شاهد، یک محدودیت و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "بدون متن کامل آماده، دو گزینه را بسنج، موضع خود را بیان دقیق کن و به دو پرسش یا بیان دقیق واکنش طبیعی نشان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nBeide Berichte beziehen sich auf dieselbe Umfrage, bewerten ihre Aussagekraft jedoch unterschiedlich. Bericht A behauptet, die Wirkung sei eindeutig belegt. Dafür nennt er einen Prozentwert, informiert aber nicht über Stichprobe oder Dauer. Bericht B weist auf genau diese Lücken hin und formuliert seine Schlussfolgerung vorsichtiger. Daher halte ich Bericht B für glaubwürdiger, obwohl auch er keine unabhängigen Vergleichsdaten bietet.\n\nساختار منبع‌محور و بیان دقیق را تحلیل کن؛ عبارت‌های مدل را بدون دلیل کپی نکن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۴ تا ۱۸ جمله‌ای در دو یا سه بند بنویس: مسئله، مقایسهٔ منابع یا گزینه‌ها، شاهد، بیان دقیق، نتیجه و بیان دقیق روشن داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "دو گزارش را خلاصه و مقایسه کن: ادعا، منبع، شاهد، محدودیت و لحن هر کدام را مشخص کن و یک credibility بیان دقیق مستدل صادر کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق منصفانه، استدلال پیوسته، بیان دقیق مناسب و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ موضع و محدودیت را هم‌زمان بیان می‌کند؟",
+      "correctAnswer": "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+      "options": [
+        "Der Vorschlag gut.",
+        "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+        "Daten fehlen Vorschlag überzeugt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich auf etwas beziehen» چیست؟",
+      "correctAnswer": "به چیزی ارجاع دادن",
+      "options": [
+        "به چیزی ارجاع دادن",
+        "ادعا می‌شود که...",
+        "به چیزی اشاره کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی ضروری است؟",
+      "correctAnswer": "تفکیک ادعا، شاهد و محدودیت",
+      "options": [
+        "فقط عنوان‌ها",
+        "تفکیک ادعا، شاهد و محدودیت",
+        "فقط تعداد جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از کجا روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+      "options": [
+        "فقط سرعت",
+        "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+        "فقط نام برنامه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای متن حرفه‌ای مناسب‌تر است؟",
+      "correctAnswer": "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+      "options": [
+        "Macht das einfach so.",
+        "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+        "Das Ding ist super."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله تضاد متعادل دارد؟",
+      "correctAnswer": "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+      "options": [
+        "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+        "Zwar Zeit jedoch Problem.",
+        "Spart zwar Prozess jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «ادعاهای رسانه‌ای و کیفیت اطلاعات» مرتبط است؟",
+      "correctAnswer": "die Aussagekraft",
+      "options": [
+        "die Aussagekraft",
+        "eine Stichprobe",
+        "einen Schluss ableiten"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "استنباط معتبر B2 چیست؟",
+      "correctAnswer": "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+        "تکرار یک واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Ergebnisse legen nahe, dass ...",
+      "options": [
+        "Es ist immer so.",
+        "Die Ergebnisse legen nahe, dass ...",
+        "Ohne Zweifel alle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام ساختار بیان دقیق را معرفی می‌کند؟",
+      "correctAnswer": "Zusammenfassend lässt sich festhalten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Zusammenfassend lässt sich festhalten, dass ...",
+        "Dagegen ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «nachvollziehbar belegen» چیست؟",
+      "correctAnswer": "به‌شکل قابل پیگیری اثبات کردن",
+      "options": [
+        "به‌شکل قابل پیگیری اثبات کردن",
+        "ادعایی را تعدیل کردن",
+        "قابل تعمیم بودن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر دو منبع از یک داده نتیجهٔ متفاوت بگیرند چه باید کرد؟",
+      "correctAnswer": "روش استنتاج و محدودیت هر دو مقایسه شود",
+      "options": [
+        "یکی بدون بررسی انتخاب شود",
+        "روش استنتاج و محدودیت هر دو مقایسه شود",
+        "هر دو نادیده گرفته شوند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ پایدار B2 چه دارد؟",
+      "correctAnswer": "موضع، شاهد، بیان دقیق و پاسخ",
+      "options": [
+        "فقط یک نظر",
+        "موضع، شاهد، بیان دقیق و پاسخ",
+        "فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن B2 چگونه از C1 drift جلوگیری می‌کند؟",
+      "correctAnswer": "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+      "options": [
+        "با بیشترین اسم‌سازی ممکن",
+        "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+        "با جمله‌های بسیار مبهم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Systematic indirect speech",
+    "Advanced source بیان دقیق"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "sich auf etwas beziehen",
+      "type": "Chunk",
+      "meaning": "به چیزی ارجاع دادن",
+      "pronunciation": null,
+      "example": "Der Artikel bezieht sich auf eine Umfrage.",
+      "exampleTranslation": "مقاله به یک نظرسنجی ارجاع می‌دهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "Es wird behauptet, dass ...",
+      "type": "Chunk",
+      "meaning": "ادعا می‌شود که...",
+      "pronunciation": null,
+      "example": "Es wird behauptet, dass die Methode wirksam ist.",
+      "exampleTranslation": "ادعا می‌شود روش مؤثر است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "auf etwas hinweisen",
+      "type": "Chunk",
+      "meaning": "به چیزی اشاره کردن",
+      "pronunciation": null,
+      "example": "Die Quelle weist auf eine Einschränkung hin.",
+      "exampleTranslation": "منبع به محدودیتی اشاره می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "die Aussagekraft",
+      "type": "Chunk",
+      "meaning": "قدرت دلالت داده",
+      "pronunciation": null,
+      "example": "Die Aussagekraft der Studie ist begrenzt.",
+      "exampleTranslation": "قدرت نتیجه‌گیری مطالعه محدود است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "eine Stichprobe",
+      "type": "Chunk",
+      "meaning": "نمونهٔ آماری",
+      "pronunciation": null,
+      "example": "Die Stichprobe war sehr klein.",
+      "exampleTranslation": "نمونهٔ آماری بسیار کوچک بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "einen Schluss ableiten",
+      "type": "Chunk",
+      "meaning": "نتیجه‌ای استنتاج کردن",
+      "pronunciation": null,
+      "example": "Aus diesen Daten lässt sich kein sicherer Schluss ableiten.",
+      "exampleTranslation": "از این داده‌ها نتیجهٔ قطعی نمی‌توان گرفت.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "nachvollziehbar belegen",
+      "type": "Chunk",
+      "meaning": "به‌شکل قابل پیگیری اثبات کردن",
+      "pronunciation": null,
+      "example": "Der Bericht belegt die Aussage nachvollziehbar.",
+      "exampleTranslation": "گزارش ادعا را قابل پیگیری اثبات می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "eine Behauptung relativieren",
+      "type": "Chunk",
+      "meaning": "ادعایی را تعدیل کردن",
+      "pronunciation": null,
+      "example": "Neue Daten relativieren die Behauptung.",
+      "exampleTranslation": "داده‌های تازه ادعا را تعدیل می‌کنند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "übertragbar sein",
+      "type": "Chunk",
+      "meaning": "قابل تعمیم بودن",
+      "pronunciation": null,
+      "example": "Das Ergebnis ist nicht ohne Weiteres übertragbar.",
+      "exampleTranslation": "نتیجه به‌آسانی قابل تعمیم نیست.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "glaubwürdig erscheinen",
+      "type": "Chunk",
+      "meaning": "معتبر به نظر رسیدن",
+      "pronunciation": null,
+      "example": "Die Erklärung erscheint glaubwürdig.",
+      "exampleTranslation": "توضیح معتبر به نظر می‌رسد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

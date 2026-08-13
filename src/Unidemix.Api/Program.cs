@@ -21,6 +21,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<DatabaseSeeder>();
 builder.Services.AddScoped<ProductFeatureService>();
+builder.Services.AddScoped<ISocialFollowerAccessService, SocialFollowerAccessService>();
+builder.Services.AddScoped<ISocialUsernameService, SocialUsernameService>();
+builder.Services.AddScoped<ExamBlueprintSeeder>();
+builder.Services.AddScoped<ExamAiGenerationService>();
+builder.Services.AddSingleton<ExamGenerationValidator>();
+builder.Services.AddSingleton<ExamTemplateAssembler>();
+builder.Services.AddSingleton<ExamAiCapabilityPolicy>();
+builder.Services.AddSingleton<SupplementaryAiCapabilityPolicy>();
+builder.Services.AddSingleton<IExamAiContentProvider, UnavailableExamAiContentProvider>();
 builder.Services.AddSingleton<ISocialImageStorage, LocalSocialImageStorage>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

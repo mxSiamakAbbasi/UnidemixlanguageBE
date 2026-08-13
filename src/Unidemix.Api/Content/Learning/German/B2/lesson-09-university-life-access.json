@@ -1,0 +1,638 @@
+{
+  "contentKey": "de-b2-core-lesson-09",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 9,
+  "courseSlug": "german-b2-core",
+  "title": "University Life and Access",
+  "localizedTitle": "زندگی دانشگاهی و دسترسی",
+  "description": "مشکلات عملی دانشگاه را حل و پیامد سیاست‌ها یا شرایط تحصیل را دقیق توضیح می‌دهی.",
+  "estimatedDurationMinutes": 215,
+  "status": "production",
+  "mainSituation": "مشاورهٔ دانشجویی و گفت‌وگو دربارهٔ شرایط دسترسی",
+  "canDoObjectives": [
+    "یک مشکل عملی دانشگاهی را حل و اقدام لازم و پیامد آن را توضیح بدهی.",
+    "در بحثی ساختارمند دربارهٔ دسترسی یا شرایط تحصیل مشارکت کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «زندگی دانشگاهی و دسترسی» خوش آمدی. در این بخش، زبان B2 را برای تحلیل، ارتباط حرفه‌ای و بیان دقیق منصفانه به‌کار می‌بری.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: مشاورهٔ دانشجویی و گفت‌وگو دربارهٔ شرایط دسترسی. موضع، بیان دقیق، شاهد، محدودیت، بیان دقیق و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Studentin: Mein Zugang wurde gesperrt, sodass ich den Antrag nicht rechtzeitig hochladen konnte.\nBerater: Haben Sie bereits einen Antrag auf Fristverlängerung gestellt?\nStudentin: Noch nicht. Das Verfahren war zu unübersichtlich, als dass ich den richtigen Bereich finden konnte.\nBerater: Dann halten wir den technischen Fehler fest und leiten die nächsten Schritte ein.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "einen Antrag stellen = درخواست رسمی ثبت کردن\nSie stellt einen Antrag auf Förderung. = او درخواست حمایت مالی ثبت می‌کند.\n\nzur Folge haben = پیامد داشتن\nDie Verzögerung hat finanzielle Probleme zur Folge. = تأخیر پیامد مالی دارد.\n\nMaßnahmen ergreifen = اقداماتی انجام دادن\nDie Universität ergreift neue Maßnahmen. = دانشگاه اقدامات تازه انجام می‌دهد.\n\neine Fristverlängerung = تمدید مهلت\nEr beantragt eine Fristverlängerung. = او تمدید مهلت درخواست می‌کند.\n\neinen Nachweis einreichen = مدرک ارائه کردن\nBitte reichen Sie den Nachweis ein. = لطفاً مدرک را ارائه کنید.\n\nnicht ausreichend = ناکافی\nDie Information ist nicht ausreichend. = اطلاعات کافی نیست.\n\nungeeignet = نامناسب\nDas Verfahren ist für Notfälle ungeeignet. = فرایند برای موارد فوری مناسب نیست.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضوع مناسب‌تر است؟",
+      "correctAnswer": "einen Antrag stellen",
+      "options": [
+        "einen Antrag stellen",
+        "zur Folge haben",
+        "Maßnahmen ergreifen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و بیان دقیق موضع‌ها را دنبال کن؛ بار دوم ادعا، شاهد، بیان دقیق، بیان دقیق و بیان دقیق را یادداشت کن. متن ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Bei einer Studienberatung schildert ein Student finanzielle und organisatorische Probleme. Wegen einer verspäteten Bescheinigung wurde sein Antrag nicht bearbeitet, sodass die Auszahlung ausblieb. Die Beraterin erklärt, welche Nachweise fehlen und an welche Stelle er sich wenden muss. Anschließend diskutieren beide, ob die Informationen auf der Website ausreichend verständlich sind und welche Folgen unklare Verfahren für Studienzugang haben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "بازسازی و ارزیابی چند موضع یا راه‌حل",
+      "options": [
+        "فقط معرفی واژه",
+        "بازسازی و ارزیابی چند موضع یا راه‌حل",
+        "خواندن عددها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت تحلیل را پشتیبانی می‌کند؟",
+      "correctAnswer": "گوینده → موضع → شاهد → محدودیت",
+      "options": [
+        "فقط نام",
+        "گوینده → موضع → شاهد → محدودیت",
+        "فقط جمله آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "فاصلهٔ گوینده از ادعا چگونه روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق و میزان قطعیت",
+      "options": [
+        "فقط بلندی صدا",
+        "از بیان دقیق و میزان قطعیت",
+        "از طول نام"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را برای هدف، موضع، نوع شاهد، بیان دقیق و خلأ اطلاعاتی بخوان و سپس بیان دقیق منصفانه بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "HINWEISE ZUR STUDIENFÖRDERUNG\nAnträge müssen vollständig und fristgerecht eingereicht werden. Fehlende Unterlagen haben eine verzögerte Bearbeitung zur Folge. In begründeten Ausnahmefällen kann eine Fristverlängerung beantragt werden. Studierende sind verpflichtet, Änderungen ihrer finanziellen Situation unverzüglich mitzuteilen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "STUDENTISCHE STELLUNGNAHME\nDie formalen Anforderungen sind grundsätzlich nachvollziehbar. Viele Informationen sind jedoch auf mehrere Seiten verteilt, sodass Betroffene wichtige Fristen übersehen. Das System ist nicht grundsätzlich ungeeignet, aber derzeit nicht ausreichend nutzerfreundlich. Eine gemeinsame Übersicht und automatische Hinweise könnten den Zugang verbessern.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ منصفانه چه کاری می‌کند؟",
+      "correctAnswer": "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+      "options": [
+        "یکی را حذف می‌کند",
+        "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+        "فقط واژه‌های مشابه را می‌شمارد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که برای «یک مشکل عملی دانشگاهی را حل و اقدام لازم و پیامد آن را توضیح بدهی.» و بیان دقیق در بیان دقیق استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "روابط consecutive نتیجه را نشان می‌دهند: sodass، als dass و zu ... als dass در کاربردهای کنترل‌شده. ترکیب‌های ثابت اسم-فعل مانند einen Antrag stellen، eine Entscheidung treffen، Maßnahmen ergreifen و zur Verfügung stehen در بیان دقیق اداری ضروری‌اند. پیشوندهای un-، miss- و nicht-پایه برای negation واژگانی استفاده می‌شوند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله دقیق و منسجم است؟",
+      "correctAnswer": "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+      "options": [
+        "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+        "Während Quelle A Zugang, Quelle B Risiken weist.",
+        "Quelle A während betont Quelle B."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام عبارت بیان دقیق را مسئولانه محدود می‌کند؟",
+      "correctAnswer": "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+      "options": [
+        "Die Angaben beweisen alles.",
+        "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+        "Angaben Empfehlung immer."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر بیان دقیق، بیان دقیق، بیان دقیق و بیان دقیق تحلیل کن:\nAufgrund eines technischen Fehlers konnte die Studentin ihren Antrag nicht rechtzeitig einreichen. Sie sollte zunächst einen Antrag auf Fristverlängerung stellen und den Fehler dokumentieren. Die fehlende Bearbeitung hat finanzielle Unsicherheit zur Folge. Gleichzeitig zeigt der Fall, dass die vorhandenen Informationen nicht ausreichend übersichtlich sind. Ich empfehle daher sowohl eine individuelle Ausnahmeprüfung als auch eine zentralisierte Fristenübersicht.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «مشاورهٔ دانشجویی و گفت‌وگو دربارهٔ شرایط دسترسی» یک پاسخ ۱۰ تا ۱۳ جمله‌ای ارائه کن: بیان دقیق، موضع، شاهد، limitation و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو منبع یا گزینه را شفاهی synthesize کن، از موضع خود دفاع کن و به دو پرسش انتقادی با بیان دقیق مناسب پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nAufgrund eines technischen Fehlers konnte die Studentin ihren Antrag nicht rechtzeitig einreichen. Sie sollte zunächst einen Antrag auf Fristverlängerung stellen und den Fehler dokumentieren. Die fehlende Bearbeitung hat finanzielle Unsicherheit zur Folge. Gleichzeitig zeigt der Fall, dass die vorhandenen Informationen nicht ausreichend übersichtlich sind. Ich empfehle daher sowohl eine individuelle Ausnahmeprüfung als auch eine zentralisierte Fristenübersicht.\n\nساختار، بیان دقیق و بیان دقیق را تحلیل کن و سپس متن مستقل خودت را بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۵ تا ۱۹ جمله‌ای در دو یا سه بند بنویس: خلاصهٔ منصفانه، مقایسه، شاهد، بیان دقیق، بیان دقیق و بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک study-بیان دقیق case را حل کن: مشکل، مدارک، اقدام‌های بعدی و consequence را ثبت کن و سپس یک policy improvement مستدل پیشنهاد بده.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق دقیق، بیان دقیق مناسب، موضع مستدل و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق منصفانه می‌سازد؟",
+      "correctAnswer": "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+      "options": [
+        "Beide gleich.",
+        "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+        "Quelle Begründung jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «einen Antrag stellen» چیست؟",
+      "correctAnswer": "درخواست رسمی ثبت کردن",
+      "options": [
+        "درخواست رسمی ثبت کردن",
+        "پیامد داشتن",
+        "اقداماتی انجام دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی نباید تحریف شود؟",
+      "correctAnswer": "نسبت هر ادعا با گوینده و شاهد",
+      "options": [
+        "طول متن",
+        "نسبت هر ادعا با گوینده و شاهد",
+        "شماره صفحه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق چه چیزی را روشن می‌کند؟",
+      "correctAnswer": "اینکه هر موضع متعلق به چه کسی است",
+      "options": [
+        "فقط زمان",
+        "اینکه هر موضع متعلق به چه کسی است",
+        "فقط مکان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای گزارش بی‌طرف مناسب‌تر است؟",
+      "correctAnswer": "Die Quelle vertritt die Auffassung, dass ...",
+      "options": [
+        "Die spinnen doch.",
+        "Die Quelle vertritt die Auffassung, dass ...",
+        "Das ist Quatsch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله contrast روشن دارد؟",
+      "correctAnswer": "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+      "options": [
+        "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+        "Während flexibel zweite Sicherheit.",
+        "Option während zweite."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «زندگی دانشگاهی و دسترسی» مرتبط است؟",
+      "correctAnswer": "eine Fristverlängerung",
+      "options": [
+        "eine Fristverlängerung",
+        "einen Nachweis einreichen",
+        "nicht ausreichend"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "interpretation معتبر چگونه است؟",
+      "correctAnswer": "محتاطانه و متکی به چند بیان دقیق متن",
+      "options": [
+        "قطعی و بدون شاهد",
+        "محتاطانه و متکی به چند بیان دقیق متن",
+        "فقط تکرار عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت uncertainty را نشان می‌دهد؟",
+      "correctAnswer": "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+      "options": [
+        "Das ist sicher immer so.",
+        "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+        "Alle wissen es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را شروع می‌کند؟",
+      "correctAnswer": "Insgesamt lässt sich daraus ableiten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Insgesamt lässt sich daraus ableiten, dass ...",
+        "Im ersten Satz ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «ungeeignet» چیست؟",
+      "correctAnswer": "نامناسب",
+      "options": [
+        "نامناسب",
+        "دسترسی را بهتر کردن",
+        "خطایی را ثبت کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر بیان دقیق متفاوت باشد چه باید کرد؟",
+      "correctAnswer": "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+      "options": [
+        "هر دو قطعی اعلام شوند",
+        "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+        "شاهد حذف شود"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "در پاسخ به بیان دقیق چه چیزی لازم است؟",
+      "correctAnswer": "پذیرش بخش معتبر و دفاع مستدل",
+      "options": [
+        "نادیده گرفتن",
+        "پذیرش بخش معتبر و دفاع مستدل",
+        "تکرار موضع"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق مناسب B2 چگونه انتخاب می‌شود؟",
+      "correctAnswer": "با توجه به مخاطب، هدف و بیان دقیق",
+      "options": [
+        "همیشه بسیار دانشگاهی",
+        "با توجه به مخاطب، هدف و بیان دقیق",
+        "همیشه محاوره‌ای"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Academic source integration"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "einen Antrag stellen",
+      "type": "Chunk",
+      "meaning": "درخواست رسمی ثبت کردن",
+      "pronunciation": null,
+      "example": "Sie stellt einen Antrag auf Förderung.",
+      "exampleTranslation": "او درخواست حمایت مالی ثبت می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "zur Folge haben",
+      "type": "Chunk",
+      "meaning": "پیامد داشتن",
+      "pronunciation": null,
+      "example": "Die Verzögerung hat finanzielle Probleme zur Folge.",
+      "exampleTranslation": "تأخیر پیامد مالی دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "Maßnahmen ergreifen",
+      "type": "Chunk",
+      "meaning": "اقداماتی انجام دادن",
+      "pronunciation": null,
+      "example": "Die Universität ergreift neue Maßnahmen.",
+      "exampleTranslation": "دانشگاه اقدامات تازه انجام می‌دهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "eine Fristverlängerung",
+      "type": "Chunk",
+      "meaning": "تمدید مهلت",
+      "pronunciation": null,
+      "example": "Er beantragt eine Fristverlängerung.",
+      "exampleTranslation": "او تمدید مهلت درخواست می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "einen Nachweis einreichen",
+      "type": "Chunk",
+      "meaning": "مدرک ارائه کردن",
+      "pronunciation": null,
+      "example": "Bitte reichen Sie den Nachweis ein.",
+      "exampleTranslation": "لطفاً مدرک را ارائه کنید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "nicht ausreichend",
+      "type": "Chunk",
+      "meaning": "ناکافی",
+      "pronunciation": null,
+      "example": "Die Information ist nicht ausreichend.",
+      "exampleTranslation": "اطلاعات کافی نیست.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "ungeeignet",
+      "type": "Word",
+      "meaning": "نامناسب",
+      "pronunciation": null,
+      "example": "Das Verfahren ist für Notfälle ungeeignet.",
+      "exampleTranslation": "فرایند برای موارد فوری مناسب نیست.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "den Zugang verbessern",
+      "type": "Chunk",
+      "meaning": "دسترسی را بهتر کردن",
+      "pronunciation": null,
+      "example": "Klare Hinweise verbessern den Zugang.",
+      "exampleTranslation": "راهنمای روشن دسترسی را بهتر می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "einen Fehler festhalten",
+      "type": "Chunk",
+      "meaning": "خطایی را ثبت کردن",
+      "pronunciation": null,
+      "example": "Wir halten den technischen Fehler fest.",
+      "exampleTranslation": "خطای فنی را ثبت می‌کنیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "die Bearbeitung verzögern",
+      "type": "Chunk",
+      "meaning": "رسیدگی را به تأخیر انداختن",
+      "pronunciation": null,
+      "example": "Fehlende Dokumente verzögern die Bearbeitung.",
+      "exampleTranslation": "مدارک ناقص رسیدگی را عقب می‌اندازند.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

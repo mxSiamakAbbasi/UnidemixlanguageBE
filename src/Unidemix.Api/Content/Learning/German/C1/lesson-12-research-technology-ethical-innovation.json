@@ -1,0 +1,702 @@
+{
+  "contentKey": "de-c1-core-lesson-12",
+  "language": "de",
+  "cefr": "C1",
+  "lessonNumber": 12,
+  "courseSlug": "german-c1-core",
+  "title": "Research, Technology, and Ethical Innovation",
+  "localizedTitle": "پژوهش، فناوری و نوآوری اخلاقی",
+  "description": "نوآوری را با ترکیب وعدهٔ فنی، کیفیت شاهد، محدودیت عملی و نگرانی اخلاقی ارزیابی می‌کنی.",
+  "estimatedDurationMinutes": 260,
+  "status": "production",
+  "mainSituation": "ارزیابی و ارائهٔ یک نوآوری در انجمن عمومی پژوهش",
+  "canDoObjectives": [
+    "یک نوآوری را با ادغام وعدهٔ فنی، شاهد، محدودیت و نگرانی اخلاقی ارزیابی کنی.",
+    "پیشنهاد پیچیدهٔ پژوهشی را برای مخاطب متخصص و عمومی متفاوت بیان کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-08"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «پژوهش، فناوری و نوآوری اخلاقی» خوش آمدی. در این درس، اطلاعات پیچیده را تفسیر می‌کنی، میان واقعیت و ارزیابی تمایز می‌گذاری و زبان را با مخاطب تطبیق می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "complex-situation",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: ارزیابی و ارائهٔ یک نوآوری در انجمن عمومی پژوهش. پیش از پاسخ، نقش‌ها، منافع، پیش‌فرض‌ها و میزان قطعیت هر ادعا را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Moderator: Das System erkennt Materialfehler früher als bisherige Verfahren. Ist der Nutzen belegt?\nForscherin: Im Rahmen der Pilotstudie sank die Fehlerrate, allerdings nur unter kontrollierten Bedingungen.\nEthiker: Angesichts möglicher Fehlentscheidungen muss menschliche Prüfung erhalten bleiben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "im Rahmen der Forschung = در چارچوب پژوهش\n\nangesichts der Risiken = با توجه به خطرها\n\nethisch vertretbar sein = از نظر اخلاقی قابل دفاع بودن\n\nunter Berücksichtigung ... = با در نظر گرفتن ...\n\neine Position differenzieren = موضعی را دقیق و تفکیک‌شده بیان کردن\n\neine Einschränkung benennen = محدودیتی را نام بردن\n\nQuellen gegeneinander abwägen = منابع را در برابر هم سنجیدن",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای محدودکردن مسئولانهٔ یک نتیجه مناسب‌تر است؟",
+      "correctAnswer": "Diese Folgerung gilt allerdings nur unter der Voraussetzung, dass die Daten vergleichbar sind.",
+      "options": [
+        "Diese Folgerung gilt allerdings nur unter der Voraussetzung, dass die Daten vergleichbar sind.",
+        "Das ist ohne jede Einschränkung bewiesen.",
+        "Andere Informationen spielen grundsätzlich keine Rolle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "discourse-noticing",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در نمونه‌ها مشخص کن کدام عبارت موضع، محدودیت، انتساب دیدگاه یا تغییر سبک را می‌سازد. سپس همان کارکرد را با عبارت دیگری بازنویسی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار کلی و رابطهٔ گویندگان را دنبال کن. بار دوم شاهد، پیام ضمنی، مخالفت ظریف و نتیجهٔ قابل دفاع را یادداشت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Moderator: Das System erkennt Materialfehler früher als bisherige Verfahren. Ist der Nutzen belegt?\nForscherin: Im Rahmen der Pilotstudie sank die Fehlerrate, allerdings nur unter kontrollierten Bedingungen.\nEthiker: Angesichts möglicher Fehlentscheidungen muss menschliche Prüfung erhalten bleiben.\nIngenieurin: Technisch ist eine Einführung vertretbar, sofern Unsicherheit angezeigt, Verantwortung dokumentiert und die Leistung unabhängig überprüft wird.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "گویندگان در نهایت بر چه اصل ارتباطی توافق دارند؟",
+      "correctAnswer": "نتیجه باید با محدودیت شواهد و شرایط واقعی هماهنگ باشد.",
+      "options": [
+        "نتیجه باید با محدودیت شواهد و شرایط واقعی هماهنگ باشد.",
+        "قوی‌ترین لحن همیشه متقاعدکننده‌تر است.",
+        "دیدگاه مخالف را می‌توان حذف کرد."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای تشخیص نگرش ضمنی گوینده چه چیزی مهم‌تر است؟",
+      "correctAnswer": "ترکیب واژه‌های وجهی، امتیازها و نحوهٔ پاسخ به دیدگاه دیگر",
+      "options": [
+        "ترکیب واژه‌های وجهی، امتیازها و نحوهٔ پاسخ به دیدگاه دیگر",
+        "فقط شمار جمله‌ها",
+        "فقط نخستین واژهٔ هر جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "نتیجهٔ گفت‌وگو را در چهار تا شش جملهٔ آلمانی بازگو کن؛ یک محدودیت و یک پیام ضمنی را آشکار بیان کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-12",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را از نظر هدف، چارچوب‌بندی، کیفیت شاهد، لحن و اطلاعات حذف‌شده مقایسه کن. توافق و تعارض را بدون تحریف بازسازی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "FORSCHUNGSZUSAMMENFASSUNG\nEin lernendes Prüfsystem wurde in drei Laborreihen getestet. Es erkannte häufige Materialfehler zuverlässig, seltene Abweichungen jedoch uneinheitlich. Die Forschenden empfehlen eine begrenzte Erprobung mit fortlaufender menschlicher Kontrolle.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ÖFFENTLICHE STELLUNGNAHME\nAutomatisierte Prüfung kann Sicherheit erhöhen, darf Verantwortung aber nicht unsichtbar machen. Betroffene müssen erfahren, wann ein System beteiligt war, welche Daten verwendet wurden und wie Entscheidungen überprüft werden können.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-15",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام جمع‌بندی رابطهٔ دو منبع را دقیق‌تر نشان می‌دهد؟",
+      "correctAnswer": "دو منبع بخشی از مسئله را مشترک می‌بینند، اما در علت و اولویت راه‌حل تفاوت دارند.",
+      "options": [
+        "دو منبع بخشی از مسئله را مشترک می‌بینند، اما در علت و اولویت راه‌حل تفاوت دارند.",
+        "دو منبع دقیقاً یک ادعا و یک نتیجه دارند.",
+        "منبع دوم موضوع منبع اول را کاملاً نامرتبط می‌داند."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-16",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "یک پیش‌فرض ضمنی هر منبع را به آلمانی بنویس و توضیح بده کدام بخش متن آن را پشتیبانی می‌کند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-17",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهای زیر را در منابع پیدا کن و اثر ارتباطی آن‌ها را توضیح بده: حروف اضافهٔ رسمی با Genitiv؛ جمله‌واره‌های وجه‌وصفی و واژه‌سازی با durch-/über-/um-/unter-. به تفاوتِ درست‌بودن دستوری و مناسب‌بودن سبکی توجه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-18",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در C1 ساختار دستوری برای فشرده‌سازی، برجسته‌سازی و کنترل لحن انتخاب می‌شود. حروف اضافهٔ رسمی با Genitiv امکان می‌دهد رابطهٔ اطلاعات دقیق‌تر شود؛ جمله‌واره‌های وجه‌وصفی و واژه‌سازی با durch-/über-/um-/unter- باید با مخاطب و گونهٔ متن هماهنگ بماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-19",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "جملهٔ زیر را یک‌بار رسمی و فشرده و یک‌بار دیپلماتیک بازنویسی کن، سپس تفاوت اثر آن‌ها را توضیح بده:\nMan hat die Bedingungen nicht vollständig geprüft. Deshalb ist die Empfehlung unsicher.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-20",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام بازنویسی رابطه و میزان قطعیت را بهتر حفظ می‌کند؟",
+      "correctAnswer": "Da die Bedingungen offenbar nicht vollständig geprüft wurden, ist die Empfehlung nur eingeschränkt belastbar.",
+      "options": [
+        "Da die Bedingungen offenbar nicht vollständig geprüft wurden, ist die Empfehlung nur eingeschränkt belastbar.",
+        "Die Empfehlung ist falsch, weil niemand etwas geprüft hat.",
+        "Die Bedingungen sind unwichtig und die Empfehlung gilt immer."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر انتساب منبع، پیوند دیدگاه‌ها، محدودیت و نتیجه تحلیل کن:\nIm Rahmen der Versuche zeigte das System bei häufigen Fehlern eine hohe Zuverlässigkeit. Angesichts uneinheitlicher Ergebnisse bei seltenen Fällen ist eine autonome Einführung nicht vertretbar. Unter Berücksichtigung des möglichen Nutzens empfiehlt sich eine begrenzte Erprobung, begleitet von menschlicher Kontrolle, transparenter Dokumentation und unabhängiger Evaluation.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-22",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "در یک پاسخ پیوستهٔ دو تا سه دقیقه‌ای، دو منبع را ترکیب کن، موضع خود را دقیق کن و به یک اعتراض بدون تکرار متن آماده پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-23",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "همان موضع را نخست برای گفت‌وگوی عمومی و سپس برای جلسه‌ای حرفه‌ای بیان کن. تفاوت واژگان، صراحت و ساختار را آگاهانه نشان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIm Rahmen der Versuche zeigte das System bei häufigen Fehlern eine hohe Zuverlässigkeit. Angesichts uneinheitlicher Ergebnisse bei seltenen Fällen ist eine autonome Einführung nicht vertretbar. Unter Berücksichtigung des möglichen Nutzens empfiehlt sich eine begrenzte Erprobung, begleitet von menschlicher Kontrolle, transparenter Dokumentation und unabhängiger Evaluation.\n\nنحوهٔ ادغام منبع، انسجام بند، کنترل سبک و مرزبندی میان داده و تفسیر را تحلیل کن؛ متن را تقلید نکن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-25",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منبع‌محور ۱۸ تا ۲۴ جمله‌ای در سه یا چهار بند بنویس. چارچوب مسئله، ترکیب منابع، یک تعارض، محدودیت نتیجه و پیشنهاد متناسب با مخاطب را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-26",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "Entwickeln und verteidigen Sie eine ethisch verantwortliche Innovation. Erstellen Sie eine fachliche Kurzvorlage und eine öffentliche Erklärung; machen Sie Evidenz, Unsicherheit, Verantwortung und Abbruchkriterien transparent.\n\nمعیار موفقیت: تحقق هر دو Can-Do، ترکیب شفاف منابع، استدلال ظریف، سبک مناسب، انسجام و کنترل ساختارهای جدید C1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "comprehension",
+      "type": "inference",
+      "prompt": "هدف مقایسهٔ منابع در C1 چیست؟",
+      "correctAnswer": "بازسازی رابطهٔ دیدگاه‌ها و ساختن نتیجه‌ای شفاف",
+      "options": [
+        "بازسازی رابطهٔ دیدگاه‌ها و ساختن نتیجه‌ای شفاف",
+        "یافتن چند واژهٔ مشترک",
+        "حذف منبع ضعیف بدون توضیح"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "inference",
+      "type": "multiple-choice",
+      "prompt": "معنای ضمنی چگونه معتبر استنتاج می‌شود؟",
+      "correctAnswer": "با ترکیب چند نشانهٔ زبانی و زمینه‌ای",
+      "options": [
+        "با ترکیب چند نشانهٔ زبانی و زمینه‌ای",
+        "فقط از عنوان",
+        "بر اساس حدس شخصی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "register",
+      "type": "multiple-choice",
+      "prompt": "سبک مناسب چگونه انتخاب می‌شود؟",
+      "correctAnswer": "با توجه به مخاطب، نقش، هدف و گونهٔ متن",
+      "options": [
+        "با توجه به مخاطب، نقش، هدف و گونهٔ متن",
+        "همیشه رسمی‌ترین سبک",
+        "فقط بر اساس طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "source-synthesis",
+      "type": "multiple-choice",
+      "prompt": "جمع‌بندی منصفانه چه می‌کند؟",
+      "correctAnswer": "توافق، تعارض و محدودیت هر منبع را روشن می‌کند",
+      "options": [
+        "توافق، تعارض و محدودیت هر منبع را روشن می‌کند",
+        "همهٔ منابع را یکسان جلوه می‌دهد",
+        "نظر نویسنده را حذف می‌کند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "stance",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت موضع را محتاط می‌کند؟",
+      "correctAnswer": "Die Ergebnisse dürften diese Deutung stützen.",
+      "options": [
+        "Die Ergebnisse dürften diese Deutung stützen.",
+        "Das ist zweifellos immer so.",
+        "Darüber muss man nicht sprechen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "cohesion",
+      "type": "inference",
+      "prompt": "ارجاع منسجم چه فایده‌ای دارد؟",
+      "correctAnswer": "رابطهٔ گزاره‌ها را بدون تکرار مبهم حفظ می‌کند",
+      "options": [
+        "رابطهٔ گزاره‌ها را بدون تکرار مبهم حفظ می‌کند",
+        "جمله‌ها را مستقل و بی‌ارتباط می‌کند",
+        "فقط متن را طولانی‌تر می‌کند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "evidence",
+      "type": "multiple-choice",
+      "prompt": "اگر کیفیت شواهد متفاوت باشد چه باید کرد؟",
+      "correctAnswer": "میزان قطعیت نتیجه نیز باید متفاوت بیان شود",
+      "options": [
+        "میزان قطعیت نتیجه نیز باید متفاوت بیان شود",
+        "همهٔ نتایج قطعی‌اند",
+        "فقط منبع طولانی‌تر معتبر است"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "transformation",
+      "type": "multiple-choice",
+      "prompt": "بازنویسی سبکی موفق چه چیزی را حفظ می‌کند؟",
+      "correctAnswer": "معنا و میزان قطعیت را، در کنار تغییر اثر ارتباطی",
+      "options": [
+        "معنا و میزان قطعیت را، در کنار تغییر اثر ارتباطی",
+        "فقط تعداد واژه‌ها را",
+        "هیچ‌یک از روابط منطقی را"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای شنیدن C1 چه چیزی فراتر از جزئیات لازم است؟",
+      "correctAnswer": "تشخیص نگرش، امتیاز و راهبرد بلاغی",
+      "options": [
+        "تشخیص نگرش، امتیاز و راهبرد بلاغی",
+        "حفظ‌کردن همهٔ جمله‌ها",
+        "ترجمهٔ هم‌زمان هر واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ توسعه‌یافتهٔ C1 چه ویژگی دارد؟",
+      "correctAnswer": "موضع را در واکنش به اعتراض اصلاح و دقیق می‌کند",
+      "options": [
+        "موضع را در واکنش به اعتراض اصلاح و دقیق می‌کند",
+        "همان جمله را تکرار می‌کند",
+        "از هر محدودیتی پرهیز می‌کند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "writing",
+      "type": "inference",
+      "prompt": "ادغام منبع شفاف چیست؟",
+      "correctAnswer": "مشخص‌کردن منشأ ادعا و نقش آن در استدلال",
+      "options": [
+        "مشخص‌کردن منشأ ادعا و نقش آن در استدلال",
+        "کپی‌کردن عبارت‌های منبع",
+        "نام‌نبردن از اختلاف‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "واژگان C1 چرا chunkمحور است؟",
+      "correctAnswer": "برای کنترل دقیق کارکرد، هم‌آیی و سبک",
+      "options": [
+        "برای کنترل دقیق کارکرد، هم‌آیی و سبک",
+        "برای حفظ فهرست واژه‌های نادر",
+        "برای حذف مثال‌های کاربردی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گرامر C1 در این درس چه نقشی دارد؟",
+      "correctAnswer": "فشرده‌سازی و کنترل رابطه و سبک در گفتمان",
+      "options": [
+        "فشرده‌سازی و کنترل رابطه و سبک در گفتمان",
+        "تمرین جدا از ارتباط",
+        "نمایش پیچیدگی بدون هدف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "author-intention",
+      "type": "multiple-choice",
+      "prompt": "چارچوب‌بندی منبع چه چیزی را نشان می‌دهد؟",
+      "correctAnswer": "اینکه چه جنبه‌ای برجسته یا کم‌رنگ شده است",
+      "options": [
+        "اینکه چه جنبه‌ای برجسته یا کم‌رنگ شده است",
+        "فقط شمار بندها",
+        "فقط زمان انتشار"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-15",
+      "skill": "nuance",
+      "type": "multiple-choice",
+      "prompt": "مخالفت ظریف چگونه بیان می‌شود؟",
+      "correctAnswer": "با پذیرش بخش معتبر و سپس تعیین محدودیت",
+      "options": [
+        "با پذیرش بخش معتبر و سپس تعیین محدودیت",
+        "با رد کامل طرف مقابل",
+        "با تغییر ناگهانی موضوع"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-16",
+      "skill": "final-task",
+      "type": "inference",
+      "prompt": "تمرین نهایی چه چیزی را باید ثابت کند؟",
+      "correctAnswer": "توانایی انجام هدف ارتباطی با منابع و سبک مناسب",
+      "options": [
+        "توانایی انجام هدف ارتباطی با منابع و سبک مناسب",
+        "حفظ‌کردن یک پاسخ ثابت",
+        "شناخت نام قواعد بدون کاربرد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با منبع، ظرافت معنایی و هدف ارتباطی درس هماهنگ است.",
+      "incorrectFeedback": "موضع منبع، میزان قطعیت، سبک و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "روش‌های تخصصی، حقوق ثبت اختراع و مستندسازی فنی"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "im Rahmen der Forschung",
+      "type": "Chunk",
+      "meaning": "در چارچوب پژوهش",
+      "pronunciation": null,
+      "example": "Im Rahmen der Forschung ist in diesem Zusammenhang besonders wichtig.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "core-chunk"
+    },
+    {
+      "key": "vocab-02",
+      "target": "angesichts der Risiken",
+      "type": "Chunk",
+      "meaning": "با توجه به خطرها",
+      "pronunciation": null,
+      "example": "Angesichts der Risiken ist in diesem Zusammenhang besonders wichtig.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "core-chunk"
+    },
+    {
+      "key": "vocab-03",
+      "target": "ethisch vertretbar sein",
+      "type": "Chunk",
+      "meaning": "از نظر اخلاقی قابل دفاع بودن",
+      "pronunciation": null,
+      "example": "Ethisch vertretbar sein ist in diesem Zusammenhang besonders wichtig.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "core-chunk"
+    },
+    {
+      "key": "vocab-04",
+      "target": "unter Berücksichtigung ...",
+      "type": "Chunk",
+      "meaning": "با در نظر گرفتن ...",
+      "pronunciation": null,
+      "example": "Unter Berücksichtigung ... ist in diesem Zusammenhang besonders wichtig.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "core-chunk"
+    },
+    {
+      "key": "vocab-05",
+      "target": "eine Position differenzieren",
+      "type": "Expression",
+      "meaning": "موضعی را دقیق و تفکیک‌شده بیان کردن",
+      "pronunciation": null,
+      "example": "Wir müssen eine Position differenzieren, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-06",
+      "target": "eine Einschränkung benennen",
+      "type": "Expression",
+      "meaning": "محدودیتی را نام بردن",
+      "pronunciation": null,
+      "example": "Wir müssen eine Einschränkung benennen, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-07",
+      "target": "Quellen gegeneinander abwägen",
+      "type": "Expression",
+      "meaning": "منابع را در برابر هم سنجیدن",
+      "pronunciation": null,
+      "example": "Wir müssen Quellen gegeneinander abwägen, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-08",
+      "target": "implizit voraussetzen",
+      "type": "Expression",
+      "meaning": "به‌طور ضمنی پیش‌فرض گرفتن",
+      "pronunciation": null,
+      "example": "Wir müssen implizit voraussetzen, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-09",
+      "target": "eine Folgerung ableiten",
+      "type": "Expression",
+      "meaning": "نتیجه‌ای استنتاج کردن",
+      "pronunciation": null,
+      "example": "Wir müssen eine Folgerung ableiten, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-10",
+      "target": "den Ton anpassen",
+      "type": "Expression",
+      "meaning": "لحن را تطبیق دادن",
+      "pronunciation": null,
+      "example": "Wir müssen den Ton anpassen, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-11",
+      "target": "etwas nachvollziehbar begründen",
+      "type": "Expression",
+      "meaning": "چیزی را قابل‌فهم استدلال کردن",
+      "pronunciation": null,
+      "example": "Wir müssen etwas nachvollziehbar begründen, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    },
+    {
+      "key": "vocab-12",
+      "target": "unter Vorbehalt gelten",
+      "type": "Expression",
+      "meaning": "با قید احتیاط معتبر بودن",
+      "pronunciation": null,
+      "example": "Wir müssen unter Vorbehalt gelten, bevor wir eine Empfehlung formulieren.",
+      "exampleTranslation": "این عبارت در این زمینه برای بیان دقیق و هدفمند به‌کار می‌رود.",
+      "note": "به هم‌آیی، نقش جمله و تناسب سبک توجه کن.",
+      "classification": "discourse-expression"
+    }
+  ]
+}

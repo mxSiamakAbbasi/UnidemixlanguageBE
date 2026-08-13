@@ -9,10 +9,10 @@
   "description": "در این درس دربارهٔ وسایل روزمره، رنگ، تعداد و قیمت سؤال می‌کنی و یک خرید ساده را تا پایان انجام می‌دهی.",
   "estimatedDurationMinutes": 115,
   "status": "production",
-  "mainSituation": "Shopping for household or everyday items",
+  "mainSituation": "خرید وسایل خانه یا کالاهای روزمره",
   "canDoObjectives": [
-    "Ask about an object, price, quantity, and basic product information.",
-    "Express a simple preference and complete a purchase."
+    "دربارهٔ یک کالا، قیمت، تعداد و اطلاعات پایهٔ آن سؤال کنی.",
+    "ترجیح سادهٔ خود را بیان کنی و یک خرید را انجام بدهی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «وسایل روزمره و خرید» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Shopping for household or everyday items. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس دربارهٔ وسایل روزمره، رنگ، تعداد و قیمت سؤال می‌کنی و یک خرید ساده را تا پایان انجام می‌دهی.\n\n• دربارهٔ یک کالا، قیمت، تعداد و اطلاعات پایهٔ آن سؤال کنی.\n• ترجیح سادهٔ خود را بیان کنی و یک خرید را انجام بدهی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

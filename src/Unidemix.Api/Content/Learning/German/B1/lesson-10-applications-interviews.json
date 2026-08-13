@@ -1,0 +1,584 @@
+{
+  "contentKey": "de-b1-core-lesson-10",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 10,
+  "courseSlug": "german-b1-core",
+  "title": "Applications and Interviews",
+  "localizedTitle": "درخواست شغلی و مصاحبه",
+  "description": "نیازهای آگهی را به شواهد تجربه پیوند می‌دهی و درخواست هدفمند می‌نویسی.",
+  "estimatedDurationMinutes": 195,
+  "status": "production",
+  "mainSituation": "درخواست برای یک موقعیت شغلی مناسب",
+  "canDoObjectives": [
+    "مهارت‌ها و تجربه‌های خود را به نیازهای یک آگهی شغلی پیوند بدهی.",
+    "در مصاحبه‌ای ساختارمند شرکت و نامهٔ درخواست هدفمند بنویسی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «درخواست شغلی و مصاحبه» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: درخواست برای یک موقعیت شغلی مناسب. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Interviewer: Welche Erfahrung passt besonders zu dieser Stelle?\nBewerberin: Ich habe sowohl im Kundenservice als auch in der Projektorganisation gearbeitet. Dabei musste ich nicht nur Termine planen, sondern auch Beschwerden lösen.\nInterviewer: Können Sie ein Beispiel nennen?\nBewerberin: In meinem letzten Projekt koordinierte ich fünf Personen und führte ein neues Rückmeldesystem ein.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich bewerben um = برای موقعیتی درخواست دادن\nIch bewerbe mich um die Stelle. = برای این شغل درخواست می‌دهم.\n\nüber Erfahrung verfügen = تجربه داشتن\nIch verfüge über Erfahrung im Kundenservice. = در خدمات مشتری تجربه دارم.\n\nsowohl ... als auch = هم... و هم\nIch plane sowohl Termine als auch Reisen. = هم قرارها و هم سفرها را برنامه‌ریزی می‌کنم.\n\nnicht nur ... sondern auch = نه‌تنها... بلکه\nSie spricht nicht nur Deutsch, sondern auch Englisch. = او نه‌تنها آلمانی بلکه انگلیسی هم صحبت می‌کند.\n\ndie Anforderung = نیازمندی\nDiese Erfahrung passt zur Anforderung. = این تجربه با نیازمندی هماهنگ است.\n\neinen Nachweis geben = شاهد ارائه دادن\nNennen Sie einen konkreten Nachweis. = یک شاهد مشخص بگویید.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "sich bewerben um",
+      "options": [
+        "sich bewerben um",
+        "über Erfahrung verfügen",
+        "sowohl ... als auch"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einem Bewerbungsgespräch fragt die Leiterin nach Teamarbeit, Zeitdruck und einem konkreten Erfolg. Der Bewerber antwortet nicht allgemein, sondern beschreibt eine Situation: Ein Liefertermin war gefährdet. Er verteilte Aufgaben neu, informierte den Kunden und dokumentierte den Ablauf. Dadurch wurde das Projekt rechtzeitig abgeschlossen. Die Leiterin fragt anschließend, was er heute anders machen würde.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "STELLENANGEBOT: PROJEKTASSISTENZ\nGesucht wird eine Person mit Erfahrung in Terminplanung, Kundenkommunikation und digitaler Dokumentation. Sie organisieren sowohl interne Besprechungen als auch externe Termine. Erwartet werden gute Deutschkenntnisse, selbstständiges Arbeiten und die Fähigkeit, auch unter Zeitdruck freundlich zu kommunizieren. Erfahrung mit internationalen Teams ist von Vorteil.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «مهارت‌ها و تجربه‌های خود را به نیازهای یک آگهی شغلی پیوند بدهی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "nicht nur ... sondern auch و sowohl ... als auch اطلاعات هم‌ارزش را متعادل پیوند می‌دهند: Ich kann nicht nur planen, sondern auch präsentieren. Ich habe sowohl Kundenerfahrung als auch gute Sprachkenntnisse. ساختار باید در دو سوی پیونددهنده موازی بماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nSehr geehrte Frau Neumann,",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «درخواست برای یک موقعیت شغلی مناسب» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nSehr geehrte Frau Neumann,\nmit großem Interesse bewerbe ich mich um die Stelle als Projektassistenz. In meiner bisherigen Tätigkeit war ich sowohl für Terminplanung als auch für Kundenkommunikation zuständig. Ich verfüge nicht nur über Erfahrung mit digitalen Systemen, sondern arbeite auch sicher in internationalen Teams. Besonders relevant ist ein Projekt, in dem ich fünf Personen koordinierte und einen verspäteten Auftrag erfolgreich abschloss. Über ein persönliches Gespräch freue ich mich sehr.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک آگهی را تحلیل کن، چهار نیاز را به شواهد مشخص خودت پیوند بده، پاسخ شفاهی کوتاه و ساختارمند بده و یک نامهٔ درخواست هدفمند بنویس.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich bewerben um» چیست؟",
+      "correctAnswer": "برای موقعیتی درخواست دادن",
+      "options": [
+        "برای موقعیتی درخواست دادن",
+        "تجربه داشتن",
+        "هم... و هم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «درخواست شغلی و مصاحبه» مربوط است؟",
+      "correctAnswer": "nicht nur ... sondern auch",
+      "options": [
+        "nicht nur ... sondern auch",
+        "die Anforderung",
+        "einen Nachweis geben"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «unter Zeitdruck» چیست؟",
+      "correctAnswer": "زیر فشار زمانی",
+      "options": [
+        "زیر فشار زمانی",
+        "مسئول بودن برای",
+        "مصاحبه یا گفت‌وگو انجام دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Dense nominal application style"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "sich bewerben um",
+      "type": "Chunk",
+      "meaning": "برای موقعیتی درخواست دادن",
+      "pronunciation": null,
+      "example": "Ich bewerbe mich um die Stelle.",
+      "exampleTranslation": "برای این شغل درخواست می‌دهم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "über Erfahrung verfügen",
+      "type": "Chunk",
+      "meaning": "تجربه داشتن",
+      "pronunciation": null,
+      "example": "Ich verfüge über Erfahrung im Kundenservice.",
+      "exampleTranslation": "در خدمات مشتری تجربه دارم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "sowohl ... als auch",
+      "type": "Chunk",
+      "meaning": "هم... و هم",
+      "pronunciation": null,
+      "example": "Ich plane sowohl Termine als auch Reisen.",
+      "exampleTranslation": "هم قرارها و هم سفرها را برنامه‌ریزی می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "nicht nur ... sondern auch",
+      "type": "Chunk",
+      "meaning": "نه‌تنها... بلکه",
+      "pronunciation": null,
+      "example": "Sie spricht nicht nur Deutsch, sondern auch Englisch.",
+      "exampleTranslation": "او نه‌تنها آلمانی بلکه انگلیسی هم صحبت می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "die Anforderung",
+      "type": "Chunk",
+      "meaning": "نیازمندی",
+      "pronunciation": null,
+      "example": "Diese Erfahrung passt zur Anforderung.",
+      "exampleTranslation": "این تجربه با نیازمندی هماهنگ است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "einen Nachweis geben",
+      "type": "Chunk",
+      "meaning": "شاهد ارائه دادن",
+      "pronunciation": null,
+      "example": "Nennen Sie einen konkreten Nachweis.",
+      "exampleTranslation": "یک شاهد مشخص بگویید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "unter Zeitdruck",
+      "type": "Chunk",
+      "meaning": "زیر فشار زمانی",
+      "pronunciation": null,
+      "example": "Er arbeitet auch unter Zeitdruck sorgfältig.",
+      "exampleTranslation": "او زیر فشار هم دقیق کار می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "verantwortlich sein für",
+      "type": "Chunk",
+      "meaning": "مسئول بودن برای",
+      "pronunciation": null,
+      "example": "Ich war für das Projekt verantwortlich.",
+      "exampleTranslation": "مسئول پروژه بودم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "ein Gespräch führen",
+      "type": "Chunk",
+      "meaning": "مصاحبه یا گفت‌وگو انجام دادن",
+      "pronunciation": null,
+      "example": "Morgen führe ich ein Bewerbungsgespräch.",
+      "exampleTranslation": "فردا مصاحبه دارم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "von Vorteil sein",
+      "type": "Chunk",
+      "meaning": "مزیت بودن",
+      "pronunciation": null,
+      "example": "Sprachkenntnisse sind von Vorteil.",
+      "exampleTranslation": "دانش زبان مزیت است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

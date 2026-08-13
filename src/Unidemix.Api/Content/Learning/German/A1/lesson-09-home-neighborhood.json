@@ -9,10 +9,10 @@
   "description": "در این درس خانه، اتاق‌ها و جای وسایل را توضیح می‌دهی و اطلاعات اصلی یک آگهی مسکن را می‌فهمی.",
   "estimatedDurationMinutes": 115,
   "status": "production",
-  "mainSituation": "Showing a visitor a home or evaluating a listing",
+  "mainSituation": "نشان‌دادن خانه به یک مهمان یا بررسی آگهی مسکن",
   "canDoObjectives": [
-    "Describe a home and where common objects are.",
-    "State simple housing preferences and neighborhood needs."
+    "خانه و محل قرارگرفتن وسایل معمول را توضیح بدهی.",
+    "ترجیح‌های سادهٔ مسکن و نیازهای خود در محله را بیان کنی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «خانه و محله» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Showing a visitor a home or evaluating a listing. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس خانه، اتاق‌ها و جای وسایل را توضیح می‌دهی و اطلاعات اصلی یک آگهی مسکن را می‌فهمی.\n\n• خانه و محل قرارگرفتن وسایل معمول را توضیح بدهی.\n• ترجیح‌های سادهٔ مسکن و نیازهای خود در محله را بیان کنی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

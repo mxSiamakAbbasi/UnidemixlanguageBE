@@ -1,0 +1,584 @@
+{
+  "contentKey": "de-b1-core-lesson-13",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 13,
+  "courseSlug": "german-b1-core",
+  "title": "Tourism, Events, and Public Presentation",
+  "localizedTitle": "گردشگری، رویداد و ارائهٔ عمومی",
+  "description": "یک رویداد مسئولانه را معرفی می‌کنی و مکان، فرایند و اثر آن را توضیح می‌دهی.",
+  "estimatedDurationMinutes": 190,
+  "status": "production",
+  "mainSituation": "ارائهٔ طرح یک رویداد محلی مسئولانه",
+  "canDoObjectives": [
+    "یک مقصد یا رویداد را برای مخاطبان معرفی کنی.",
+    "مکان، زمان، فرایند و اثر مورد انتظار را روشن توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «گردشگری، رویداد و ارائهٔ عمومی» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: ارائهٔ طرح یک رویداد محلی مسئولانه. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Organisatorin: Wie bleibt das Festival umweltfreundlich?\nPlaner: Wir reduzieren Abfall, indem wir Mehrwegbecher verwenden. Die Wege müssen klar markiert werden, sodass Besucher sensible Flächen meiden.\nOrganisatorin: Wo findet es statt?\nPlaner: Außerhalb des Zentrums, entlang des Flusses.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "stattfinden = برگزار شدن\nDas Festival findet im Juni statt. = جشنواره در ژوئن برگزار می‌شود.\n\nindem = با این کار که\nWir sparen Energie, indem wir LEDs nutzen. = با استفاده از LED انرژی ذخیره می‌کنیم.\n\nsodass = به‌طوری‌که\nDie Gruppen bleiben klein, sodass es ruhig bleibt. = گروه‌ها کوچک می‌مانند تا آرام باشد.\n\ninnerhalb von = در محدوده / ظرف\nInnerhalb von zwei Stunden endet die Tour. = تور ظرف دو ساعت پایان می‌یابد.\n\naußerhalb = خارج از\nDie Bühne steht außerhalb des Parks. = صحنه خارج پارک است.\n\nentlang = در امتداد\nWir gehen den Fluss entlang. = در امتداد رود می‌رویم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "stattfinden",
+      "options": [
+        "stattfinden",
+        "indem",
+        "sodass"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Ein Veranstalter präsentiert eine Wanderwoche. Die Aktivitäten finden innerhalb eines Naturparks statt. Besucher werden in kleinen Gruppen geführt, sodass Wege nicht überlastet werden. Die Anreise soll mit öffentlichen Verkehrsmitteln erfolgen. Während der Präsentation erklärt er außerdem, wie lokale Betriebe beteiligt werden und welche Bereiche außerhalb der Route bleiben müssen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "KULTURWEG AM FLUSS\nDer neue Kulturweg führt am Rathaus vorbei und dann zwei Kilometer am Fluss entlang. Innerhalb von drei Stunden besuchen Gäste vier kleine Ausstellungen. Die Zahl der Teilnehmenden muss begrenzt werden, damit die Wohngebiete ruhig bleiben. Das Ziel wird erreicht, indem Zeitfenster reserviert und deutliche Hinweise aufgestellt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «یک مقصد یا رویداد را برای مخاطبان معرفی کنی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "indem روش را نشان می‌دهد و sodass نتیجه را: Wir schützen die Natur, indem wir kleine Gruppen bilden, sodass Wege frei bleiben. innerhalb/außerhalb، um ... herum و entlang مکان و مسیر را دقیق می‌کنند. Passiv با modal: Die Route muss markiert werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nUnser Kulturweg findet außerhalb des Stadtzentrums und entlang des Flusses statt. Innerhalb von drei Stunden besuchen die Gäste vier Stationen. Die Umwelt wird geschützt, indem kleine Gruppen gebildet werden. Die Route muss deutlich markiert werden, sodass sensible Flächen frei bleiben. Lokale Betriebe werden beteiligt, damit auch die Region wirtschaftlich profitiert.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «ارائهٔ طرح یک رویداد محلی مسئولانه» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nUnser Kulturweg findet außerhalb des Stadtzentrums und entlang des Flusses statt. Innerhalb von drei Stunden besuchen die Gäste vier Stationen. Die Umwelt wird geschützt, indem kleine Gruppen gebildet werden. Die Route muss deutlich markiert werden, sodass sensible Flächen frei bleiben. Lokale Betriebe werden beteiligt, damit auch die Region wirtschaftlich profitiert.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک رویداد محلی شدنی و مسئولانه ارائه کن: مسیر، زمان، مخاطب، روش اجرا، دو محدودیت، اثر مورد انتظار و پاسخ به پرسش مخاطب را پوشش بده.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «stattfinden» چیست؟",
+      "correctAnswer": "برگزار شدن",
+      "options": [
+        "برگزار شدن",
+        "با این کار که",
+        "به‌طوری‌که"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «گردشگری، رویداد و ارائهٔ عمومی» مربوط است؟",
+      "correctAnswer": "innerhalb von",
+      "options": [
+        "innerhalb von",
+        "außerhalb",
+        "entlang"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «um ... herum» چیست؟",
+      "correctAnswer": "اطراف",
+      "options": [
+        "اطراف",
+        "علامت‌گذاری شدن",
+        "اثر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Nominalized project proposals"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "stattfinden",
+      "type": "Word",
+      "meaning": "برگزار شدن",
+      "pronunciation": null,
+      "example": "Das Festival findet im Juni statt.",
+      "exampleTranslation": "جشنواره در ژوئن برگزار می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "indem",
+      "type": "Word",
+      "meaning": "با این کار که",
+      "pronunciation": null,
+      "example": "Wir sparen Energie, indem wir LEDs nutzen.",
+      "exampleTranslation": "با استفاده از LED انرژی ذخیره می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "sodass",
+      "type": "Word",
+      "meaning": "به‌طوری‌که",
+      "pronunciation": null,
+      "example": "Die Gruppen bleiben klein, sodass es ruhig bleibt.",
+      "exampleTranslation": "گروه‌ها کوچک می‌مانند تا آرام باشد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "innerhalb von",
+      "type": "Chunk",
+      "meaning": "در محدوده / ظرف",
+      "pronunciation": null,
+      "example": "Innerhalb von zwei Stunden endet die Tour.",
+      "exampleTranslation": "تور ظرف دو ساعت پایان می‌یابد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "außerhalb",
+      "type": "Word",
+      "meaning": "خارج از",
+      "pronunciation": null,
+      "example": "Die Bühne steht außerhalb des Parks.",
+      "exampleTranslation": "صحنه خارج پارک است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "entlang",
+      "type": "Word",
+      "meaning": "در امتداد",
+      "pronunciation": null,
+      "example": "Wir gehen den Fluss entlang.",
+      "exampleTranslation": "در امتداد رود می‌رویم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "um ... herum",
+      "type": "Chunk",
+      "meaning": "اطراف",
+      "pronunciation": null,
+      "example": "Um den Platz herum stehen Stände.",
+      "exampleTranslation": "اطراف میدان غرفه‌ها هستند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "markiert werden",
+      "type": "Chunk",
+      "meaning": "علامت‌گذاری شدن",
+      "pronunciation": null,
+      "example": "Die Route muss markiert werden.",
+      "exampleTranslation": "مسیر باید علامت‌گذاری شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "die Auswirkung",
+      "type": "Chunk",
+      "meaning": "اثر",
+      "pronunciation": null,
+      "example": "Wir prüfen die Auswirkungen auf die Natur.",
+      "exampleTranslation": "اثرها بر طبیعت را بررسی می‌کنیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Frage aufgreifen",
+      "type": "Chunk",
+      "meaning": "به پرسش پرداختن",
+      "pronunciation": null,
+      "example": "Ich möchte Ihre Frage aufgreifen.",
+      "exampleTranslation": "می‌خواهم به پرسش شما بپردازم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-10",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 10,
+  "courseSlug": "german-for-real-life",
+  "title": "Documents and Public Services",
+  "localizedTitle": "مدارک و خدمات عمومی",
+  "description": "در این درس مدرک یا فرم درست را پیدا می‌کنی، مراحل یک کار اداری را می‌فهمی و برای روشن‌شدن ابهام سؤال می‌پرسی.",
+  "estimatedDurationMinutes": 150,
+  "status": "production",
+  "mainSituation": "انجام یک کار معمول اداری یا ثبت‌نام آنلاین بدون جاانداختن مرحله",
+  "canDoObjectives": [
+    "مدرک یا خدمت درست را شناسایی و درخواست کنی.",
+    "یک فرایند کوتاه اداری را دنبال و برای فرد دیگری توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس مدرک یا فرم درست را پیدا می‌کنی، مراحل یک کار اداری را می‌فهمی و برای روشن‌شدن ابهام سؤال می‌پرسی.\n\n• مدرک یا خدمت درست را شناسایی و درخواست کنی.\n• یک فرایند کوتاه اداری را دنبال و برای فرد دیگری توضیح بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Besucher: Guten Tag. Welches Formular brauche ich für die Anmeldung?\nMitarbeiterin: Dieses hier. Haben Sie Ihren Pass und die Wohnungsbestätigung dabei?\nBesucher: Den Pass habe ich, aber welche Bestätigung meinen Sie?\nMitarbeiterin: Die vom Vermieter. Lassen Sie bitte auch eine Kopie vom Pass machen.\nBesucher: Kann ich das hier machen lassen?\nMitarbeiterin: Ja, genau das können Sie am Schalter 3 erledigen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "das Formular = فرم\nFüllen Sie das Formular aus. = فرم را پر کنید.\n\nWelches Formular ...? = کدام فرم ...؟\nWelches Formular brauche ich? = کدام فرم را لازم دارم؟\n\ndie Bestätigung = تأییدیه\nDie Bestätigung kommt per E-Mail. = تأییدیه با ایمیل می‌آید.\n\nder Antrag = درخواست رسمی\nIch schicke den Antrag ab. = درخواست را ارسال می‌کنم.\n\ndieses hier = همین مورد اینجا\nNehmen Sie dieses hier. = همین مورد را بردارید.\n\nGenau das. = دقیقاً همین.\nGenau das meine ich. = دقیقاً منظورم همین است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «مدارک و خدمات عمومی» هماهنگ‌تر است؟",
+      "correctAnswer": "der Antrag",
+      "options": [
+        "Welches Formular ...?",
+        "der Antrag",
+        "ein Dokument hochladen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ANMELDUNG IN DER STADT\nBringen Sie bitte folgende Dokumente mit: gültiger Pass, Wohnungsbestätigung und ausgefülltes Formular. Einen Termin können Sie online buchen. Wer keinen Drucker hat, erhält das Formular im Bürgerbüro. Lassen Sie fremdsprachige Dokumente bei Bedarf übersetzen. Die Bearbeitung dauert normalerweise drei bis fünf Werktage.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "فردی که چاپگر ندارد فرم را از کجا می‌گیرد؟",
+      "correctAnswer": "ادارهٔ خدمات شهروندی",
+      "options": [
+        "ایستگاه قطار",
+        "ادارهٔ خدمات شهروندی",
+        "داروخانه"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Für die Online-Anmeldung öffnen Sie zuerst das Serviceportal und wählen den Bereich Wohnen. Danach füllen Sie dieses Formular aus. Alle Pflichtfelder sind mit einem Stern markiert. Laden Sie anschließend eine Kopie Ihres Passes hoch. Wenn ein Dokument fehlt, können Sie den Antrag noch nicht abschicken. Lassen Sie Ihre Daten vor dem Senden noch einmal prüfen. Die Bestätigung erhalten Sie normalerweise innerhalb von drei Werktagen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "متن چه فرایندی را توضیح می‌دهد؟",
+      "correctAnswer": "ثبت‌نام آنلاین",
+      "options": [
+        "رزرو هتل",
+        "ثبت‌نام آنلاین",
+        "خرید بلیت"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "پیش از ارسال چه کاری پیشنهاد می‌شود؟",
+      "correctAnswer": "بررسی دوبارهٔ اطلاعات",
+      "options": [
+        "چاپ همهٔ صفحه‌ها",
+        "بررسی دوبارهٔ اطلاعات",
+        "تماس با هتل"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «مدرک یا خدمت درست را شناسایی و درخواست کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "welch- مانند حرف تعریف صرف می‌شود: welches Formular، welche Bestätigung، welchen Antrag. dies- برای اشاره نزدیک و der/die/das گاهی برای جایگزینی اسم می‌آیند: Dieses Formular? Genau das. lassen دو کاربرد رایج دارد: اجازه دادن یا انجام‌دادن کار توسط دیگری: Ich lasse eine Kopie machen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Welches Formular brauche ich?",
+      "options": [
+        "Welche Formular brauche ich?",
+        "Welches Formular brauche ich?",
+        "Welchen Formular brauche ich?"
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Welches Formular brauche ich?",
+      "options": [
+        "Welchen Formular brauche ich?",
+        "Welches Formular brauche ich?",
+        "Welche Formular brauche ich?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nWelches Formular brauche ich? Meinen Sie dieses hier? Genau das habe ich ausgefüllt. Ich lasse noch eine Kopie vom Pass machen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "در میز خدمات سؤال بپرس: Anmeldung · Formular? · Dokumente? · Kopie hier machen lassen?",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک فرایند اداری فرضی را برای فردی دیگر در پنج مرحله توضیح بده و دست‌کم دو بار برای روشن‌شدن مدرک یا اقدام سؤال بپرس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nGuten Tag, ich möchte mich online anmelden, aber ich habe eine Frage. Welches Formular muss ich auswählen? Meinen Sie dieses Formular für die Wohnungsanmeldung? Ich habe meinen Pass und die Bestätigung. Kann ich die Kopie im Bürgerbüro machen lassen? Bitte teilen Sie mir mit, ob noch ein Dokument fehlt.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک درخواست روشن‌سازی ۷ تا ۹ جمله‌ای بنویس. هدف، فرم یا مدرک موردنظر، مدارک موجود، ابهام، یک سؤال با welch- و یک ساختار lassen را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک ثبت‌نام شبیه‌سازی‌شده را کامل کن: مدرک درست را از متن پیدا کن، ترتیب مراحل را توضیح بده، دو ابهام را بپرس و درخواست نهایی را بنویس.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Welches Formular brauche ich?",
+      "options": [
+        "Welche Formular brauche ich?",
+        "Welches Formular brauche ich?",
+        "Welchen Formular brauche ich?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «das Formular» چیست؟",
+      "correctAnswer": "فرم",
+      "options": [
+        "فرم",
+        "تأییدیه",
+        "دقیقاً همین."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "فردی که چاپگر ندارد فرم را از کجا می‌گیرد؟",
+      "correctAnswer": "ادارهٔ خدمات شهروندی",
+      "options": [
+        "ایستگاه قطار",
+        "ادارهٔ خدمات شهروندی",
+        "داروخانه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "پیش از ارسال چه کاری پیشنهاد می‌شود؟",
+      "correctAnswer": "بررسی دوبارهٔ اطلاعات",
+      "options": [
+        "چاپ همهٔ صفحه‌ها",
+        "بررسی دوبارهٔ اطلاعات",
+        "تماس با هتل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «همین مورد اینجا»؟",
+      "correctAnswer": "dieses hier",
+      "options": [
+        "die Bestätigung",
+        "dieses hier",
+        "ein Dokument hochladen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Welches Formular brauche ich?",
+      "options": [
+        "Welche Formular brauche ich?",
+        "Welches Formular brauche ich?",
+        "Welchen Formular brauche ich?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "متن چه فرایندی را توضیح می‌دهد؟",
+      "correctAnswer": "ثبت‌نام آنلاین",
+      "options": [
+        "رزرو هتل",
+        "ثبت‌نام آنلاین",
+        "خرید بلیت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "ادارهٔ خدمات شهروندی",
+      "options": [
+        "داروخانه",
+        "ادارهٔ خدمات شهروندی",
+        "ایستگاه قطار"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «das Pflichtfeld» چیست؟",
+      "correctAnswer": "فیلد اجباری",
+      "options": [
+        "فیلد اجباری",
+        "کدام فرم ...؟",
+        "دادن برای تهیهٔ کپی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Welches Formular brauche ich?",
+      "options": [
+        "Welchen Formular brauche ich?",
+        "Welche Formular brauche ich?",
+        "Welches Formular brauche ich?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Formal administrative register",
+    "Passive alternatives"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "das Formular",
+      "type": "Chunk",
+      "meaning": "فرم",
+      "pronunciation": null,
+      "example": "Füllen Sie das Formular aus.",
+      "exampleTranslation": "فرم را پر کنید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Welches Formular ...?",
+      "type": "Chunk",
+      "meaning": "کدام فرم ...؟",
+      "pronunciation": null,
+      "example": "Welches Formular brauche ich?",
+      "exampleTranslation": "کدام فرم را لازم دارم؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Bestätigung",
+      "type": "Chunk",
+      "meaning": "تأییدیه",
+      "pronunciation": null,
+      "example": "Die Bestätigung kommt per E-Mail.",
+      "exampleTranslation": "تأییدیه با ایمیل می‌آید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "der Antrag",
+      "type": "Chunk",
+      "meaning": "درخواست رسمی",
+      "pronunciation": null,
+      "example": "Ich schicke den Antrag ab.",
+      "exampleTranslation": "درخواست را ارسال می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "dieses hier",
+      "type": "Chunk",
+      "meaning": "همین مورد اینجا",
+      "pronunciation": null,
+      "example": "Nehmen Sie dieses hier.",
+      "exampleTranslation": "همین مورد را بردارید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Genau das.",
+      "type": "Chunk",
+      "meaning": "دقیقاً همین.",
+      "pronunciation": null,
+      "example": "Genau das meine ich.",
+      "exampleTranslation": "دقیقاً منظورم همین است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "eine Kopie machen lassen",
+      "type": "Chunk",
+      "meaning": "دادن برای تهیهٔ کپی",
+      "pronunciation": null,
+      "example": "Ich lasse eine Kopie machen.",
+      "exampleTranslation": "می‌دهم یک کپی تهیه کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "ein Dokument hochladen",
+      "type": "Chunk",
+      "meaning": "مدرک بارگذاری کردن",
+      "pronunciation": null,
+      "example": "Laden Sie den Pass hoch.",
+      "exampleTranslation": "گذرنامه را بارگذاری کنید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "das Pflichtfeld",
+      "type": "Chunk",
+      "meaning": "فیلد اجباری",
+      "pronunciation": null,
+      "example": "Das Pflichtfeld ist markiert.",
+      "exampleTranslation": "فیلد اجباری علامت‌گذاری شده است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "die Bearbeitung",
+      "type": "Chunk",
+      "meaning": "رسیدگی",
+      "pronunciation": null,
+      "example": "Die Bearbeitung dauert drei Tage.",
+      "exampleTranslation": "رسیدگی سه روز طول می‌کشد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

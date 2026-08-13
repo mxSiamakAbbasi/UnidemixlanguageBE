@@ -1,0 +1,639 @@
+{
+  "contentKey": "de-b2-core-lesson-02",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 2,
+  "courseSlug": "german-b2-core",
+  "title": "Workplaces, Processes, and Responsibility",
+  "localizedTitle": "محیط کار، فرایند و مسئولیت",
+  "description": "فرایند کاری و مسئولیت‌ها را دقیق توضیح می‌دهی و تغییر پیشنهادی را حرفه‌ای ارزیابی می‌کنی.",
+  "estimatedDurationMinutes": 215,
+  "status": "production",
+  "mainSituation": "جلسهٔ تیمی برای بهبود یک فرایند",
+  "canDoObjectives": [
+    "یک فرایند کاری و تقسیم مسئولیت را روشن و دقیق توضیح بدهی.",
+    "تغییر پیشنهادی را ارزیابی و نگرانی یا پیشنهاد خود را حرفه‌ای مطرح کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «محیط کار، فرایند و مسئولیت» خوش آمدی. این درس مهارت‌های B1 را به بیان دقیق‌تر، متقاعدکننده‌تر و آگاه از منبع در سطح B2 گسترش می‌دهد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: جلسهٔ تیمی برای بهبود یک فرایند. هنگام خواندن، موضع، شاهد، محدودیت، لحن و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Leiterin: Der neue Ablauf ist bereits vorbereitet. Wer ist für die Freigabe zuständig?\nMitarbeiter: Die Entscheidung wird von der Qualitätsleitung getroffen. Die Verzögerung wurde jedoch durch fehlende Daten verursacht.\nLeiterin: Dann sollten die eingehenden Informationen früher geprüft werden.\nMitarbeiterin: Einverstanden. Ich schlage außerdem vor, die dokumentierten Schritte für alle sichtbar zu machen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "zuständig sein für = مسئول بودن برای\nDie Abteilung ist für die Freigabe zuständig. = بخش مسئول تأیید است.\n\ndurch etwas verursacht = بر اثر چیزی ایجادشده\nDie Verzögerung wurde durch fehlende Daten verursacht. = تأخیر به‌علت داده‌های ناقص ایجاد شد.\n\neine Maßnahme umsetzen = اقدامی را اجرا کردن\nDas Team setzt die Maßnahme im Mai um. = تیم اقدام را در ماه مه اجرا می‌کند.\n\nder Freigabeprozess = فرایند تأیید\nDer Freigabeprozess dauert zwei Tage. = فرایند تأیید دو روز طول می‌کشد.\n\nVerantwortung übernehmen = مسئولیت پذیرفتن\nEine Person muss Verantwortung übernehmen. = یک نفر باید مسئولیت بپذیرد.\n\neinen Ablauf dokumentieren = روندی را مستند کردن\nWir dokumentieren den gesamten Ablauf. = کل روند را مستند می‌کنیم.\n\neine Verzögerung vermeiden = از تأخیر جلوگیری کردن\nKlare Rollen vermeiden Verzögerungen. = نقش‌های روشن از تأخیر جلوگیری می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضع در این درس مناسب‌تر است؟",
+      "correctAnswer": "zuständig sein für",
+      "options": [
+        "zuständig sein für",
+        "durch etwas verursacht",
+        "eine Maßnahme umsetzen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و موضع گویندگان را دنبال کن. بار دوم ادعا، شاهد، میزان موافقت یا مخالفت، محدودیت و بیان دقیق را یادداشت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer Teamsitzung wird ein neuer Bestellprozess besprochen. Zunächst erklärt die Projektleitung, welche Schritte automatisiert werden. Zwei Mitarbeitende weisen darauf hin, dass unvollständige Kundendaten weiterhin manuell geprüft werden müssen. Die letzte Verzögerung sei nicht von einer einzelnen Person verursacht worden, sondern durch unklare Zuständigkeiten. Beschlossen wird, Verantwortlichkeiten sichtbar zu dokumentieren und den Ablauf vier Wochen lang zu testen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+      "options": [
+        "فقط معرفی چند واژه",
+        "مقایسهٔ موضع‌ها و ارزیابی دلیل یا پیامد",
+        "خواندن یک فهرست بی‌زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای تحلیل B2 مناسب‌تر است؟",
+      "correctAnswer": "موضع → شاهد → محدودیت → نتیجه",
+      "options": [
+        "فقط نام‌ها",
+        "موضع → شاهد → محدودیت → نتیجه",
+        "فقط جملهٔ آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موافقت مشروط چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "پذیرش بخشی از ادعا همراه با محدودیت",
+      "options": [
+        "تکرار کامل ادعا",
+        "پذیرش بخشی از ادعا همراه با محدودیت",
+        "بی‌توجهی به دلیل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را جداگانه برای هدف و استدلال بخوان؛ سپس نقطهٔ توافق، اختلاف، نوع شاهد و خلأ اطلاعاتی را مقایسه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "INTERNE MITTEILUNG: NEUER FREIGABEPROZESS\nAb Montag werden eingehende Anträge zunächst automatisch erfasst. Unvollständige Datensätze werden an das zuständige Team weitergeleitet. Sobald alle Angaben geprüft sind, ist der Antrag zur Freigabe vorbereitet. Die endgültige Entscheidung wird von der Abteilungsleitung getroffen. Auffällige Fälle müssen weiterhin dokumentiert werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "RÜCKMELDUNG AUS DEM TEAM\nDer geplante Ablauf kann Bearbeitungszeiten verkürzen. Allerdings ist noch nicht eindeutig festgelegt, wer bei widersprüchlichen Daten entscheidet. Ohne klare Eskalationswege besteht die Gefahr, dass Probleme lediglich schneller weitergeleitet, aber nicht gelöst werden. Vor dem Start sollte daher eine verantwortliche Person pro Schicht benannt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ معتبر دو منبع چه چیزی را حفظ می‌کند؟",
+      "correctAnswer": "تفاوت ادعا، شاهد، لحن و محدودیت",
+      "options": [
+        "فقط واژه‌های مشترک",
+        "تفاوت ادعا، شاهد، لحن و محدودیت",
+        "فقط متن کوتاه‌تر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که به تحقق هدف «یک فرایند کاری و تقسیم مسئولیت را روشن و دقیق توضیح بدهی.» و انسجام بیان دقیق کمک می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Zustandspassiv با sein نتیجه یا وضعیت را نشان می‌دهد: Der Antrag ist geprüft. Vorgangspassiv با werden فرایند را برجسته می‌کند: Der Antrag wird geprüft. عامل انسانی معمولاً با von و علت یا وسیله با durch می‌آید. Partizip I/II به‌عنوان صفت در توصیف حرفه‌ای کنترل‌شده استفاده می‌شود: die wartenden Kunden، die dokumentierten Schritte.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر انسجام و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+      "options": [
+        "Einerseits Vorteile, andererseits Fragen offen bleiben.",
+        "Einerseits bietet die Maßnahme Vorteile, andererseits bleiben wichtige Fragen offen.",
+        "Die Maßnahme einerseits andererseits offen."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام بیان دقیق ادعا را مسئولانه بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+      "options": [
+        "Die Daten beweisen immer alles.",
+        "Die Daten deuten auf einen Vorteil hin, erlauben jedoch keine allgemeine Schlussfolgerung.",
+        "Vorteil Daten ohne Einschränkung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر موضع، شاهد، بیان دقیق و بیان دقیق تحلیل کن:\nIm neuen Prozess werden Anträge zunächst automatisch erfasst. Unvollständige Angaben werden durch das System markiert und anschließend von einem zuständigen Team geprüft. Grundsätzlich kann diese Maßnahme Zeit sparen. Allerdings bleibt unklar, wer bei widersprüchlichen Daten entscheidet. Ich empfehle daher, pro Schicht eine verantwortliche Person zu benennen und die dokumentierten Fälle wöchentlich auszuwerten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «جلسهٔ تیمی برای بهبود یک فرایند» یک پاسخ ۹ تا ۱۲ جمله‌ای بساز: موضع، دو دلیل، یک شاهد، یک محدودیت و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "بدون متن کامل آماده، دو گزینه را بسنج، موضع خود را بیان دقیق کن و به دو پرسش یا بیان دقیق واکنش طبیعی نشان بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIm neuen Prozess werden Anträge zunächst automatisch erfasst. Unvollständige Angaben werden durch das System markiert und anschließend von einem zuständigen Team geprüft. Grundsätzlich kann diese Maßnahme Zeit sparen. Allerdings bleibt unklar, wer bei widersprüchlichen Daten entscheidet. Ich empfehle daher, pro Schicht eine verantwortliche Person zu benennen und die dokumentierten Fälle wöchentlich auszuwerten.\n\nساختار منبع‌محور و بیان دقیق را تحلیل کن؛ عبارت‌های مدل را بدون دلیل کپی نکن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۴ تا ۱۸ جمله‌ای در دو یا سه بند بنویس: مسئله، مقایسهٔ منابع یا گزینه‌ها، شاهد، بیان دقیق، نتیجه و بیان دقیق روشن داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک بیان دقیق را توضیح بده، نقش‌ها و علت یک مشکل را مشخص کن، دو منبع را مقایسه و یک improvement قابل اجرا همراه با مسئول، ریسک و معیار ارزیابی ثبت کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق منصفانه، استدلال پیوسته، بیان دقیق مناسب و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ موضع و محدودیت را هم‌زمان بیان می‌کند؟",
+      "correctAnswer": "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+      "options": [
+        "Der Vorschlag gut.",
+        "Grundsätzlich überzeugt der Vorschlag, allerdings fehlen noch belastbare Daten.",
+        "Daten fehlen Vorschlag überzeugt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «zuständig sein für» چیست؟",
+      "correctAnswer": "مسئول بودن برای",
+      "options": [
+        "مسئول بودن برای",
+        "بر اثر چیزی ایجادشده",
+        "اقدامی را اجرا کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی ضروری است؟",
+      "correctAnswer": "تفکیک ادعا، شاهد و محدودیت",
+      "options": [
+        "فقط عنوان‌ها",
+        "تفکیک ادعا، شاهد و محدودیت",
+        "فقط تعداد جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از کجا روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+      "options": [
+        "فقط سرعت",
+        "از بیان دقیق، دلیل و واکنش به موضع دیگر",
+        "فقط نام برنامه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای متن حرفه‌ای مناسب‌تر است؟",
+      "correctAnswer": "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+      "options": [
+        "Macht das einfach so.",
+        "Unter Berücksichtigung der genannten Risiken empfehle ich eine Testphase.",
+        "Das Ding ist super."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله تضاد متعادل دارد؟",
+      "correctAnswer": "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+      "options": [
+        "Zwar spart der Prozess Zeit, jedoch löst er nicht jedes Problem.",
+        "Zwar Zeit jedoch Problem.",
+        "Spart zwar Prozess jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «محیط کار، فرایند و مسئولیت» مرتبط است؟",
+      "correctAnswer": "der Freigabeprozess",
+      "options": [
+        "der Freigabeprozess",
+        "Verantwortung übernehmen",
+        "einen Ablauf dokumentieren"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "استنباط معتبر B2 چیست؟",
+      "correctAnswer": "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای محتاطانه که با چند شاهد سازگار است",
+        "تکرار یک واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را بیان دقیق می‌کند؟",
+      "correctAnswer": "Die Ergebnisse legen nahe, dass ...",
+      "options": [
+        "Es ist immer so.",
+        "Die Ergebnisse legen nahe, dass ...",
+        "Ohne Zweifel alle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام ساختار بیان دقیق را معرفی می‌کند؟",
+      "correctAnswer": "Zusammenfassend lässt sich festhalten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Zusammenfassend lässt sich festhalten, dass ...",
+        "Dagegen ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «eine Verzögerung vermeiden» چیست؟",
+      "correctAnswer": "از تأخیر جلوگیری کردن",
+      "options": [
+        "از تأخیر جلوگیری کردن",
+        "درخواست ورودی",
+        "ریسکی را نام بردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر دو منبع از یک داده نتیجهٔ متفاوت بگیرند چه باید کرد؟",
+      "correctAnswer": "روش استنتاج و محدودیت هر دو مقایسه شود",
+      "options": [
+        "یکی بدون بررسی انتخاب شود",
+        "روش استنتاج و محدودیت هر دو مقایسه شود",
+        "هر دو نادیده گرفته شوند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ پایدار B2 چه دارد؟",
+      "correctAnswer": "موضع، شاهد، بیان دقیق و پاسخ",
+      "options": [
+        "فقط یک نظر",
+        "موضع، شاهد، بیان دقیق و پاسخ",
+        "فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن B2 چگونه از C1 drift جلوگیری می‌کند؟",
+      "correctAnswer": "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+      "options": [
+        "با بیشترین اسم‌سازی ممکن",
+        "با دقت و انسجام، بدون تراکم دانشگاهی غیرضروری",
+        "با جمله‌های بسیار مبهم"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Passive alternatives",
+    "Dense nominal style"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "zuständig sein für",
+      "type": "Chunk",
+      "meaning": "مسئول بودن برای",
+      "pronunciation": null,
+      "example": "Die Abteilung ist für die Freigabe zuständig.",
+      "exampleTranslation": "بخش مسئول تأیید است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "durch etwas verursacht",
+      "type": "Chunk",
+      "meaning": "بر اثر چیزی ایجادشده",
+      "pronunciation": null,
+      "example": "Die Verzögerung wurde durch fehlende Daten verursacht.",
+      "exampleTranslation": "تأخیر به‌علت داده‌های ناقص ایجاد شد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "eine Maßnahme umsetzen",
+      "type": "Chunk",
+      "meaning": "اقدامی را اجرا کردن",
+      "pronunciation": null,
+      "example": "Das Team setzt die Maßnahme im Mai um.",
+      "exampleTranslation": "تیم اقدام را در ماه مه اجرا می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "der Freigabeprozess",
+      "type": "Chunk",
+      "meaning": "فرایند تأیید",
+      "pronunciation": null,
+      "example": "Der Freigabeprozess dauert zwei Tage.",
+      "exampleTranslation": "فرایند تأیید دو روز طول می‌کشد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "Verantwortung übernehmen",
+      "type": "Chunk",
+      "meaning": "مسئولیت پذیرفتن",
+      "pronunciation": null,
+      "example": "Eine Person muss Verantwortung übernehmen.",
+      "exampleTranslation": "یک نفر باید مسئولیت بپذیرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "einen Ablauf dokumentieren",
+      "type": "Chunk",
+      "meaning": "روندی را مستند کردن",
+      "pronunciation": null,
+      "example": "Wir dokumentieren den gesamten Ablauf.",
+      "exampleTranslation": "کل روند را مستند می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "eine Verzögerung vermeiden",
+      "type": "Chunk",
+      "meaning": "از تأخیر جلوگیری کردن",
+      "pronunciation": null,
+      "example": "Klare Rollen vermeiden Verzögerungen.",
+      "exampleTranslation": "نقش‌های روشن از تأخیر جلوگیری می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "der eingehende Antrag",
+      "type": "Chunk",
+      "meaning": "درخواست ورودی",
+      "pronunciation": null,
+      "example": "Jeder eingehende Antrag wird erfasst.",
+      "exampleTranslation": "هر درخواست ورودی ثبت می‌شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "ein Risiko benennen",
+      "type": "Chunk",
+      "meaning": "ریسکی را نام بردن",
+      "pronunciation": null,
+      "example": "Sie benennt ein realistisches Risiko.",
+      "exampleTranslation": "او ریسکی واقعی را بیان می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "eine Entscheidung festhalten",
+      "type": "Chunk",
+      "meaning": "تصمیمی را ثبت کردن",
+      "pronunciation": null,
+      "example": "Die Entscheidung wird schriftlich festgehalten.",
+      "exampleTranslation": "تصمیم به‌صورت کتبی ثبت می‌شود.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-06",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 6,
+  "courseSlug": "german-for-real-life",
+  "title": "Workplaces and Service Problems",
+  "localizedTitle": "محیط کار و مشکلات خدمات",
+  "description": "در این درس محیط کار و اولویت‌هایش را توصیف می‌کنی و یک مشکل خدماتی را مؤدبانه مطرح و حل می‌کنی.",
+  "estimatedDurationMinutes": 150,
+  "status": "production",
+  "mainSituation": "ارزیابی تجربهٔ کاری یا خدماتی و مذاکره برای یک راه‌حل",
+  "canDoObjectives": [
+    "محیط کار و چیزهای مهم در آن را توصیف کنی.",
+    "شکایتی مؤدبانه مطرح کنی و دربارهٔ راه‌حل توافق کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس محیط کار و اولویت‌هایش را توصیف می‌کنی و یک مشکل خدماتی را مؤدبانه مطرح و حل می‌کنی.\n\n• محیط کار و چیزهای مهم در آن را توصیف کنی.\n• شکایتی مؤدبانه مطرح کنی و دربارهٔ راه‌حل توافق کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Kundin: Guten Tag. Ich möchte mich über die Lieferung beschweren.\nMitarbeiter: Was ist passiert?\nKundin: Das Paket ist gestern angekommen, aber zwei Teile fehlen.\nMitarbeiter: Es tut mir leid, dass die Bestellung nicht vollständig ist.\nKundin: Mir ist wichtig, dass die Teile bis Freitag kommen.\nMitarbeiter: Ich kümmere mich darum und schicke sie heute noch.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "sich beschweren über = از چیزی شکایت کردن\nIch beschwere mich über die Lieferung. = از تحویل کالا شکایت می‌کنم.\n\nsich kümmern um = رسیدگی کردن به\nWir kümmern uns um das Problem. = به مشکل رسیدگی می‌کنیم.\n\nsich entschuldigen = عذرخواهی کردن\nWir entschuldigen uns für den Fehler. = برای اشتباه عذرخواهی می‌کنیم.\n\ndie Lieferung = تحویل کالا\nDie Lieferung ist angekommen. = کالا تحویل شده است.\n\nbeschädigt = آسیب‌دیده\nDas Paket ist beschädigt. = بسته آسیب دیده است.\n\nvollständig = کامل\nDie Bestellung ist nicht vollständig. = سفارش کامل نیست.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «محیط کار و مشکلات خدمات» هماهنگ‌تر است؟",
+      "correctAnswer": "die Lieferung",
+      "options": [
+        "sich kümmern um",
+        "die Lieferung",
+        "Es ist wichtig, dass ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In unserem Betrieb beginnen viele Mitarbeitende flexibel zwischen sieben und neun Uhr. Es ist wichtig, dass jedes Team seine Aufgaben am Morgen kurz bespricht. Neue Kolleginnen und Kollegen stellen sich am ersten Tag vor und bekommen eine feste Ansprechperson. Wenn ein Kunde ein Problem meldet, kümmern wir uns sofort darum. Letzte Woche war eine Lieferung beschädigt. Wir haben uns entschuldigt und kostenlos Ersatz geschickt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "موضوع اصلی معرفی چیست؟",
+      "correctAnswer": "روش کار و رسیدگی به مشکل مشتری",
+      "options": [
+        "برنامهٔ سفر شرکت",
+        "روش کار و رسیدگی به مشکل مشتری",
+        "قیمت غذای شرکت"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای کالای آسیب‌دیده چه راه‌حلی ارائه شد؟",
+      "correctAnswer": "ارسال رایگان کالای جایگزین",
+      "options": [
+        "بازپرداخت نصف مبلغ",
+        "ارسال رایگان کالای جایگزین",
+        "بدون پاسخ"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "UNSER SERVICEVERSPRECHEN\nWir möchten, dass Sie mit Ihrer Bestellung zufrieden sind. Kontrollieren Sie das Paket bitte direkt nach der Lieferung. Wenn etwas fehlt oder beschädigt ist, melden Sie sich innerhalb von sieben Tagen. Schreiben Sie uns die Bestellnummer und beschreiben Sie das Problem. Wir antworten normalerweise innerhalb von 24 Stunden und bieten eine Reparatur, Ersatz oder Rückzahlung an.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مشتری باید چه اطلاعاتی ارسال کند؟",
+      "correctAnswer": "شماره سفارش و شرح مشکل",
+      "options": [
+        "فقط نام کوچک",
+        "شماره سفارش و شرح مشکل",
+        "شماره حساب همکار"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «محیط کار و چیزهای مهم در آن را توصیف کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "با dass می‌توانیم نظر، خواسته یا اطلاعات را کامل کنیم و فعل به پایان می‌رود: Es ist wichtig, dass wir schnell antworten. فعل‌های انعکاسی مانند sich beschweren، sich kümmern و sich entschuldigen با ضمیر مناسب می‌آیند: Ich beschwere mich. Wir kümmern uns darum.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Es ist wichtig, dass wir heute antworten.",
+      "options": [
+        "Es ist wichtig, dass wir antworten heute.",
+        "Es ist wichtig, dass wir heute antworten.",
+        "Dass wir heute antworten ist wichtig es."
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "Es ist wichtig, dass wir heute antworten.",
+      "options": [
+        "Dass wir heute antworten ist wichtig es.",
+        "Es ist wichtig, dass wir heute antworten.",
+        "Es ist wichtig, dass wir antworten heute."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nIn unserem Team ist es wichtig, dass wir klar kommunizieren. Wenn ein Problem entsteht, kümmern wir uns sofort darum. Ich beschwere mich höflich und nenne eine konkrete Lösung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک شکایت مؤدبانه بساز: Bestellung 481 · Lampe kaputt · Ersatz bis Montag.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربهٔ خدماتی یا کاری فرضی را توضیح بده، مشکل را دقیق مطرح کن و برای یک راه‌حل مؤدبانه مذاکره کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nGuten Tag, ich möchte mich über meine Bestellung 481 beschweren. Die Lampe ist gestern angekommen, aber sie ist beschädigt. Es ist wichtig, dass ich bis Montag Ersatz bekomme. Bitte teilen Sie mir mit, wann Sie die neue Lampe schicken. Vielen Dank für Ihre Hilfe.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک پیام شکایت یا پاسخ خدماتی ۷ تا ۹ جمله‌ای بنویس. شماره یا زمینه، مشکل، زمان، خواستهٔ روشن، راه‌حل و پایان مؤدبانه را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک مشکل خدماتی واقعی‌نما را از دو نقش حل کن: مشتری مشکل و خواسته را توضیح دهد؛ کارمند سؤال روشن‌کننده بپرسد، عذرخواهی کند و راه‌حل زمان‌دار ارائه بدهد.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Es ist wichtig, dass wir heute antworten.",
+      "options": [
+        "Es ist wichtig, dass wir antworten heute.",
+        "Es ist wichtig, dass wir heute antworten.",
+        "Dass wir heute antworten ist wichtig es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «sich beschweren über» چیست؟",
+      "correctAnswer": "از چیزی شکایت کردن",
+      "options": [
+        "از چیزی شکایت کردن",
+        "عذرخواهی کردن",
+        "کامل"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "مشتری باید چه اطلاعاتی ارسال کند؟",
+      "correctAnswer": "شماره سفارش و شرح مشکل",
+      "options": [
+        "فقط نام کوچک",
+        "شماره سفارش و شرح مشکل",
+        "شماره حساب همکار"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای کالای آسیب‌دیده چه راه‌حلی ارائه شد؟",
+      "correctAnswer": "ارسال رایگان کالای جایگزین",
+      "options": [
+        "بازپرداخت نصف مبلغ",
+        "ارسال رایگان کالای جایگزین",
+        "بدون پاسخ"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «آسیب‌دیده»؟",
+      "correctAnswer": "beschädigt",
+      "options": [
+        "sich entschuldigen",
+        "beschädigt",
+        "Es ist wichtig, dass ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "Es ist wichtig, dass wir heute antworten.",
+      "options": [
+        "Es ist wichtig, dass wir antworten heute.",
+        "Es ist wichtig, dass wir heute antworten.",
+        "Dass wir heute antworten ist wichtig es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "موضوع اصلی معرفی چیست؟",
+      "correctAnswer": "روش کار و رسیدگی به مشکل مشتری",
+      "options": [
+        "برنامهٔ سفر شرکت",
+        "روش کار و رسیدگی به مشکل مشتری",
+        "قیمت غذای شرکت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "شماره سفارش و شرح مشکل",
+      "options": [
+        "شماره حساب همکار",
+        "شماره سفارش و شرح مشکل",
+        "فقط نام کوچک"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «Vielen Dank für ...» چیست؟",
+      "correctAnswer": "بسیار سپاس برای ...",
+      "options": [
+        "بسیار سپاس برای ...",
+        "رسیدگی کردن به",
+        "جایگزین فرستادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "Es ist wichtig, dass wir heute antworten.",
+      "options": [
+        "Dass wir heute antworten ist wichtig es.",
+        "Es ist wichtig, dass wir antworten heute.",
+        "Es ist wichtig, dass wir heute antworten."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Formal complaint architecture",
+    "Concessive clauses"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "sich beschweren über",
+      "type": "Chunk",
+      "meaning": "از چیزی شکایت کردن",
+      "pronunciation": null,
+      "example": "Ich beschwere mich über die Lieferung.",
+      "exampleTranslation": "از تحویل کالا شکایت می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "sich kümmern um",
+      "type": "Chunk",
+      "meaning": "رسیدگی کردن به",
+      "pronunciation": null,
+      "example": "Wir kümmern uns um das Problem.",
+      "exampleTranslation": "به مشکل رسیدگی می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "sich entschuldigen",
+      "type": "Chunk",
+      "meaning": "عذرخواهی کردن",
+      "pronunciation": null,
+      "example": "Wir entschuldigen uns für den Fehler.",
+      "exampleTranslation": "برای اشتباه عذرخواهی می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Lieferung",
+      "type": "Chunk",
+      "meaning": "تحویل کالا",
+      "pronunciation": null,
+      "example": "Die Lieferung ist angekommen.",
+      "exampleTranslation": "کالا تحویل شده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "beschädigt",
+      "type": "Word",
+      "meaning": "آسیب‌دیده",
+      "pronunciation": null,
+      "example": "Das Paket ist beschädigt.",
+      "exampleTranslation": "بسته آسیب دیده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "vollständig",
+      "type": "Word",
+      "meaning": "کامل",
+      "pronunciation": null,
+      "example": "Die Bestellung ist nicht vollständig.",
+      "exampleTranslation": "سفارش کامل نیست.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Ersatz schicken",
+      "type": "Chunk",
+      "meaning": "جایگزین فرستادن",
+      "pronunciation": null,
+      "example": "Wir schicken kostenlos Ersatz.",
+      "exampleTranslation": "رایگان جایگزین می‌فرستیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "Es ist wichtig, dass ...",
+      "type": "Chunk",
+      "meaning": "مهم است که ...",
+      "pronunciation": null,
+      "example": "Es ist wichtig, dass Sie antworten.",
+      "exampleTranslation": "مهم است که پاسخ بدهید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "Vielen Dank für ...",
+      "type": "Chunk",
+      "meaning": "بسیار سپاس برای ...",
+      "pronunciation": null,
+      "example": "Vielen Dank für Ihre Hilfe.",
+      "exampleTranslation": "برای کمک شما بسیار سپاسگزارم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Lösung anbieten",
+      "type": "Chunk",
+      "meaning": "راه‌حل ارائه کردن",
+      "pronunciation": null,
+      "example": "Der Service bietet eine Lösung an.",
+      "exampleTranslation": "خدمات یک راه‌حل ارائه می‌دهد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

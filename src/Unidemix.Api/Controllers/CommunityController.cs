@@ -209,7 +209,7 @@ public sealed partial class CommunityController(AppDbContext db, ISocialImageSto
 
     private void AddNotification(Guid userId, Guid actorId, string type, string text, string destination) => db.Notifications.Add(new Notification { UserId = userId, ActorId = actorId, Type = type, Text = text, Destination = destination });
     private async Task<bool> IsBlocked(Guid first, Guid second) => await db.UserBlocks.AnyAsync(x => (x.BlockerId == first && x.BlockedUserId == second) || (x.BlockerId == second && x.BlockedUserId == first));
-    private static string MentionKey(User user) => user.Email.Split('@')[0].ToLowerInvariant();
+    private static string MentionKey(User user) => user.SocialProfile?.Username ?? "member";
     private static (int, int) Paging(int page, int size) => (Math.Max(1, page), Math.Clamp(size, 1, 50));
     private static string? NullIfWhiteSpace(string? value) => string.IsNullOrWhiteSpace(value) ? null : value.Trim();
     private string AbsoluteImageUrl(string path) => path.StartsWith("http", StringComparison.OrdinalIgnoreCase) ? path : $"{Request.Scheme}://{Request.Host}{path}";

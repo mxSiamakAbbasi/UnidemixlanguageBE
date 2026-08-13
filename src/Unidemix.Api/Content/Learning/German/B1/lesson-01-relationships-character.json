@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-01",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 1,
+  "courseSlug": "german-b1-core",
+  "title": "Relationships, Character, and Evidence",
+  "localizedTitle": "روابط، شخصیت و شواهد",
+  "description": "افراد و رابطه‌ها را با شواهد توصیف می‌کنی و یک معرفی پیوسته می‌سازی.",
+  "estimatedDurationMinutes": 165,
+  "status": "production",
+  "mainSituation": "انتخاب یک پارتنر یادگیری قابل اعتماد",
+  "canDoObjectives": [
+    "ویژگی‌های شخصیتی و رابطه‌ها را با مثال و شاهد توصیف کنی.",
+    "در یک گفت‌وگوی نسبتاً مستقل، انتخاب خود را توضیح و توجیه کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «روابط، شخصیت و شواهد» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: انتخاب یک پارتنر یادگیری قابل اعتماد. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Mina: Was ist dir bei einem Lernpartner wichtig?\nJonas: Vor allem Zuverlässigkeit. Meine frühere Partnerin war jemand sehr Geduldiges. Wir konnten einander ehrlich korrigieren.\nMina: Woran hast du das gemerkt?\nJonas: Wenn ich etwas nicht verstanden habe, hat sie ein anderes Beispiel gegeben. Außerdem haben wir uns regelmäßig vorbereitet.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "zuverlässig = قابل اعتماد\nAuf Amir kann man sich verlassen. = می‌توان به امیر اعتماد کرد.\n\ngeduldig = صبور\nSie bleibt auch bei Fehlern geduldig. = او حتی هنگام اشتباه‌ها صبور می‌ماند.\n\njemand Ehrliches = فردی صادق\nWir brauchen jemand Ehrliches im Team. = ما در گروه به فردی صادق نیاز داریم.\n\neinander unterstützen = از یکدیگر حمایت کردن\nWir unterstützen einander beim Lernen. = ما در یادگیری از یکدیگر حمایت می‌کنیم.\n\nsich auf jemanden verlassen = به کسی اعتماد کردن\nIch kann mich auf sie verlassen. = می‌توانم به او اعتماد کنم.\n\nRücksicht nehmen = ملاحظه کردن\nGute Partner nehmen Rücksicht aufeinander. = پارتنرهای خوب ملاحظهٔ هم را می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "zuverlässig",
+      "options": [
+        "zuverlässig",
+        "geduldig",
+        "jemand Ehrliches"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Im Sprachcafé erzählt Jonas von seiner Lernpartnerin Lea. Am Anfang sprachen beide nur kurze Sätze. Lea hörte aufmerksam zu und fragte nach, wenn etwas unklar war. Jonas merkte schnell, dass sie zuverlässig war: Sie kam pünktlich, bereitete Themen vor und gab konkrete Beispiele. Obwohl sie unterschiedliche Interessen hatten, respektierten sie einander. Nach einigen Monaten konnten beide freier sprechen und auch über schwierige Themen ruhig diskutieren.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "EIN GUTER LERNPARTNER\nViele Menschen suchen jemanden Sympathisches. Sympathie allein reicht jedoch nicht. Eine zuverlässige Person hält Absprachen ein, eine geduldige Person lässt Zeit zum Nachdenken, und ein ehrlicher Partner erklärt Fehler respektvoll. Wichtig ist auch, dass beide einander Fragen stellen und ihre Ziele regelmäßig vergleichen. So entsteht eine Zusammenarbeit, die nicht nur angenehm, sondern auch wirksam ist.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «ویژگی‌های شخصیتی و رابطه‌ها را با مثال و شاهد توصیف کنی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "صفت‌های اسم‌شده برای اشاره به افراد به‌کار می‌روند: der Bekannte، eine Deutsche. با jemand/niemand و etwas/nichts نیز صفت اسم‌شده می‌آید: jemand Zuverlässiges، nichts Besonderes. ضمایر متقابل einander و miteinander رابطهٔ دوطرفه را روشن می‌کنند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nIch möchte Lea als Lernpartnerin empfehlen. Sie ist eine ruhige und zuverlässige Person. Das zeigt sich daran, dass sie Termine einhält und schwierige Punkte mit Beispielen erklärt. Wir geben einander ehrliches Feedback, ohne unhöflich zu werden. Zwar lernen wir unterschiedlich, aber wir planen jede Woche ein gemeinsames Ziel. Deshalb passt sie sehr gut zu einem langfristigen Lernprojekt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «انتخاب یک پارتنر یادگیری قابل اعتماد» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «روابط، شخصیت و شواهد» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIch möchte Lea als Lernpartnerin empfehlen. Sie ist eine ruhige und zuverlässige Person. Das zeigt sich daran, dass sie Termine einhält und schwierige Punkte mit Beispielen erklärt. Wir geben einander ehrliches Feedback, ohne unhöflich zu werden. Zwar lernen wir unterschiedlich, aber wir planen jede Woche ein gemeinsames Ziel. Deshalb passt sie sehr gut zu einem langfristigen Lernprojekt.\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک پارتنر یادگیری را نامزد کن: شخصیت او را توصیف کن، سه شاهد مشخص ارائه بده، کیفیت رابطه را توضیح بده و به دو پرسش احتمالی پاسخ بده.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «zuverlässig» چیست؟",
+      "correctAnswer": "قابل اعتماد",
+      "options": [
+        "قابل اعتماد",
+        "صبور",
+        "فردی صادق"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «روابط، شخصیت و شواهد» مرتبط است؟",
+      "correctAnswer": "einander unterstützen",
+      "options": [
+        "einander unterstützen",
+        "sich auf jemanden verlassen",
+        "Rücksicht nehmen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «Das zeigt sich daran, dass ...» چیست؟",
+      "correctAnswer": "این از آنجا مشخص است که...",
+      "options": [
+        "این از آنجا مشخص است که...",
+        "برخلاف",
+        "زمینهٔ مشترک"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Participial character descriptions",
+    "Advanced adjective nominalization"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "zuverlässig",
+      "type": "Word",
+      "meaning": "قابل اعتماد",
+      "pronunciation": null,
+      "example": "Auf Amir kann man sich verlassen.",
+      "exampleTranslation": "می‌توان به امیر اعتماد کرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "geduldig",
+      "type": "Word",
+      "meaning": "صبور",
+      "pronunciation": null,
+      "example": "Sie bleibt auch bei Fehlern geduldig.",
+      "exampleTranslation": "او حتی هنگام اشتباه‌ها صبور می‌ماند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "jemand Ehrliches",
+      "type": "Chunk",
+      "meaning": "فردی صادق",
+      "pronunciation": null,
+      "example": "Wir brauchen jemand Ehrliches im Team.",
+      "exampleTranslation": "ما در گروه به فردی صادق نیاز داریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "einander unterstützen",
+      "type": "Chunk",
+      "meaning": "از یکدیگر حمایت کردن",
+      "pronunciation": null,
+      "example": "Wir unterstützen einander beim Lernen.",
+      "exampleTranslation": "ما در یادگیری از یکدیگر حمایت می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "sich auf jemanden verlassen",
+      "type": "Chunk",
+      "meaning": "به کسی اعتماد کردن",
+      "pronunciation": null,
+      "example": "Ich kann mich auf sie verlassen.",
+      "exampleTranslation": "می‌توانم به او اعتماد کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Rücksicht nehmen",
+      "type": "Chunk",
+      "meaning": "ملاحظه کردن",
+      "pronunciation": null,
+      "example": "Gute Partner nehmen Rücksicht aufeinander.",
+      "exampleTranslation": "پارتنرهای خوب ملاحظهٔ هم را می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Das zeigt sich daran, dass ...",
+      "type": "Chunk",
+      "meaning": "این از آنجا مشخص است که...",
+      "pronunciation": null,
+      "example": "Das zeigt sich daran, dass er immer vorbereitet ist.",
+      "exampleTranslation": "این از آماده‌بودن همیشگی او مشخص است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "im Gegensatz zu",
+      "type": "Chunk",
+      "meaning": "برخلاف",
+      "pronunciation": null,
+      "example": "Im Gegensatz zu mir plant sie sehr genau.",
+      "exampleTranslation": "برخلاف من، او دقیق برنامه‌ریزی می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine gemeinsame Basis",
+      "type": "Chunk",
+      "meaning": "زمینهٔ مشترک",
+      "pronunciation": null,
+      "example": "Respekt ist unsere gemeinsame Basis.",
+      "exampleTranslation": "احترام زمینهٔ مشترک ماست.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "ehrliches Feedback",
+      "type": "Chunk",
+      "meaning": "بازخورد صادقانه",
+      "pronunciation": null,
+      "example": "Ehrliches Feedback hilft uns weiter.",
+      "exampleTranslation": "بازخورد صادقانه به پیشرفت ما کمک می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

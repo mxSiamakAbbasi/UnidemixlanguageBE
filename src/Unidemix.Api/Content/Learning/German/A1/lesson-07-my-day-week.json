@@ -9,10 +9,10 @@
   "description": "در این درس یک روز معمولی را به‌ترتیب توضیح می‌دهی، دربارهٔ تکرار کارها صحبت می‌کنی و زمان آزاد مشترک پیدا می‌کنی.",
   "estimatedDurationMinutes": 105,
   "status": "production",
-  "mainSituation": "Discussing daily routines and availability",
+  "mainSituation": "صحبت دربارهٔ برنامهٔ روزانه و زمان‌های آزاد",
   "canDoObjectives": [
-    "Describe a typical day in sequence.",
-    "Compare schedules and identify a suitable time."
+    "کارهای یک روز معمولی را به‌ترتیب توضیح بدهی.",
+    "برنامه‌های روزانه را مقایسه کنی و یک زمان مناسب پیدا کنی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «روز و هفتهٔ من» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Discussing daily routines and availability. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس یک روز معمولی را به‌ترتیب توضیح می‌دهی، دربارهٔ تکرار کارها صحبت می‌کنی و زمان آزاد مشترک پیدا می‌کنی.\n\n• کارهای یک روز معمولی را به‌ترتیب توضیح بدهی.\n• برنامه‌های روزانه را مقایسه کنی و یک زمان مناسب پیدا کنی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

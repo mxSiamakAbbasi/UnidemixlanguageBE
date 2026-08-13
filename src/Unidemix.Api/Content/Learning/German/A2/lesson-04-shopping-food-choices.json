@@ -1,0 +1,545 @@
+{
+  "contentKey": "de-a2-core-lesson-04",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 4,
+  "courseSlug": "german-for-real-life",
+  "title": "Shopping, Food, and Better Choices",
+  "localizedTitle": "خرید، غذا و انتخاب بهتر",
+  "description": "در این درس مواد غذایی را با مقدار دقیق می‌خری، برچسب‌ها را مقایسه می‌کنی و انتخابت را با دلیل توضیح می‌دهی.",
+  "estimatedDurationMinutes": 150,
+  "status": "production",
+  "mainSituation": "خرید مواد لازم برای یک غذای مشترک و انتخاب گزینه‌های مناسب‌تر",
+  "canDoObjectives": [
+    "مواد غذایی را با مقدار و ویژگی دقیق درخواست کنی.",
+    "کالاهای روزمره را مقایسه کنی و انتخابی ساده را توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس مواد غذایی را با مقدار دقیق می‌خری، برچسب‌ها را مقایسه می‌کنی و انتخابت را با دلیل توضیح می‌دهی.\n\n• مواد غذایی را با مقدار و ویژگی دقیق درخواست کنی.\n• کالاهای روزمره را مقایسه کنی و انتخابی ساده را توضیح بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Kundin: Ich brauche frisches Gemüse und einen reifen Käse.\nVerkäufer: Möchten Sie auch einen grünen Salat?\nKundin: Ja, bitte. Wenn er heute frisch ist, nehme ich zwei Stück.\nVerkäufer: Dieser regionale Salat ist heute angekommen.\nKundin: Gut. Dann nehme ich außerdem 500 Gramm rote Tomaten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "frisches Gemüse = سبزیجات تازه\nWir kaufen frisches Gemüse. = سبزیجات تازه می‌خریم.\n\nein reifer Käse = پنیر رسیده\nIch nehme einen reifen Käse. = یک پنیر رسیده می‌گیرم.\n\nloses Gemüse = سبزیجات بدون بسته‌بندی\nLoses Gemüse braucht weniger Verpackung. = سبزیجات فله بسته‌بندی کمتری می‌خواهد.\n\ndie Verpackung = بسته‌بندی\nDiese Verpackung ist zu groß. = این بسته‌بندی خیلی بزرگ است.\n\nenthalten = حاوی بودن\nDas Produkt enthält wenig Zucker. = محصول شکر کمی دارد.\n\nregional hergestellt = تولیدشده در منطقه\nDer Käse wird regional hergestellt. = پنیر در منطقه تولید می‌شود.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با موقعیت اصلی درس «خرید، غذا و انتخاب بهتر» هماهنگ‌تر است؟",
+      "correctAnswer": "die Verpackung",
+      "options": [
+        "ein reifer Käse",
+        "die Verpackung",
+        "weniger als"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "یک متن شنیداری پیوسته می‌شنوی. بار اول موضوع کلی را پیدا کن؛ بار دوم به ترتیب رویدادها، دلیل‌ها و جزئیات توجه کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Für das gemeinsame Abendessen kaufen wir heute bewusst ein. Amir nimmt frisches Vollkornbrot, weil es länger satt macht. Sara vergleicht zwei Joghurts. Wenn ein Produkt weniger Zucker enthält, wählt sie dieses Produkt. Wir kaufen außerdem loses Gemüse, damit wir weniger Verpackung brauchen. Am Ende prüfen wir die Mengen noch einmal, denn wir möchten nichts wegwerfen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی خرید چیست؟",
+      "correctAnswer": "خرید آگاهانه برای شام مشترک",
+      "options": [
+        "خرید هدیه",
+        "خرید آگاهانه برای شام مشترک",
+        "خرید وسایل اداری"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "یک بار دیگر گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "سارا بر چه اساسی ماست را انتخاب می‌کند؟",
+      "correctAnswer": "مقدار کمتر شکر",
+      "options": [
+        "رنگ بسته‌بندی",
+        "مقدار کمتر شکر",
+        "نام فروشگاه"
+      ],
+      "correctFeedback": "جزئیات شنیداری را درست پیدا کردی.",
+      "incorrectFeedback": "دوباره گوش کن و به زمان، مکان، علت یا اقدام مشخص توجه کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن کاربردی زیر کمی بلندتر از متن‌های A1 است. ابتدا عنوان و جملهٔ اول را بخوان، سپس اطلاعات لازم برای پاسخ را در متن پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "PRODUKTVERGLEICH\nJoghurt A enthält 8 Gramm Zucker pro 100 Gramm und kommt in einem großen Becher. Joghurt B enthält 4 Gramm Zucker, ist aber etwas teurer. Beide Produkte werden regional hergestellt. Wenn Sie wenig Zucker essen möchten, ist Produkt B die bessere Wahl. Für eine große Familie kann der größere Becher von Produkt A praktischer sein.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام محصول شکر کمتری دارد؟",
+      "correctAnswer": "محصول B",
+      "options": [
+        "محصول A",
+        "محصول B",
+        "هر دو یکسان"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را پیدا کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "قبل از قانون، به ساختارهای داخل گفت‌وگو و متن توجه کن. نکتهٔ تازهٔ این درس باید به تو کمک کند هدف «مواد غذایی را با مقدار و ویژگی دقیق درخواست کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "پس از ein/eine و kein، پایان صفت به جنس و حالت وابسته است: ein frischer Salat، eine reife Tomate، einen grünen Salat. بدون حرف تعریف نیز صفت اطلاعات حالت را حمل می‌کند: frisches Brot، rote Tomaten. در جملهٔ wenn فعل بخش وابسته به پایان می‌رود: Wenn das Produkt frisch ist, nehme ich es.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Wenn der Salat frisch ist, nehme ich ihn.",
+      "options": [
+        "Wenn der Salat ist frisch, nehme ich ihn.",
+        "Wenn der Salat frisch ist, nehme ich ihn.",
+        "Wenn frisch der Salat ist, ihn nehme ich."
+      ],
+      "correctFeedback": "الگوی گرامری را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت اسم و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی‌تر و از نظر ساختار درست است؟",
+      "correctAnswer": "Wenn der Salat frisch ist, nehme ich ihn.",
+      "options": [
+        "Wenn frisch der Salat ist, ihn nehme ich.",
+        "Wenn der Salat frisch ist, nehme ich ihn.",
+        "Wenn der Salat ist frisch, nehme ich ihn."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را گوش کن و خط‌به‌خط با صدای بلند تکرار کن:\nIch nehme frisches Brot und einen grünen Salat. Wenn die Tomaten regional sind, kaufe ich 500 Gramm. Dieses Produkt ist günstiger, aber das andere enthält weniger Zucker.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با این داده‌ها خرید کن و دلیل بده: Apfel A regional/3€؛ Apfel B importiert/2€؛ 1 Kilo.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را انجام دادی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برای یک وعدهٔ مشترک فهرست خرید بساز، دو محصول را مقایسه کن و دو انتخابت را با wenn یا weil توضیح بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nFür unser Essen brauchen wir frisches Gemüse, einen milden Käse und Vollkornbrot. Ich kaufe regionale Tomaten, weil der Weg kürzer ist. Wenn der Salat frisch ist, nehme ich zwei Köpfe. Beim Joghurt wähle ich das Produkt mit weniger Zucker. So bleibt unser Einkauf einfach und ausgewogen.\n\nاز سازمان متن و عبارت‌های پیوندی الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک برنامهٔ خرید ۷ تا ۹ جمله‌ای بنویس. مقدارها، ویژگی محصولات، یک مقایسه و دست‌کم دو دلیل یا شرط را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "برای یک غذای مشترک خرید کامل طراحی کن: درخواست دقیق، مقایسهٔ دو کالا، انتخاب نهایی و دلیل‌های مربوط به سلامت، قیمت یا بسته‌بندی را ارائه بده.\n\nمعیار موفقیت: پیام روشن و پیوسته، استفاده از عبارت‌های کلیدی و گرامر همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله درست است؟",
+      "correctAnswer": "Wenn der Salat frisch ist, nehme ich ihn.",
+      "options": [
+        "Wenn der Salat ist frisch, nehme ich ihn.",
+        "Wenn der Salat frisch ist, nehme ich ihn.",
+        "Wenn frisch der Salat ist, ihn nehme ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «frisches Gemüse» چیست؟",
+      "correctAnswer": "سبزیجات تازه",
+      "options": [
+        "سبزیجات تازه",
+        "سبزیجات بدون بسته‌بندی",
+        "تولیدشده در منطقه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام محصول شکر کمتری دارد؟",
+      "correctAnswer": "محصول B",
+      "options": [
+        "محصول A",
+        "محصول B",
+        "هر دو یکسان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "سارا بر چه اساسی ماست را انتخاب می‌کند؟",
+      "correctAnswer": "مقدار کمتر شکر",
+      "options": [
+        "رنگ بسته‌بندی",
+        "مقدار کمتر شکر",
+        "نام فروشگاه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «حاوی بودن»؟",
+      "correctAnswer": "enthalten",
+      "options": [
+        "loses Gemüse",
+        "enthalten",
+        "weniger als"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست و طبیعی را انتخاب کن.",
+      "correctAnswer": "Wenn der Salat frisch ist, nehme ich ihn.",
+      "options": [
+        "Wenn der Salat ist frisch, nehme ich ihn.",
+        "Wenn der Salat frisch ist, nehme ich ihn.",
+        "Wenn frisch der Salat ist, ihn nehme ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "هدف اصلی خرید چیست؟",
+      "correctAnswer": "خرید آگاهانه برای شام مشترک",
+      "options": [
+        "خرید هدیه",
+        "خرید آگاهانه برای شام مشترک",
+        "خرید وسایل اداری"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "محصول B",
+      "options": [
+        "هر دو یکسان",
+        "محصول B",
+        "محصول A"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «500 Gramm» چیست؟",
+      "correctAnswer": "پانصد گرم",
+      "options": [
+        "پانصد گرم",
+        "پنیر رسیده",
+        "اگر ...، آنگاه ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "برای انجام هدف ارتباطی این درس کدام جمله مناسب است؟",
+      "correctAnswer": "Wenn der Salat frisch ist, nehme ich ihn.",
+      "options": [
+        "Wenn frisch der Salat ist, ihn nehme ich.",
+        "Wenn der Salat ist frisch, nehme ich ihn.",
+        "Wenn der Salat frisch ist, nehme ich ihn."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Full adjective paradigm in abstract writing"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "frisches Gemüse",
+      "type": "Chunk",
+      "meaning": "سبزیجات تازه",
+      "pronunciation": null,
+      "example": "Wir kaufen frisches Gemüse.",
+      "exampleTranslation": "سبزیجات تازه می‌خریم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "ein reifer Käse",
+      "type": "Chunk",
+      "meaning": "پنیر رسیده",
+      "pronunciation": null,
+      "example": "Ich nehme einen reifen Käse.",
+      "exampleTranslation": "یک پنیر رسیده می‌گیرم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "loses Gemüse",
+      "type": "Chunk",
+      "meaning": "سبزیجات بدون بسته‌بندی",
+      "pronunciation": null,
+      "example": "Loses Gemüse braucht weniger Verpackung.",
+      "exampleTranslation": "سبزیجات فله بسته‌بندی کمتری می‌خواهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Verpackung",
+      "type": "Chunk",
+      "meaning": "بسته‌بندی",
+      "pronunciation": null,
+      "example": "Diese Verpackung ist zu groß.",
+      "exampleTranslation": "این بسته‌بندی خیلی بزرگ است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "enthalten",
+      "type": "Word",
+      "meaning": "حاوی بودن",
+      "pronunciation": null,
+      "example": "Das Produkt enthält wenig Zucker.",
+      "exampleTranslation": "محصول شکر کمی دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "regional hergestellt",
+      "type": "Chunk",
+      "meaning": "تولیدشده در منطقه",
+      "pronunciation": null,
+      "example": "Der Käse wird regional hergestellt.",
+      "exampleTranslation": "پنیر در منطقه تولید می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "Wenn ..., dann ...",
+      "type": "Chunk",
+      "meaning": "اگر ...، آنگاه ...",
+      "pronunciation": null,
+      "example": "Wenn es frisch ist, dann kaufe ich es.",
+      "exampleTranslation": "اگر تازه باشد، آن را می‌خرم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "weniger als",
+      "type": "Chunk",
+      "meaning": "کمتر از",
+      "pronunciation": null,
+      "example": "Es enthält weniger Zucker als Produkt A.",
+      "exampleTranslation": "از محصول A شکر کمتری دارد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "500 Gramm",
+      "type": "Chunk",
+      "meaning": "پانصد گرم",
+      "pronunciation": null,
+      "example": "Ich brauche 500 Gramm Tomaten.",
+      "exampleTranslation": "پانصد گرم گوجه لازم دارم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "nichts wegwerfen",
+      "type": "Chunk",
+      "meaning": "چیزی دور نریختن",
+      "pronunciation": null,
+      "example": "Wir möchten nichts wegwerfen.",
+      "exampleTranslation": "نمی‌خواهیم چیزی دور بریزیم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

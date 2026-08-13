@@ -1,0 +1,584 @@
+{
+  "contentKey": "de-b1-core-lesson-08",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 8,
+  "courseSlug": "german-b1-core",
+  "title": "Regret, Luck, and Life Events",
+  "localizedTitle": "حسرت، شانس و رویدادهای زندگی",
+  "description": "رویدادهای پیوسته را روایت می‌کنی، حسرت را بیان می‌کنی و همدلانه واکنش نشان می‌دهی.",
+  "estimatedDurationMinutes": 180,
+  "status": "production",
+  "mainSituation": "گفت‌وگو دربارهٔ یک فرصت ازدست‌رفته",
+  "canDoObjectives": [
+    "دربارهٔ یک انتخاب گذشته حسرت یا امکان جایگزین را بیان کنی.",
+    "رویدادهای مرتبط را به‌ترتیب روایت و به احساس طرف مقابل همدلانه واکنش نشان بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «حسرت، شانس و رویدادهای زندگی» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: گفت‌وگو دربارهٔ یک فرصت ازدست‌رفته. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Lena: Warum bist du nicht mitgefahren?\nFarid: Nachdem ich die Einladung gelesen hatte, dachte ich zu lange nach. Dann waren alle Plätze weg.\nLena: Das tut mir leid.\nFarid: Hätte ich doch sofort zugesagt! Beim nächsten Mal entscheide ich früher.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Hätte ich doch ... = کاش... کرده بودم\nHätte ich doch früher gefragt! = کاش زودتر پرسیده بودم!\n\nNachdem ... = پس از اینکه...\nNachdem ich angerufen hatte, war ich ruhiger. = پس از تماس آرام‌تر بودم.\n\neine Gelegenheit verpassen = فرصتی را از دست دادن\nIch habe eine Gelegenheit verpasst. = فرصتی را از دست دادم.\n\nDas tut mir leid. = متأسفم\nDas tut mir wirklich leid. = واقعاً متأسفم.\n\nenttäuscht sein = ناامید بودن\nSie war über die Entscheidung enttäuscht. = او از تصمیم ناامید بود.\n\nsich ärgern über = از چیزی ناراحت شدن\nEr ärgerte sich über den Fehler. = او از اشتباه ناراحت شد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "Hätte ich doch ...",
+      "options": [
+        "Hätte ich doch ...",
+        "Nachdem ...",
+        "eine Gelegenheit verpassen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Nora wollte an einem Austauschprogramm teilnehmen. Nachdem sie alle Unterlagen vorbereitet hatte, bemerkte sie, dass ein Dokument fehlte. Sie schrieb noch am selben Abend, erhielt die Antwort aber erst nach der Frist. Nora war enttäuscht und dachte: Hätte ich früher nachgefragt, hätte ich das Problem vermeiden können. Ihre Freundin hörte zu und half ihr, einen neuen Termin zu finden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ZU SPÄT ENTSCHIEDEN\nAls Karim von einem günstigen Kurs erfuhr, war er zunächst unsicher. Nachdem er mit mehreren Freunden gesprochen hatte, wollte er sich anmelden. Zu diesem Zeitpunkt war der Kurs jedoch voll. In seinem Blog schreibt er, dass er sich lange geärgert habe. Heute betrachtet er die Erfahrung anders: Er prüft wichtige Fristen sofort und bittet früher um Rat.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «دربارهٔ یک انتخاب گذشته حسرت یا امکان جایگزین را بیان کنی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Plusquamperfekt رویداد زودتر در گذشته را نشان می‌دهد: Nachdem ich die Frist verpasst hatte, rief ich an. nachdem رابطهٔ دو گذشته را روشن می‌کند. گذشتهٔ Konjunktiv II با hätte/wäre + Partizip II حسرت یا امکان تحقق‌نیافته می‌سازد: Hätte ich doch früher gefragt!",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nLetzten Herbst verpasste ich eine gute Gelegenheit. Nachdem ich die Informationen gelesen hatte, wartete ich mehrere Tage. Als ich mich endlich anmeldete, waren alle Plätze vergeben. Hätte ich doch früher entschieden! Zuerst war ich sehr enttäuscht, aber eine Freundin half mir, eine Alternative zu finden. Heute weiß ich, dass ich wichtige Fristen sofort prüfen sollte.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «گفت‌وگو دربارهٔ یک فرصت ازدست‌رفته» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nLetzten Herbst verpasste ich eine gute Gelegenheit. Nachdem ich die Informationen gelesen hatte, wartete ich mehrere Tage. Als ich mich endlich anmeldete, waren alle Plätze vergeben. Hätte ich doch früher entschieden! Zuerst war ich sehr enttäuscht, aber eine Freundin half mir, eine Alternative zu finden. Heute weiß ich, dass ich wichtige Fristen sofort prüfen sollte.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک فرصت ازدست‌رفته را با ترتیب زمانی روشن روایت کن، حسرت و گزینهٔ بهتر را بیان کن و یک واکنش همدلانه و درس عملی اضافه کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Hätte ich doch ...» چیست؟",
+      "correctAnswer": "کاش... کرده بودم",
+      "options": [
+        "کاش... کرده بودم",
+        "پس از اینکه...",
+        "فرصتی را از دست دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «حسرت، شانس و رویدادهای زندگی» مربوط است؟",
+      "correctAnswer": "Das tut mir leid.",
+      "options": [
+        "Das tut mir leid.",
+        "enttäuscht sein",
+        "sich ärgern über"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «im Nachhinein» چیست؟",
+      "correctAnswer": "پس از ماجرا",
+      "options": [
+        "پس از ماجرا",
+        "گزینه‌ای جایگزین یافتن",
+        "مهلت را از دست دادن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Complex counterfactual chains"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "Hätte ich doch ...",
+      "type": "Chunk",
+      "meaning": "کاش... کرده بودم",
+      "pronunciation": null,
+      "example": "Hätte ich doch früher gefragt!",
+      "exampleTranslation": "کاش زودتر پرسیده بودم!",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Nachdem ...",
+      "type": "Chunk",
+      "meaning": "پس از اینکه...",
+      "pronunciation": null,
+      "example": "Nachdem ich angerufen hatte, war ich ruhiger.",
+      "exampleTranslation": "پس از تماس آرام‌تر بودم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "eine Gelegenheit verpassen",
+      "type": "Chunk",
+      "meaning": "فرصتی را از دست دادن",
+      "pronunciation": null,
+      "example": "Ich habe eine Gelegenheit verpasst.",
+      "exampleTranslation": "فرصتی را از دست دادم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "Das tut mir leid.",
+      "type": "Chunk",
+      "meaning": "متأسفم",
+      "pronunciation": null,
+      "example": "Das tut mir wirklich leid.",
+      "exampleTranslation": "واقعاً متأسفم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "enttäuscht sein",
+      "type": "Chunk",
+      "meaning": "ناامید بودن",
+      "pronunciation": null,
+      "example": "Sie war über die Entscheidung enttäuscht.",
+      "exampleTranslation": "او از تصمیم ناامید بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "sich ärgern über",
+      "type": "Chunk",
+      "meaning": "از چیزی ناراحت شدن",
+      "pronunciation": null,
+      "example": "Er ärgerte sich über den Fehler.",
+      "exampleTranslation": "او از اشتباه ناراحت شد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "im Nachhinein",
+      "type": "Chunk",
+      "meaning": "پس از ماجرا",
+      "pronunciation": null,
+      "example": "Im Nachhinein war die Lösung klar.",
+      "exampleTranslation": "پس از ماجرا راه‌حل روشن بود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "eine Alternative finden",
+      "type": "Chunk",
+      "meaning": "گزینه‌ای جایگزین یافتن",
+      "pronunciation": null,
+      "example": "Wir fanden eine gute Alternative.",
+      "exampleTranslation": "گزینهٔ جایگزین خوبی یافتیم.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "die Frist verpassen",
+      "type": "Chunk",
+      "meaning": "مهلت را از دست دادن",
+      "pronunciation": null,
+      "example": "Sie hat die Frist verpasst.",
+      "exampleTranslation": "او مهلت را از دست داد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "jemanden aufmuntern",
+      "type": "Chunk",
+      "meaning": "کسی را دلگرم کردن",
+      "pronunciation": null,
+      "example": "Seine Freundin munterte ihn auf.",
+      "exampleTranslation": "دوستش او را دلگرم کرد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

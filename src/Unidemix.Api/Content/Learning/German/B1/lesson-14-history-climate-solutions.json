@@ -1,0 +1,586 @@
+{
+  "contentKey": "de-b1-core-lesson-14",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 14,
+  "courseSlug": "german-b1-core",
+  "title": "History, Climate, and Future Solutions",
+  "localizedTitle": "تاریخ، اقلیم و راه‌حل‌های آینده",
+  "description": "یک تغییر تاریخی را بی‌طرفانه خلاصه می‌کنی و راه‌حلی آینده‌نگر با شاهد پیشنهاد می‌دهی.",
+  "estimatedDurationMinutes": 205,
+  "status": "production",
+  "mainSituation": "ارائهٔ گذار از تغییر گذشته به راه‌حل آینده",
+  "canDoObjectives": [
+    "یک تحول تاریخی را با زبان نسبتاً خنثی خلاصه کنی.",
+    "راه‌حلی آینده‌نگر را با هدف، پیامد و محدودیت ارزیابی و پیشنهاد کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «تاریخ، اقلیم و راه‌حل‌های آینده» خوش آمدی. این درس بر ارتباط پیوسته، استقلال و انتخاب آگاهانهٔ زبان در سطح B1 تمرکز دارد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: ارائهٔ گذار از تغییر گذشته به راه‌حل آینده. پیام کلی، موضع، شواهد و پیوند منطقی را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Journalistin: Wann wurde das Verkehrssystem eingeführt?\nExperte: Der erste Abschnitt wurde 1998 eröffnet. Später ist das Netz erweitert worden, um mehr Stadtteile zu verbinden.\nJournalistin: Was sollte als Nächstes passieren?\nExperte: Wir sollten bestehende Strecken verbessern, anstatt nur neue Straßen zu bauen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "wurde eingeführt = معرفی یا اجرا شد\nDas System wurde 1998 eingeführt. = سیستم در ۱۹۹۸ اجرا شد.\n\nist erweitert worden = گسترش داده شده است\nDas Netz ist erweitert worden. = شبکه گسترش داده شده است.\n\num ... zu = برای اینکه\nWir sparen Wasser, um Ressourcen zu schützen. = برای حفاظت منابع آب ذخیره می‌کنیم.\n\ndamit = تا اینکه\nDie Stadt investiert, damit der Verbrauch sinkt. = شهر سرمایه‌گذاری می‌کند تا مصرف کاهش یابد.\n\nanstatt ... zu = به‌جای اینکه\nWir renovieren, anstatt alles abzureißen. = به‌جای تخریب همه‌چیز بازسازی می‌کنیم.\n\nohne ... zu = بدون اینکه\nMan kann nicht planen, ohne Daten zu prüfen. = بدون بررسی داده نمی‌توان برنامه ریخت.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت ابزار کلیدی همین موقعیت است؟",
+      "correctAnswer": "wurde eingeführt",
+      "options": [
+        "wurde eingeführt",
+        "ist erweitert worden",
+        "um ... zu"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و نگرش گوینده گوش کن؛ بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را ثبت کن. متن شنیداری ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Ein Podcast beschreibt die Entwicklung eines städtischen Wärmenetzes. Das erste Netz wurde vor dreißig Jahren gebaut und später mehrfach modernisiert. Heute wird ein Plan diskutiert, um erneuerbare Energie stärker zu nutzen. Die Expertin betont, dass alte Gebäude gleichzeitig saniert werden müssen, damit der Verbrauch sinkt. Ohne soziale Unterstützung könnten die Kosten jedoch ungleich verteilt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی شنیدار چیست؟",
+      "correctAnswer": "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+      "options": [
+        "فقط نام‌بردن اشیا",
+        "توضیح یک موقعیت و رابطهٔ علت، واکنش یا نتیجه",
+        "خواندن حروف الفبا"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت برای بازسازی شنیدار مفیدتر است؟",
+      "correctAnswer": "رویداد → دلیل → واکنش → نتیجه",
+      "options": [
+        "فقط نخستین واژه",
+        "رویداد → دلیل → واکنش → نتیجه",
+        "فقط نام گوینده"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را برای هدف، ساختار، موضع، شاهد و نتیجه بخوان؛ برداشت خود را به جزئیات متن وصل کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "VOM INDUSTRIEGEBIET ZUM KLIMAQUARTIER\nDas Gebiet wurde früher für schwere Industrie genutzt. Nach der Schließung sind viele Hallen nicht abgerissen, sondern umgebaut worden. Heute entstehen dort Wohnungen, Werkstätten und Grünflächen. Die Stadt möchte Regenwasser speichern, um Hitze im Sommer zu reduzieren. Kritiker warnen jedoch, dass bezahlbare Wohnungen gesichert werden müssen, damit bisherige Bewohner profitieren.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "برداشت معتبر B1 چگونه ساخته می‌شود؟",
+      "correctAnswer": "پیام اصلی همراه با شاهد و هدف نویسنده",
+      "options": [
+        "از یک واژهٔ جدا",
+        "پیام اصلی همراه با شاهد و هدف نویسنده",
+        "بدون توجه به نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "الگوهایی را پیدا کن که برای «یک تحول تاریخی را با زبان نسبتاً خنثی خلاصه کنی.» و اتصال جمله‌ها به یک پیام کامل استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "Passiv Präteritum و Perfekt تغییر گذشته را خنثی گزارش می‌کنند: Das System wurde 1990 eingeführt. Es ist später erweitert worden. um ... zu/damit هدف را، sodass نتیجه را و anstatt/ohne ... zu گزینهٔ انجام‌نشده را نشان می‌دهند. als ob مقایسهٔ ظاهری می‌سازد و در این سطح محدود و وابسته به موقعیت می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله پیوند و ترتیب درستی دارد؟",
+      "correctAnswer": "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+      "options": [
+        "Nachdem sie die Information geprüft hatte, traf sie eine Entscheidung.",
+        "Nachdem hatte sie geprüft, sie Entscheidung traf.",
+        "Sie geprüft nachdem, traf Entscheidung."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ موضع را با دلیل روشن پشتیبانی می‌کند؟",
+      "correctAnswer": "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+      "options": [
+        "Ich Vorschlag praktisch.",
+        "Ich unterstütze den Vorschlag, weil er praktisch ist und ein klares Ziel hat.",
+        "Weil Ziel Vorschlag ich."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "به ساختار مدل توجه کن: زمینه → نکتهٔ اصلی → شاهد → واکنش یا نتیجه.\nDas Gebiet wurde jahrzehntelang industriell genutzt. Nach der Schließung sind mehrere Gebäude erhalten und umgebaut worden. Heute plant die Stadt ein Klimaquartier, um Energie und Wasser effizienter zu nutzen. Anstatt alle Hallen abzureißen, sollen vorhandene Strukturen weiterverwendet werden. Das könnte Emissionen senken, hätte aber nur dann eine faire Wirkung, wenn bezahlbarer Wohnraum gesichert wird.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با سه عبارت کلیدی درس دربارهٔ «ارائهٔ گذار از تغییر گذشته به راه‌حل آینده» یک پاسخ پیوستهٔ ۷ تا ۹ جمله‌ای بساز و یک پرسش تکمیلی اضافه کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "موضع یا تجربهٔ خودت را مستقل‌تر بیان کن؛ دلیل، مثال، واکنش به دیدگاه دیگر و جمع‌بندی داشته باش.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nDas Gebiet wurde jahrzehntelang industriell genutzt. Nach der Schließung sind mehrere Gebäude erhalten und umgebaut worden. Heute plant die Stadt ein Klimaquartier, um Energie und Wasser effizienter zu nutzen. Anstatt alle Hallen abzureißen, sollen vorhandene Strukturen weiterverwendet werden. Das könnte Emissionen senken, hätte aber nur dann eine faire Wirkung, wenn bezahlbarer Wohnraum gesichert wird.\n\nساختار را تحلیل کن و سپس با اطلاعات خودت بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن منظم ۱۰ تا ۱۴ جمله‌ای در یک یا دو بند بنویس. مقدمه، شواهد، پیوند علت/تضاد/هدف، نتیجه و جمع‌بندی داشته باشد. نوار ä ö ü ß Ä Ö Ü در دسترس است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک تغییر گذشته و یک راه‌حل آینده را در ارائه‌ای منظم پیوند بده: واقعیت و پیش‌بینی را جدا کن، هدف، روش، پیامد، محدودیت و شاهد را بیان و از پیشنهادت دفاع کن.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، انسجام، شواهد، واکنش طبیعی و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ترتیب گذشته را درست نشان می‌دهد؟",
+      "correctAnswer": "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+      "options": [
+        "Nachdem er angerufen hatte, schrieb er eine E-Mail.",
+        "Nachdem hatte er angerufen, schrieb E-Mail er.",
+        "Er angerufen nachdem, E-Mail schrieb."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «wurde eingeführt» چیست؟",
+      "correctAnswer": "معرفی یا اجرا شد",
+      "options": [
+        "معرفی یا اجرا شد",
+        "گسترش داده شده است",
+        "برای اینکه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در متن B1 چه چیزی موضع نویسنده را پشتیبانی می‌کند؟",
+      "correctAnswer": "شاهد و دلیل مشخص",
+      "options": [
+        "فقط عنوان",
+        "شاهد و دلیل مشخص",
+        "تعداد حروف"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای دنبال‌کردن روایت چه چیزی لازم است؟",
+      "correctAnswer": "ترتیب و رابطهٔ رویدادها",
+      "options": [
+        "فقط نام شهر",
+        "ترتیب و رابطهٔ رویدادها",
+        "فقط آخرین جمله"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت کلیدی به موضوع «تاریخ، اقلیم و راه‌حل‌های آینده» مربوط است؟",
+      "correctAnswer": "damit",
+      "options": [
+        "damit",
+        "anstatt ... zu",
+        "ohne ... zu"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل و نتیجهٔ طبیعی دارد؟",
+      "correctAnswer": "Die Information war unklar, daher fragte sie noch einmal nach.",
+      "options": [
+        "Die Information war unklar, daher fragte sie noch einmal nach.",
+        "Unklar daher sie Information.",
+        "Daher unklar fragte Information."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "نگرش گوینده از چه راهی تشخیص داده می‌شود؟",
+      "correctAnswer": "واژه‌های ارزیابی، دلیل و لحن",
+      "options": [
+        "فقط سرعت",
+        "واژه‌های ارزیابی، دلیل و لحن",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام پاسخ یک استنباط سادهٔ B1 است؟",
+      "correctAnswer": "نتیجه‌ای که با چند شاهد متن سازگار است",
+      "options": [
+        "حدس بدون شاهد",
+        "نتیجه‌ای که با چند شاهد متن سازگار است",
+        "تکرار یک کلمه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «zur Folge haben» چیست؟",
+      "correctAnswer": "پیامد داشتن",
+      "options": [
+        "پیامد داشتن",
+        "تحول",
+        "انرژی تجدیدپذیر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند هدف را بیان می‌کند؟",
+      "correctAnswer": "damit",
+      "options": [
+        "obwohl",
+        "damit",
+        "trotzdem"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "پاسخ مستقل B1 چه ساختاری دارد؟",
+      "correctAnswer": "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+      "options": [
+        "فقط بله/خیر",
+        "موضع، دلیل، مثال، واکنش و جمع‌بندی",
+        "فهرست نامرتبط"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "یک بند B1 چگونه منسجم می‌شود؟",
+      "correctAnswer": "با ترتیب منطقی و connectorهای مناسب",
+      "options": [
+        "با جمله‌های تصادفی",
+        "با ترتیب منطقی و connectorهای مناسب",
+        "فقط واژه‌های سخت"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Passive alternatives",
+    "Nominalization",
+    "Formal source synthesis (B2)"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "wurde eingeführt",
+      "type": "Chunk",
+      "meaning": "معرفی یا اجرا شد",
+      "pronunciation": null,
+      "example": "Das System wurde 1998 eingeführt.",
+      "exampleTranslation": "سیستم در ۱۹۹۸ اجرا شد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "ist erweitert worden",
+      "type": "Chunk",
+      "meaning": "گسترش داده شده است",
+      "pronunciation": null,
+      "example": "Das Netz ist erweitert worden.",
+      "exampleTranslation": "شبکه گسترش داده شده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "um ... zu",
+      "type": "Chunk",
+      "meaning": "برای اینکه",
+      "pronunciation": null,
+      "example": "Wir sparen Wasser, um Ressourcen zu schützen.",
+      "exampleTranslation": "برای حفاظت منابع آب ذخیره می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "damit",
+      "type": "Word",
+      "meaning": "تا اینکه",
+      "pronunciation": null,
+      "example": "Die Stadt investiert, damit der Verbrauch sinkt.",
+      "exampleTranslation": "شهر سرمایه‌گذاری می‌کند تا مصرف کاهش یابد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "anstatt ... zu",
+      "type": "Chunk",
+      "meaning": "به‌جای اینکه",
+      "pronunciation": null,
+      "example": "Wir renovieren, anstatt alles abzureißen.",
+      "exampleTranslation": "به‌جای تخریب همه‌چیز بازسازی می‌کنیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "ohne ... zu",
+      "type": "Chunk",
+      "meaning": "بدون اینکه",
+      "pronunciation": null,
+      "example": "Man kann nicht planen, ohne Daten zu prüfen.",
+      "exampleTranslation": "بدون بررسی داده نمی‌توان برنامه ریخت.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "zur Folge haben",
+      "type": "Chunk",
+      "meaning": "پیامد داشتن",
+      "pronunciation": null,
+      "example": "Die Maßnahme hätte niedrigere Kosten zur Folge.",
+      "exampleTranslation": "اقدام باعث هزینهٔ کمتر می‌شود.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "die Entwicklung",
+      "type": "Chunk",
+      "meaning": "تحول",
+      "pronunciation": null,
+      "example": "Der Artikel beschreibt eine historische Entwicklung.",
+      "exampleTranslation": "مقاله تحولی تاریخی را شرح می‌دهد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "erneuerbare Energie",
+      "type": "Chunk",
+      "meaning": "انرژی تجدیدپذیر",
+      "pronunciation": null,
+      "example": "Erneuerbare Energie soll stärker genutzt werden.",
+      "exampleTranslation": "باید بیشتر از انرژی تجدیدپذیر استفاده شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "eine Lösung verteidigen",
+      "type": "Chunk",
+      "meaning": "از راه‌حل دفاع کردن",
+      "pronunciation": null,
+      "example": "Sie verteidigt die Lösung mit Daten.",
+      "exampleTranslation": "او با داده از راه‌حل دفاع می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

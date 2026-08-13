@@ -9,12 +9,20 @@
   "description": "یک شروع کوتاه برای آشنایی با حروف آلمانی، صداهای مهم و هجی‌کردن نام؛ این درس پایه است و جزو ۱۲ درس اصلی A1 شمرده نمی‌شود.",
   "estimatedDurationMinutes": 18,
   "status": "foundation",
-  "mainSituation": "Spelling a name clearly at the beginning of a course",
+  "mainSituation": "هجی‌کردن روشن و دقیق نام در آغاز یک دورهٔ آموزشی",
   "canDoObjectives": [
-    "Recognize the German alphabet and selected high-value sound patterns.",
-    "Ask how a name is written and spell a short name clearly."
+    "حروف الفبای آلمانی و چند الگوی صوتی مهم را تشخیص بدهی.",
+    "بپرسی یک نام چگونه نوشته می‌شود و یک نام کوتاه را روشن هجی کنی."
   ],
-  "sectionOrder": ["vocabulary", "listening", "speaking", "reading", "writing", "grammar", "final-practice"],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
   "audio": {
     "status": "browser-tts",
     "assetUrl": null,
@@ -22,90 +30,282 @@
   },
   "activities": [
     {
-      "key": "why-it-matters", "type": "introduction", "kind": "Instruction", "section": "vocabulary",
-      "prompt": "در آلمانی معمولاً نام‌ها، آدرس‌ها و واژه‌های ناآشنا را هجی می‌کنند. در این درس قرار نیست همهٔ آواشناسی را یاد بگیری؛ فقط پایه‌ای می‌سازی تا بهتر بشنوی، بخوانی و نامت را روشن بگویی.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "key": "why-it-matters",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nیک شروع کوتاه برای آشنایی با حروف آلمانی، صداهای مهم و هجی‌کردن نام؛ این درس پایه است و جزو ۱۲ درس اصلی A1 شمرده نمی‌شود.\n\n• حروف الفبای آلمانی و چند الگوی صوتی مهم را تشخیص بدهی.\n• بپرسی یک نام چگونه نوشته می‌شود و یک نام کوتاه را روشن هجی کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "alphabet-overview", "type": "alphabet-overview", "kind": "Instruction", "section": "reading",
+      "key": "alphabet-overview",
+      "type": "alphabet-overview",
+      "kind": "Instruction",
+      "section": "reading",
       "prompt": "الفبای پایهٔ آلمانی ۲۶ حرف دارد:\nA B C D E F G H I J K L M\nN O P Q R S T U V W X Y Z\n\nچهار نویسهٔ مهم دیگر نیز زیاد دیده می‌شوند: Ä Ö Ü ß.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "selected-letters", "type": "pronunciation-teaching", "kind": "Instruction", "section": "listening",
+      "key": "selected-letters",
+      "type": "pronunciation-teaching",
+      "kind": "Instruction",
+      "section": "listening",
       "prompt": "چند نام حرف مهم را گوش کن و تکرار کن:\nA — a\nE — e\nI — i\nJ — jot\nV — vau\nW — we\nZ — zett\n\nاز دکمهٔ پخش رایگان برای شنیدن متن آلمانی استفاده کن.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "umlauts-esszett", "type": "pronunciation-teaching", "kind": "Instruction", "section": "vocabulary",
+      "key": "umlauts-esszett",
+      "type": "pronunciation-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
       "prompt": "Ä، Ö و Ü حروف دارای Umlaut هستند و صدای متفاوتی از A، O و U دارند. ß را Eszett می‌نامند و در بسیاری از واژه‌ها صدایی مانند s دارد. فعلاً تشخیص شکل و نام آن‌ها کافی است.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "sound-patterns-one", "type": "pronunciation-teaching", "kind": "Instruction", "section": "grammar",
+      "key": "sound-patterns-one",
+      "type": "pronunciation-teaching",
+      "kind": "Instruction",
+      "section": "grammar",
       "prompt": "الگوهای پرکاربرد:\nsch → مانند صدای «ش»: Schule\nei → تقریباً «آی»: mein\nie → کشیده شبیه «ای»: Wien\neu / äu → تقریباً «اُی»: Deutsch, Häuser\n\nاین‌ها الگوهای خواندن‌اند، نه یک درس کامل آواشناسی.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "sound-patterns-two", "type": "pronunciation-teaching", "kind": "Instruction", "section": "grammar",
+      "key": "sound-patterns-two",
+      "type": "pronunciation-teaching",
+      "kind": "Instruction",
+      "section": "grammar",
       "prompt": "چند الگوی دیگر:\nz → معمولاً «تس»: zehn\nw → معمولاً نزدیک «و» در واژهٔ Wasser\nv → گاهی «ف» مانند Vater و در بعضی وام‌واژه‌ها «و»\nj → مانند «ی»: ja\nch → صدایش به واژه بستگی دارد؛ فعلاً تفاوت آن را در ich و Buch فقط بشنو.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "recognition", "type": "multiple-choice", "kind": "Exercise", "section": "listening",
+      "key": "recognition",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
       "prompt": "کدام ترکیب در واژهٔ Schule صدایی شبیه «ش» می‌سازد؟",
-      "correctAnswer": "sch", "options": ["sch", "ei", "z"],
-      "correctFeedback": "درست است؛ Schule با sch شروع می‌شود.", "incorrectFeedback": "ابتدای Schule را دوباره نگاه کن: sch."
+      "correctAnswer": "sch",
+      "options": [
+        "sch",
+        "ei",
+        "z"
+      ],
+      "correctFeedback": "درست است؛ Schule با sch شروع می‌شود.",
+      "incorrectFeedback": "ابتدای Schule را دوباره نگاه کن: sch."
     },
     {
-      "key": "spelling-language", "type": "dialogue", "kind": "Instruction", "section": "speaking",
+      "key": "spelling-language",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "speaking",
       "prompt": "برای درخواست هجی:\nWie schreibt man das? = آن را چطور می‌نویسند؟\nBuchstabieren Sie bitte. = لطفاً هجی کنید.\n\nپاسخ نمونه:\nMina: M – I – N – A.",
-      "correctAnswer": null, "options": null, "correctFeedback": null, "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
     },
     {
-      "key": "controlled-spelling", "type": "speaking", "kind": "Exercise", "section": "speaking",
+      "key": "controlled-spelling",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
       "prompt": "نام NIMA را یک بار حرف‌به‌حرف با صدای بلند بگو: N – I – M – A. سپس همین کار را با نام خودت انجام بده.",
-      "correctAnswer": null, "options": null,
-      "correctFeedback": "نام را حرف‌به‌حرف گفتی.", "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "نام را حرف‌به‌حرف گفتی.",
+      "incorrectFeedback": null
     },
     {
-      "key": "reading-recognition", "type": "multiple-choice", "kind": "Exercise", "section": "reading",
+      "key": "reading-recognition",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
       "prompt": "کدام واژه الگوی ie دارد؟",
-      "correctAnswer": "Wien", "options": ["Wien", "mein", "zehn"],
-      "correctFeedback": "درست است؛ Wien دارای ie است.", "incorrectFeedback": "به ترتیب حروف i و e در Wien توجه کن."
+      "correctAnswer": "Wien",
+      "options": [
+        "Wien",
+        "mein",
+        "zehn"
+      ],
+      "correctFeedback": "درست است؛ Wien دارای ie است.",
+      "incorrectFeedback": "به ترتیب حروف i و e در Wien توجه کن."
     },
     {
-      "key": "write-spelling", "type": "writing", "kind": "Exercise", "section": "writing",
+      "key": "write-spelling",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
       "prompt": "نام خودت یا یک نام فرضی کوتاه را بنویس و زیر آن شکل هجی‌شده را با خط تیره ثبت کن. نمونه: MINA → M – I – N – A.",
-      "correctAnswer": null, "options": null,
-      "correctFeedback": "نام و شکل هجی‌شده را ثبت کردی.", "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "نام و شکل هجی‌شده را ثبت کردی.",
+      "incorrectFeedback": null
     },
     {
-      "key": "quick-review", "type": "multiple-choice", "kind": "Exercise", "section": "grammar",
+      "key": "quick-review",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
       "prompt": "کدام عبارت درخواست مؤدبانه برای هجی‌کردن است؟",
       "correctAnswer": "Buchstabieren Sie bitte.",
-      "options": ["Buchstabieren Sie bitte.", "Wo wohnst du?", "Guten Abend!"],
+      "options": [
+        "Buchstabieren Sie bitte.",
+        "Wo wohnst du?",
+        "Guten Abend!"
+      ],
       "correctFeedback": "درست است؛ این عبارت یعنی «لطفاً هجی کنید». ",
       "incorrectFeedback": "در عبارت درست واژهٔ Buchstabieren دیده می‌شود."
     },
     {
-      "key": "final-mini-task", "type": "final-task", "kind": "Exercise", "section": "final-practice",
+      "key": "final-mini-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
       "prompt": "تمرین نهایی کوتاه:\n۱) بگو: Ich heiße ...\n۲) طرف مقابل می‌پرسد: Wie schreibt man das?\n۳) نامت را حرف‌به‌حرف هجی کن.\n۴) یکی از الگوهای sch / ei / ie / eu / z / w / v / j را در یک واژه پیدا کن.\n\nمعیار موفقیت: نام قابل‌فهم باشد، حروف به ترتیب گفته شوند و یک الگوی صدا درست تشخیص داده شود.",
-      "correctAnswer": null, "options": null,
-      "correctFeedback": "پایهٔ الفبا و هجی‌کردن را کامل کردی.", "incorrectFeedback": null
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پایهٔ الفبا و هجی‌کردن را کامل کردی.",
+      "incorrectFeedback": null
     }
   ],
   "vocabulary": [
-    { "key": "alphabet", "target": "das Alphabet", "type": "Word", "meaning": "الفبا", "pronunciation": null, "example": "Das ist das deutsche Alphabet.", "exampleTranslation": "این الفبای آلمانی است.", "note": null, "classification": "receptive" },
-    { "key": "buchstabieren", "target": "buchstabieren", "type": "Word", "meaning": "هجی‌کردن", "pronunciation": null, "example": "Ich buchstabiere meinen Namen.", "exampleTranslation": "من نامم را هجی می‌کنم.", "note": null, "classification": "active" },
-    { "key": "request-spelling", "target": "Buchstabieren Sie bitte.", "type": "Chunk", "meaning": "لطفاً هجی کنید.", "pronunciation": null, "example": "Buchstabieren Sie bitte Ihren Namen.", "exampleTranslation": "لطفاً نامتان را هجی کنید.", "note": "درخواست مؤدبانه", "classification": "active" },
-    { "key": "how-written", "target": "Wie schreibt man das?", "type": "Chunk", "meaning": "آن را چطور می‌نویسند؟", "pronunciation": null, "example": "Wie schreibt man das: Wien?", "exampleTranslation": "وین را چطور می‌نویسند؟", "note": null, "classification": "active" },
-    { "key": "umlaut", "target": "der Umlaut", "type": "Word", "meaning": "اوملاوت؛ نشانهٔ دو نقطه روی واکه", "pronunciation": null, "example": "Ä ist ein Umlaut.", "exampleTranslation": "Ä یک اوملاوت است.", "note": null, "classification": "receptive" },
-    { "key": "esszett", "target": "das Eszett", "type": "Word", "meaning": "نام حرف ß", "pronunciation": null, "example": "ß heißt Eszett.", "exampleTranslation": "نام ß اس‌تست است.", "note": null, "classification": "receptive" },
-    { "key": "letter", "target": "der Buchstabe", "type": "Word", "meaning": "حرف الفبا", "pronunciation": null, "example": "A ist ein Buchstabe.", "exampleTranslation": "A یک حرف است.", "note": null, "classification": "active" },
-    { "key": "name", "target": "der Name", "type": "Word", "meaning": "نام", "pronunciation": null, "example": "Mein Name ist Mina.", "exampleTranslation": "نام من مینا است.", "note": null, "classification": "active" },
-    { "key": "sch", "target": "sch", "type": "Expression", "meaning": "الگوی نوشتاری با صدایی شبیه ش", "pronunciation": null, "example": "Schule beginnt mit sch.", "exampleTranslation": "واژهٔ Schule با sch شروع می‌شود.", "note": null, "classification": "receptive" },
-    { "key": "ei", "target": "ei", "type": "Expression", "meaning": "الگوی صوتی تقریباً شبیه آی", "pronunciation": null, "example": "Mein hat ei.", "exampleTranslation": "واژهٔ mein دارای ei است.", "note": null, "classification": "receptive" },
-    { "key": "ie", "target": "ie", "type": "Expression", "meaning": "الگوی صوتی کشیده شبیه ای", "pronunciation": null, "example": "Wien hat ie.", "exampleTranslation": "واژهٔ Wien دارای ie است.", "note": null, "classification": "receptive" }
+    {
+      "key": "alphabet",
+      "target": "das Alphabet",
+      "type": "Word",
+      "meaning": "الفبا",
+      "pronunciation": null,
+      "example": "Das ist das deutsche Alphabet.",
+      "exampleTranslation": "این الفبای آلمانی است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "buchstabieren",
+      "target": "buchstabieren",
+      "type": "Word",
+      "meaning": "هجی‌کردن",
+      "pronunciation": null,
+      "example": "Ich buchstabiere meinen Namen.",
+      "exampleTranslation": "من نامم را هجی می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "request-spelling",
+      "target": "Buchstabieren Sie bitte.",
+      "type": "Chunk",
+      "meaning": "لطفاً هجی کنید.",
+      "pronunciation": null,
+      "example": "Buchstabieren Sie bitte Ihren Namen.",
+      "exampleTranslation": "لطفاً نامتان را هجی کنید.",
+      "note": "درخواست مؤدبانه",
+      "classification": "active"
+    },
+    {
+      "key": "how-written",
+      "target": "Wie schreibt man das?",
+      "type": "Chunk",
+      "meaning": "آن را چطور می‌نویسند؟",
+      "pronunciation": null,
+      "example": "Wie schreibt man das: Wien?",
+      "exampleTranslation": "وین را چطور می‌نویسند؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "umlaut",
+      "target": "der Umlaut",
+      "type": "Word",
+      "meaning": "اوملاوت؛ نشانهٔ دو نقطه روی واکه",
+      "pronunciation": null,
+      "example": "Ä ist ein Umlaut.",
+      "exampleTranslation": "Ä یک اوملاوت است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "esszett",
+      "target": "das Eszett",
+      "type": "Word",
+      "meaning": "نام حرف ß",
+      "pronunciation": null,
+      "example": "ß heißt Eszett.",
+      "exampleTranslation": "نام ß اس‌تست است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "letter",
+      "target": "der Buchstabe",
+      "type": "Word",
+      "meaning": "حرف الفبا",
+      "pronunciation": null,
+      "example": "A ist ein Buchstabe.",
+      "exampleTranslation": "A یک حرف است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "name",
+      "target": "der Name",
+      "type": "Word",
+      "meaning": "نام",
+      "pronunciation": null,
+      "example": "Mein Name ist Mina.",
+      "exampleTranslation": "نام من مینا است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "sch",
+      "target": "sch",
+      "type": "Expression",
+      "meaning": "الگوی نوشتاری با صدایی شبیه ش",
+      "pronunciation": null,
+      "example": "Schule beginnt mit sch.",
+      "exampleTranslation": "واژهٔ Schule با sch شروع می‌شود.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "ei",
+      "target": "ei",
+      "type": "Expression",
+      "meaning": "الگوی صوتی تقریباً شبیه آی",
+      "pronunciation": null,
+      "example": "Mein hat ei.",
+      "exampleTranslation": "واژهٔ mein دارای ei است.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "ie",
+      "target": "ie",
+      "type": "Expression",
+      "meaning": "الگوی صوتی کشیده شبیه ای",
+      "pronunciation": null,
+      "example": "Wien hat ie.",
+      "exampleTranslation": "واژهٔ Wien دارای ie است.",
+      "note": null,
+      "classification": "receptive"
+    }
   ]
 }

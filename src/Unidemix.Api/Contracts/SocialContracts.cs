@@ -12,20 +12,26 @@ public sealed record UpdateSocialProfileRequest(
     bool LookingForPartner,
     [MaxLength(100)] string? DisplayName = null,
     [MaxLength(10)] string? LearningLanguageCode = null,
-    [MaxLength(3)] string? CefrLevel = null);
+    [MaxLength(3)] string? CefrLevel = null,
+    [RegularExpression("Public|Private")] string Privacy = "Public");
 
 public sealed record SocialProfileResponse(
-    Guid UserId, string DisplayName, string? ProfilePhotoUrl, string Bio,
+    Guid UserId, string Username, string DisplayName, string? ProfilePhotoUrl, string Bio,
     string NativeLanguageCode, string LearningLanguageCode, string CefrLevel,
     string LearningGoal, string PracticeGoal, string Availability, string? City, Guid? CityId,
     bool LookingForPartner, int PostsCount, int FollowersCount, int FollowingCount,
-    bool IsFollowing, bool IsBlocked);
+    bool IsFollowing, bool IsBlocked, string Privacy, string FollowState);
 
 public sealed record PartnerSummaryResponse(
-    Guid UserId, string DisplayName, string? ProfilePhotoUrl,
+    Guid UserId, string Username, string DisplayName, string? ProfilePhotoUrl,
     string NativeLanguageCode, string LearningLanguageCode, string CefrLevel,
     string LearningGoal, string PracticeGoal, string Availability, string? City, Guid? CityId,
-    string MatchReason, bool IsFollowing);
+    string MatchReason, bool IsFollowing, string Privacy, string FollowState);
+
+public sealed record FollowActionResponse(string State);
+public sealed record FollowRequestResponse(Guid Id, Guid RequesterId, string DisplayName,
+    string? ProfilePhotoUrl, string NativeLanguageCode, string LearningLanguageCode,
+    string CefrLevel, DateTimeOffset CreatedAt);
 
 public sealed record PagedResponse<T>(IReadOnlyList<T> Items, int Page, int PageSize, int TotalCount);
 

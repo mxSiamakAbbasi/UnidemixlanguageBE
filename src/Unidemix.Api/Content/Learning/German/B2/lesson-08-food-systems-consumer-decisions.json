@@ -1,0 +1,639 @@
+{
+  "contentKey": "de-b2-core-lesson-08",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 8,
+  "courseSlug": "german-b2-core",
+  "title": "Food Systems and Consumer Decisions",
+  "localizedTitle": "نظام غذایی و تصمیم مصرف‌کننده",
+  "description": "ادعاهای مصرفی و بیان دقیق ? بیان دقیقها را ارزیابی و توصیه‌ای مشروط و مسئولانه ارائه می‌کنی.",
+  "estimatedDurationMinutes": 225,
+  "status": "production",
+  "mainSituation": "انتخاب یک سیاست یا خرید غذایی مسئولانه",
+  "canDoObjectives": [
+    "ادعاهای مصرفی و بیان دقیق ? بیان دقیقهای یک انتخاب را بر اساس معیار روشن ارزیابی کنی.",
+    "شرط، concession و consequence را در استدلالی ساختارمند توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «نظام غذایی و تصمیم مصرف‌کننده» خوش آمدی. در این بخش، زبان B2 را برای تحلیل، ارتباط حرفه‌ای و بیان دقیق منصفانه به‌کار می‌بری.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: انتخاب یک سیاست یا خرید غذایی مسئولانه. موضع، بیان دقیق، شاهد، محدودیت، بیان دقیق و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Kundin: Auf dem Etikett steht, das Produkt soll besonders nachhaltig sein.\nExperte: Diese Angabe beruht nur auf der Verpackung. Entscheidend ist die gesamte Herstellung.\nKundin: Würden Sie es trotzdem empfehlen?\nExperte: Nur unter der Voraussetzung, dass Herkunft und Produktionsweise nachvollziehbar sind.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Angaben zufolge soll ... = طبق اطلاعات گفته می‌شود...\nAngaben zufolge soll das Produkt klimaneutral sein. = طبق اطلاعات گفته می‌شود محصول خنثی از کربن است.\n\nunter der Voraussetzung, dass = به شرط اینکه\nIch empfehle es unter der Voraussetzung, dass die Daten geprüft sind. = به شرط بررسی داده‌ها آن را توصیه می‌کنم.\n\neine Entscheidung abwägen = تصمیمی را سبک‌سنگین کردن\nWir wägen die Entscheidung sorgfältig ab. = تصمیم را با دقت می‌سنجیم.\n\ndie Kennzeichnung = برچسب‌گذاری\nDie Kennzeichnung muss verständlich sein. = برچسب‌گذاری باید قابل فهم باشد.\n\nnachvollziehbare Herkunft = منشأ قابل پیگیری\nDas Produkt hat eine nachvollziehbare Herkunft. = محصول منشأ قابل پیگیری دارد.\n\neine Angabe überprüfen = اطلاعاتی را بررسی کردن\nDie Angabe lässt sich nicht überprüfen. = اطلاعات قابل بررسی نیست.\n\neinen Zielkonflikt erkennen = تعارض هدف را شناختن\nWir müssen den Zielkonflikt erkennen. = باید تعارض هدف را بشناسیم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضوع مناسب‌تر است؟",
+      "correctAnswer": "Angaben zufolge soll ...",
+      "options": [
+        "Angaben zufolge soll ...",
+        "unter der Voraussetzung, dass",
+        "eine Entscheidung abwägen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و بیان دقیق موضع‌ها را دنبال کن؛ بار دوم ادعا، شاهد، بیان دقیق، بیان دقیق و بیان دقیق را یادداشت کن. متن ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer Radiosendung vergleichen eine Verbraucherin, ein Produzent und eine Expertin drei Lebensmittelkennzeichnungen. Der Produzent erklärt, sein neues Label soll einfache Orientierung bieten. Die Expertin wendet ein, dass wichtige Kriterien freiwillig bleiben. Selbst wenn ein Produkt regional hergestellt wird, könne die Produktion ressourcenintensiv sein. Alle einigen sich darauf, dass verständliche und überprüfbare Angaben wichtiger sind als auffällige Werbebegriffe.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "بازسازی و ارزیابی چند موضع یا راه‌حل",
+      "options": [
+        "فقط معرفی واژه",
+        "بازسازی و ارزیابی چند موضع یا راه‌حل",
+        "خواندن عددها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت تحلیل را پشتیبانی می‌کند؟",
+      "correctAnswer": "گوینده → موضع → شاهد → محدودیت",
+      "options": [
+        "فقط نام",
+        "گوینده → موضع → شاهد → محدودیت",
+        "فقط جمله آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "فاصلهٔ گوینده از ادعا چگونه روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق و میزان قطعیت",
+      "options": [
+        "فقط بلندی صدا",
+        "از بیان دقیق و میزان قطعیت",
+        "از طول نام"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را برای هدف، موضع، نوع شاهد، بیان دقیق و خلأ اطلاعاتی بخوان و سپس بیان دقیق منصفانه بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ANBIETERINFORMATION\nUnser Produkt soll laut interner Berechnung 30 Prozent weniger Emissionen verursachen. Die Rohstoffe stammen überwiegend aus der Region, und die Verpackung ist vollständig recycelbar. Durch den Kauf unterstützen Kundinnen und Kunden lokale Betriebe. Einzelheiten zur Berechnung werden auf Anfrage bereitgestellt.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "VERBRAUCHERPRÜFUNG\nDie regionale Herkunft ist nachvollziehbar, doch die behauptete Emissionsminderung lässt sich mit den veröffentlichten Angaben nicht prüfen. Zudem sagt eine recycelbare Verpackung nichts über tatsächliche Recyclingquoten aus. Das Produkt kann eine verantwortliche Option sein, sofern Preis, Produktionsweise und unabhängige Daten gemeinsam berücksichtigt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ منصفانه چه کاری می‌کند؟",
+      "correctAnswer": "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+      "options": [
+        "یکی را حذف می‌کند",
+        "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+        "فقط واژه‌های مشابه را می‌شمارد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که برای «ادعاهای مصرفی و بیان دقیق ? بیان دقیقهای یک انتخاب را بر اساس معیار روشن ارزیابی کنی.» و بیان دقیق در بیان دقیق استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "sollen در کاربرد subjective گزارشی را منتقل می‌کند که گوینده تأییدش نکرده است: Angaben zufolge soll das Produkt klimaneutral sein. اسم‌سازی مانند die Herstellung، die Kennzeichnung و der Verbrauch در بیان دقیق رسمی مفید است، اما باید خوانا بماند. روابط شرطی و concession با sofern، vorausgesetzt dass، selbst wenn و obwohl دقیق‌تر می‌شوند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله دقیق و منسجم است؟",
+      "correctAnswer": "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+      "options": [
+        "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+        "Während Quelle A Zugang, Quelle B Risiken weist.",
+        "Quelle A während betont Quelle B."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام عبارت بیان دقیق را مسئولانه محدود می‌کند؟",
+      "correctAnswer": "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+      "options": [
+        "Die Angaben beweisen alles.",
+        "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+        "Angaben Empfehlung immer."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر بیان دقیق، بیان دقیق، بیان دقیق و بیان دقیق تحلیل کن:\nAngaben der Anbieterin zufolge soll das Produkt deutlich weniger Emissionen verursachen. Diese Behauptung ist jedoch nicht unabhängig überprüfbar. Die regionale Herkunft spricht für das Produkt, während Preis und unklare Berechnung dagegen sprechen. Ich würde es unter der Voraussetzung empfehlen, dass detaillierte Produktionsdaten veröffentlicht werden. Selbst wenn die Verpackung recycelbar ist, sollte außerdem der tatsächliche Materialverbrauch berücksichtigt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «انتخاب یک سیاست یا خرید غذایی مسئولانه» یک پاسخ ۱۰ تا ۱۳ جمله‌ای ارائه کن: بیان دقیق، موضع، شاهد، limitation و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو منبع یا گزینه را شفاهی synthesize کن، از موضع خود دفاع کن و به دو پرسش انتقادی با بیان دقیق مناسب پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nAngaben der Anbieterin zufolge soll das Produkt deutlich weniger Emissionen verursachen. Diese Behauptung ist jedoch nicht unabhängig überprüfbar. Die regionale Herkunft spricht für das Produkt, während Preis und unklare Berechnung dagegen sprechen. Ich würde es unter der Voraussetzung empfehlen, dass detaillierte Produktionsdaten veröffentlicht werden. Selbst wenn die Verpackung recycelbar ist, sollte außerdem der tatsächliche Materialverbrauch berücksichtigt werden.\n\nساختار، بیان دقیق و بیان دقیق را تحلیل کن و سپس متن مستقل خودت را بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۵ تا ۱۹ جمله‌ای در دو یا سه بند بنویس: خلاصهٔ منصفانه، مقایسه، شاهد، بیان دقیق، بیان دقیق و بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "دو بیان دقیق و دو منبع را با بیان دقیق مقایسه کن، بیان دقیق را از بیان دقیق جدا کن و بیان دقیق مشروط همراه با بیان دقیق ? بیان دقیقها ارائه بده.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق دقیق، بیان دقیق مناسب، موضع مستدل و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق منصفانه می‌سازد؟",
+      "correctAnswer": "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+      "options": [
+        "Beide gleich.",
+        "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+        "Quelle Begründung jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Angaben zufolge soll ...» چیست؟",
+      "correctAnswer": "طبق اطلاعات گفته می‌شود...",
+      "options": [
+        "طبق اطلاعات گفته می‌شود...",
+        "به شرط اینکه",
+        "تصمیمی را سبک‌سنگین کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی نباید تحریف شود؟",
+      "correctAnswer": "نسبت هر ادعا با گوینده و شاهد",
+      "options": [
+        "طول متن",
+        "نسبت هر ادعا با گوینده و شاهد",
+        "شماره صفحه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق چه چیزی را روشن می‌کند؟",
+      "correctAnswer": "اینکه هر موضع متعلق به چه کسی است",
+      "options": [
+        "فقط زمان",
+        "اینکه هر موضع متعلق به چه کسی است",
+        "فقط مکان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای گزارش بی‌طرف مناسب‌تر است؟",
+      "correctAnswer": "Die Quelle vertritt die Auffassung, dass ...",
+      "options": [
+        "Die spinnen doch.",
+        "Die Quelle vertritt die Auffassung, dass ...",
+        "Das ist Quatsch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله contrast روشن دارد؟",
+      "correctAnswer": "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+      "options": [
+        "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+        "Während flexibel zweite Sicherheit.",
+        "Option während zweite."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «نظام غذایی و تصمیم مصرف‌کننده» مرتبط است؟",
+      "correctAnswer": "die Kennzeichnung",
+      "options": [
+        "die Kennzeichnung",
+        "nachvollziehbare Herkunft",
+        "eine Angabe überprüfen"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "interpretation معتبر چگونه است؟",
+      "correctAnswer": "محتاطانه و متکی به چند بیان دقیق متن",
+      "options": [
+        "قطعی و بدون شاهد",
+        "محتاطانه و متکی به چند بیان دقیق متن",
+        "فقط تکرار عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت uncertainty را نشان می‌دهد؟",
+      "correctAnswer": "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+      "options": [
+        "Das ist sicher immer so.",
+        "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+        "Alle wissen es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را شروع می‌کند؟",
+      "correctAnswer": "Insgesamt lässt sich daraus ableiten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Insgesamt lässt sich daraus ableiten, dass ...",
+        "Im ersten Satz ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «einen Zielkonflikt erkennen» چیست؟",
+      "correctAnswer": "تعارض هدف را شناختن",
+      "options": [
+        "تعارض هدف را شناختن",
+        "پرمصرف از نظر منابع",
+        "حتی اگر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر بیان دقیق متفاوت باشد چه باید کرد؟",
+      "correctAnswer": "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+      "options": [
+        "هر دو قطعی اعلام شوند",
+        "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+        "شاهد حذف شود"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "در پاسخ به بیان دقیق چه چیزی لازم است؟",
+      "correctAnswer": "پذیرش بخش معتبر و دفاع مستدل",
+      "options": [
+        "نادیده گرفتن",
+        "پذیرش بخش معتبر و دفاع مستدل",
+        "تکرار موضع"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق مناسب B2 چگونه انتخاب می‌شود؟",
+      "correctAnswer": "با توجه به مخاطب، هدف و بیان دقیق",
+      "options": [
+        "همیشه بسیار دانشگاهی",
+        "با توجه به مخاطب، هدف و بیان دقیق",
+        "همیشه محاوره‌ای"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "C1 nominal density",
+    "Advanced hedging"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "Angaben zufolge soll ...",
+      "type": "Chunk",
+      "meaning": "طبق اطلاعات گفته می‌شود...",
+      "pronunciation": null,
+      "example": "Angaben zufolge soll das Produkt klimaneutral sein.",
+      "exampleTranslation": "طبق اطلاعات گفته می‌شود محصول خنثی از کربن است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "unter der Voraussetzung, dass",
+      "type": "Chunk",
+      "meaning": "به شرط اینکه",
+      "pronunciation": null,
+      "example": "Ich empfehle es unter der Voraussetzung, dass die Daten geprüft sind.",
+      "exampleTranslation": "به شرط بررسی داده‌ها آن را توصیه می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "eine Entscheidung abwägen",
+      "type": "Chunk",
+      "meaning": "تصمیمی را سبک‌سنگین کردن",
+      "pronunciation": null,
+      "example": "Wir wägen die Entscheidung sorgfältig ab.",
+      "exampleTranslation": "تصمیم را با دقت می‌سنجیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "die Kennzeichnung",
+      "type": "Chunk",
+      "meaning": "برچسب‌گذاری",
+      "pronunciation": null,
+      "example": "Die Kennzeichnung muss verständlich sein.",
+      "exampleTranslation": "برچسب‌گذاری باید قابل فهم باشد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "nachvollziehbare Herkunft",
+      "type": "Chunk",
+      "meaning": "منشأ قابل پیگیری",
+      "pronunciation": null,
+      "example": "Das Produkt hat eine nachvollziehbare Herkunft.",
+      "exampleTranslation": "محصول منشأ قابل پیگیری دارد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "eine Angabe überprüfen",
+      "type": "Chunk",
+      "meaning": "اطلاعاتی را بررسی کردن",
+      "pronunciation": null,
+      "example": "Die Angabe lässt sich nicht überprüfen.",
+      "exampleTranslation": "اطلاعات قابل بررسی نیست.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "einen Zielkonflikt erkennen",
+      "type": "Chunk",
+      "meaning": "تعارض هدف را شناختن",
+      "pronunciation": null,
+      "example": "Wir müssen den Zielkonflikt erkennen.",
+      "exampleTranslation": "باید تعارض هدف را بشناسیم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "ressourcenintensiv",
+      "type": "Word",
+      "meaning": "پرمصرف از نظر منابع",
+      "pronunciation": null,
+      "example": "Die Produktion ist ressourcenintensiv.",
+      "exampleTranslation": "تولید منابع زیادی مصرف می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "selbst wenn",
+      "type": "Chunk",
+      "meaning": "حتی اگر",
+      "pronunciation": null,
+      "example": "Selbst wenn es regional ist, kann es teuer sein.",
+      "exampleTranslation": "حتی اگر محلی باشد ممکن است گران باشد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "eine verantwortliche Option",
+      "type": "Chunk",
+      "meaning": "گزینه‌ای مسئولانه",
+      "pronunciation": null,
+      "example": "Das kann eine verantwortliche Option sein.",
+      "exampleTranslation": "این می‌تواند گزینه‌ای مسئولانه باشد.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

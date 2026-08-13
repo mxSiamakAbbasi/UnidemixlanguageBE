@@ -1,0 +1,585 @@
+{
+  "contentKey": "de-b1-core-lesson-06",
+  "language": "de",
+  "cefr": "B1",
+  "lessonNumber": 6,
+  "courseSlug": "german-b1-core",
+  "title": "Advice, Strengths, and Career Direction",
+  "localizedTitle": "مشاوره، توانمندی‌ها و مسیر شغلی",
+  "description": "گفت‌وگوی مشاوره را هدایت می‌کنی و انتخاب شغلی را با شواهد توضیح می‌دهی.",
+  "estimatedDurationMinutes": 180,
+  "status": "production",
+  "mainSituation": "جلسهٔ راهنمایی برای انتخاب مسیر شغلی",
+  "canDoObjectives": [
+    "یک گفت‌وگوی مشاورهٔ ساختارمند انجام بدهی و نیاز را روشن کنی.",
+    "توانمندی‌ها، ضعف‌ها و ترجیح شغلی را با دلیل توضیح بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «مشاوره، توانمندی‌ها و مسیر شغلی» خوش آمدی. در این درس از پایه‌های A2 استفاده می‌کنی و با استقلال بیشتر، ایده‌ها را به هم پیوند می‌دهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "situation",
+      "type": "dialogue-context",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت اصلی: جلسهٔ راهنمایی برای انتخاب مسیر شغلی. ابتدا ورودی را برای پیام کلی بخوان؛ سپس شواهد، پیوندها و لحن را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Beraterin: Was fällt dir bei der Arbeit leicht?\nArman: Es fällt mir leicht, technische Probleme zu erklären. Vor großen Gruppen zu sprechen, finde ich aber schwierig.\nBeraterin: Ich rate dir, vor der Bewerbung ein Praktikum zu machen.\nArman: Das klingt sinnvoll, da ich den Beruf noch nicht genau kenne.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Es fällt mir leicht, ... = برایم آسان است که...\nEs fällt mir leicht, zuzuhören. = گوش‌دادن برایم آسان است.\n\nEs fällt mir schwer, ... = برایم دشوار است که...\nEs fällt mir schwer, Nein zu sagen. = نه گفتن برایم دشوار است.\n\njemandem raten, ... zu ... = به کسی توصیه کردن\nIch rate dir, ein Praktikum zu machen. = توصیه می‌کنم کارآموزی انجام بدهی.\n\ndie Stärke = نقطهٔ قوت\nGeduld ist eine Stärke von ihr. = صبوری یکی از نقاط قوت اوست.\n\ndie Schwäche = نقطهٔ ضعف\nSie arbeitet an dieser Schwäche. = او روی این ضعف کار می‌کند.\n\nbevor = پیش از اینکه\nBevor du entscheidest, informiere dich. = پیش از تصمیم‌گیری اطلاعات بگیر.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت از ابزارهای کلیدی همین موقعیت است؟",
+      "correctAnswer": "Es fällt mir leicht, ...",
+      "options": [
+        "Es fällt mir leicht, ...",
+        "Es fällt mir schwer, ...",
+        "jemandem raten, ... zu ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول برای موضوع و موضع گوینده گوش کن. بار دوم ترتیب، دلیل، نتیجه و جزئیات پشتیبان را یادداشت کن. متن تا زمان مناسب پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Eine Berufsberaterin spricht mit Jana. Jana arbeitet gern mit Menschen, braucht aber Zeit, bevor sie Entscheidungen trifft. Während eines Schulprojekts organisierte sie Termine und löste Konflikte ruhig. Die Beraterin empfiehlt ihr, Berufe im Projektmanagement zu prüfen und zunächst einen Praxistag zu vereinbaren. Jana soll danach notieren, welche Aufgaben ihr Energie geben.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی فایل شنیداری چیست؟",
+      "correctAnswer": "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+      "options": [
+        "فقط فهرست‌کردن واژه‌ها",
+        "توضیح موقعیت و ارائهٔ دلیل یا راه‌حل",
+        "خواندن یک آدرس بدون زمینه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "برای پاسخ دقیق باید به چه چیزی توجه کنی؟",
+      "correctAnswer": "رابطهٔ رویداد، دلیل و نتیجه",
+      "options": [
+        "فقط نام افراد",
+        "رابطهٔ رویداد، دلیل و نتیجه",
+        "فقط آخرین واژه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "متن را یک‌بار برای ساختار کلی و بار دوم برای هدف نویسنده، شواهد، ترتیب و نتیجه بخوان.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "STÄRKENPROFIL\nDu erklärst komplexe Inhalte verständlich und hörst anderen aufmerksam zu. Unter Zeitdruck bleibst du meistens ruhig. Es fällt dir jedoch schwer, Aufgaben abzugeben. Geeignete Richtungen könnten Beratung, Projektkoordination oder Training sein. Bevor du dich entscheidest, solltest du zwei Berufsfelder praktisch kennenlernen und deine Beobachtungen vergleichen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "کدام روش بهترین برداشت از متن است؟",
+      "correctAnswer": "ترکیب پیام اصلی با شواهد مشخص",
+      "options": [
+        "انتخاب یک واژهٔ جدا",
+        "ترکیب پیام اصلی با شواهد مشخص",
+        "نادیده‌گرفتن نتیجه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در ورودی‌های درس به ساختارهایی توجه کن که برای «یک گفت‌وگوی مشاورهٔ ساختارمند انجام بدهی و نیاز را روشن کنی.» و پیوند روشن ایده‌ها استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "پس از فعل‌ها و عبارت‌های بسیاری مصدر با zu می‌آید: Ich versuche, ruhig zu bleiben. Ich rate dir, ein Praktikum zu machen. bevor ترتیب زمانی، während هم‌زمانی و da علت شناخته‌شده را بیان می‌کنند؛ فعل در جملهٔ وابسته پایان می‌آید.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله از نظر پیوند و ساختار مناسب‌تر است؟",
+      "correctAnswer": "Obwohl es schwierig war, fand das Team eine Lösung.",
+      "options": [
+        "Obwohl es schwierig war, fand das Team eine Lösung.",
+        "Obwohl war es schwierig, das Team eine Lösung fand.",
+        "Es schwierig obwohl, fand Lösung Team."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام پاسخ دلیل و نتیجه را روشن‌تر به هم وصل می‌کند؟",
+      "correctAnswer": "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+      "options": [
+        "Ich empfehle. Lösung praktisch.",
+        "Ich empfehle diese Lösung, weil sie praktisch und nachvollziehbar ist.",
+        "Weil praktisch diese Lösung ich empfehle."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل کوتاه را بررسی کن و به ترتیب ایده، شاهد و جمع‌بندی توجه کن:\nIch empfehle Jana, einen Praxistag im Projektmanagement zu machen. Es fällt ihr leicht, Termine zu organisieren und Konflikte ruhig zu lösen. Da sie Entscheidungen sorgfältig trifft, sollte sie verschiedene Aufgaben beobachten. Bevor sie sich bewirbt, kann sie mit zwei Fachleuten sprechen. Während des Praxistags sollte sie notieren, welche Tätigkeiten zu ihren Stärken passen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "با استفاده از سه عبارت این درس، دربارهٔ «جلسهٔ راهنمایی برای انتخاب مسیر شغلی» یک پاسخ پیوستهٔ ۶ تا ۸ جمله‌ای بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک تجربه یا موقعیت فرضی مرتبط با «مشاوره، توانمندی‌ها و مسیر شغلی» را تعریف کن، دلیل بده، به یک دیدگاه دیگر واکنش نشان بده و جمع‌بندی کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nIch empfehle Jana, einen Praxistag im Projektmanagement zu machen. Es fällt ihr leicht, Termine zu organisieren und Konflikte ruhig zu lösen. Da sie Entscheidungen sorgfältig trifft, sollte sie verschiedene Aufgaben beobachten. Bevor sie sich bewirbt, kann sie mit zwei Fachleuten sprechen. Während des Praxistags sollte sie notieren, welche Tätigkeiten zu ihren Stärken passen.\n\nساختار و پیوندها را الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن پیوستهٔ ۹ تا ۱۲ جمله‌ای بنویس. مقدمه، جزئیات یا شواهد، دلیل/تضاد، نتیجه و جمع‌بندی داشته باشد. از ä ö ü ß Ä Ö Ü در صورت نیاز استفاده کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "برای یک نمایهٔ زبان‌آموز مسیر شغلی پیشنهاد بده: نیاز را روشن کن، سه توانمندی و یک نقطهٔ رشد را با شاهد توضیح بده و یک برنامهٔ سه‌مرحله‌ای ارائه کن.\n\nمعیار موفقیت: انجام هر دو هدف ارتباطی، پیام پیوسته، شواهد کافی، واژگان همین درس و گرامر کنترل‌شدهٔ B1.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با هدف و محتوای درس هماهنگ است.",
+      "incorrectFeedback": "بخش آموزشی و شواهد متن را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله ساختار وابستهٔ درستی دارد؟",
+      "correctAnswer": "Obwohl es regnete, fand das Treffen statt.",
+      "options": [
+        "Obwohl es regnete, fand das Treffen statt.",
+        "Obwohl regnete es, das Treffen stattfand.",
+        "Es regnete obwohl, Treffen statt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Es fällt mir leicht, ...» چیست؟",
+      "correctAnswer": "برایم آسان است که...",
+      "options": [
+        "برایم آسان است که...",
+        "برایم دشوار است که...",
+        "به کسی توصیه کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در خواندن B1 چه چیزی باید همراه پیام اصلی پیدا شود؟",
+      "correctAnswer": "شاهد یا جزئیات پشتیبان",
+      "options": [
+        "فقط یک اسم",
+        "شاهد یا جزئیات پشتیبان",
+        "فقط طول متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "در شنیدار پیوسته چه رابطه‌ای مهم است؟",
+      "correctAnswer": "ترتیب، دلیل و نتیجه",
+      "options": [
+        "فقط تلفظ یک واژه",
+        "ترتیب، دلیل و نتیجه",
+        "فقط عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «مشاوره، توانمندی‌ها و مسیر شغلی» مرتبط است؟",
+      "correctAnswer": "die Stärke",
+      "options": [
+        "die Stärke",
+        "die Schwäche",
+        "bevor"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله دلیل روشنی دارد؟",
+      "correctAnswer": "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+      "options": [
+        "Ich wähle weil Möglichkeit.",
+        "Ich wähle diese Möglichkeit, weil sie zu meinem Ziel passt.",
+        "Weil passt Ziel ich Möglichkeit."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "برای تشخیص موضع گوینده چه چیزی کمک می‌کند؟",
+      "correctAnswer": "دلیل‌ها و واژه‌های ارزیابی",
+      "options": [
+        "فقط نام شهر",
+        "دلیل‌ها و واژه‌های ارزیابی",
+        "شمردن جمله‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "هدف نویسنده چگونه تشخیص داده می‌شود؟",
+      "correctAnswer": "از ساختار، شواهد و نتیجه",
+      "options": [
+        "فقط از نخستین حرف",
+        "از ساختار، شواهد و نتیجه",
+        "بدون خواندن متن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ مناسب «während» چیست؟",
+      "correctAnswer": "در حالی که",
+      "options": [
+        "در حالی که",
+        "از آنجا که",
+        "موضعی را بیان کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام پیوند برای تضاد مناسب است؟",
+      "correctAnswer": "obwohl",
+      "options": [
+        "deshalb",
+        "obwohl",
+        "zuerst"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-11",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "کدام طرح برای پاسخ B1 مناسب‌تر است؟",
+      "correctAnswer": "موضع، دلیل، مثال و جمع‌بندی",
+      "options": [
+        "یک واژهٔ جدا",
+        "موضع، دلیل، مثال و جمع‌بندی",
+        "تکرار پرسش"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    },
+    {
+      "key": "bank-12",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "متن پیوستهٔ B1 چه نیاز دارد؟",
+      "correctAnswer": "بند منظم و پیوند منطقی",
+      "options": [
+        "جمله‌های نامرتبط",
+        "بند منظم و پیوند منطقی",
+        "فقط فهرست واژه‌ها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "ورودی و توضیح مرتبط را دوباره مرور کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Extended infinitive structures",
+    "Nominalized competencies"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "Es fällt mir leicht, ...",
+      "type": "Chunk",
+      "meaning": "برایم آسان است که...",
+      "pronunciation": null,
+      "example": "Es fällt mir leicht, zuzuhören.",
+      "exampleTranslation": "گوش‌دادن برایم آسان است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Es fällt mir schwer, ...",
+      "type": "Chunk",
+      "meaning": "برایم دشوار است که...",
+      "pronunciation": null,
+      "example": "Es fällt mir schwer, Nein zu sagen.",
+      "exampleTranslation": "نه گفتن برایم دشوار است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "jemandem raten, ... zu ...",
+      "type": "Chunk",
+      "meaning": "به کسی توصیه کردن",
+      "pronunciation": null,
+      "example": "Ich rate dir, ein Praktikum zu machen.",
+      "exampleTranslation": "توصیه می‌کنم کارآموزی انجام بدهی.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Stärke",
+      "type": "Chunk",
+      "meaning": "نقطهٔ قوت",
+      "pronunciation": null,
+      "example": "Geduld ist eine Stärke von ihr.",
+      "exampleTranslation": "صبوری یکی از نقاط قوت اوست.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "die Schwäche",
+      "type": "Chunk",
+      "meaning": "نقطهٔ ضعف",
+      "pronunciation": null,
+      "example": "Sie arbeitet an dieser Schwäche.",
+      "exampleTranslation": "او روی این ضعف کار می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "bevor",
+      "type": "Word",
+      "meaning": "پیش از اینکه",
+      "pronunciation": null,
+      "example": "Bevor du entscheidest, informiere dich.",
+      "exampleTranslation": "پیش از تصمیم‌گیری اطلاعات بگیر.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "während",
+      "type": "Word",
+      "meaning": "در حالی که",
+      "pronunciation": null,
+      "example": "Während ich arbeite, lerne ich viel.",
+      "exampleTranslation": "هنگام کار بسیار یاد می‌گیرم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "da",
+      "type": "Word",
+      "meaning": "از آنجا که",
+      "pronunciation": null,
+      "example": "Da er Erfahrung hat, kennt er das Problem.",
+      "exampleTranslation": "از آنجا که تجربه دارد، مشکل را می‌شناسد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "eine Position vertreten",
+      "type": "Chunk",
+      "meaning": "موضعی را بیان کردن",
+      "pronunciation": null,
+      "example": "Sie vertritt ihre Position ruhig.",
+      "exampleTranslation": "او موضعش را آرام بیان می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "Praxiserfahrung sammeln",
+      "type": "Chunk",
+      "meaning": "تجربهٔ عملی کسب کردن",
+      "pronunciation": null,
+      "example": "Ein Praktikum hilft, Praxiserfahrung zu sammeln.",
+      "exampleTranslation": "کارآموزی به کسب تجربهٔ عملی کمک می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

@@ -9,10 +9,10 @@
   "description": "در این درس چند اتفاق آشنای گذشته را با Perfekt تعریف می‌کنی و دربارهٔ تجربهٔ طرف مقابل سؤال‌های ساده می‌پرسی.",
   "estimatedDurationMinutes": 125,
   "status": "production",
-  "mainSituation": "Talking about a weekend or celebration",
+  "mainSituation": "صحبت دربارهٔ آخر هفته یا یک جشن",
   "canDoObjectives": [
-    "Report a small set of completed past events.",
-    "Ask simple follow-up questions about an experience."
+    "چند رویداد تمام‌شده در گذشته را کوتاه و روشن تعریف کنی.",
+    "دربارهٔ یک تجربه پرسش‌های تکمیلی ساده بپرسی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «چه اتفاقی افتاد؟» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Talking about a weekend or celebration. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس چند اتفاق آشنای گذشته را با Perfekt تعریف می‌کنی و دربارهٔ تجربهٔ طرف مقابل سؤال‌های ساده می‌پرسی.\n\n• چند رویداد تمام‌شده در گذشته را کوتاه و روشن تعریف کنی.\n• دربارهٔ یک تجربه پرسش‌های تکمیلی ساده بپرسی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

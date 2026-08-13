@@ -1,0 +1,546 @@
+{
+  "contentKey": "de-a2-core-lesson-11",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 11,
+  "courseSlug": "german-for-real-life",
+  "title": "Education and the Right Job",
+  "localizedTitle": "تحصیل و شغل مناسب",
+  "description": "در این درس دوره‌ها و شغل‌ها را مقایسه می‌کنی، نیازمندی‌ها را می‌فهمی و توضیح می‌دهی چه گزینه‌ای برای یک فرد مناسب است.",
+  "estimatedDurationMinutes": 160,
+  "status": "production",
+  "mainSituation": "مقایسهٔ گزینه‌های آموزشی و شغلی و پیشنهاد مسیر مناسب",
+  "canDoObjectives": [
+    "تحصیلات، مهارت‌ها و نیازمندی‌های یک شغل را توصیف کنی.",
+    "توضیح بدهی کدام نقش برای یک فرد مناسب است و چرا."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس دوره‌ها و شغل‌ها را مقایسه می‌کنی، نیازمندی‌ها را می‌فهمی و توضیح می‌دهی چه گزینه‌ای برای یک فرد مناسب است.\n\n• تحصیلات، مهارت‌ها و نیازمندی‌های یک شغل را توصیف کنی.\n• توضیح بدهی کدام نقش برای یک فرد مناسب است و چرا.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Beraterin: Welche Arbeit suchen Sie?\nSam: Ich suche einen Beruf, der abwechslungsreich ist und Kontakt mit Menschen bietet.\nBeraterin: Hier ist eine Ausbildung, die zwei Jahre dauert.\nSam: Seit wann kann man sich bewerben?\nBeraterin: Seit Anfang Mai. Die Bewerbungsfrist läuft bis Ende Juni.\nSam: Das passt zu mir, weil ich schon Erfahrung im Kundenservice habe.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "die Ausbildung = دورهٔ حرفه‌ای\nDie Ausbildung dauert drei Jahre. = دورهٔ حرفه‌ای سه سال طول می‌کشد.\n\ndie Weiterbildung = دورهٔ تکمیلی حرفه‌ای\nSie macht eine Weiterbildung. = او دورهٔ تکمیلی می‌گذراند.\n\ndie Voraussetzung = پیش‌نیاز\nDeutsch B2 ist eine Voraussetzung. = آلمانی B2 یک پیش‌نیاز است.\n\nabwechslungsreich = متنوع\nDer Beruf ist abwechslungsreich. = شغل متنوع است.\n\nVerantwortung übernehmen = مسئولیت پذیرفتن\nSie möchte Verantwortung übernehmen. = می‌خواهد مسئولیت بپذیرد.\n\nDas passt zu mir. = این مناسب من است.\nDiese Stelle passt zu mir. = این موقعیت مناسب من است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «تحصیل و شغل مناسب» هماهنگ‌تر است؟",
+      "correctAnswer": "abwechslungsreich",
+      "options": [
+        "die Weiterbildung",
+        "abwechslungsreich",
+        "eine Stelle, die ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "AUSBILDUNG: MEDIENKAUFMANN/-FRAU\nWir suchen Menschen, die gern organisieren und sorgfältig arbeiten. Die Ausbildung dauert drei Jahre. Bewerberinnen und Bewerber brauchen einen Schulabschluss und gute Deutschkenntnisse. Während der Ausbildung lernen sie Abteilungen kennen, die Bücher und digitale Medien planen, verkaufen und bewerben. Bewerbungen sind bis zum 30. Juni möglich.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "این دوره برای چه افرادی مناسب است؟",
+      "correctAnswer": "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+      "options": [
+        "فقط افراد دارای سابقهٔ پزشکی",
+        "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+        "افرادی که نمی‌خواهند ارتباط داشته باشند"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Lena hat zuerst eine kaufmännische Ausbildung gemacht. Seitdem arbeitet sie in einem Reisebüro. Sie mag Aufgaben, die Organisation und Kontakt mit Menschen verbinden. Nun sucht sie eine Stelle, die mehr Verantwortung bietet. Ein Studiengang kommt für sie im Moment nicht infrage, weil sie weiterarbeiten möchte. Deshalb interessiert sie sich für eine berufsbegleitende Weiterbildung, die acht Monate dauert.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "لنا دنبال چه تغییری است؟",
+      "correctAnswer": "کاری با مسئولیت بیشتر",
+      "options": [
+        "کار بدون مشتری",
+        "کاری با مسئولیت بیشتر",
+        "بازنشستگی"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "دورهٔ موردنظر چند ماه طول می‌کشد؟",
+      "correctAnswer": "هشت ماه",
+      "options": [
+        "دو ماه",
+        "هشت ماه",
+        "دو سال"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «تحصیلات، مهارت‌ها و نیازمندی‌های یک شغل را توصیف کنی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "جملهٔ موصولی اسم را توضیح می‌دهد: ein Beruf, der interessant ist؛ eine Stelle, die Verantwortung bietet؛ ein Praktikum, das drei Monate dauert. در Akkusativ: ein Beruf, den ich suche. seit/seitdem آغاز گذشته و ادامه تا امروز را نشان می‌دهد؛ bis پایان بازه را.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جملهٔ موصولی درست است؟",
+      "correctAnswer": "Ich suche eine Stelle, die zu mir passt.",
+      "options": [
+        "Ich suche eine Stelle, der zu mir passt.",
+        "Ich suche eine Stelle, die zu mir passt.",
+        "Ich suche eine Stelle, die passt zu mir."
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Ich suche eine Stelle, die zu mir passt.",
+      "options": [
+        "Ich suche eine Stelle, die passt zu mir.",
+        "Ich suche eine Stelle, die zu mir passt.",
+        "Ich suche eine Stelle, der zu mir passt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nIch suche einen Beruf, der abwechslungsreich ist. Die Stelle, die ich interessant finde, bietet Kontakt mit Menschen. Seitdem ich im Service arbeite, kenne ich meine Stärken besser.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برای این پروفایل پیشنهاد بده: organisiert · gern mit Menschen · Deutsch B2 · Weiterbildung bis Dezember.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو گزینهٔ شغلی یا آموزشی را مقایسه کن و با جمله‌های موصولی توضیح بده کدام گزینه برای تو یا یک شخصیت فرضی مناسب‌تر است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nMina sucht eine Stelle, die Organisation und Kontakt mit Menschen verbindet. Seit zwei Jahren arbeitet sie im Kundenservice. Eine Ausbildung, die drei Jahre dauert, ist für sie zu lang. Die achtmonatige Weiterbildung passt besser zu ihr, weil sie weiterarbeiten kann. Bis Dezember möchte sie die Weiterbildung abschließen.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ۸ تا ۱۰ جمله‌ای دربارهٔ تناسب یک فرد با دوره یا شغل بنویس. مهارت‌ها، نیازمندی‌ها، مدت، دو جملهٔ موصولی و یک بازه با seit یا bis را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "برای یک پروفایل از میان دو مسیر یک پیشنهاد حرفه‌ای بساز: نیازمندی‌ها را از متن استخراج کن، تناسب را با سه معیار توضیح بده و یک برنامهٔ زمانی کوتاه ارائه کن.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جملهٔ موصولی درست است؟",
+      "correctAnswer": "Ich suche eine Stelle, die zu mir passt.",
+      "options": [
+        "Ich suche eine Stelle, der zu mir passt.",
+        "Ich suche eine Stelle, die zu mir passt.",
+        "Ich suche eine Stelle, die passt zu mir."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «die Ausbildung» چیست؟",
+      "correctAnswer": "دورهٔ حرفه‌ای",
+      "options": [
+        "دورهٔ حرفه‌ای",
+        "پیش‌نیاز",
+        "این مناسب من است."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "این دوره برای چه افرادی مناسب است؟",
+      "correctAnswer": "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+      "options": [
+        "فقط افراد دارای سابقهٔ پزشکی",
+        "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+        "افرادی که نمی‌خواهند ارتباط داشته باشند"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "دورهٔ موردنظر چند ماه طول می‌کشد؟",
+      "correctAnswer": "هشت ماه",
+      "options": [
+        "دو ماه",
+        "هشت ماه",
+        "دو سال"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «مسئولیت پذیرفتن»؟",
+      "correctAnswer": "Verantwortung übernehmen",
+      "options": [
+        "die Voraussetzung",
+        "Verantwortung übernehmen",
+        "eine Stelle, die ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Ich suche eine Stelle, die zu mir passt.",
+      "options": [
+        "Ich suche eine Stelle, der zu mir passt.",
+        "Ich suche eine Stelle, die zu mir passt.",
+        "Ich suche eine Stelle, die passt zu mir."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "لنا دنبال چه تغییری است؟",
+      "correctAnswer": "کاری با مسئولیت بیشتر",
+      "options": [
+        "کار بدون مشتری",
+        "کاری با مسئولیت بیشتر",
+        "بازنشستگی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+      "options": [
+        "افرادی که نمی‌خواهند ارتباط داشته باشند",
+        "افرادی که به سازمان‌دهی و کار دقیق علاقه دارند",
+        "فقط افراد دارای سابقهٔ پزشکی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «seitdem» چیست؟",
+      "correctAnswer": "از آن زمان تاکنون",
+      "options": [
+        "از آن زمان تاکنون",
+        "دورهٔ تکمیلی حرفه‌ای",
+        "شغلی که ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Ich suche eine Stelle, die zu mir passt.",
+      "options": [
+        "Ich suche eine Stelle, die passt zu mir.",
+        "Ich suche eine Stelle, der zu mir passt.",
+        "Ich suche eine Stelle, die zu mir passt."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Relative clauses with dative or prepositions",
+    "Participial attributes"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "die Ausbildung",
+      "type": "Chunk",
+      "meaning": "دورهٔ حرفه‌ای",
+      "pronunciation": null,
+      "example": "Die Ausbildung dauert drei Jahre.",
+      "exampleTranslation": "دورهٔ حرفه‌ای سه سال طول می‌کشد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "die Weiterbildung",
+      "type": "Chunk",
+      "meaning": "دورهٔ تکمیلی حرفه‌ای",
+      "pronunciation": null,
+      "example": "Sie macht eine Weiterbildung.",
+      "exampleTranslation": "او دورهٔ تکمیلی می‌گذراند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Voraussetzung",
+      "type": "Chunk",
+      "meaning": "پیش‌نیاز",
+      "pronunciation": null,
+      "example": "Deutsch B2 ist eine Voraussetzung.",
+      "exampleTranslation": "آلمانی B2 یک پیش‌نیاز است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "abwechslungsreich",
+      "type": "Word",
+      "meaning": "متنوع",
+      "pronunciation": null,
+      "example": "Der Beruf ist abwechslungsreich.",
+      "exampleTranslation": "شغل متنوع است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "Verantwortung übernehmen",
+      "type": "Chunk",
+      "meaning": "مسئولیت پذیرفتن",
+      "pronunciation": null,
+      "example": "Sie möchte Verantwortung übernehmen.",
+      "exampleTranslation": "می‌خواهد مسئولیت بپذیرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "Das passt zu mir.",
+      "type": "Chunk",
+      "meaning": "این مناسب من است.",
+      "pronunciation": null,
+      "example": "Diese Stelle passt zu mir.",
+      "exampleTranslation": "این موقعیت مناسب من است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "ein Beruf, der ...",
+      "type": "Chunk",
+      "meaning": "شغلی که ...",
+      "pronunciation": null,
+      "example": "Ich suche einen Beruf, der sinnvoll ist.",
+      "exampleTranslation": "دنبال شغلی هستم که معنادار باشد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "eine Stelle, die ...",
+      "type": "Chunk",
+      "meaning": "موقعیتی که ...",
+      "pronunciation": null,
+      "example": "Das ist eine Stelle, die Erfahrung verlangt.",
+      "exampleTranslation": "موقعیتی است که تجربه می‌خواهد.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "seitdem",
+      "type": "Word",
+      "meaning": "از آن زمان تاکنون",
+      "pronunciation": null,
+      "example": "Seitdem arbeitet sie im Büro.",
+      "exampleTranslation": "از آن زمان در دفتر کار می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "bis Ende Juni",
+      "type": "Chunk",
+      "meaning": "تا پایان ژوئن",
+      "pronunciation": null,
+      "example": "Die Frist läuft bis Ende Juni.",
+      "exampleTranslation": "مهلت تا پایان ژوئن است.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

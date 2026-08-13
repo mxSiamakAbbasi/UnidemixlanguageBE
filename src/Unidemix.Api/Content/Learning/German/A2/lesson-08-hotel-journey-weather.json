@@ -1,0 +1,557 @@
+{
+  "contentKey": "de-a2-core-lesson-08",
+  "language": "de",
+  "cefr": "A2",
+  "lessonNumber": 8,
+  "courseSlug": "german-for-real-life",
+  "title": "Hotel, Journey, and Weather",
+  "localizedTitle": "هتل، مسیر و آب‌وهوا",
+  "description": "در این درس اقامت رزرو می‌کنی، سؤال‌های غیرمستقیم می‌پرسی و مسیر و شرایط سفر را روشن می‌کنی.",
+  "estimatedDurationMinutes": 160,
+  "status": "production",
+  "mainSituation": "رزرو اقامت و هماهنگ‌کردن مسیر و شرایط سفر",
+  "canDoObjectives": [
+    "اقامت رزرو کنی و سؤال‌های عملی را مؤدبانه و غیرمستقیم بپرسی.",
+    "مسیر را توضیح بدهی و دربارهٔ ترجیح‌های سفر و آب‌وهوا صحبت کنی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "listening-script"
+  },
+  "activities": [
+    {
+      "key": "welcome",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس اقامت رزرو می‌کنی، سؤال‌های غیرمستقیم می‌پرسی و مسیر و شرایط سفر را روشن می‌کنی.\n\n• اقامت رزرو کنی و سؤال‌های عملی را مؤدبانه و غیرمستقیم بپرسی.\n• مسیر را توضیح بدهی و دربارهٔ ترجیح‌های سفر و آب‌وهوا صحبت کنی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "primary-dialogue",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Gast: Guten Tag. Darf ich fragen, ob Sie am Wochenende ein Doppelzimmer frei haben?\nRezeption: Ja. Möchten Sie wissen, wie viel das Frühstück kostet?\nGast: Gern. Und könnten Sie mir sagen, ob der Parkplatz am Hotel ist?\nRezeption: Er liegt hinter dem Gebäude. Sie fahren am Bahnhof vorbei und biegen an der zweiten Ampel links ab.\nGast: Danke. Ich freue mich auf die Reise.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "teach-core-chunks",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "ein Zimmer frei haben = اتاق خالی داشتن\nHaben Sie ein Zimmer frei? = اتاق خالی دارید؟\n\nDarf ich fragen, ob ...? = می‌توانم بپرسم آیا ...؟\nDarf ich fragen, ob Frühstück inklusive ist? = می‌توانم بپرسم آیا صبحانه شامل می‌شود؟\n\ndie Stornierung = لغو رزرو\nDie Stornierung ist kostenlos. = لغو رزرو رایگان است.\n\ndie Anreise = ورود به مقصد\nUnsere Anreise ist am Freitag. = ورود ما جمعه است.\n\nam Rathaus vorbeigehen = از کنار شهرداری گذشتن\nGehen Sie am Rathaus vorbei. = از کنار شهرداری عبور کنید.\n\ngegenüber = روبه‌روی\nDas Hotel liegt gegenüber der Bibliothek. = هتل روبه‌روی کتابخانه است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "vocabulary-recall",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت با هدف اصلی درس «هتل، مسیر و آب‌وهوا» هماهنگ‌تر است؟",
+      "correctAnswer": "die Anreise",
+      "options": [
+        "Darf ich fragen, ob ...?",
+        "die Anreise",
+        "der Türcode"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "reading-context",
+      "type": "reading-context",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "ابتدا متن کاربردی را برای موضوع کلی بخوان؛ سپس اطلاعات مشخص، دلیل‌ها و ترتیب مراحل را پیدا کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-text",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "HOTEL AM PARK\nDoppelzimmer ab 89 Euro, Frühstück 12 Euro pro Person. Kostenlose Stornierung bis zwei Tage vor der Anreise. Die Rezeption ist von 6 bis 23 Uhr geöffnet. Gäste, die später ankommen, erhalten einen Türcode. Bitte teilen Sie uns mit, wann Sie ungefähr anreisen. Fahrräder können sicher im Innenhof abgestellt werden.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "reading-comprehension",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مهمان دیرهنگام چگونه وارد می‌شود؟",
+      "correctAnswer": "با کد در",
+      "options": [
+        "با کلید همسایه",
+        "با کد در",
+        "فقط صبح روز بعد"
+      ],
+      "correctFeedback": "اطلاعات متن را درست پیدا کردی.",
+      "incorrectFeedback": "به متن برگرد و واژه‌های کلیدی پرسش را دنبال کن."
+    },
+    {
+      "key": "listening-context",
+      "type": "listening-context",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول فقط موضوع کلی را گوش کن. بار دوم جزئیات، ترتیب، دلیل یا نظر گوینده را یادداشت کن. متن تا پس از پاسخ پنهان می‌ماند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-script",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "Unser Hotel liegt außerhalb des Zentrums, aber die Verbindung ist einfach. Vom Hauptbahnhof fahren Sie mit der Linie 4 bis zur Haltestelle Marktstraße. Gehen Sie am Rathaus vorbei und dann durch den kleinen Park. Das Hotel liegt gegenüber der Bibliothek. Am Samstag wird es sonnig und mild. Am Sonntag kann es regnen, deshalb empfehlen wir einen Schirm und eine leichte Jacke.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "listening-gist",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "متن چه چیزی را توضیح می‌دهد؟",
+      "correctAnswer": "مسیر هتل و آب‌وهوای آخر هفته",
+      "options": [
+        "منوی رستوران",
+        "مسیر هتل و آب‌وهوای آخر هفته",
+        "قوانین کتابخانه"
+      ],
+      "correctFeedback": "موضوع کلی را درست تشخیص دادی.",
+      "incorrectFeedback": "دوباره گوش کن و روی ایدهٔ اصلی تمرکز کن."
+    },
+    {
+      "key": "listening-detail",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هتل روبه‌روی کدام مکان است؟",
+      "correctAnswer": "کتابخانه",
+      "options": [
+        "ایستگاه قطار",
+        "کتابخانه",
+        "رستوران"
+      ],
+      "correctFeedback": "جزئیات را درست شنیدی.",
+      "incorrectFeedback": "بار دیگر گوش کن و به اقدام یا اطلاعات مشخص توجه کن."
+    },
+    {
+      "key": "grammar-context",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختار تازه را ابتدا در گفت‌وگو، متن یا شنیدار پیدا کن. این ساختار به تو کمک می‌کند هدف «اقامت رزرو کنی و سؤال‌های عملی را مؤدبانه و غیرمستقیم بپرسی.» را دقیق‌تر انجام بدهی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-teaching",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "در سؤال غیرمستقیم بله/خیر از ob استفاده می‌کنیم و فعل به پایان می‌رود: Können Sie sagen, ob Frühstück inklusive ist? برای پرسش‌های W نیز فعل پایان می‌آید: Wissen Sie, wann die Rezeption öffnet? افعال حرف اضافه‌ای با پرسش مناسب می‌آیند: sich freuen auf → Worauf freuen Sie sich?",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "grammar-controlled",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام سؤال غیرمستقیم درست است؟",
+      "correctAnswer": "Können Sie mir sagen, wann das Hotel öffnet?",
+      "options": [
+        "Können Sie mir sagen, wann öffnet das Hotel?",
+        "Können Sie mir sagen, wann das Hotel öffnet?",
+        "Wann das Hotel öffnet können Sie sagen?"
+      ],
+      "correctFeedback": "ساختار را درست به‌کار بردی.",
+      "incorrectFeedback": "جای فعل، حالت و نشانه‌های جمله را دوباره بررسی کن."
+    },
+    {
+      "key": "grammar-meaningful",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام گزینه برای موقعیت درس طبیعی و درست است؟",
+      "correctAnswer": "Können Sie mir sagen, wann das Hotel öffnet?",
+      "options": [
+        "Wann das Hotel öffnet können Sie sagen?",
+        "Können Sie mir sagen, wann das Hotel öffnet?",
+        "Können Sie mir sagen, wann öffnet das Hotel?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "speaking-model",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را خط‌به‌خط گوش کن و با صدای بلند تکرار کن:\nDarf ich fragen, ob ein Zimmer frei ist? Können Sie mir sagen, wie viel das Frühstück kostet? Vom Bahnhof gehen Sie am Rathaus vorbei und durch den Park.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-controlled",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "برای این موارد سؤال مؤدبانه بساز: Parkplatz? · Frühstück inklusive? · Rezeption wann geöffnet?",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "تمرین کنترل‌شده را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "speaking-personalized",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "یک رزرو کوتاه را نقش‌آفرینی کن، سه سؤال غیرمستقیم بپرس و مسیر رسیدن به محل اقامت را توضیح بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "پاسخ شخصی و پیوسته را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-model",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nGuten Tag, ich möchte vom 14. bis 16. Mai ein Doppelzimmer buchen. Können Sie mir sagen, ob Frühstück inklusive ist? Ich möchte außerdem wissen, wo ich mein Fahrrad abstellen kann. Wir kommen wahrscheinlich gegen 21 Uhr an. Bitte teilen Sie mir mit, ob wir einen Türcode brauchen.\n\nاز ساختار و پیوندهای متن الگو بگیر، اما اطلاعات خودت را بنویس.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "writing-task",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک درخواست رزرو ۷ تا ۹ جمله‌ای بنویس. تاریخ، نوع اتاق، زمان ورود و دست‌کم سه سؤال غیرمستقیم دربارهٔ امکانات یا شرایط را بیاور.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "متن پیوستهٔ A2 را کامل کردی.",
+      "incorrectFeedback": null
+    },
+    {
+      "key": "final-task",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک اقامت را کامل هماهنگ کن: گزینهٔ مناسب را از متن انتخاب کن، درخواست رزرو بنویس، سه شرط را روشن کن و مسیر رسیدن را برای همراهت توضیح بده.\n\nمعیار موفقیت: پیام پیوسته، اطلاعات کافی، استفادهٔ کنترل‌شده از گرامر و عبارت‌های همین درس، و انجام هر دو هدف ارتباطی.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "هدف ارتباطی درس را کامل انجام دادی.",
+      "incorrectFeedback": null
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "bank-01",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام سؤال غیرمستقیم درست است؟",
+      "correctAnswer": "Können Sie mir sagen, wann das Hotel öffnet?",
+      "options": [
+        "Können Sie mir sagen, wann öffnet das Hotel?",
+        "Können Sie mir sagen, wann das Hotel öffnet?",
+        "Wann das Hotel öffnet können Sie sagen?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «ein Zimmer frei haben» چیست؟",
+      "correctAnswer": "اتاق خالی داشتن",
+      "options": [
+        "اتاق خالی داشتن",
+        "لغو رزرو",
+        "روبه‌روی"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "مهمان دیرهنگام چگونه وارد می‌شود؟",
+      "correctAnswer": "با کد در",
+      "options": [
+        "با کلید همسایه",
+        "با کد در",
+        "فقط صبح روز بعد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "هتل روبه‌روی کدام مکان است؟",
+      "correctAnswer": "کتابخانه",
+      "options": [
+        "ایستگاه قطار",
+        "کتابخانه",
+        "رستوران"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-05",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت یعنی «از کنار شهرداری گذشتن»؟",
+      "correctAnswer": "am Rathaus vorbeigehen",
+      "options": [
+        "die Stornierung",
+        "am Rathaus vorbeigehen",
+        "der Türcode"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن.",
+      "correctAnswer": "Können Sie mir sagen, wann das Hotel öffnet?",
+      "options": [
+        "Können Sie mir sagen, wann öffnet das Hotel?",
+        "Können Sie mir sagen, wann das Hotel öffnet?",
+        "Wann das Hotel öffnet können Sie sagen?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-07",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "متن چه چیزی را توضیح می‌دهد؟",
+      "correctAnswer": "مسیر هتل و آب‌وهوای آخر هفته",
+      "options": [
+        "منوی رستوران",
+        "مسیر هتل و آب‌وهوای آخر هفته",
+        "قوانین کتابخانه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-08",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "کدام گزینه با اطلاعات متن سازگار است؟",
+      "correctAnswer": "با کد در",
+      "options": [
+        "فقط صبح روز بعد",
+        "با کد در",
+        "با کلید همسایه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-09",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «Wissen Sie, wann ...?» چیست؟",
+      "correctAnswer": "می‌دانید چه زمانی ...؟",
+      "options": [
+        "می‌دانید چه زمانی ...؟",
+        "می‌توانم بپرسم آیا ...؟",
+        "مشتاق چیزی بودن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    },
+    {
+      "key": "bank-10",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله برای هدف درس مناسب است؟",
+      "correctAnswer": "Können Sie mir sagen, wann das Hotel öffnet?",
+      "options": [
+        "Wann das Hotel öffnet können Sie sagen?",
+        "Können Sie mir sagen, wann öffnet das Hotel?",
+        "Können Sie mir sagen, wann das Hotel öffnet?"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با متن و هدف همین درس هماهنگ است.",
+      "incorrectFeedback": "پاسخ و نمونهٔ مرتبط را دوباره مرور کن و یک بار دیگر تلاش کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Reported speech",
+    "Complex relative clauses"
+  ],
+  "vocabulary": [
+    {
+      "key": "v-01",
+      "target": "ein Zimmer frei haben",
+      "type": "Chunk",
+      "meaning": "اتاق خالی داشتن",
+      "pronunciation": null,
+      "example": "Haben Sie ein Zimmer frei?",
+      "exampleTranslation": "اتاق خالی دارید؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-02",
+      "target": "Darf ich fragen, ob ...?",
+      "type": "Chunk",
+      "meaning": "می‌توانم بپرسم آیا ...؟",
+      "pronunciation": null,
+      "example": "Darf ich fragen, ob Frühstück inklusive ist?",
+      "exampleTranslation": "می‌توانم بپرسم آیا صبحانه شامل می‌شود؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-03",
+      "target": "die Stornierung",
+      "type": "Chunk",
+      "meaning": "لغو رزرو",
+      "pronunciation": null,
+      "example": "Die Stornierung ist kostenlos.",
+      "exampleTranslation": "لغو رزرو رایگان است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-04",
+      "target": "die Anreise",
+      "type": "Chunk",
+      "meaning": "ورود به مقصد",
+      "pronunciation": null,
+      "example": "Unsere Anreise ist am Freitag.",
+      "exampleTranslation": "ورود ما جمعه است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-05",
+      "target": "am Rathaus vorbeigehen",
+      "type": "Chunk",
+      "meaning": "از کنار شهرداری گذشتن",
+      "pronunciation": null,
+      "example": "Gehen Sie am Rathaus vorbei.",
+      "exampleTranslation": "از کنار شهرداری عبور کنید.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-06",
+      "target": "gegenüber",
+      "type": "Word",
+      "meaning": "روبه‌روی",
+      "pronunciation": null,
+      "example": "Das Hotel liegt gegenüber der Bibliothek.",
+      "exampleTranslation": "هتل روبه‌روی کتابخانه است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-07",
+      "target": "sich freuen auf",
+      "type": "Chunk",
+      "meaning": "مشتاق چیزی بودن",
+      "pronunciation": null,
+      "example": "Ich freue mich auf die Reise.",
+      "exampleTranslation": "مشتاق سفر هستم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "v-08",
+      "target": "der Türcode",
+      "type": "Chunk",
+      "meaning": "کد در",
+      "pronunciation": null,
+      "example": "Sie erhalten einen Türcode.",
+      "exampleTranslation": "یک کد در دریافت می‌کنید.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-09",
+      "target": "Wissen Sie, wann ...?",
+      "type": "Chunk",
+      "meaning": "می‌دانید چه زمانی ...؟",
+      "pronunciation": null,
+      "example": "Wissen Sie, wann die Rezeption öffnet?",
+      "exampleTranslation": "می‌دانید پذیرش چه زمانی باز می‌شود؟",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-10",
+      "target": "die Wettervorhersage",
+      "type": "Chunk",
+      "meaning": "پیش‌بینی هوا",
+      "pronunciation": null,
+      "example": "Die Wettervorhersage meldet Regen.",
+      "exampleTranslation": "پیش‌بینی هوا باران اعلام می‌کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "v-11",
+      "target": "eine leichte Jacke",
+      "type": "Chunk",
+      "meaning": "کاپشن سبک",
+      "pronunciation": null,
+      "example": "Nehmen Sie eine leichte Jacke mit.",
+      "exampleTranslation": "یک کاپشن سبک همراه ببرید.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}

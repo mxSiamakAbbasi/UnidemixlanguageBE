@@ -9,10 +9,10 @@
   "description": "در این درس اعضای خانواده و آدم‌های نزدیکت را معرفی می‌کنی، رابطه‌ها و شغل‌ها را می‌گویی و یک توضیح کوتاه دربارهٔ آن‌ها می‌نویسی.",
   "estimatedDurationMinutes": 105,
   "status": "production",
-  "mainSituation": "Sharing a family photo or contact profile",
+  "mainSituation": "معرفی افراد در یک عکس خانوادگی یا نمایهٔ شخصی",
   "canDoObjectives": [
-    "Identify family members and describe simple relationships.",
-    "Ask and answer who a person is and what they do."
+    "اعضای خانواده را معرفی کنی و رابطه‌های ساده را توضیح بدهی.",
+    "بپرسی یک فرد چه کسی است و چه شغلی دارد و به این پرسش‌ها پاسخ بدهی."
   ],
   "sectionOrder": [
     "vocabulary",
@@ -34,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «آدم‌های اطراف من» خوش آمدی. در پایان این درس می‌توانی هدف اصلی این موقعیت را با جمله‌های سادهٔ A1 انجام بدهی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "situation",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: Sharing a family photo or contact profile. ابتدا گفت‌وگوی اصلی را بخوان و به عبارت‌های کاربردی توجه کن.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس اعضای خانواده و آدم‌های نزدیکت را معرفی می‌کنی، رابطه‌ها و شغل‌ها را می‌گویی و یک توضیح کوتاه دربارهٔ آن‌ها می‌نویسی.\n\n• اعضای خانواده را معرفی کنی و رابطه‌های ساده را توضیح بدهی.\n• بپرسی یک فرد چه کسی است و چه شغلی دارد و به این پرسش‌ها پاسخ بدهی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,

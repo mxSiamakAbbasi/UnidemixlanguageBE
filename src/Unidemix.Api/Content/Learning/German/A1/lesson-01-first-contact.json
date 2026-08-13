@@ -9,12 +9,20 @@
   "description": "در این درس یاد می‌گیری سلام کنی، خودت را معرفی کنی، نام و کشور و زبانت را بگویی و همین اطلاعات را از یک هم‌کلاسی تازه بپرسی.",
   "estimatedDurationMinutes": 105,
   "status": "golden-template-candidate",
-  "mainSituation": "Meeting a new classmate or neighbor",
+  "mainSituation": "آشنایی با یک هم‌کلاسی یا همسایهٔ جدید",
   "canDoObjectives": [
-    "Greet, introduce oneself, and ask for basic personal details.",
-    "Spell a name and state languages and origin."
+    "سلام کنی، خودت را معرفی کنی و اطلاعات شخصی پایه را بپرسی.",
+    "یک نام را هجی کنی و دربارهٔ زبان‌ها و کشور مبدأ صحبت کنی."
   ],
-  "sectionOrder": ["vocabulary", "listening", "speaking", "reading", "writing", "grammar", "final-practice"],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
   "audio": {
     "status": "script-ready-audio-deferred",
     "assetUrl": null,
@@ -26,18 +34,7 @@
       "type": "introduction",
       "kind": "Instruction",
       "section": "vocabulary",
-      "prompt": "به درس «اولین آشنایی» خوش آمدی. تا پایان درس می‌توانی به آلمانی سلام کنی، نام و محل زندگی‌ات را بگویی و دربارهٔ کشور و زبان از طرف مقابل سؤال کنی.",
-      "correctAnswer": null,
-      "options": null,
-      "correctFeedback": null,
-      "incorrectFeedback": null
-    },
-    {
-      "key": "context",
-      "type": "dialogue-context",
-      "kind": "Instruction",
-      "section": "vocabulary",
-      "prompt": "موقعیت: نازنین در اولین روز کلاس زبان با یک هم‌کلاسی جدید به نام لئو آشنا می‌شود. یک بار گفت‌وگو را فقط برای فهمیدن موقعیت بخوان.",
+      "prompt": "در این درس چه یاد می‌گیرم؟\n\nدر این درس یاد می‌گیری سلام کنی، خودت را معرفی کنی، نام و کشور و زبانت را بگویی و همین اطلاعات را از یک هم‌کلاسی تازه بپرسی.\n\n• سلام کنی، خودت را معرفی کنی و اطلاعات شخصی پایه را بپرسی.\n• یک نام را هجی کنی و دربارهٔ زبان‌ها و کشور مبدأ صحبت کنی.",
       "correctAnswer": null,
       "options": null,
       "correctFeedback": null,
@@ -61,7 +58,11 @@
       "section": "listening",
       "prompt": "این گفت‌وگو بیشتر دربارهٔ چیست؟",
       "correctAnswer": "آشنایی دو هم‌کلاسی",
-      "options": ["خرید بلیت", "آشنایی دو هم‌کلاسی", "سفارش غذا"],
+      "options": [
+        "خرید بلیت",
+        "آشنایی دو هم‌کلاسی",
+        "سفارش غذا"
+      ],
       "correctFeedback": "درست است؛ نازنین و لئو برای اولین بار خودشان را معرفی می‌کنند.",
       "incorrectFeedback": "به نام‌ها و پرسش Woher kommst du? توجه کن؛ موضوع گفت‌وگو آشنایی اولیه است."
     },
@@ -94,7 +95,11 @@
       "section": "vocabulary",
       "prompt": "جمله را کامل کن: Ich ___ Mina.",
       "correctAnswer": "heiße",
-      "options": ["heiße", "heißt", "kommst"],
+      "options": [
+        "heiße",
+        "heißt",
+        "kommst"
+      ],
       "correctFeedback": "درست است: Ich heiße Mina.",
       "incorrectFeedback": "برای فاعل ich، عبارت معرفی نام Ich heiße ... است."
     },
@@ -149,7 +154,11 @@
       "section": "grammar",
       "prompt": "گزینهٔ درست را انتخاب کن: Du ___ in Hamburg.",
       "correctAnswer": "wohnst",
-      "options": ["wohne", "wohnst", "wohnt"],
+      "options": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+      ],
       "correctFeedback": "درست است؛ برای du فعل wohnen به صورت wohnst می‌آید.",
       "incorrectFeedback": "فاعل du است، پس در این فعل معمولی پایان -st لازم است."
     },
@@ -160,7 +169,11 @@
       "section": "grammar",
       "prompt": "جمله را کامل کن: Ich ___ Amir.",
       "correctAnswer": "bin",
-      "options": ["bin", "bist", "heißen"],
+      "options": [
+        "bin",
+        "bist",
+        "heißen"
+      ],
       "correctFeedback": "درست است: Ich bin Amir.",
       "incorrectFeedback": "شکل sein برای ich برابر bin است."
     },
@@ -182,7 +195,11 @@
       "section": "grammar",
       "prompt": "کدام سؤال برای پرسیدن کشور/اصل‌ونسب مناسب است؟",
       "correctAnswer": "Woher kommst du?",
-      "options": ["Wo wohnst du?", "Woher kommst du?", "Wie heißt du?"],
+      "options": [
+        "Wo wohnst du?",
+        "Woher kommst du?",
+        "Wie heißt du?"
+      ],
       "correctFeedback": "درست است؛ Woher دربارهٔ مبدأ می‌پرسد.",
       "incorrectFeedback": "Woher یعنی «از کجا» و برای پرسیدن مبدأ به کار می‌رود."
     },
@@ -215,7 +232,11 @@
       "section": "listening",
       "prompt": "اُمید اکنون کجا زندگی می‌کند؟",
       "correctAnswer": "Köln",
-      "options": ["Berlin", "Köln", "Wien"],
+      "options": [
+        "Berlin",
+        "Köln",
+        "Wien"
+      ],
       "correctFeedback": "درست است؛ او می‌گوید: Ich wohne in Köln.",
       "incorrectFeedback": "به جمله‌ای که با ich wohne شروع می‌شود توجه کن."
     },
@@ -226,7 +247,11 @@
       "section": "listening",
       "prompt": "اُمید کدام زبان‌ها را نام می‌برد؟",
       "correctAnswer": "Persisch, Englisch und Deutsch",
-      "options": ["Persisch, Englisch und Deutsch", "Deutsch und Französisch", "Persisch und Spanisch"],
+      "options": [
+        "Persisch, Englisch und Deutsch",
+        "Deutsch und Französisch",
+        "Persisch und Spanisch"
+      ],
       "correctFeedback": "درست است؛ Deutsch را «کمی» صحبت می‌کند.",
       "incorrectFeedback": "بعد از Ich spreche سه زبان نام برده می‌شود."
     },
@@ -281,7 +306,11 @@
       "section": "reading",
       "prompt": "کدام جمله دربارهٔ النا درست است؟",
       "correctAnswer": "Sie wohnt in München.",
-      "options": ["Sie wohnt in München.", "Sie kommt aus Deutschland.", "Sie spricht nur Deutsch."],
+      "options": [
+        "Sie wohnt in München.",
+        "Sie kommt aus Deutschland.",
+        "Sie spricht nur Deutsch."
+      ],
       "correctFeedback": "درست است؛ Wohnort: München یعنی او در مونیخ زندگی می‌کند.",
       "incorrectFeedback": "دوباره بخش Wohnort و Sprachen را در کارت نگاه کن."
     },
@@ -314,7 +343,11 @@
       "section": "final-practice",
       "prompt": "طرف مقابل می‌گوید: Ich komme aus Österreich. برای پرسیدن زبانش کدام سؤال مناسب است؟",
       "correctAnswer": "Welche Sprachen sprichst du?",
-      "options": ["Wie heißt du?", "Wo wohnst du?", "Welche Sprachen sprichst du?"],
+      "options": [
+        "Wie heißt du?",
+        "Wo wohnst du?",
+        "Welche Sprachen sprichst du?"
+      ],
       "correctFeedback": "درست است؛ این سؤال مستقیماً دربارهٔ زبان‌هاست.",
       "incorrectFeedback": "Welche Sprachen یعنی «کدام زبان‌ها»."
     },
@@ -332,52 +365,116 @@
   ],
   "questionBank": [
     {
-      "key": "bank-grammar-ich-wohnen", "skill": "grammar", "type": "multiple-choice",
-      "prompt": "گزینهٔ درست را انتخاب کن: Ich ___ in Berlin.", "correctAnswer": "wohne",
-      "options": ["wohne", "wohnst", "wohnt"],
-      "correctFeedback": "درست است؛ با ich شکل فعل wohnen برابر wohne است.", "incorrectFeedback": "برای ich معمولاً پایان فعل در این الگو e است."
+      "key": "bank-grammar-ich-wohnen",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "گزینهٔ درست را انتخاب کن: Ich ___ in Berlin.",
+      "correctAnswer": "wohne",
+      "options": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+      ],
+      "correctFeedback": "درست است؛ با ich شکل فعل wohnen برابر wohne است.",
+      "incorrectFeedback": "برای ich معمولاً پایان فعل در این الگو e است."
     },
     {
-      "key": "bank-vocabulary-origin", "skill": "vocabulary", "type": "multiple-choice",
-      "prompt": "کدام جمله معنی «من اهل ایران هستم» می‌دهد؟", "correctAnswer": "Ich komme aus Iran.",
-      "options": ["Ich wohne in Iran.", "Ich komme aus Iran.", "Ich spreche Iran."],
-      "correctFeedback": "درست است؛ komme aus برای بیان مبدأ/کشور استفاده می‌شود.", "incorrectFeedback": "عبارت هدف این درس Ich komme aus ... است."
+      "key": "bank-vocabulary-origin",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله معنی «من اهل ایران هستم» می‌دهد؟",
+      "correctAnswer": "Ich komme aus Iran.",
+      "options": [
+        "Ich wohne in Iran.",
+        "Ich komme aus Iran.",
+        "Ich spreche Iran."
+      ],
+      "correctFeedback": "درست است؛ komme aus برای بیان مبدأ/کشور استفاده می‌شود.",
+      "incorrectFeedback": "عبارت هدف این درس Ich komme aus ... است."
     },
     {
-      "key": "bank-reading-profile", "skill": "reading", "type": "multiple-choice",
+      "key": "bank-reading-profile",
+      "skill": "reading",
+      "type": "multiple-choice",
       "prompt": "کارت را بخوان: Name: Lina · Wohnort: Köln · Sprachen: Arabisch und Deutsch. لینا کجا زندگی می‌کند؟",
-      "correctAnswer": "Köln", "options": ["Berlin", "Köln", "Wien"],
-      "correctFeedback": "درست است؛ Wohnort محل زندگی را نشان می‌دهد.", "incorrectFeedback": "به بخش Wohnort در کارت نگاه کن."
+      "correctAnswer": "Köln",
+      "options": [
+        "Berlin",
+        "Köln",
+        "Wien"
+      ],
+      "correctFeedback": "درست است؛ Wohnort محل زندگی را نشان می‌دهد.",
+      "incorrectFeedback": "به بخش Wohnort در کارت نگاه کن."
     },
     {
-      "key": "bank-grammar-du-kommen", "skill": "grammar", "type": "multiple-choice",
-      "prompt": "جمله را کامل کن: Woher ___ du?", "correctAnswer": "kommst",
-      "options": ["komme", "kommst", "kommt"],
-      "correctFeedback": "درست است؛ با du شکل kommst استفاده می‌شود.", "incorrectFeedback": "فاعل du در این فعل پایان st می‌گیرد."
+      "key": "bank-grammar-du-kommen",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "جمله را کامل کن: Woher ___ du?",
+      "correctAnswer": "kommst",
+      "options": [
+        "komme",
+        "kommst",
+        "kommt"
+      ],
+      "correctFeedback": "درست است؛ با du شکل kommst استفاده می‌شود.",
+      "incorrectFeedback": "فاعل du در این فعل پایان st می‌گیرد."
     },
     {
-      "key": "bank-vocabulary-language-question", "skill": "vocabulary", "type": "multiple-choice",
-      "prompt": "برای پرسیدن زبان طرف مقابل کدام سؤال مناسب است؟", "correctAnswer": "Welche Sprachen sprichst du?",
-      "options": ["Wo wohnst du?", "Wie heißt du?", "Welche Sprachen sprichst du?"],
-      "correctFeedback": "درست است؛ این سؤال مستقیماً دربارهٔ زبان‌هاست.", "incorrectFeedback": "به عبارت Welche Sprachen توجه کن."
+      "key": "bank-vocabulary-language-question",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "برای پرسیدن زبان طرف مقابل کدام سؤال مناسب است؟",
+      "correctAnswer": "Welche Sprachen sprichst du?",
+      "options": [
+        "Wo wohnst du?",
+        "Wie heißt du?",
+        "Welche Sprachen sprichst du?"
+      ],
+      "correctFeedback": "درست است؛ این سؤال مستقیماً دربارهٔ زبان‌هاست.",
+      "incorrectFeedback": "به عبارت Welche Sprachen توجه کن."
     },
     {
-      "key": "bank-reading-origin", "skill": "reading", "type": "multiple-choice",
+      "key": "bank-reading-origin",
+      "skill": "reading",
+      "type": "multiple-choice",
       "prompt": "متن را بخوان: Ich heiße Tom. Ich komme aus Österreich, aber ich wohne in Hamburg. تام اهل کدام کشور است؟",
-      "correctAnswer": "Österreich", "options": ["Deutschland", "Österreich", "Iran"],
-      "correctFeedback": "درست است؛ komme aus کشور مبدأ را معرفی می‌کند.", "incorrectFeedback": "محل زندگی Hamburg است، اما کشور مبدأ Österreich است."
+      "correctAnswer": "Österreich",
+      "options": [
+        "Deutschland",
+        "Österreich",
+        "Iran"
+      ],
+      "correctFeedback": "درست است؛ komme aus کشور مبدأ را معرفی می‌کند.",
+      "incorrectFeedback": "محل زندگی Hamburg است، اما کشور مبدأ Österreich است."
     },
     {
-      "key": "bank-grammar-sein", "skill": "grammar", "type": "multiple-choice",
-      "prompt": "خطا را اصلاح کن: Ich bist Nora.", "correctAnswer": "Ich bin Nora.",
-      "options": ["Ich bin Nora.", "Ich bist Nora.", "Du bin Nora."],
-      "correctFeedback": "درست است؛ شکل sein برای ich برابر bin است.", "incorrectFeedback": "در این درس ich bin و du bist را یاد گرفته‌ای."
+      "key": "bank-grammar-sein",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "خطا را اصلاح کن: Ich bist Nora.",
+      "correctAnswer": "Ich bin Nora.",
+      "options": [
+        "Ich bin Nora.",
+        "Ich bist Nora.",
+        "Du bin Nora."
+      ],
+      "correctFeedback": "درست است؛ شکل sein برای ich برابر bin است.",
+      "incorrectFeedback": "در این درس ich bin و du bist را یاد گرفته‌ای."
     },
     {
-      "key": "bank-vocabulary-location", "skill": "vocabulary", "type": "multiple-choice",
-      "prompt": "کدام عبارت دربارهٔ محل زندگی است؟", "correctAnswer": "Ich wohne in Bonn.",
-      "options": ["Ich wohne in Bonn.", "Ich komme aus Bonn.", "Ich spreche Bonn."],
-      "correctFeedback": "درست است؛ wohnen برای محل زندگی استفاده می‌شود.", "incorrectFeedback": "عبارت هدف Ich wohne in ... است."
+      "key": "bank-vocabulary-location",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت دربارهٔ محل زندگی است؟",
+      "correctAnswer": "Ich wohne in Bonn.",
+      "options": [
+        "Ich wohne in Bonn.",
+        "Ich komme aus Bonn.",
+        "Ich spreche Bonn."
+      ],
+      "correctFeedback": "درست است؛ wohnen برای محل زندگی استفاده می‌شود.",
+      "incorrectFeedback": "عبارت هدف Ich wohne in ... است."
     }
   ],
   "deferredGrammar": [
@@ -386,19 +483,159 @@
     "Preposition and article variation beyond the taught chunks"
   ],
   "vocabulary": [
-    { "key": "hallo", "target": "Hallo!", "type": "Expression", "meaning": "سلام!", "pronunciation": "/haˈloː/", "example": "Hallo! Ich bin Leo.", "exampleTranslation": "سلام! من لئو هستم.", "note": "برای موقعیت‌های معمولی و دوستانه", "classification": "active" },
-    { "key": "guten-morgen", "target": "Guten Morgen!", "type": "Expression", "meaning": "صبح بخیر!", "pronunciation": "/ˌɡuːtn̩ ˈmɔʁɡn̩/", "example": "Guten Morgen, Frau Weber!", "exampleTranslation": "صبح بخیر خانم وبر!", "note": null, "classification": "active" },
-    { "key": "ich-heisse", "target": "Ich heiße ...", "type": "Chunk", "meaning": "اسم من ... است.", "pronunciation": "/ɪç ˈhaɪ̯sə/", "example": "Ich heiße Nazanin.", "exampleTranslation": "اسم من نازنین است.", "note": "ß در این واژه مانند s تلفظ می‌شود.", "classification": "active" },
-    { "key": "wie-heisst-du", "target": "Wie heißt du?", "type": "Chunk", "meaning": "اسمت چیست؟", "pronunciation": "/viː haɪ̯st duː/", "example": "Hallo! Wie heißt du?", "exampleTranslation": "سلام! اسمت چیست؟", "note": null, "classification": "active" },
-    { "key": "ich-bin", "target": "Ich bin ...", "type": "Chunk", "meaning": "من ... هستم.", "pronunciation": "/ɪç bɪn/", "example": "Ich bin Leo.", "exampleTranslation": "من لئو هستم.", "note": "bin شکل فعل sein برای ich است.", "classification": "active" },
-    { "key": "woher", "target": "Woher kommst du?", "type": "Chunk", "meaning": "اهل کجایی؟ / از کجا می‌آیی؟", "pronunciation": "/voˈheːɐ̯ kɔmst duː/", "example": "Woher kommst du, Elena?", "exampleTranslation": "النا، اهل کجایی؟", "note": null, "classification": "active" },
-    { "key": "ich-komme-aus", "target": "Ich komme aus ...", "type": "Chunk", "meaning": "من اهل ... هستم.", "pronunciation": "/ɪç ˈkɔmə aʊ̯s/", "example": "Ich komme aus Iran.", "exampleTranslation": "من اهل ایران هستم.", "note": "نام کشور بعد از aus می‌آید.", "classification": "active" },
-    { "key": "wo-wohnst", "target": "Wo wohnst du?", "type": "Chunk", "meaning": "کجا زندگی می‌کنی؟", "pronunciation": "/voː voːnst duː/", "example": "Wo wohnst du jetzt?", "exampleTranslation": "الان کجا زندگی می‌کنی؟", "note": null, "classification": "active" },
-    { "key": "ich-wohne", "target": "Ich wohne in ...", "type": "Chunk", "meaning": "من در ... زندگی می‌کنم.", "pronunciation": "/ɪç ˈvoːnə ɪn/", "example": "Ich wohne in Berlin.", "exampleTranslation": "من در برلین زندگی می‌کنم.", "note": "برای شهر در این الگو از in استفاده می‌شود.", "classification": "active" },
-    { "key": "welche-sprachen", "target": "Welche Sprachen sprichst du?", "type": "Chunk", "meaning": "چه زبان‌هایی صحبت می‌کنی؟", "pronunciation": "/ˈvɛlçə ˈʃpʁaːxn̩ ʃpʁɪçst duː/", "example": "Welche Sprachen sprichst du?", "exampleTranslation": "چه زبان‌هایی صحبت می‌کنی؟", "note": null, "classification": "active" },
-    { "key": "ich-spreche", "target": "Ich spreche ...", "type": "Chunk", "meaning": "من ... صحبت می‌کنم.", "pronunciation": "/ɪç ˈʃpʁɛçə/", "example": "Ich spreche Persisch und Deutsch.", "exampleTranslation": "من فارسی و آلمانی صحبت می‌کنم.", "note": null, "classification": "active" },
-    { "key": "ein-bisschen", "target": "ein bisschen", "type": "Chunk", "meaning": "کمی", "pronunciation": "/aɪ̯n ˈbɪsçən/", "example": "Ich spreche ein bisschen Deutsch.", "exampleTranslation": "من کمی آلمانی صحبت می‌کنم.", "note": null, "classification": "active" },
-    { "key": "und-du", "target": "Und du?", "type": "Expression", "meaning": "تو چطور؟", "pronunciation": "/ʊnt duː/", "example": "Ich komme aus Iran. Und du?", "exampleTranslation": "من اهل ایران هستم. تو چطور؟", "note": "برای برگرداندن همان سؤال به طرف مقابل", "classification": "active" },
-    { "key": "wohnort", "target": "der Wohnort", "type": "Word", "meaning": "محل زندگی", "pronunciation": "/ˈvoːnˌʔɔʁt/", "example": "Mein Wohnort ist Köln.", "exampleTranslation": "محل زندگی من کلن است.", "note": "برای درک فرم‌ها و کارت‌های معرفی", "classification": "receptive" }
+    {
+      "key": "hallo",
+      "target": "Hallo!",
+      "type": "Expression",
+      "meaning": "سلام!",
+      "pronunciation": "/haˈloː/",
+      "example": "Hallo! Ich bin Leo.",
+      "exampleTranslation": "سلام! من لئو هستم.",
+      "note": "برای موقعیت‌های معمولی و دوستانه",
+      "classification": "active"
+    },
+    {
+      "key": "guten-morgen",
+      "target": "Guten Morgen!",
+      "type": "Expression",
+      "meaning": "صبح بخیر!",
+      "pronunciation": "/ˌɡuːtn̩ ˈmɔʁɡn̩/",
+      "example": "Guten Morgen, Frau Weber!",
+      "exampleTranslation": "صبح بخیر خانم وبر!",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ich-heisse",
+      "target": "Ich heiße ...",
+      "type": "Chunk",
+      "meaning": "اسم من ... است.",
+      "pronunciation": "/ɪç ˈhaɪ̯sə/",
+      "example": "Ich heiße Nazanin.",
+      "exampleTranslation": "اسم من نازنین است.",
+      "note": "ß در این واژه مانند s تلفظ می‌شود.",
+      "classification": "active"
+    },
+    {
+      "key": "wie-heisst-du",
+      "target": "Wie heißt du?",
+      "type": "Chunk",
+      "meaning": "اسمت چیست؟",
+      "pronunciation": "/viː haɪ̯st duː/",
+      "example": "Hallo! Wie heißt du?",
+      "exampleTranslation": "سلام! اسمت چیست؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ich-bin",
+      "target": "Ich bin ...",
+      "type": "Chunk",
+      "meaning": "من ... هستم.",
+      "pronunciation": "/ɪç bɪn/",
+      "example": "Ich bin Leo.",
+      "exampleTranslation": "من لئو هستم.",
+      "note": "bin شکل فعل sein برای ich است.",
+      "classification": "active"
+    },
+    {
+      "key": "woher",
+      "target": "Woher kommst du?",
+      "type": "Chunk",
+      "meaning": "اهل کجایی؟ / از کجا می‌آیی؟",
+      "pronunciation": "/voˈheːɐ̯ kɔmst duː/",
+      "example": "Woher kommst du, Elena?",
+      "exampleTranslation": "النا، اهل کجایی؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ich-komme-aus",
+      "target": "Ich komme aus ...",
+      "type": "Chunk",
+      "meaning": "من اهل ... هستم.",
+      "pronunciation": "/ɪç ˈkɔmə aʊ̯s/",
+      "example": "Ich komme aus Iran.",
+      "exampleTranslation": "من اهل ایران هستم.",
+      "note": "نام کشور بعد از aus می‌آید.",
+      "classification": "active"
+    },
+    {
+      "key": "wo-wohnst",
+      "target": "Wo wohnst du?",
+      "type": "Chunk",
+      "meaning": "کجا زندگی می‌کنی؟",
+      "pronunciation": "/voː voːnst duː/",
+      "example": "Wo wohnst du jetzt?",
+      "exampleTranslation": "الان کجا زندگی می‌کنی؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ich-wohne",
+      "target": "Ich wohne in ...",
+      "type": "Chunk",
+      "meaning": "من در ... زندگی می‌کنم.",
+      "pronunciation": "/ɪç ˈvoːnə ɪn/",
+      "example": "Ich wohne in Berlin.",
+      "exampleTranslation": "من در برلین زندگی می‌کنم.",
+      "note": "برای شهر در این الگو از in استفاده می‌شود.",
+      "classification": "active"
+    },
+    {
+      "key": "welche-sprachen",
+      "target": "Welche Sprachen sprichst du?",
+      "type": "Chunk",
+      "meaning": "چه زبان‌هایی صحبت می‌کنی؟",
+      "pronunciation": "/ˈvɛlçə ˈʃpʁaːxn̩ ʃpʁɪçst duː/",
+      "example": "Welche Sprachen sprichst du?",
+      "exampleTranslation": "چه زبان‌هایی صحبت می‌کنی؟",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ich-spreche",
+      "target": "Ich spreche ...",
+      "type": "Chunk",
+      "meaning": "من ... صحبت می‌کنم.",
+      "pronunciation": "/ɪç ˈʃpʁɛçə/",
+      "example": "Ich spreche Persisch und Deutsch.",
+      "exampleTranslation": "من فارسی و آلمانی صحبت می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "ein-bisschen",
+      "target": "ein bisschen",
+      "type": "Chunk",
+      "meaning": "کمی",
+      "pronunciation": "/aɪ̯n ˈbɪsçən/",
+      "example": "Ich spreche ein bisschen Deutsch.",
+      "exampleTranslation": "من کمی آلمانی صحبت می‌کنم.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "und-du",
+      "target": "Und du?",
+      "type": "Expression",
+      "meaning": "تو چطور؟",
+      "pronunciation": "/ʊnt duː/",
+      "example": "Ich komme aus Iran. Und du?",
+      "exampleTranslation": "من اهل ایران هستم. تو چطور؟",
+      "note": "برای برگرداندن همان سؤال به طرف مقابل",
+      "classification": "active"
+    },
+    {
+      "key": "wohnort",
+      "target": "der Wohnort",
+      "type": "Word",
+      "meaning": "محل زندگی",
+      "pronunciation": "/ˈvoːnˌʔɔʁt/",
+      "example": "Mein Wohnort ist Köln.",
+      "exampleTranslation": "محل زندگی من کلن است.",
+      "note": "برای درک فرم‌ها و کارت‌های معرفی",
+      "classification": "receptive"
+    }
   ]
 }

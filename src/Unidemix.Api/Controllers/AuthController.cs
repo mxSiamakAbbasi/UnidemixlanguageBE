@@ -46,5 +46,6 @@ public sealed class AuthController(AppDbContext db, TokenService tokens) : Contr
 internal static class UserMapping
 {
     public static UserResponse ToResponse(this User x) => new(x.Id, x.Email, x.DisplayName, x.NativeLanguage,
-        x.LearningLanguage, x.Level, x.Goal, x.DailyGoalMinutes, x.Role);
+        x.LearningLanguage, x.Level, x.Goal, x.DailyGoalMinutes, x.Role, x.GoalSubtype, x.TargetLevel,
+        x.ExamGoal, x.LearningOnboardingCompleted, x.LearningPathGuideDismissed);
 }

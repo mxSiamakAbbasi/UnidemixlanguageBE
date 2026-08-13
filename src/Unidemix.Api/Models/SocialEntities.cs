@@ -4,6 +4,7 @@ public sealed class SocialProfile
 {
     public Guid UserId { get; set; }
     public User User { get; set; } = null!;
+    public required string Username { get; set; }
     public string? ProfilePhotoUrl { get; set; }
     public string? ProfilePhotoStorageKey { get; set; }
     public string Bio { get; set; } = "";
@@ -13,7 +14,20 @@ public sealed class SocialProfile
     public Guid? CityId { get; set; }
     public City? CityReference { get; set; }
     public bool LookingForPartner { get; set; }
+    public string Privacy { get; set; } = "Public";
     public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+}
+
+public sealed class FollowRequest
+{
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid RequesterId { get; set; }
+    public User Requester { get; set; } = null!;
+    public Guid TargetUserId { get; set; }
+    public User TargetUser { get; set; } = null!;
+    public string Status { get; set; } = "Pending";
+    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+    public DateTimeOffset? RespondedAt { get; set; }
 }
 
 public sealed class City

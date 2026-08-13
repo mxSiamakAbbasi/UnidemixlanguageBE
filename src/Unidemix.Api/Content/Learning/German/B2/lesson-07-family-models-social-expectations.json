@@ -1,0 +1,638 @@
+{
+  "contentKey": "de-b2-core-lesson-07",
+  "language": "de",
+  "cefr": "B2",
+  "lessonNumber": 7,
+  "courseSlug": "german-b2-core",
+  "title": "Family Models and Social Expectations",
+  "localizedTitle": "الگوهای خانواده و انتظارهای اجتماعی",
+  "description": "دیدگاه‌های متفاوت دربارهٔ خانواده را منصفانه گزارش و بدون تحریف جمع‌بندی می‌کنی.",
+  "estimatedDurationMinutes": 225,
+  "status": "production",
+  "mainSituation": "گفت‌وگوی ساختارمند دربارهٔ تغییر الگوهای خانواده",
+  "canDoObjectives": [
+    "دربارهٔ تغییر الگوهای رابطه و خانواده محترمانه و دقیق بحث کنی.",
+    "موضع فرد دیگری را با فاصلهٔ مناسب گزارش و به آن منصفانه پاسخ بدهی."
+  ],
+  "sectionOrder": [
+    "vocabulary",
+    "listening",
+    "speaking",
+    "reading",
+    "writing",
+    "grammar",
+    "final-practice"
+  ],
+  "audio": {
+    "status": "script-ready-audio-deferred",
+    "assetUrl": null,
+    "scriptActivityKey": "activity-07"
+  },
+  "activities": [
+    {
+      "key": "activity-01",
+      "type": "introduction",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "به درس «الگوهای خانواده و انتظارهای اجتماعی» خوش آمدی. در این بخش، زبان B2 را برای تحلیل، ارتباط حرفه‌ای و بیان دقیق منصفانه به‌کار می‌بری.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-02",
+      "type": "dialogue-بیان دقیق",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "موقعیت واقعی: گفت‌وگوی ساختارمند دربارهٔ تغییر الگوهای خانواده. موضع، بیان دقیق، شاهد، محدودیت، بیان دقیق و رابطهٔ دیدگاه‌ها را مشخص کن.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-03",
+      "type": "dialogue",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Moderator: Frau Klein, welche Entwicklung beobachten Sie?\nKlein: Ich vertrete die Ansicht, dass Verantwortung heute vielfältiger verteilt wird.\nModerator: Herr Demir sagt, feste Modelle gäben Kindern mehr Sicherheit.\nKlein: Diesen Einwand nehme ich ernst. Wer auch immer Verantwortung übernimmt, braucht jedoch verlässliche Zeit und Unterstützung.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-04",
+      "type": "vocabulary-teaching",
+      "kind": "Instruction",
+      "section": "vocabulary",
+      "prompt": "Verantwortung für etwas übernehmen = مسئولیت چیزی را پذیرفتن\nBeide übernehmen Verantwortung für die Betreuung. = هر دو مسئولیت مراقبت را می‌پذیرند.\n\ndie Ansicht vertreten = دیدگاهی را مطرح کردن\nSie vertritt die Ansicht, dass Zeit entscheidend ist. = او معتقد است زمان تعیین‌کننده است.\n\nwer auch immer = هر کسی که\nWer auch immer hilft, braucht klare Informationen. = هر کسی کمک می‌کند اطلاعات روشن می‌خواهد.\n\ngesellschaftliche Erwartung = انتظار اجتماعی\nGesellschaftliche Erwartungen verändern sich. = انتظارهای اجتماعی تغییر می‌کنند.\n\neine Position wiedergeben = موضعی را بازگو کردن\nEr gibt ihre Position fair wieder. = او موضعش را منصفانه بازگو می‌کند.\n\netwas verallgemeinern = چیزی را تعمیم دادن\nEinzelfälle darf man nicht verallgemeinern. = نباید موارد فردی را تعمیم داد.\n\neinen Einwand ernst nehmen = اعتراض را جدی گرفتن\nDie Moderatorin nimmt den Einwand ernst. = مدیر گفت‌وگو اعتراض را جدی می‌گیرد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-05",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "vocabulary",
+      "prompt": "کدام عبارت برای بیان دقیق موضوع مناسب‌تر است؟",
+      "correctAnswer": "Verantwortung für etwas übernehmen",
+      "options": [
+        "Verantwortung für etwas übernehmen",
+        "die Ansicht vertreten",
+        "wer auch immer"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-06",
+      "type": "listening-بیان دقیق",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "بار اول ساختار و بیان دقیق موضع‌ها را دنبال کن؛ بار دوم ادعا، شاهد، بیان دقیق، بیان دقیق و بیان دقیق را یادداشت کن. متن ابتدا پنهان است.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-07",
+      "type": "listening-script",
+      "kind": "Instruction",
+      "section": "listening",
+      "prompt": "In einer Podiumsdiskussion sprechen drei Gäste über Familienmodelle. Eine Soziologin erklärt, gesellschaftliche Erwartungen hätten sich verändert. Ein Vater betont, für ihn sei nicht die Form, sondern die verlässliche Betreuung entscheidend. Eine Vertreterin eines Familienverbands warnt davor, einzelne Erfahrungen zu verallgemeinern. Obwohl die Positionen unterschiedlich sind, stimmen alle der Forderung nach besserer zeitlicher und finanzieller Unterstützung zu.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-08",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "هدف اصلی گفتار چیست؟",
+      "correctAnswer": "بازسازی و ارزیابی چند موضع یا راه‌حل",
+      "options": [
+        "فقط معرفی واژه",
+        "بازسازی و ارزیابی چند موضع یا راه‌حل",
+        "خواندن عددها"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-09",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "کدام یادداشت تحلیل را پشتیبانی می‌کند؟",
+      "correctAnswer": "گوینده → موضع → شاهد → محدودیت",
+      "options": [
+        "فقط نام",
+        "گوینده → موضع → شاهد → محدودیت",
+        "فقط جمله آخر"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-10",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "listening",
+      "prompt": "فاصلهٔ گوینده از ادعا چگونه روشن می‌شود؟",
+      "correctAnswer": "از بیان دقیق و میزان قطعیت",
+      "options": [
+        "فقط بلندی صدا",
+        "از بیان دقیق و میزان قطعیت",
+        "از طول نام"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-11",
+      "type": "reading-بیان دقیق",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "دو منبع را برای هدف، موضع، نوع شاهد، بیان دقیق و خلأ اطلاعاتی بخوان و سپس بیان دقیق منصفانه بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-12",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "FAMILIE IM WANDEL\nArbeitszeiten, Wohnorte und persönliche Lebensentwürfe haben Familienformen verändert. Manche Haushalte teilen Verantwortung flexibel, andere orientieren sich bewusst an traditionellen Rollen. Entscheidend ist, ob Betreuung verlässlich organisiert und Entscheidungen gemeinsam getragen werden. Statistische Trends erklären dabei nicht automatisch die Qualität einzelner Beziehungen.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-13",
+      "type": "reading",
+      "kind": "Instruction",
+      "section": "reading",
+      "prompt": "INTERVIEW: STABILITÄT BRAUCHT RAHMEN\nEin Familienberater vertritt die Ansicht, Kinder profitierten von klaren Abläufen und verlässlichen Bezugspersonen. Das bedeute jedoch nicht, dass nur ein bestimmtes Familienmodell funktionieren könne. Wer Verantwortung übernehme, müsse Zeit, Unterstützung und realistische Erwartungen haben. Öffentliche Debatten sollten Unterschiede beschreiben, ohne Familien vorschnell zu bewerten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-14",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "reading",
+      "prompt": "مقایسهٔ منصفانه چه کاری می‌کند؟",
+      "correctAnswer": "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+      "options": [
+        "یکی را حذف می‌کند",
+        "توافق و اختلاف را بدون بیان دقیق بازسازی می‌کند",
+        "فقط واژه‌های مشابه را می‌شمارد"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-15",
+      "type": "grammar-discovery",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "ساختارهایی را پیدا کن که برای «دربارهٔ تغییر الگوهای رابطه و خانواده محترمانه و دقیق بحث کنی.» و بیان دقیق در بیان دقیق استفاده شده‌اند.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-16",
+      "type": "grammar-explanation",
+      "kind": "Instruction",
+      "section": "grammar",
+      "prompt": "اسم‌های دارای حرف اضافه باید به‌صورت collocation آموخته شوند: Verantwortung für، Zweifel an، Einfluss auf. برای گزارش موضع با فاصله می‌توان از Konjunktiv I محدود و روشن استفاده کرد: Sie vertrete die Ansicht, dass ... . ساختارهای wer auch immer و was auch immer ارجاع عمومی می‌سازند، بدون آنکه وارد repertoire کامل C1 شویم.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-17",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام جمله دقیق و منسجم است؟",
+      "correctAnswer": "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+      "options": [
+        "Während Quelle A den Zugang betont, weist Quelle B auf mögliche Risiken hin.",
+        "Während Quelle A Zugang, Quelle B Risiken weist.",
+        "Quelle A während betont Quelle B."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-18",
+      "type": "multiple-choice",
+      "kind": "Exercise",
+      "section": "grammar",
+      "prompt": "کدام عبارت بیان دقیق را مسئولانه محدود می‌کند؟",
+      "correctAnswer": "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+      "options": [
+        "Die Angaben beweisen alles.",
+        "Die Angaben sprechen für diese Möglichkeit, reichen jedoch nicht für eine allgemeine Empfehlung aus.",
+        "Angaben Empfehlung immer."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-19",
+      "type": "speaking-model",
+      "kind": "Instruction",
+      "section": "speaking",
+      "prompt": "مدل را از نظر بیان دقیق، بیان دقیق، بیان دقیق و بیان دقیق تحلیل کن:\nQuelle A betont die Vielfalt heutiger Familienformen, während Quelle B stärker auf stabile Rahmenbedingungen eingeht. Der Berater vertritt die Ansicht, klare Abläufe seien wichtiger als ein bestimmtes Modell. Beide Quellen stimmen darin überein, dass Verantwortung verlässlich übernommen werden muss. Sie unterscheiden sich vor allem im Ausgangspunkt, nicht im zentralen Ziel. Eine faire Diskussion sollte daher unterschiedliche Lebensformen anerkennen und zugleich konkrete Unterstützung betrachten.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-20",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دربارهٔ «گفت‌وگوی ساختارمند دربارهٔ تغییر الگوهای خانواده» یک پاسخ ۱۰ تا ۱۳ جمله‌ای ارائه کن: بیان دقیق، موضع، شاهد، limitation و پاسخ به بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-21",
+      "type": "speaking",
+      "kind": "Exercise",
+      "section": "speaking",
+      "prompt": "دو منبع یا گزینه را شفاهی synthesize کن، از موضع خود دفاع کن و به دو پرسش انتقادی با بیان دقیق مناسب پاسخ بده.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-22",
+      "type": "writing-model",
+      "kind": "Instruction",
+      "section": "writing",
+      "prompt": "مدل نوشتاری:\nQuelle A betont die Vielfalt heutiger Familienformen, während Quelle B stärker auf stabile Rahmenbedingungen eingeht. Der Berater vertritt die Ansicht, klare Abläufe seien wichtiger als ein bestimmtes Modell. Beide Quellen stimmen darin überein, dass Verantwortung verlässlich übernommen werden muss. Sie unterscheiden sich vor allem im Ausgangspunkt, nicht im zentralen Ziel. Eine faire Diskussion sollte daher unterschiedliche Lebensformen anerkennen und zugleich konkrete Unterstützung betrachten.\n\nساختار، بیان دقیق و بیان دقیق را تحلیل کن و سپس متن مستقل خودت را بساز.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": null,
+      "incorrectFeedback": null
+    },
+    {
+      "key": "activity-23",
+      "type": "writing",
+      "kind": "Exercise",
+      "section": "writing",
+      "prompt": "یک متن ساختاریافتهٔ ۱۵ تا ۱۹ جمله‌ای در دو یا سه بند بنویس: خلاصهٔ منصفانه، مقایسه، شاهد، بیان دقیق، بیان دقیق و بیان دقیق داشته باشد.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    },
+    {
+      "key": "activity-24",
+      "type": "final-task",
+      "kind": "Exercise",
+      "section": "final-practice",
+      "prompt": "یک بیان دقیق را moderate کن، سه موضع را بدون بیان دقیق گزارش بده، نقاط توافق و اختلاف را روشن کن و یک بیان دقیق محترمانه همراه با دو پیشنهاد عملی ارائه بده.\n\nمعیار موفقیت: تحقق هر دو هدف ارتباطی، بیان دقیق دقیق، بیان دقیق مناسب، موضع مستدل و گرامر کنترل‌شدهٔ B2.",
+      "correctAnswer": null,
+      "options": null,
+      "correctFeedback": "درست است؛ پاسخ با شواهد و هدف درس هماهنگ است.",
+      "incorrectFeedback": "ساختار، منبع و توضیح مرتبط را دوباره بررسی کن."
+    }
+  ],
+  "questionBank": [
+    {
+      "key": "question-01",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق منصفانه می‌سازد؟",
+      "correctAnswer": "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+      "options": [
+        "Beide gleich.",
+        "Beide Quellen stimmen im Ziel überein, unterscheiden sich jedoch in der Begründung.",
+        "Quelle Begründung jedoch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-02",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "معنی «Verantwortung für etwas übernehmen» چیست؟",
+      "correctAnswer": "مسئولیت چیزی را پذیرفتن",
+      "options": [
+        "مسئولیت چیزی را پذیرفتن",
+        "دیدگاهی را مطرح کردن",
+        "هر کسی که"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-03",
+      "skill": "reading",
+      "type": "multiple-choice",
+      "prompt": "در بیان دقیق چه چیزی نباید تحریف شود؟",
+      "correctAnswer": "نسبت هر ادعا با گوینده و شاهد",
+      "options": [
+        "طول متن",
+        "نسبت هر ادعا با گوینده و شاهد",
+        "شماره صفحه"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-04",
+      "skill": "listening",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق چه چیزی را روشن می‌کند؟",
+      "correctAnswer": "اینکه هر موضع متعلق به چه کسی است",
+      "options": [
+        "فقط زمان",
+        "اینکه هر موضع متعلق به چه کسی است",
+        "فقط مکان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-05",
+      "skill": "بیان دقیق",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت برای گزارش بی‌طرف مناسب‌تر است؟",
+      "correctAnswer": "Die Quelle vertritt die Auffassung, dass ...",
+      "options": [
+        "Die spinnen doch.",
+        "Die Quelle vertritt die Auffassung, dass ...",
+        "Das ist Quatsch."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-06",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام جمله contrast روشن دارد؟",
+      "correctAnswer": "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+      "options": [
+        "Während die erste Option flexibel ist, bietet die zweite mehr Sicherheit.",
+        "Während flexibel zweite Sicherheit.",
+        "Option während zweite."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-07",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت با موضوع «الگوهای خانواده و انتظارهای اجتماعی» مرتبط است؟",
+      "correctAnswer": "gesellschaftliche Erwartung",
+      "options": [
+        "gesellschaftliche Erwartung",
+        "eine Position wiedergeben",
+        "etwas verallgemeinern"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-08",
+      "skill": "interpretation",
+      "type": "multiple-choice",
+      "prompt": "interpretation معتبر چگونه است؟",
+      "correctAnswer": "محتاطانه و متکی به چند بیان دقیق متن",
+      "options": [
+        "قطعی و بدون شاهد",
+        "محتاطانه و متکی به چند بیان دقیق متن",
+        "فقط تکرار عنوان"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-09",
+      "skill": "grammar",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت uncertainty را نشان می‌دهد؟",
+      "correctAnswer": "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+      "options": [
+        "Das ist sicher immer so.",
+        "Die Daten lassen derzeit keine eindeutige Bewertung zu.",
+        "Alle wissen es."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-10",
+      "skill": "cohesion",
+      "type": "multiple-choice",
+      "prompt": "کدام عبارت بیان دقیق را شروع می‌کند؟",
+      "correctAnswer": "Insgesamt lässt sich daraus ableiten, dass ...",
+      "options": [
+        "Zum Beispiel ...",
+        "Insgesamt lässt sich daraus ableiten, dass ...",
+        "Im ersten Satz ..."
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-11",
+      "skill": "vocabulary",
+      "type": "multiple-choice",
+      "prompt": "ترجمهٔ «einen Einwand ernst nehmen» چیست؟",
+      "correctAnswer": "اعتراض را جدی گرفتن",
+      "options": [
+        "اعتراض را جدی گرفتن",
+        "مراقبت قابل اتکا",
+        "چارچوب فراهم کردن"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-12",
+      "skill": "source-comparison",
+      "type": "multiple-choice",
+      "prompt": "اگر بیان دقیق متفاوت باشد چه باید کرد؟",
+      "correctAnswer": "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+      "options": [
+        "هر دو قطعی اعلام شوند",
+        "میزان اطمینان بیان دقیق نیز متفاوت بیان شود",
+        "شاهد حذف شود"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-13",
+      "skill": "speaking",
+      "type": "multiple-choice",
+      "prompt": "در پاسخ به بیان دقیق چه چیزی لازم است؟",
+      "correctAnswer": "پذیرش بخش معتبر و دفاع مستدل",
+      "options": [
+        "نادیده گرفتن",
+        "پذیرش بخش معتبر و دفاع مستدل",
+        "تکرار موضع"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    },
+    {
+      "key": "question-14",
+      "skill": "writing",
+      "type": "multiple-choice",
+      "prompt": "بیان دقیق مناسب B2 چگونه انتخاب می‌شود؟",
+      "correctAnswer": "با توجه به مخاطب، هدف و بیان دقیق",
+      "options": [
+        "همیشه بسیار دانشگاهی",
+        "با توجه به مخاطب، هدف و بیان دقیق",
+        "همیشه محاوره‌ای"
+      ],
+      "correctFeedback": "درست است؛ پاسخ با هدف B2 و شواهد مرتبط هماهنگ است.",
+      "incorrectFeedback": "منبع، بیان دقیق و پیوند منطقی را دوباره بررسی کن."
+    }
+  ],
+  "deferredGrammar": [
+    "Full C1 indirect-speech repertoire"
+  ],
+  "vocabulary": [
+    {
+      "key": "vocab-01",
+      "target": "Verantwortung für etwas übernehmen",
+      "type": "Chunk",
+      "meaning": "مسئولیت چیزی را پذیرفتن",
+      "pronunciation": null,
+      "example": "Beide übernehmen Verantwortung für die Betreuung.",
+      "exampleTranslation": "هر دو مسئولیت مراقبت را می‌پذیرند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-02",
+      "target": "die Ansicht vertreten",
+      "type": "Chunk",
+      "meaning": "دیدگاهی را مطرح کردن",
+      "pronunciation": null,
+      "example": "Sie vertritt die Ansicht, dass Zeit entscheidend ist.",
+      "exampleTranslation": "او معتقد است زمان تعیین‌کننده است.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-03",
+      "target": "wer auch immer",
+      "type": "Chunk",
+      "meaning": "هر کسی که",
+      "pronunciation": null,
+      "example": "Wer auch immer hilft, braucht klare Informationen.",
+      "exampleTranslation": "هر کسی کمک می‌کند اطلاعات روشن می‌خواهد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-04",
+      "target": "gesellschaftliche Erwartung",
+      "type": "Chunk",
+      "meaning": "انتظار اجتماعی",
+      "pronunciation": null,
+      "example": "Gesellschaftliche Erwartungen verändern sich.",
+      "exampleTranslation": "انتظارهای اجتماعی تغییر می‌کنند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-05",
+      "target": "eine Position wiedergeben",
+      "type": "Chunk",
+      "meaning": "موضعی را بازگو کردن",
+      "pronunciation": null,
+      "example": "Er gibt ihre Position fair wieder.",
+      "exampleTranslation": "او موضعش را منصفانه بازگو می‌کند.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-06",
+      "target": "etwas verallgemeinern",
+      "type": "Chunk",
+      "meaning": "چیزی را تعمیم دادن",
+      "pronunciation": null,
+      "example": "Einzelfälle darf man nicht verallgemeinern.",
+      "exampleTranslation": "نباید موارد فردی را تعمیم داد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-07",
+      "target": "einen Einwand ernst nehmen",
+      "type": "Chunk",
+      "meaning": "اعتراض را جدی گرفتن",
+      "pronunciation": null,
+      "example": "Die Moderatorin nimmt den Einwand ernst.",
+      "exampleTranslation": "مدیر گفت‌وگو اعتراض را جدی می‌گیرد.",
+      "note": null,
+      "classification": "active"
+    },
+    {
+      "key": "vocab-08",
+      "target": "verlässliche Betreuung",
+      "type": "Chunk",
+      "meaning": "مراقبت قابل اتکا",
+      "pronunciation": null,
+      "example": "Kinder brauchen verlässliche Betreuung.",
+      "exampleTranslation": "کودکان مراقبت قابل اتکا می‌خواهند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-09",
+      "target": "einen Rahmen schaffen",
+      "type": "Chunk",
+      "meaning": "چارچوب فراهم کردن",
+      "pronunciation": null,
+      "example": "Die Politik muss einen Rahmen schaffen.",
+      "exampleTranslation": "سیاست‌گذاری باید چارچوب فراهم کند.",
+      "note": null,
+      "classification": "receptive"
+    },
+    {
+      "key": "vocab-10",
+      "target": "ohne vorschnell zu urteilen",
+      "type": "Chunk",
+      "meaning": "بدون قضاوت عجولانه",
+      "pronunciation": null,
+      "example": "Wir diskutieren, ohne vorschnell zu urteilen.",
+      "exampleTranslation": "بدون قضاوت عجولانه بحث می‌کنیم.",
+      "note": null,
+      "classification": "receptive"
+    }
+  ]
+}
